@@ -4,6 +4,8 @@
 
 ## 자료
 
+화면본 모음: https://bowonkwon.github.io/Legal-Language-Handbooks/
+
 | 자료 | 언어 | 대상 독자 | 판 | 읽기 |
 |---|---|---|---|---|
 | **Objection!** — 법률 영어 첫걸음 | 영어 | 한국 법률가(법원 실무 예문 중심) | 대외판 1.0 (2026. 10. 16.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/objection/) · [PDF](objection/objection-v1.0.pdf) · [Anki](objection/objection-v1.0.apkg) · [소개](objection/README.md) |
