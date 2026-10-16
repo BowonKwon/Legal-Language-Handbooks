@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Legal Language Handbooks — 법률 외국어 자습서</title>
+<meta name="description" content="한국 법률가를 위한 법률 외국어 자습서: 영어·일본어·독일어·프랑스어. 화면본·PDF·Anki 덱.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+:root {
+  --paper: #f6f4ee; --sheet: #ffffff; --ink: #22262b; --muted: #5f6670; --line: #d8d3c6;
+  --accent: #2f4a6b; --accent-soft: #e6ebf1;
+  --f-display: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
+  --f-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #171a1e; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
+  --accent: #9bb6d4; --accent-soft: #263241; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #171a1e; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
+  --accent: #9bb6d4; --accent-soft: #263241; color-scheme: dark }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px }
+.wrap { max-width: 900px; margin: 0 auto }
+header { padding-block: 44px 20px; border-bottom: 2px solid var(--ink) }
+header h1 { font-family: var(--f-display); font-weight: 600; font-size: 2rem; line-height: 1.25; margin: 0 0 6px; text-wrap: balance }
+header .en { font-family: var(--f-display); color: var(--muted); font-size: 1.05rem; margin: 0 0 14px }
+header p.lead { margin: 0; max-width: 64ch }
+.books { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 16px }
+.book { background: var(--sheet); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; display: grid; gap: 8px; min-width: 0 }
+.book .lang { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700 }
+.book h2 { font-family: var(--f-display); font-weight: 600; font-size: 1.35rem; margin: 0; line-height: 1.3; text-wrap: balance }
+.book h2 small { font-family: var(--f-body); font-weight: 500; font-size: .95rem; color: var(--muted); display: block; margin-top: 2px }
+.book .meta { color: var(--muted); font-size: .92rem; margin: 0 }
+.book .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px }
+.book .links a { text-decoration: none; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 4px 14px; font-weight: 500; font-size: .95rem }
+.book .links a.primary { background: var(--accent); color: var(--paper) }
+.book .links a:focus-visible, header a:focus-visible, .foot a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.note { margin: 26px 0 0; padding: 14px 18px; background: var(--accent-soft); border-radius: 6px; font-size: .95rem }
+.note p { margin: 0 0 6px } .note p:last-child { margin: 0 }
+.foot { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: .9rem }
+.foot p { margin: 0 0 6px } .foot a { color: var(--accent) }
+@media (max-width: 480px) { header h1 { font-size: 1.6rem } .book { padding: 16px } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>법률 외국어 자습서</h1>
+  <p class="en">Legal Language Handbooks</p>
+  <p class="lead">한국 법률가가 외국 법령·판결·원전을 원문으로 읽고 외국 법률가와 말할 수 있게 하려고 엮은 자습서입니다. 표제어마다 발음·뜻·쉬운 예문·실무 예문·조문이나 판결 원문, 「한국이라면?」 대조가 붙어 있습니다. 화면본은 소리 단추가 있고, 인쇄본은 같은 내용의 종이책 꼴이며, Anki 덱은 표제어 카드입니다.</p>
+</header>
+
+<ul class="books">
+  <li class="book">
+    <span class="lang">English · 영어</span>
+    <h2>Objection! <small>법률 영어 첫걸음</small></h2>
+    <p class="meta">한국 법률가(법원 실무 예문 중심) · 19장 · 407표현 · 대외판 1.0 (2026. 10. 16.) · 소리는 기기의 영어 음성</p>
+    <div class="links"><a class="primary" href="objection/">화면본</a><a href="objection/objection-v1.0.pdf">PDF (490쪽)</a><a href="objection/objection-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/objection/README.md">소개</a></div>
+  </li>
+  <li class="book">
+    <span class="lang">日本語 · 일본어</span>
+    <h2>異議あり <small>조문과 판례로 배우는 일본어 첫걸음</small></h2>
+    <p class="meta">가나부터 시작하는 한국 법률가 · 32장 · 440항목 · 대외판 1.0 (2026. 10. 16.) · 합성음</p>
+    <div class="links"><a class="primary" href="igiari/">화면본</a><a href="igiari/igiari-v1.0.pdf">PDF (704쪽)</a><a href="igiari/igiari-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/igiari/README.md">소개</a></div>
+  </li>
+  <li class="book">
+    <span class="lang">Deutsch · 독일어</span>
+    <h2>Anspruch <small>청구권으로 읽는 법률 독일어</small></h2>
+    <p class="meta">입문을 조금 지난(A2~B1) 한국 법률가 · 19장 · 371표제어 · 대외판 1.0 (2026. 10. 16.) · 합성음</p>
+    <div class="links"><a class="primary" href="anspruch/">화면본</a><a href="anspruch/anspruch-v1.0.pdf">PDF (852쪽)</a><a href="anspruch/anspruch-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/anspruch/README.md">소개</a></div>
+  </li>
+  <li class="book">
+    <span class="lang">Français · 프랑스어</span>
+    <h2>Par ces motifs <small>법전과 법정의 프랑스어</small></h2>
+    <p class="meta">A2 수준에서 시작하는 한국 법률가 · 20장 · 390표제어 · 대외판 1.0 (2026. 10. 15.) · 합성음</p>
+    <div class="links"><a class="primary" href="par-ces-motifs/">화면본</a><a href="par-ces-motifs/par-ces-motifs-v1.0.pdf">PDF (752쪽)</a><a href="par-ces-motifs/par-ces-motifs-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/par-ces-motifs/README.md">소개</a></div>
+  </li>
+</ul>
+
+<div class="note">
+  <p>화면본의 소리는 일본어·독일어·프랑스어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 다른 언어판을 계속 더해 갈 예정이고, 올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다.</p>
+  <p>원문과 다른 서술을 찾으면 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">Issues</a>로 알려 주십시오.</p>
+</div>
+
+<footer class="foot">
+  <p>엮은이에게 권리가 있는 부분은 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/LICENSE">CC BY-NC 4.0</a>으로 공개합니다. 인용한 법령·판결·원전·사전 자료와 합성음은 각 권리자·음성 모델의 조건을 따릅니다. © 2026 권보원(Bowon Kwon)</p>
+  <p>이 자료는 엮은이가 개인적으로 공부하며 엮은 것입니다. 엮은이가 속한 기관의 견해나 업무와는 관계가 없습니다. 법률 자문이 아닙니다.</p>
+  <p>저장소 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks">github.com/BowonKwon/Legal-Language-Handbooks</a> · 관련 <a href="https://github.com/BowonKwon/AI-Assisted-Handbooks">AI-Assisted-Handbooks</a> · <a href="https://github.com/BowonKwon/SundayAI">SundayAI</a></p>
+  <p lang="en">Self-study handbooks of legal foreign languages for Korean lawyers — English, Japanese, German and French. Text © 2026 Bowon Kwon, CC BY-NC 4.0; quoted sources under their own terms.</p>
+</footer>
+</div>
+</body>
+</html>
