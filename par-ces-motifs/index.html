@@ -174,6 +174,46 @@ th { font-size: .75rem; color: var(--muted); font-weight: 600 }
   .terms dl { grid-template-columns: minmax(0, 1fr); gap: 0 } .terms dd { padding-bottom: 8px }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+
+/* 화면 색 (2026-10-17, 소유자 「시안 B 회보라」 채택) — 허브 페이지의 프랑스어 카드 색(회보라)과 맞춘다. 화면 전용(:root:not(.print)) — 인쇄판·PDF 는 위 토큰 그대로.
+    독일어판과 같은 틀(중성 회색 바탕·흰 종이). 포도주 안(지금 책 색)은 기각. 시안: output/법률외국어-화면본-색-시안-2026-10-17/ */
+:root:not(.print) {
+  --paper: #e6e7e9; --sheet: #ffffff; --ink: #161a20; --muted: #4a4f57; --line: #d3d5d9;
+  --accent: #4e3f96; --accent-bg: #eeebfa; --accent-line: #8f82cf; --margin-bg: #f4f2fc; --head: #18283a;
+}
+@media (prefers-color-scheme: dark) { :root:not(.print):not([data-theme="light"]) {
+  --paper: #121417; --sheet: #1c1f24; --ink: #eef0f2; --muted: #aab0b8; --line: #343941;
+  --accent: #b9adf2; --accent-bg: #241f3d; --accent-line: #6f62b0; --margin-bg: #221f30; --head: #f3f4f6 } }
+:root[data-theme="dark"]:not(.print) {
+  --paper: #121417; --sheet: #1c1f24; --ink: #eef0f2; --muted: #aab0b8; --line: #343941;
+  --accent: #b9adf2; --accent-bg: #241f3d; --accent-line: #6f62b0; --margin-bg: #221f30; --head: #f3f4f6 }
+:root:not(.print) body { word-break: keep-all } /* 한국어 낱말 중간에서 줄이 꺾이지 않게 */
+:root:not(.print) .hwline, :root:not(.print) .ebody { overflow-wrap: anywhere } /* keep-all 이면 표제어 줄이 390px 에서 넘친다(독일어판에서 발견) */
+:root:not(.print) .mast { border-bottom: 4px double var(--accent-line); padding-block: 44px 22px }
+:root:not(.print) .mast > .word { color: var(--head); font-size: 4rem }
+:root:not(.print) .mast .sub { font-size: 1.4rem; color: var(--accent) }
+:root:not(.print) .tools { background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(6px); border-bottom-color: var(--accent-line) }
+:root:not(.print) .chip:hover { border-color: var(--accent); color: var(--accent) }
+:root:not(.print) .chap h1 { color: var(--head); font-weight: 700 }
+:root:not(.print) h2.sec { color: var(--head); padding-bottom: 6px; border-bottom: 1px solid var(--accent-line) }
+:root:not(.print) .panel { border-radius: 6px; border-top: 3px solid var(--accent-line) }
+/* 표제어를 한 장씩 — 왼쪽 문단 번호 띠를 옅은 회보라로 */
+:root:not(.print) .entries { gap: 12px }
+:root:not(.print) .entry { background: linear-gradient(to right, var(--margin-bg) 0 calc(3.2rem + 6px), var(--line) calc(3.2rem + 6px) calc(3.2rem + 7px), var(--sheet) calc(3.2rem + 7px));
+  border: 1px solid var(--line); border-radius: 6px; padding: 18px 18px 18px 0; box-shadow: 0 1px 2px rgba(20,25,35,.06) }
+:root:not(.print) .rn { color: var(--accent); font-weight: 600; padding-right: 2px }
+:root:not(.print) .hw { color: var(--head); font-weight: 700 }
+:root:not(.print) .law { border-left-color: var(--accent-line); border-radius: 0 4px 4px 0 }
+:root:not(.print) .box { border-radius: 4px; background: var(--sheet) }
+:root:not(.print) .tag { border-color: var(--accent-line); background: var(--accent-bg) }
+:root:not(.print) .say { border-color: var(--accent-line) }
+@media (max-width: 520px) {
+  :root:not(.print) .entry { background: var(--sheet); padding: 14px }
+  :root:not(.print) .rn { display: inline-block; justify-self: start; background: var(--margin-bg); border-radius: 3px; padding: 0 6px }
+  :root:not(.print) .mast > .word { font-size: 3rem }
+  :root:not(.print) .mast .sub { font-size: 1.2rem }
+}
+:root:not(.print) .epi { border-left-color: var(--accent-line) } :root:not(.print) .epi .word { color: var(--head) } /* 제사도 class="word" — 위 확대는 `.mast > .word` 로 제목에만 */
 </style>
 
 <div class="wrap" id="app"></div>
