@@ -266,6 +266,15 @@ details.src summary { cursor: pointer; font-size: var(--s-1); color: var(--ai); 
 .print .mast { break-after: page; border: 0; padding-top: 28vh; text-align: center }
 .print .answers { break-before: page }
 @page { size: A4; margin: 16mm 14mm }
+
+/* 화면 색 (2026-10-17, 소유자 「시안 A 팥」 채택) — 원고지 칸·도장 빨강은 그대로, 바탕 중성 회색·흰 종이, 주색은 허브 일본어 카드의 팥색을 짙게. 화면 전용 — 인쇄판·PDF 는 위 토큰 그대로. 시안: output/법률외국어-화면본-색-시안-2026-10-17/ */
+@media (prefers-color-scheme: light) { :root:not(.print):not([data-theme="dark"]) { --paper: #e6e7e9; --sheet: #ffffff; --ink: #161a20; --muted: #4a4f57; --line: #d3d5d9; --grid: #c3cdbf; --chip: #eceef1; --ai: #7b3346; --ai-bg: #f7e9ed; } }
+:root[data-theme="light"]:not(.print) { --paper: #e6e7e9; --sheet: #ffffff; --ink: #161a20; --muted: #4a4f57; --line: #d3d5d9; --grid: #c3cdbf; --chip: #eceef1; --ai: #7b3346; --ai-bg: #f7e9ed; }
+@media (prefers-color-scheme: dark) { :root:not(.print):not([data-theme="light"]) { --paper: #121417; --sheet: #1c1f24; --ink: #eef0f2; --muted: #aab0b8; --line: #343941; --grid: #3a4339; --chip: #262b33; --ai: #e0a3b4; --ai-bg: #33202a; } }
+:root[data-theme="dark"]:not(.print) { --paper: #121417; --sheet: #1c1f24; --ink: #eef0f2; --muted: #aab0b8; --line: #343941; --grid: #3a4339; --chip: #262b33; --ai: #e0a3b4; --ai-bg: #33202a; }
+:root:not(.print) body { word-break: keep-all } :root:not(.print) .ja, :root:not(.print) .jag, :root:not(.print) .j, :root:not(.print) [lang|=ja] { word-break: normal; line-break: strict } /* keep-all 은 띄어쓰기 없는 일본어 문장을 한 덩어리로 묶어 390px 에서 835px 로 넘쳤다 */
+:root:not(.print) .sheet, :root:not(.print) .canread { border-radius: 6px; box-shadow: 0 1px 2px rgba(20,25,35,.07) } :root:not(.print) .mast .sub { font-size: 1.7rem; color: var(--ai) } :root:not(.print) .canread { border-left-color: var(--ai) }
+@media (prefers-color-scheme: light) { :root:not(.print):not([data-theme="dark"]) .hw { color: #18283a } }
 </style>
 
 <div class="wrap" id="app">
