@@ -54,7 +54,7 @@ button { font: inherit; color: inherit }
 .tog { display: inline-flex; gap: 6px; align-items: center; font-size: var(--s-1); color: var(--muted); cursor: pointer }
 
 .chap { margin-top: 30px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px }
-.wrap p, .wrap li, .wrap dd, .wrap td, .wrap th { overflow-wrap: anywhere }
+.wrap p, .wrap li, .wrap dd, .wrap td, .wrap th, .wrap h1, .wrap h2, .wrap h3 { overflow-wrap: anywhere } /* 제목도 — 9장 「instruction·information·prévenu」 가 띄어쓰기 없이 한 덩어리라 390px 에서 7px 넘쳤다(2026-10-23) */
 .chap .no { font-size: var(--s-1); font-weight: 600; color: var(--accent); letter-spacing: .06em; margin: 0 }
 .chap h1 { font-size: var(--s3); line-height: 1.2; margin: 0; text-wrap: balance }
 .chap .dt { font-family: var(--f-law); font-style: italic; color: var(--muted); margin: 0 }
