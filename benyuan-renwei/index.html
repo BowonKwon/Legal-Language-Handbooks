@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"></head><body><meta charset="utf-8">
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"></head><body><style>.hub-back{display:block;max-width:960px;margin:0 auto;padding:10px 16px 0;font:500 .9rem/1.4 "Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}.hub-back a{color:inherit;opacity:.72;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:1px}.hub-back a:hover,.hub-back a:focus-visible{opacity:1}@media print{.hub-back{display:none}}</style><nav class="hub-back" aria-label="모음으로"><a href="../">← 법률 외국어 자습서 모음</a></nav><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>本院认为 — 조문과 판결의 중국어</title>
 <meta name="author" content="권보원 (대구지방법원 부장판사)">
@@ -233,6 +233,16 @@ th { font-size: .75rem; color: var(--muted); font-weight: 600 }
 
 @media (prefers-color-scheme: dark) { :root:not(.print):not([data-theme="light"]) { --accent-bg: #1d2d27; --accent-line: #5d8f7d; --margin-bg: #20332c; } }
 :root[data-theme="dark"]:not(.print) { --accent-bg: #1d2d27; --accent-line: #5d8f7d; --margin-bg: #20332c; }
+/* 차례(화면 전용, 2026-10-22 — 영어·일본어판과 같은 접이식 차례) */
+.toc { margin-top: 18px; background: var(--sheet); border: 1px solid var(--line); border-radius: 6px; padding: 8px 14px }
+.toc summary { cursor: pointer; font-weight: 600 }
+.toc .part { margin: 10px 0 2px; font-size: var(--s-1); color: var(--accent); font-weight: 700; letter-spacing: .04em }
+.tocl { list-style: none; margin: 0 0 4px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 3px 18px }
+.tocl li { display: flex; gap: 8px; align-items: baseline; min-width: 0 }
+.tocl .n { color: var(--muted); min-width: 1.6em; text-align: right; font-variant-numeric: tabular-nums; font-size: var(--s-1); flex: 0 0 auto }
+.tocl a { text-decoration: none; font-weight: 600; color: var(--ink); overflow-wrap: anywhere }
+.tocl a:hover { color: var(--accent) }
+.print .toc { display: none }
 </style>
 
 <div class="wrap" id="app"></div>
@@ -363,10 +373,22 @@ function appendicesHTML() {
   return out.join('');
 }
 
+/* 차례 — 장은 DATA 의 part 로 묶고, 부록은 그려진 부록 절(id app-·apx-)에서 모은다 */
+function tocHTML() {
+  const parts = [...new Set(DATA.map(c => c.chapter.part || ''))];
+  return `<details class="toc" id="toc"><summary>차례 · 전체 ${DATA.length}장</summary>${parts.map(p => `${p ? `<div class="part">${esc(p)}</div>` : ''}<ol class="tocl">${DATA.filter(c => (c.chapter.part || '') === p).map(c => `<li><span class="n">${c.chapter.num}</span><a href="#ch${c.chapter.num}">${esc(c.chapter.title)}</a></li>`).join('')}</ol>`).join('')}<div id="toc-apx"></div></details>`;
+}
+function tocApx() {
+  const box = document.getElementById('toc-apx'); if (!box) return;
+  const secs = [...document.querySelectorAll('[id^="app-"], [id^="apx-"]')].filter(s => s.querySelector(':scope > h1'));
+  if (secs.length) box.innerHTML = `<div class="part">부록</div><ol class="tocl">${secs.map(s => `<li><span class="n">${esc(s.id.replace(/^ap[px]-/, ''))}</span><a href="#${s.id}">${esc(s.querySelector(':scope > h1').textContent)}</a></li>`).join('')}</ol>`;
+  document.getElementById('toc').addEventListener('click', e => { if (e.target.closest('a')) e.currentTarget.open = false; });
+}
+
 function render() {
   const nav = DATA.map(c => `<a class="chip" href="#ch${c.chapter.num}" title="${esc(c.chapter.title)}">${c.chapter.num}</a>`).join('') + `<a class="chip" href="#app-A">부록</a>`;
   document.getElementById('app').innerHTML = `
-    <header class="mast"><h1 class="word" lang="zh-CN">${esc(META.title_zh || META.title)}</h1><p class="sub">${esc(META.title)} — ${esc(META.subtitle)}</p><p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p></header>
+    <header class="mast"><h1 class="word" lang="zh-CN">${esc(META.title_zh || META.title)}</h1><p class="sub">${esc(META.title)} — ${esc(META.subtitle)}</p><p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p></header>${PRINT ? '' : tocHTML()}
     <div class="tools"><nav aria-label="장">${nav}</nav><label class="tog"><input type="checkbox" id="hidepy"> 병음 숨기기</label><label class="tog"><input type="checkbox" id="hideko"> 한국어 가리기</label></div>
     ${DATA.map(chapterHTML).join('')}
     ${appendicesHTML()}
@@ -397,6 +419,7 @@ async function play(btn) {
 }
 
 render();
+tocApx();
 document.addEventListener('click', ev => {
   const b = ev.target.closest('.say'); if (b) return play(b);
   const o = ev.target.closest('.opt');
@@ -412,5 +435,4 @@ document.addEventListener('click', ev => {
   el.addEventListener('change', apply); apply();
 });
 </script>
-
 </body></html>
