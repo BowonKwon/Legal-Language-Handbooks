@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Legal Language Handbooks — 법률 외국어 자습서</title>
-<meta name="description" content="한국 법률가를 위한 법률 외국어 자습서: 영어·일본어·독일어·프랑스어·중국어·라틴어. 화면본·PDF·Anki 덱.">
+<meta name="description" content="한국 법률가를 위한 법률 외국어 자습서: 영어·일본어·독일어·프랑스어·중국어·라틴어·베트남어. 화면본·PDF·Anki 덱.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&family=Noto+Serif+SC:wght@600&family=Noto+Sans+KR:wght@400;500;700&display=swap">
@@ -18,6 +18,7 @@
   --c-fr: #4e3f96; --c-fr-soft: #eeebfa;
   --c-zh: #2d5e4f; --c-zh-soft: #c4dfd1; --c-zh-band: #7fb59c;
   --c-la: #5d6224; --c-la-soft: #eef0dc;
+  --c-vi: #6e4a6b; --c-vi-soft: #efe7ee;
   --f-display: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
   --f-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
 }
@@ -27,27 +28,29 @@
   --c-en: #a9bde6; --c-en-soft: #252f3d; --c-ja: #e0a3b4; --c-ja-soft: #33202a;
   --c-de: #f0b85a; --c-de-soft: #2e2412; --c-fr: #b9adf2; --c-fr-soft: #241f3d;
   --c-zh: #8fd0b8; --c-zh-soft: #17291f; --c-zh-band: #5d8f7d;
-  --c-la: #c9cf8e; --c-la-soft: #272a14; color-scheme: dark } }
+  --c-la: #c9cf8e; --c-la-soft: #272a14;
+  --c-vi: #d8b4d3; --c-vi-soft: #2a2129; color-scheme: dark } }
 :root[data-theme="dark"] {
   --paper: #16191d; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
   --accent: #9fb4d2; --accent-soft: #252f3d; --warm: #c9b391; --warm-soft: #2a2620;
   --c-en: #a9bde6; --c-en-soft: #252f3d; --c-ja: #e0a3b4; --c-ja-soft: #33202a;
   --c-de: #f0b85a; --c-de-soft: #2e2412; --c-fr: #b9adf2; --c-fr-soft: #241f3d;
   --c-zh: #8fd0b8; --c-zh-soft: #17291f; --c-zh-band: #5d8f7d;
-  --c-la: #c9cf8e; --c-la-soft: #272a14; color-scheme: dark }
+  --c-la: #c9cf8e; --c-la-soft: #272a14;
+  --c-vi: #d8b4d3; --c-vi-soft: #2a2129; color-scheme: dark }
 * { box-sizing: border-box }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7;
   word-break: keep-all; overflow-wrap: anywhere;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px }
 .wrap { max-width: 960px; margin: 0 auto }
-.ribbon { display: grid; grid-template-columns: repeat(6, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
+.ribbon { display: grid; grid-template-columns: repeat(7, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
 .ribbon span:nth-child(1) { background: var(--c-en) } .ribbon span:nth-child(2) { background: var(--c-ja) }
-.ribbon span:nth-child(3) { background: var(--c-de) } .ribbon span:nth-child(4) { background: var(--c-fr) } .ribbon span:nth-child(5) { background: var(--c-zh-band) } .ribbon span:nth-child(6) { background: var(--c-la) }
+.ribbon span:nth-child(3) { background: var(--c-de) } .ribbon span:nth-child(4) { background: var(--c-fr) } .ribbon span:nth-child(5) { background: var(--c-zh-band) } .ribbon span:nth-child(6) { background: var(--c-la) } .ribbon span:nth-child(7) { background: var(--c-vi) }
 header { padding-block: 52px 30px; border-bottom: 1px solid var(--line) }
 header .kicker { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 18px; font-family: var(--f-display); font-size: .98rem; color: var(--muted) }
 header .kicker span:nth-child(1) { color: var(--c-en) } header .kicker span:nth-child(2) { color: var(--c-ja) }
 header .kicker span:nth-child(3) { color: var(--c-de) } header .kicker span:nth-child(4) { color: var(--c-fr) } header .kicker span:nth-child(5) { color: var(--c-zh); font-family: "Noto Serif SC", "Noto Sans SC", serif }
-header .kicker span:nth-child(6) { color: var(--c-la); font-style: italic }
+header .kicker span:nth-child(6) { color: var(--c-la); font-style: italic } header .kicker span:nth-child(7) { color: var(--c-vi) }
 header h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.5rem; line-height: 1.2; margin: 0 0 8px; text-wrap: balance }
 header .en { font-family: var(--f-display); color: var(--warm); font-size: 1.6rem; line-height: 1.3; letter-spacing: .01em; margin: 0 0 22px }
 header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3px solid var(--warm); color: var(--ink) }
@@ -57,7 +60,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
   padding: 20px 22px 22px; display: grid; gap: 10px; align-content: start; min-width: 0; position: relative; overflow: hidden }
 .book.en { --c: var(--c-en); --c-soft: var(--c-en-soft) } .book.ja { --c: var(--c-ja); --c-soft: var(--c-ja-soft) }
 .book.de { --c: var(--c-de); --c-soft: var(--c-de-soft) } .book.fr { --c: var(--c-fr); --c-soft: var(--c-fr-soft) } .book.zh { --c: var(--c-zh); --c-soft: var(--c-zh-soft) }
-.book.la { --c: var(--c-la); --c-soft: var(--c-la-soft) }
+.book.la { --c: var(--c-la); --c-soft: var(--c-la-soft) } .book.vi { --c: var(--c-vi); --c-soft: var(--c-vi-soft) }
 .book.zh h2 { font-family: "Noto Serif SC", "Noto Sans SC", serif }
 .book::after { content: attr(data-glyph); position: absolute; right: 14px; top: 6px; font-family: var(--f-display); font-weight: 600;
   font-size: 4.2rem; line-height: 1; color: var(--c); opacity: .12; pointer-events: none }
@@ -81,10 +84,10 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 </style>
 </head>
 <body>
-<div class="ribbon" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div class="ribbon" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
 <div class="wrap">
 <header>
-  <p class="kicker" lang="mul" aria-hidden="true"><span>Objection!</span><span>異議あり</span><span>Anspruch</span><span>Par ces motifs</span><span lang="zh-CN">本院认为</span><span lang="la">Suum cuique</span></p>
+  <p class="kicker" lang="mul" aria-hidden="true"><span>Objection!</span><span>異議あり</span><span>Anspruch</span><span>Par ces motifs</span><span lang="zh-CN">本院认为</span><span lang="la">Suum cuique</span><span lang="vi">Nhân danh</span></p>
   <h1>법률 외국어 자습서</h1>
   <p class="en">Legal Language Handbooks</p>
   <p class="lead">한국 법률가가 외국 법령·판결·원전을 원문으로 읽고 외국 법률가와 말할 수 있게 하려고 엮은 자습서입니다.<br>
@@ -129,11 +132,18 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
     <p class="meta"><span>라틴어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 399표제어</span><span>대외판 1.0 (2026. 10. 22.)&nbsp;· 합성음(복원 고전·교회·영미 법조 발음)</span></p>
     <div class="links"><a class="primary" href="suum-cuique/">화면본</a><a href="suum-cuique/suum-cuique-v1.0.pdf">PDF (577쪽)</a><a href="suum-cuique/suum-cuique-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/suum-cuique/README.md">소개</a></div>
   </li>
+  <li class="book vi" data-glyph="Vi">
+    <span class="lang">Tiếng Việt · 베트남어</span>
+    <h2><span lang="vi">Nhân danh</span> <small>조문과 판결의 베트남어</small></h2>
+    <p class="meta"><span>베트남어를 처음 배우는 한국 법률가&nbsp;· 21장&nbsp;· 350표제어</span><span>대외판 1.0 (2026. 10. 28.)&nbsp;· 합성음(비상업 이용)</span></p>
+    <div class="links"><a class="primary" href="nhan-danh/">화면본</a><a href="nhan-danh/nhan-danh-v1.0.pdf">PDF (898쪽)</a><a href="nhan-danh/nhan-danh-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/nhan-danh/README.md">소개</a></div>
+  </li>
 </ul>
 
 <div class="note">
-  <p>화면본의 소리는 일본어·독일어·프랑스어·중국어·라틴어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다.</p>
-  <p>다른 언어판을 계속 더해 갈 예정이고, 올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다.</p>
+  <p>화면본의 소리는 일본어·독일어·프랑스어·중국어·라틴어·베트남어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다.</p>
+  <p>다음 언어판은 스페인어·이탈리아어·러시아어이고, 지금 만들고 있습니다.<br>
+  올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다.</p>
   <p>원문과 다른 서술을 찾으면 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">Issues</a>로 알려 주십시오.</p>
 </div>
 
@@ -142,7 +152,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
   <p>© 2026 권보원(Bowon Kwon)</p>
   <p>이 자료는 엮은이가 개인적으로 공부하며 엮은 것입니다. 엮은이가 속한 기관의 견해나 업무와는 관계가 없습니다. 법률 자문이 아닙니다.</p>
   <p>저장소 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks">github.com/BowonKwon/Legal-Language-Handbooks</a> · 관련 <a href="https://github.com/BowonKwon/AI-Assisted-Handbooks">AI-Assisted-Handbooks</a> · <a href="https://github.com/BowonKwon/SundayAI">SundayAI</a></p>
-  <p lang="en">Self-study handbooks of legal foreign languages for Korean lawyers — English, Japanese, German, French, Chinese and Latin.<br>
+  <p lang="en">Self-study handbooks of legal foreign languages for Korean lawyers — English, Japanese, German, French, Chinese, Latin and Vietnamese.<br>
   Text © 2026 Bowon Kwon, CC BY-NC 4.0; quoted sources under their own terms.</p>
 </footer>
 </div>
