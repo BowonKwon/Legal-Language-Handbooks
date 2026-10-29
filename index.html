@@ -19,6 +19,8 @@
   --c-zh: #2d5e4f; --c-zh-soft: #c4dfd1; --c-zh-band: #7fb59c;
   --c-la: #5d6224; --c-la-soft: #eef0dc;
   --c-vi: #6e4a6b; --c-vi-soft: #efe7ee;
+  --c-es: #8a3b2a; --c-es-soft: #f5e9e5;
+  --c-sj: #7a4f2a; --c-sj-soft: #f6eee4;
   --f-display: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
   --f-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
 }
@@ -29,6 +31,8 @@
   --c-de: #f0b85a; --c-de-soft: #2e2412; --c-fr: #b9adf2; --c-fr-soft: #241f3d;
   --c-zh: #8fd0b8; --c-zh-soft: #17291f; --c-zh-band: #5d8f7d;
   --c-la: #c9cf8e; --c-la-soft: #272a14;
+  --c-sj: #e0b48a; --c-sj-soft: #2b2219;
+  --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129; color-scheme: dark } }
 :root[data-theme="dark"] {
   --paper: #16191d; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
@@ -37,6 +41,8 @@
   --c-de: #f0b85a; --c-de-soft: #2e2412; --c-fr: #b9adf2; --c-fr-soft: #241f3d;
   --c-zh: #8fd0b8; --c-zh-soft: #17291f; --c-zh-band: #5d8f7d;
   --c-la: #c9cf8e; --c-la-soft: #272a14;
+  --c-sj: #e0b48a; --c-sj-soft: #2b2219;
+  --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129; color-scheme: dark }
 * { box-sizing: border-box }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7;
@@ -61,6 +67,9 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 .book.en { --c: var(--c-en); --c-soft: var(--c-en-soft) } .book.ja { --c: var(--c-ja); --c-soft: var(--c-ja-soft) }
 .book.de { --c: var(--c-de); --c-soft: var(--c-de-soft) } .book.fr { --c: var(--c-fr); --c-soft: var(--c-fr-soft) } .book.zh { --c: var(--c-zh); --c-soft: var(--c-zh-soft) }
 .book.la { --c: var(--c-la); --c-soft: var(--c-la-soft) } .book.vi { --c: var(--c-vi); --c-soft: var(--c-vi-soft) }
+.book.sj { --c: var(--c-sj); --c-soft: var(--c-sj-soft) } .book.es { --c: var(--c-es); --c-soft: var(--c-es-soft) }
+.side-title { font-family: var(--f-display); font-weight: 600; font-size: 1.15rem; color: var(--muted); margin: 40px 0 0 }
+.books.side { margin-top: 14px }
 .book.zh h2 { font-family: "Noto Serif SC", "Noto Sans SC", serif }
 .book::after { content: attr(data-glyph); position: absolute; right: 14px; top: 6px; font-family: var(--f-display); font-weight: 600;
   font-size: 4.2rem; line-height: 1; color: var(--c); opacity: .12; pointer-events: none }
@@ -87,7 +96,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 <div class="ribbon" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
 <div class="wrap">
 <header>
-  <p class="kicker" lang="mul" aria-hidden="true"><span>Objection!</span><span>異議あり</span><span>Anspruch</span><span>Par ces motifs</span><span lang="zh-CN">本院认为</span><span lang="la">Suum cuique</span><span lang="vi">Nhân danh</span></p>
+  <p class="kicker" lang="mul" aria-hidden="true"><span>Objection!</span><span>異議あり</span><span>Anspruch</span><span>Par ces motifs</span><span lang="zh-CN">本院认为</span><span lang="la">Suum cuique</span><span lang="vi">Nhân danh</span><span lang="es">En nombre del Rey</span></p>
   <h1>법률 외국어 자습서</h1>
   <p class="en">Legal Language Handbooks</p>
   <p class="lead">한국 법률가가 외국 법령·판결·원전을 원문으로 읽고 외국 법률가와 말할 수 있게 하려고 엮은 자습서입니다.<br>
@@ -132,6 +141,12 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
     <p class="meta"><span>라틴어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 399표제어</span><span>대외판 1.0 (2026. 10. 22.)&nbsp;· 합성음(복원 고전·교회·영미 법조 발음)</span></p>
     <div class="links"><a class="primary" href="suum-cuique/">화면본</a><a href="suum-cuique/suum-cuique-v1.0.pdf">PDF (577쪽)</a><a href="suum-cuique/suum-cuique-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/suum-cuique/README.md">소개</a></div>
   </li>
+  <li class="book es" data-glyph="Es">
+    <span class="lang">Español · 스페인어</span>
+    <h2><span lang="es">En nombre del Rey</span> <small>법전과 법정의 스페인어</small></h2>
+    <p class="meta"><span>스페인어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 376표제어</span><span>대외판 1.0 (2026. 10. 28.)&nbsp;· 합성음(퍼블릭 도메인 목소리)</span></p>
+    <div class="links"><a class="primary" href="en-nombre-del-rey/">화면본</a><a href="en-nombre-del-rey/en-nombre-del-rey-v1.0.pdf">PDF (570쪽)</a><a href="en-nombre-del-rey/en-nombre-del-rey-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/en-nombre-del-rey/README.md">소개</a></div>
+  </li>
   <li class="book vi" data-glyph="Vi">
     <span class="lang">Tiếng Việt · 베트남어</span>
     <h2><span lang="vi">Nhân danh</span> <small>조문과 판결의 베트남어</small></h2>
@@ -140,9 +155,19 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
   </li>
 </ul>
 
+<h2 class="side-title">곁가지 연구</h2>
+<ul class="books side">
+  <li class="book sj" data-glyph="訓">
+    <span class="lang">한글 · 곁가지 연구</span>
+    <h2>세종의 글자로 보는 외래어 표기 <small>훈민정음의 글자로 외국어 소리를 적는 보조 표기</small></h2>
+    <p class="meta"><span>외래어 표기법 표기를 늘 함께 두고, 글자마다 근거와 반대 근거를 밝힌다&nbsp;· 스페인어·러시아어·중국어&nbsp;· 13면&nbsp;· 주석 문헌 148편</span><span>판 2 (2026. 10. 28.)&nbsp;· 데이터 CC BY 4.0&nbsp;· 코드 MIT</span></p>
+    <div class="links"><a class="primary" href="sejong/">화면본</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">데이터</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/sejong/README.md">소개</a></div>
+  </li>
+</ul>
+
 <div class="note">
-  <p>화면본의 소리는 일본어·독일어·프랑스어·중국어·라틴어·베트남어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다.</p>
-  <p>다음 언어판은 스페인어·이탈리아어·러시아어이고, 지금 만들고 있습니다.<br>
+  <p>화면본의 소리는 일본어·독일어·프랑스어·중국어·라틴어·베트남어·스페인어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다.</p>
+  <p>다음 언어판은 이탈리아어·러시아어이고, 지금 만들고 있습니다. 아랍어판도 준비하고 있으나, 조문·판결 원문의 저작권과 공개 조건이 나라마다 달라 무엇을 어떻게 실을지 검토하고 있습니다.<br>
   올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다.</p>
   <p>원문과 다른 서술을 찾으면 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">Issues</a>로 알려 주십시오.</p>
 </div>
@@ -152,7 +177,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
   <p>© 2026 권보원(Bowon Kwon)</p>
   <p>이 자료는 엮은이가 개인적으로 공부하며 엮은 것입니다. 엮은이가 속한 기관의 견해나 업무와는 관계가 없습니다. 법률 자문이 아닙니다.</p>
   <p>저장소 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks">github.com/BowonKwon/Legal-Language-Handbooks</a> · 관련 <a href="https://github.com/BowonKwon/AI-Assisted-Handbooks">AI-Assisted-Handbooks</a> · <a href="https://github.com/BowonKwon/SundayAI">SundayAI</a></p>
-  <p lang="en">Self-study handbooks of legal foreign languages for Korean lawyers — English, Japanese, German, French, Chinese, Latin and Vietnamese.<br>
+  <p lang="en">Self-study handbooks of legal foreign languages for Korean lawyers — English, Japanese, German, French, Chinese, Latin, Vietnamese and Spanish.<br>
   Text © 2026 Bowon Kwon, CC BY-NC 4.0; quoted sources under their own terms.</p>
 </footer>
 </div>
