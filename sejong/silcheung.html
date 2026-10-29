@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>실증 — 세종의 글자로 보는 외래어 표기</title>
+<meta name="description" content="이 면은 두 질문을 가른다. 표기 체계가 종이 위에서 무엇을 지키는가. 그리고 한국어 화자가 그 표기를 보고 실제로 더 잘 듣고 말하게 되는가. 앞의 질문은 이 사이트가 직접 잰다(3절). 뒤의 질문은 남이 한 실험을 빌려 볼 수밖에 없는데, 빌릴 실험이 많지 않다(">
+<meta name="author" content="권보원 (대구지방법원 부장판사)">
+<link rel="preload" href="assets/fonts/sj-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family:"SJ Sans"; src:url("assets/fonts/sj-sans.woff2") format("woff2"); font-weight:100 900; font-display:swap }
+@font-face { font-family:"SJ Serif"; src:url("assets/fonts/sj-serif.woff2") format("woff2"); font-weight:200 900; font-display:swap }
+:root { --paper:#f4f2ec; --sheet:#fff; --ink:#22262b; --muted:#5f6670; --line:#dcd7cb; --c:#7a4f2a; --soft:#f6eee4;
+  --f-body:"SJ Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-display:"SJ Serif","Noto Serif KR","SJ Sans",serif;
+  --f-ipa:"Charis SIL","Doulos SIL","Gentium Plus","Segoe UI","Noto Sans","SJ Sans",sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#16191d; --sheet:#1f2328; --ink:#e8e5de; --muted:#9ca3ab; --line:#363c44; --c:#e0b48a; --soft:#2b2219; color-scheme:dark } }
+* { box-sizing:border-box }
+html { -webkit-text-size-adjust:100% }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); line-height:1.75; word-break:keep-all; overflow-wrap:anywhere; padding:0 16px 56px }
+.wrap { max-width:900px; margin:0 auto }
+a { color:var(--c) }
+header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
+.back { font-size:.88rem; color:var(--muted); margin:0 }
+.site-title { font-family:var(--f-display); font-weight:600; font-size:1.05rem; margin:6px 0 10px }
+.site-title a { color:var(--ink); text-decoration:none }
+nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
+nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+@media print { .tools { position:static } }
+#l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
+#l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
+main h1 { font-family:var(--f-display); font-weight:600; font-size:1.95rem; line-height:1.3; margin:30px 0 8px }
+main h2 { font-family:var(--f-display); font-weight:600; font-size:1.35rem; line-height:1.4; margin:42px 0 10px; scroll-margin-top:56px }
+main h3 { font-weight:700; font-size:1.08rem; margin:28px 0 8px; scroll-margin-top:56px }
+main h4 { font-size:1rem; margin:20px 0 6px }
+main p { margin:0 0 12px }
+.pagetoc { background:var(--sheet); border:1px solid var(--line); padding:10px 16px; margin:14px 0 6px; font-size:.92rem }
+.pagetoc summary { cursor:pointer; color:var(--muted) }
+.pagetoc ol { list-style:none; margin:6px 0 2px; padding-left:.2em } .pagetoc ol ol { padding-left:1.1em }
+.tbl { overflow-x:auto; margin:12px 0 16px; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; width:100%; background:var(--sheet); font-size:.93rem }
+th,td { border-bottom:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top }
+th { color:var(--muted); font-weight:500; font-size:.84rem }
+.tbl.wide table { min-width:1400px; font-size:.86rem }
+td.h, .h { font-size:1.2em; white-space:nowrap }
+td small, .h small { font-size:.66em; color:var(--muted) }
+td.ipa, .ipa { font-family:var(--f-ipa); white-space:nowrap } td.sm { font-size:.84rem }
+.muted { color:var(--muted) }
+.badge { display:inline-block; font-size:.74rem; line-height:1.4; padding:0 6px; border:1px solid var(--c); color:var(--c); border-radius:3px; white-space:nowrap }
+figure.q { margin:14px 0; padding:10px 14px; background:var(--sheet); border:1px solid var(--line); border-left:3px solid var(--c) }
+figure.q p { margin:2px 0 }
+figure.q .src { font-family:var(--f-display); font-size:1.1rem; line-height:1.8 }
+figure.q .rd { color:var(--muted) } figure.q .rd::before { content:"독음 "; font-size:.75rem; color:var(--c) }
+figure.q .tr::before { content:"해석 "; font-size:.75rem; color:var(--c) }
+figure.q figcaption { color:var(--muted); font-size:.85rem; margin-top:4px }
+blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line) }
+code { font-size:.9em; background:var(--soft); padding:0 3px; border-radius:3px }
+ul,ol { padding-left:1.3em } li { margin:3px 0 }
+.footnote { font-size:.88rem; color:var(--muted); border-top:1px solid var(--line); margin-top:36px }
+.footnote hr { display:none }
+ol.bib { list-style:none; padding:0 } ol.bib li { margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid var(--line) }
+ol.bib p { margin:2px 0 } .cite { font-weight:500 } .links, .used { font-size:.86rem; color:var(--muted) } .ann { font-size:.94rem }
+.toc-cats { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.92rem }
+.count { background:var(--soft); border-left:3px solid var(--c); padding:8px 12px }
+.prevnext { display:flex; justify-content:space-between; gap:12px; margin-top:40px; font-size:.92rem }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:14px; color:var(--muted); font-size:.85rem }
+footer p { margin:4px 0 }
+.l1 .c2 { display:none }
+.l1 .c1 { font-weight:500 }
+@media (max-width:480px) { main h1 { font-size:1.6rem } main h2 { font-size:1.22rem } }
+</style>
+</head>
+<body><div class="wrap">
+<header class="site">
+<p class="back"><a href="../">← 법률 외국어 자습서</a></p>
+<p class="site-title"><a href="index.html">세종의 글자로 보는 외래어 표기</a></p>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html">첫 면</a></li><li><a href="cheje.html">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html">역사</a></li><li><a href="bigyo.html">견주어 보기</a></li><li><a href="silcheung.html" aria-current="page">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
+</header>
+<div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
+<main>
+<h1 id="실증">실증</h1>
+<details class="pagetoc" open><summary>이 면의 차례</summary><ol><li><a href="#1-형식-지표와-학습-효과는-다르다">1. 형식 지표와 학습 효과는 다르다</a></li><li><a href="#2-문헌-실증-지각-코퍼스-표기-효과">2. 문헌 실증 — 지각 · 코퍼스 · 표기 효과</a></li><li><a href="#3-이-연구의-지표-m1-m2-m3">3. 이 연구의 지표 — M1 · M2 · M3</a><ol><li><a href="#스페인어">스페인어</a></li><li><a href="#러시아어">러시아어</a></li><li><a href="#중국어">중국어</a></li><li><a href="#사전-등록-비교의-판정">사전 등록 비교의 판정</a></li><li><a href="#탐색-사전-등록-밖에서-눈에-띈-것">탐색 — 사전 등록 밖에서 눈에 띈 것</a></li><li><a href="#계산-기록">계산 기록</a></li></ol></li><li><a href="#4-실증-공백">4. 실증 공백</a></li></ol></details>
+<p>이 면은 두 질문을 가른다. 표기 체계가 종이 위에서 무엇을 지키는가. 그리고 한국어 화자가 그 표기를 보고 실제로 더 잘 듣고 말하게 되는가. 앞의 질문은 이 사이트가 직접 잰다(3절). 뒤의 질문은 남이 한 실험을 빌려 볼 수밖에 없는데, 빌릴 실험이 많지 않다(2절). 무엇이 비어 있는지는 4절에 모았고, 빈자리를 메울 실험의 설계 개요는 <a href="namun.html">「남은 문제」</a> 면에 있다.</p>
+<h2 id="1-형식-지표와-학습-효과는-다르다">1. 형식 지표와 학습 효과는 다르다</h2>
+<p>형식 지표와 학습 효과는 다르다. 이 사이트가 재는 M1~M3 는 표기 체계의 형식 성질이다. M1 은 표기가 원어의 음절 수를 지키는지, M2 는 뜻을 가르는 두 소리를 다른 글자로 적는지, M3 은 표기만 보고 IPA 를 되살릴 수 있는지를 센다. 셋 다 대응표와 낱말 목록만으로 끝나는 계산이고, 사람은 들어오지 않는다. 한국어 화자가 이 표기로 스페인어·러시아어·중국어를 더 잘 듣거나 말하게 되는지는 재지 않았다.</p>
+<p>M2 가 높다는 말은 θ 와 s 를 다른 글자(ᅊ 과 ㅅ)로 적는다는 뜻이다. 독자가 두 글자를 보고 두 소리를 다르게 낸다는 뜻이 아니다. 한국어 화자는 영어 무의미어의 [s] 를 22.5~26.3% 의 비율로 [θ] 라고 골랐다(초미희 2010: 463, N=40). 귀가 가르지 못하는 대립을 글자가 갈라 준다고 해서 귀가 따라온다는 보장은 없다. 문자 입력의 효과를 다룬 개관도 학습자가 그 대립을 들을 수 없으면 글자의 이점이 나타나지 않을 수 있다고 정리한다(Hayes-Harb &amp; Barrios 2021: 320).</p>
+<p>상관과 인과도 가른다. 2절의 문헌 가운데 조건을 무작위로 나눠 표기를 보여 주거나 감춘 실험은 표기 효과 연구뿐이다. 나머지는 지각 범주화 실험과 사전 집계다. 지각 실험은 「이 소리를 어느 한국어 범주로 듣는가」에 답한다. 「그 범주의 글자로 적어 주면 발음이 나아지는가」에는 답하지 않는다. 사전 집계는 더 조심해서 읽어야 한다. Kang(2008: 189)은 1958년과 1985년의 표기 지침이 영어 유성 파열음을 된소리로 받아들이는 일을 줄이는 데 「기여했을 것(likely have contributed)」이라고 쓰면서도, 확인한 사실로는 지침의 도입과 감소가 「함께 갔다(go in tandem)」고만 적었다. 이 면도 그 선을 넘지 않는다.</p>
+<h2 id="2-문헌-실증-지각-코퍼스-표기-효과">2. 문헌 실증 — 지각 · 코퍼스 · 표기 효과</h2>
+<p>아래 표의 여섯 편은 원문에서 수치를 직접 확인했다. 표에서 「[2차]」를 단 수치는 개관 논문이 옮긴 원 연구의 것이고, 원 논문은 열람하지 않았다. 그림으로만 제시된 값은 옮기지 않았다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>문헌</th>
+<th>피험자(N · 모어)</th>
+<th>자극 / 과제</th>
+<th>주요 결과</th>
+<th>이 표기의 어느 칸에 닿나</th>
+<th>한계</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ooigawa &amp; Shinohara 2009 (지각)</td>
+<td>25명, 한국어 단일어 화자(서울·경기 대학생, 평균 22.4세). 언어마다 그중 15명이 들음</td>
+<td>일본어·프랑스어·영어·중국어·한국어 남성 화자 각 3명이 읽은 CVCV 무의미어(/tata/–/data/ 등). 첫째·둘째 자음을 예사소리·된소리·거센소리 중 하나로 고름</td>
+<td>프랑스어 어두 [p t k] 는 [b d g] 보다 된소리로 분류되는 경향이 컸다. 된소리 응답의 분산분석에서 후두 대립 F(1,14)=32.32, 언어×대립 F(3,42)=18.87, 둘 다 p&lt;.001. 일본어 어두 [p t k] 는 압도적으로 거센소리, 중국어 무기음 [b d g] 는 된소리로 분류됐다. 첫 음절의 F0 를 낮춘 자극일수록 긴장음(경음·격음) 응답이 전체적으로 줄고 예사소리 응답이 늘었다. 자극 유형 두 개씩의 비교가 모두 유의하지는 않았고, 이 분석의 검정값은 논문에 없다(1685쪽)</td>
+<td>ㅃ ㄸ ㄲ(무기 p t k) 칸의 간접 근거(프랑스어·중국어 자극, 스페인어·러시아어는 미검증). 중국어 무기음 칸. 일본어 결과는 반대 근거</td>
+<td>스페인어·러시아어 자극이 없다. 범주별 응답 비율은 그림으로만 나온다. 청자는 원어를 모르는 사람들이었고, 저자들도 원어를 알면 결과가 달라질 수 있다고 적었다. F0 조작 분석의 대상은 일본어·프랑스어·영어 무성 파열음과 한국어 세 계열이다(중국어 제외)</td>
+</tr>
+<tr>
+<td>Kang 2008 (코퍼스)</td>
+<td>사람이 아니라 표기 자료</td>
+<td>1937 『모던조선외래어사전』의 영어 유성 파열음 표기(S. H. Kim 2003 의 집계를 옮김, 어두 N=490·어중 N=349)와 국립국어연구원 외래어 목록 1991(N=310)·2002(N=263)의 어두 모음 앞 유성 파열음과 파찰음 /dʒ/(/dʒ/ 가 24·36개 포함)</td>
+<td>1937 사전 어두: 된소리 57.6%, 예사소리 20.8%, 두 가지 다 21.6%. 어중은 예사소리 98%. 현대 목록에서 된소리 발음이 가능한 낱말은 16.1%·18.6%. 된소리 낱말의 말뭉치 평균 빈도가 더 높았다(1991: 102.80, SD 258.77, N=50 대 12.98, SD 23.38, N=260. 2002: 40.29, SD 80.44, N=49 대 7.74, SD 11.68, N=214. 두 목록 모두 p&lt;0.001). 빈도와 된소리 표기가 함께 나타난다는 관찰이고, 빈도가 된소리를 낳았다는 검정은 아니다</td>
+<td>ㅃ ㄸ ㄲ 칸의 역사적 선례 — VOT 가 짧은 파열음을 된소리로 적던 시기가 있었다</td>
+<td>대상이 영어 유성음이다(무성 무기음이 아님). 현대 목록의 판정은 저자 한 사람의 발음 직관. 1937 수치는 다른 연구의 집계를 옮긴 것</td>
+</tr>
+<tr>
+<td>초미희 2010 (지각)</td>
+<td>40명, 서울·수도권 대학생. 영어 능숙도 자가 평가 중급, 영어권 1년 이상 거주 경험 없음</td>
+<td>영어 원어민이 녹음한 무의미어 24개([t d θ ð s z] × 어두·어말·강세 앞 모음 사이·강세 뒤 모음 사이). 영어 자음 12개와 「그 밖」 중에서 고름</td>
+<td>위치별 정답률 69.8%(어두)·44.3%(어말)·73.4%(강세 앞)·59.2%(강세 뒤). [s] 를 [θ] 로 고른 비율 22.5~26.3%(네 위치 모두). [θ] 정답률 31.9~65.0%, [θ] 를 [f] 로 고른 비율은 어말에서 31.3%</td>
+<td>θ=ᅊ 과 s=ㅅ 의 구별. θ 와 f 의 혼동은 ᅊ 과 ᅗ 이 같은 「ㅇ 을 붙인 글자」 약속으로 묶여 있다는 점과도 닿는다</td>
+<td>영어 자극이다(카스티야 스페인어 θ/s 가 아님). 추론 통계가 없고, 6% 미만의 응답은 표에서 뺐다</td>
+</tr>
+<tr>
+<td>Ko &amp; Choi 2020 (지각·산출)</td>
+<td>12명, 중어중문 전공 학부생(평균 학습 23.08개월, SD 25.46). 경상 방언 화자 제외</td>
+<td>중국어 여성 화자 1명이 녹음한 CV 6음절 × 4성조를 듣고 성조 고르기(96회). 성조 부호를 붙인 병음 읽기(48회, 중국어 원어민 2명이 판정, κ=.889)</td>
+<td>정답률(지각·산출 평균) 1성 96%·2성 88%·3성 64%·4성 97%. 성조 주효과 F1(1.518, 16.694)=29.48, p&lt;.001. 3성을 2성으로 낸 비율은 산출 54%, 지각 14%(t(11)=−3.86, p&lt;.01)</td>
+<td>중국어 방점 칸. 이 표기는 2성에 2점, 3성에 무점을 준다</td>
+<td>표본 12명. 모든 시행에 부호가 있었으므로 부호의 효과를 잰 실험이 아니다. 산출의 오류는 부호를 보고도 생겼다</td>
+</tr>
+<tr>
+<td>Hayes-Harb &amp; Barrios 2021 (표기 효과 개관)</td>
+<td>개관. 아래 수치는 개관이 옮긴 원 연구의 것 [2차]</td>
+<td>문자 입력이 제2언어 음운 습득에 미치는 영향을 다룬 연구를 망라</td>
+<td>성조 부호를 보인 집단이 성조 최소 4중쌍 학습에서 유의하게 앞섰다(Showalter &amp; Hayes-Harb 2013, 영어 화자 26명, 312쪽). 러시아어 강세 부호를 보인 조건에서 유의한 이점이 확인되지 않았다. 무경험 집단은 모든 조건에서 사실상 우연 수준이었고, 학습자 집단은 강세 부호 유무 조건 사이에 유의한 차이가 없었다(Hayes-Harb &amp; Hacking 2015, 영어 화자 무경험 44명·학습자 29명. 313~314쪽, 개관 경유). 한국어 화자 48명이 아랍어 비단어를 배운 실험에서는 철자를 보인 조건의 어휘 판단이 오히려 나빴다(Han &amp; Oh 2018, 317쪽)</td>
+<td>방점(성조)과 강세 굵게. 그리고 이 표기 전체가 학습을 돕는가</td>
+<td>효과 크기가 개관에 없다. 원 논문은 열람하지 않았다. 피험자는 대부분 영어 화자다. 굵은 글씨로 강세를 표시한 조건을 시험한 연구는 찾지 못했다</td>
+</tr>
+<tr>
+<td>Dessiar 2021 (모음 대조)</td>
+<td>찌아찌아어 화자 20명(바우바우시 소라올리오), 한국어 화자 20명(대구, 20대). 각각 남녀 10명씩</td>
+<td>어두 단모음이 든 낱말을 두 번씩 읽게 하여 F1·F2 를 재고 Nearey 정규화 뒤 t 검정</td>
+<td>같은 한글로 적는 다섯 쌍 가운데 찌아찌아어 /u/ 와 ㅜ 만 F1·F2 모두 유의한 차이가 검출되지 않았다(F1 311·313 Hz, t=−0.273, p=.786. F2 927·950 Hz, t=−1.607, p=.116). /a/ 와 ㅏ 는 F1 에서만 유의차가 검출되지 않았다(654·645 Hz, t=0.485, p=.630). 나머지는 모두 p&lt;.01. 동등성 검정은 하지 않았으므로 두 소리가 같다는 증거는 아니다. 자음 무리 /mb ŋk nd/ 앞에 ㅡ 를 넣어 2음절 낱말이 3음절이 된다(음불레 [ɨm-bul-le])</td>
+<td>한글 모음 글자를 다른 언어에 그대로 빌리는 일 전체. M1(음절 수)이 겨냥하는 문제의 실례. 모음의 음향 대조이고, 한글 표기가 학습을 돕는지를 잰 실험은 아니다</td>
+<td>한국어 화자의 출신을 적은 표 2 가 찌아찌아어 화자 표와 같은 내용으로 인쇄되어 있다. 낱말당 두 번 읽기, 다중 비교 보정 없음</td>
+</tr>
+</tbody>
+</table></div>
+<p>B 등급 문헌은 결론을 옮기지 않고 다루는 쟁점만 적는다. 한국어 화자의 영어 순자음 [p b f v] 혼동(초미희 2009, 확인 중), 운율 위치에 따른 영어 자음 지각(Jang 2014, 확인 중), 영어 자음에 가장 가까운 한국어 자음을 한글로 고르게 한 실험(Schmidt 1996, 확인 중), 서울말 예사소리·거센소리 대립이 성조 대립으로 옮겨 가는 음향 증거(Silva 2006, 확인 중), 중국어 경험에 따른 성조 지각 차이(Tsukada &amp; Han 2019, 확인 중), 한국인 학습자의 영어 강세 지각 단서(Lee 2022·2024, 확인 중), 차용어 표기와 지각 응답의 대응(de Jong &amp; Cho 2012, 확인 중), 철자 입력과 제2언어 음운의 접점(Bassetti, Escudero &amp; Hayes-Harb 2015, 확인 중)이 그렇다.</p>
+<p>표에서 읽히는 것을 칸별로 줄이면 이렇다. ㅃ ㄸ ㄲ 칸에 가장 가까운 실험은 한국어 화자 25명(언어당 15명)의 범주화 실험 하나다. 프랑스어 어두 [p t k] 는 [b d g] 보다 된소리로 분류되는 경향이 컸고, 중국어 무기음 [b d g] 는 된소리로 분류됐다. 같은 실험에서 일본어 어두 [p t k] 는 거센소리로 들렸다(Ooigawa &amp; Shinohara 2009: 1685). 스페인어·러시아어 자극은 없었으므로 이 칸에는 간접 근거다. 듣고 고르게 한 실험이라 글자를 보여 주면 학습이 나아지는지에는 답하지 않는다. 1937 사전의 된소리 표기도 영어 유성음의 것이라 간접 근거다. 방점 쪽은 성조 부호의 학습 효과를 보고한 실험이 있고, 강세 쪽은 강세 부호의 유의한 이점을 확인하지 못한 실험이 있다(영어 화자 대상, 개관 경유). 굵은 글씨는 그 실험의 조건이 아니었다. 이 사이트가 강세를 방점이 아니라 굵게로 두면서 「학습 효과 미실증」을 다는 것은 이 때문이다. 한국어 화자에게 한글 확장 표기를 보여 주고 학습을 잰 실험은 찾지 못했다. 한국어 화자 대상의 철자 실험 하나(Han &amp; Oh 2018)는 방향이 부정적이었다.</p>
+<h2 id="3-이-연구의-지표-m1-m2-m3">3. 이 연구의 지표 — M1 · M2 · M3</h2>
+<p>세 지표의 정의는 계산 전에 정해 두었다. 표본과 대립쌍 파일은 SHA-256 해시로 동결했고, 지표를 한 번이라도 계산한 뒤에는 고치지 않았다. 사전 등록한 지표와 비교만 「주 결과」로 쓰고 그 밖의 분석은 「탐색」으로 표시한다.</p>
+<ul>
+<li><strong>M1 음절 수 일치율</strong> — 원어 IPA 의 음절핵 수와 표기의 음절 수가 같은 표제어의 비율. 작은 글자와 채움 문자 낱자는 세지 않는다. 보조로 평균 초과 음절.</li>
+<li><strong>M2 대립 보존율</strong> — 사전 등록한 대립 유형마다 표제어의 분절음 하나를 짝 분절음으로 바꾼 치환쌍을 만들고, 두 표기가 다르면 보존으로 센다(M2-sub, 주 결과). 확장 표본 안의 실제 최소대립쌍(M2-real)은 쌍이 적어(9 · 10 · 7) 기술 통계로만 둔다.</li>
+<li><strong>M3 가역성</strong> — 정방향 규칙에서 기계로 만든 복호기가 표기에서 IPA 를 되살리는 정도. M3a 는 유일 복원율, M3c 는 분절음 오류율. 강세·성조 복원율은 따로 낸다.</li>
+<li>
+<p>층은 0(외래어 표기법) · 1(현대 한글) · 2(옛한글)를 각각 계산한다. 스페인어·러시아어 0층은 철자를 입력으로 받으므로 M2-sub 와 M3 를 계산하지 않는다.</p>
+</li>
+<li>
+<p><strong>정의:</strong> 위 세 항목과 <code>data/rules.md</code> 4절. 표본 · 대립쌍은 <code>data/</code> 의 <code>sample-*.tsv</code> · <code>pairs-*.tsv</code>, 결과 원본은 <code>data/metrics-v2.json</code>.</p>
+</li>
+<li><strong>표본:</strong> 기준 표본(es 36 · ru 36 · zh 34). 구간은 95% 부트스트랩 백분위(2,000회, 시드 20261028).</li>
+<li><strong>읽는 법:</strong> 형식 지표다. 한국어 화자가 이 표기로 더 잘 듣거나 말하는지는 재지 않았다.</li>
+</ul>
+<h3 id="스페인어">스페인어</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>변형</th>
+<th>M1 음절 수 일치</th>
+<th>초과 음절 평균</th>
+<th>M2-sub 대립 보존</th>
+<th>M2-real</th>
+<th>M3a 유일 복원</th>
+<th>M3c 분절음 오류</th>
+<th>운율 복원</th>
+<th>렌더 오류</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2층 옛한글(판 2)</td>
+<td>0.889 [0.778, 0.972] (n=36)</td>
+<td>0.111</td>
+<td>0.942 [0.910, 0.973] (n=223)</td>
+<td>1.0</td>
+<td>0.806 [0.667, 0.917] (n=36)</td>
+<td>0.0206</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1층 현대 한글</td>
+<td>0.889 [0.778, 0.972] (n=36)</td>
+<td>0.111</td>
+<td>0.740 [0.682, 0.798] (n=223)</td>
+<td>1.0</td>
+<td>0.306 [0.167, 0.444] (n=36)</td>
+<td>0.0914</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>판 1 엔진</td>
+<td>0.889 [0.778, 0.972] (n=36)</td>
+<td>0.111</td>
+<td>0.942 [0.910, 0.973] (n=223)</td>
+<td>1.0</td>
+<td>0.806 [0.667, 0.917] (n=36)</td>
+<td>0.0206</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>안 B①(ᄙ=l)</td>
+<td>0.889 [0.778, 0.972] (n=36)</td>
+<td>0.111</td>
+<td>0.924 [0.888, 0.955] (n=223)</td>
+<td>1.0</td>
+<td>0.722 [0.583, 0.861] (n=36)</td>
+<td>0.0295</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0층 외래어 표기법</td>
+<td>0.194 [0.083, 0.333] (n=36)</td>
+<td>1.556</td>
+<td>—</td>
+<td>1.0</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>0</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>2층 옛한글(판 2) 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 1.00 · r/ɾ 1.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 1.00 · 강세 위치 1.00</li>
+<li>1층 현대 한글 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 0.41 · r/ɾ 0.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 0.00 · 강세 위치 1.00</li>
+<li>판 1 엔진 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 1.00 · r/ɾ 1.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 1.00 · 강세 위치 1.00</li>
+<li>안 B①(ᄙ=l) 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 0.76 · r/ɾ 0.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.68 · θ/s 1.00 · 강세 위치 1.00</li>
+</ul>
+<h3 id="러시아어">러시아어</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>변형</th>
+<th>M1 음절 수 일치</th>
+<th>초과 음절 평균</th>
+<th>M2-sub 대립 보존</th>
+<th>M2-real</th>
+<th>M3a 유일 복원</th>
+<th>M3c 분절음 오류</th>
+<th>운율 복원</th>
+<th>렌더 오류</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2층 옛한글(판 2)</td>
+<td>0.833 [0.722, 0.944] (n=36)</td>
+<td>0.167</td>
+<td>0.911 [0.875, 0.943] (n=247)</td>
+<td>1.0</td>
+<td>0.306 [0.167, 0.444] (n=36)</td>
+<td>0.1455</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1층 현대 한글</td>
+<td>0.833 [0.722, 0.944] (n=36)</td>
+<td>0.167</td>
+<td>0.713 [0.652, 0.765] (n=247)</td>
+<td>0.9</td>
+<td>0.222 [0.083, 0.361] (n=36)</td>
+<td>0.1866</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>판 1 엔진</td>
+<td>0.833 [0.722, 0.944] (n=36)</td>
+<td>0.167</td>
+<td>0.911 [0.875, 0.943] (n=247)</td>
+<td>1.0</td>
+<td>0.306 [0.167, 0.444] (n=36)</td>
+<td>0.1455</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0층 외래어 표기법</td>
+<td>0.222 [0.083, 0.361] (n=36)</td>
+<td>1.167</td>
+<td>—</td>
+<td>1.0</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>0</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>2층 옛한글(판 2) 유형별 M2-sub: f/p 1.00 · t͡s/s 1.00 · v/b 1.00 · ɨ/i 0.89 · ʂ/s 1.00 · ʐ/z 1.00 · р/л 1.00 · 강세 위치 1.00 · 경/연 0.82</li>
+<li>1층 현대 한글 유형별 M2-sub: f/p 1.00 · t͡s/s 1.00 · v/b 0.00 · ɨ/i 0.89 · ʂ/s 0.00 · ʐ/z 0.00 · р/л 0.58 · 강세 위치 1.00 · 경/연 0.82</li>
+<li>판 1 엔진 유형별 M2-sub: f/p 1.00 · t͡s/s 1.00 · v/b 1.00 · ɨ/i 0.89 · ʂ/s 1.00 · ʐ/z 1.00 · р/л 1.00 · 강세 위치 1.00 · 경/연 0.82</li>
+</ul>
+<h3 id="중국어">중국어</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>변형</th>
+<th>M1 음절 수 일치</th>
+<th>초과 음절 평균</th>
+<th>M2-sub 대립 보존</th>
+<th>M2-real</th>
+<th>M3a 유일 복원</th>
+<th>M3c 분절음 오류</th>
+<th>운율 복원</th>
+<th>렌더 오류</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2층 옛한글(판 2)</td>
+<td>0.765 [0.618, 0.912] (n=34)</td>
+<td>0.265</td>
+<td>0.839 [0.797, 0.879] (n=305)</td>
+<td>0.8571</td>
+<td>0.529 [0.382, 0.706] (n=34)</td>
+<td>0.0596</td>
+<td>0.529 [0.382, 0.706] (n=34)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1층 현대 한글</td>
+<td>0.765 [0.618, 0.912] (n=34)</td>
+<td>0.265</td>
+<td>0.131 [0.095, 0.171] (n=305)</td>
+<td>0.8571</td>
+<td>0.088 [0.000, 0.176] (n=34)</td>
+<td>0.2318</td>
+<td>0.088 [0.000, 0.176] (n=34)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Z-a 조류형</td>
+<td>0.765 [0.618, 0.912] (n=34)</td>
+<td>0.265</td>
+<td>0.872 [0.833, 0.908] (n=305)</td>
+<td>1.0</td>
+<td>0.559 [0.382, 0.706] (n=34)</td>
+<td>0.0563</td>
+<td>0.559 [0.382, 0.706] (n=34)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0층 외래어 표기법</td>
+<td>0.735 [0.588, 0.882] (n=34)</td>
+<td>0.294</td>
+<td>0.164 [0.124, 0.207] (n=299)</td>
+<td>0.8571</td>
+<td>0.059 [0.000, 0.147] (n=34)</td>
+<td>0.2053</td>
+<td>0.088 [0.000, 0.176] (n=34)</td>
+<td>0</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>2층 옛한글(판 2) 유형별 M2-sub: c/ch 1.00 · s/sh 1.00 · s/x 1.00 · z/zh 1.00 · 성조 1/2 1.00 · 성조 1/3 1.00 · 성조 1/4 0.00 · 성조 2/3 0.89 · 성조 2/4 1.00 · 성조 3/4 1.00 · 유기/무기 1.00</li>
+<li>1층 현대 한글 유형별 M2-sub: c/ch 0.00 · s/sh 0.00 · s/x 0.00 · z/zh 1.00 · 성조 1/2 0.00 · 성조 1/3 0.00 · 성조 1/4 0.00 · 성조 2/3 0.00 · 성조 2/4 0.00 · 성조 3/4 0.00 · 유기/무기 1.00</li>
+<li>Z-a 조류형 유형별 M2-sub: c/ch 1.00 · s/sh 1.00 · s/x 1.00 · z/zh 1.00 · 성조 1/2 0.00 · 성조 1/3 1.00 · 성조 1/4 1.00 · 성조 2/3 1.00 · 성조 2/4 1.00 · 성조 3/4 1.00 · 유기/무기 1.00</li>
+<li>0층 외래어 표기법 유형별 M2-sub: c/ch 0.00 · s/sh 1.00 · s/x 1.00 · z/zh 1.00 · 성조 1/2 0.00 · 성조 1/3 0.00 · 성조 1/4 0.00 · 성조 2/3 0.00 · 성조 2/4 0.00 · 성조 3/4 0.00 · 유기/무기 1.00</li>
+</ul>
+<h3 id="사전-등록-비교의-판정">사전 등록 비교의 판정</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>비교</th>
+<th>결과</th>
+<th>판정</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1 판 1 대 판 2(es · ru)</td>
+<td>M1 · M2-sub · M3 세 지표가 두 언어 모두 <strong>같다</strong>. θ 꼴 교체(ᄼ→ᅊ), ch(ㅊ→ㅉ), ə(ㆍ→ㅓ)는 어느 것도 대립을 새로 만들거나 없애지 않는다</td>
+<td>판 2 개정의 근거는 형식 지표가 아니라 근거 등급(원전·선례)이다. 공개 페이지에 「지표는 같고 근거가 달라졌다」로 적는다</td>
+</tr>
+<tr>
+<td>C2 ᄙ 안 A 대 안 B①(es, r/ɾ · r/l · ɾ/l 합계)</td>
+<td>안 A 40/53(0.755) · 안 B① 36/53(0.679). 유형별 r/ɾ 2/2 → 0/2, r/l 17/17 → 13/17, ɾ/l 21/34 → 23/34</td>
+<td><strong>안 A 유지</strong>(결정 규칙: B① 이 A 이상이 아님)</td>
+</tr>
+<tr>
+<td>C3 중국어 Z-a 대 Z-b</td>
+<td>성조 6쌍 합계 Z-a 204/243(0.840) · Z-b 194/243(0.798). Z-b 는 1/4 성을 합치고, 3성+3성 변조 때문에 2/3 성 일부(36쌍 중 4쌍)가 합쳐진다. 실제 쌍 扶养(fu2 yang3)·抚养(fu3 yang3)은 Z-b 에서 같은 표기 — 실제 발음에서도 같은 소리라는 뜻이다</td>
+<td>결정에 쓰지 않음(Z-b 를 먼저 정했다). 두 값을 함께 공개</td>
+</tr>
+<tr>
+<td>C4 0 · 1 · 2층</td>
+<td>2층 M2-sub: es 0.942 · ru 0.911 · zh 0.839. 1층: 0.740 · 0.713 · 0.131. 중국어 0층 0.164. M1 은 0층이 크게 낮다(es 0.194 · ru 0.222 — 받침 아닌 자음에 「으」를 붙이므로)</td>
+<td>2층 M2 가 0층보다 낮은 유형 없음 → 결정 규칙상 「남은 문제」로 올릴 것 없음</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="탐색-사전-등록-밖에서-눈에-띈-것">탐색 — 사전 등록 밖에서 눈에 띈 것</h3>
+<ul>
+<li>es ɾ/l 0.62: 자음 뒤(tɾ · bl 같은 무리)에서 ɾ 와 l 이 모두 첫소리 ㄹ 이 되어 갈리지 않는다. 2층도 같다.</li>
+<li>ru 경/연 0.82 · ɨ/i 0.89: ㅣ 앞에서 연자음 표시(ㅑ계열)가 드러나지 않는다. 판 1 부터 있던 성질이다.</li>
+<li>ru M3a 0.306: 강세 없는 ɪ/i · ɐ/a · e/ɛ 가 각각 같은 모음 글자라 복호가 어긋난다(약화 모음을 따로 적지 않는 설계의 결과).</li>
+<li>M1 의 2층 초과 음절(es 0.111 · ru 0.167 · zh 0.265)은 뒤 활음(이 · 우 · 오)을 보통 크기 글자로 붙이는 규칙에서 온다. 작은 글자로 바꾸면 M1 이 오르겠지만 규칙 변경이므로 판 3 과제로 남긴다.</li>
+</ul>
+<h3 id="계산-기록">계산 기록</h3>
+<ul>
+<li>2026년 10월 28일 첫 실행에서 IPA→병음 역표가 성모 없는 음절(an · er 등)을 빠뜨려 중국어 0층 표제어 1건이 렌더 오류로 빠졌다. 역표를 고쳐 다시 계산했다(도구 버그, 정의 변경 아님). 고치기 전 0층 값: M1 0.727(n=33) · M2-sub 0.162 · M3a 0.061 · M3c 0.2125 → 고친 뒤 위 표.</li>
+<li>중국어 0층 M2-sub 의 n=299(305 중 6쌍 제외)는 치환으로 만든 짝 가운데 병음 음절이 없는 조합(예: 권설음 + i 운모가 아닌 꼴)이 있어서다. 「렌더 오류」 칸은 M3 단계의 오류 수만 보인다.</li>
+<li>판 1 쪽 값은 판 2 엔진으로 바꾸기 직전의 판 1 엔진 사본으로 계산했다.</li>
+<li>2026년 10월 28일 독립 재현 검증을 반영해 규칙 명세 <code>data/rules.md</code> 를 새로 쓰고, 대응표에 러시아어 ʉ · ɵ 행(엔진이 이미 쓰던 값 ㅜ · ㅗ)을 더했으며 몇 행의 근거 등급 칸을 고쳤다. 배정 값은 바꾸지 않았다. 같은 동결 표본으로 다시 계산한 지표는 위 표와 모두 같다(사전 등록 이탈 없음). 중국어 4절의 성조 대립 문장은 전체 치환쌍 비율(0.872 · 0.839)과 성조쌍 비율(0.840 · 0.798)을 섞어 적었던 것을 고쳤다.</li>
+</ul>
+<h2 id="4-실증-공백">4. 실증 공백</h2>
+<p>아래 여덟 가지는 근거가 비어 있는 자리다. F1~F5 는 한국어 화자를 대상으로 한 실험을 찾지 못했거나 다른 언어 자극으로만 찾은 것이고, F6~F8 은 문헌을 아직 원문으로 보지 못한 것이다. 실험 공백은 KCI·KoreaScience·OpenAlex·earticle 과 일반 웹 검색(2026년 10월)으로 찾았으나 찾지 못한 것이다. 「없다」가 아니라 「이 범위에서 찾지 못했다」로 읽어야 한다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>비어 있는 것</th>
+<th>어디에 쓰이나</th>
+<th>가장 빠른 경로</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F1</td>
+<td>스페인어·러시아어 무기 [p t k] 를 한국어 화자에게 들려준 범주화 실험</td>
+<td>ㅃ ㄸ ㄲ 칸. 지금은 프랑스어 실험(Ooigawa &amp; Shinohara 2009)과 규범사의 선례에 기대고 있다</td>
+<td>Ooigawa &amp; Shinohara(2009)의 절차를 스페인어·러시아어 화자의 녹음으로 되풀이한다. 소표본으로도 할 수 있다</td>
+</tr>
+<tr>
+<td>F2</td>
+<td>카스티야 스페인어 θ 와 s 를 한국어 화자가 가르는지</td>
+<td>θ=ᅊ 칸. 초미희(2010)는 영어 자극이다</td>
+<td>스페인 화자의 녹음으로 초미희(2010)의 식별 과제를 되풀이한다. 보기를 한글로 주는 과제 형식(Schmidt 1996, 확인 중)도 쓸 수 있다</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>러시아어 ш·ж·ц 의 지각</td>
+<td>ᄾ·ᄿ·ᅎ 칸</td>
+<td>같은 식별 과제를 러시아어 자극으로. 앞선 연구를 찾지 못해 기준값이 없다</td>
+</tr>
+<tr>
+<td>F4</td>
+<td>러시아어 강세 없는 [ə] 를 한국어 화자가 ㅓ·ㅡ·ㅏ 중 무엇으로 듣는지</td>
+<td>ㅓ(연자음 뒤 ㅕ) 칸. 판 2 가 ㆍ 를 빼고 ㅓ 를 고른 근거는 대립이 무너지지 않는다는 형식 논리이지 지각이 아니다</td>
+<td>지각 실험, 그리고 1930년대 외래어 사전이 [ə] 를 무엇으로 적었는지 세는 집계(Kang 2008 이 1937 사전을 쓴 방식)</td>
+</tr>
+<tr>
+<td>F5</td>
+<td>한글 확장 표기를 보여 준 집단과 보여 주지 않은 집단의 학습 차이</td>
+<td>이 사이트 전체. 이 표기가 학습에 쓸모 있다는 주장은 아직 근거가 없다</td>
+<td>Hayes-Harb &amp; Barrios(2021)가 정리한 낱말 학습 과제를 한국어 화자에게. 한국어 화자의 철자 실험 하나(Han &amp; Oh 2018 [2차])가 부정적이었으므로 결과를 미리 짐작하지 않는다</td>
+</tr>
+<tr>
+<td>F6</td>
+<td>역학서마다 치두음·정치음 글자를 실제로 갈라 썼는지</td>
+<td>ᄼ·ᅎ·ᅔ(치두)와 ᄾ·ᅐ·ᅕ(정치)를 중국어·러시아어에 빌려 쓰는 근거</td>
+<td>심소희(2005, 확인 중)와 신용권(2004, 확인 중)의 역학서 전사 연구를 원문과 대조한다</td>
+</tr>
+<tr>
+<td>F7</td>
+<td>『사성통고』 범례에 치음의 조음 묘사가 있는지, 있다면 그 원문</td>
+<td>θ·s 와 ш 계열 글자의 조음 위치 설명</td>
+<td>『사성통해』 권말 「사성통고범례」를 영인으로 읽어 치음 조음을 묘사한 조항이 있는지부터 확인한다. 심소희(2013)가 옮긴 『사성통고』 범례 조항(제1·2·6·8·9·10조)에는 그런 묘사가 없다. 지금 본 치음 관련 원문은 『사성통해』 支紙寘 운 주석과 「번역노걸대박통사범례」의 구설불변(口舌不變: 입과 혀의 모양이 변하지 않는다) 대목뿐이다(심소희 2013: 25 각주 38·39)</td>
+</tr>
+<tr>
+<td>F8</td>
+<td>찌아찌아어 교재 『Bahasa Cia-Cia 1』(이호영·황효성·Abidin 2009, 확인 중)의 자모 대응표 실물</td>
+<td>현대 언어에 옛 글자를 실제로 쓴 선례. Dessiar(2021: 190)의 예시에는 /wea/ 를 ᄫᅦ아 로 적은 것이 있다</td>
+<td>교재 실물을 확보한다. 지금은 Dessiar(2021)의 인용과 예시로만 안다</td>
+</tr>
+</tbody>
+</table></div>
+<p>이 가운데 F1 과 F5 는 실험 설계 개요를 <a href="namun.html">「남은 문제」</a> 면 1절에 적었다. 이 사이트는 어느 실험도 아직 하지 않았다.</p>
+<nav class="prevnext"><a href="bigyo.html">← 견주어 보기</a><a href="guhyeon.html">구현 →</a></nav>
+</main>
+<footer>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="assets/fonts/OFL.txt">사본</a>)</p>
+<p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
+</footer>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('l1btn'); if(!b) return;
+  document.querySelectorAll('table').forEach(function(t){
+    var hs=t.querySelectorAll('thead th'), i2=-1, i1=-1;
+    hs.forEach(function(h,i){ var s=h.textContent; if(i2<0 && s.indexOf('2층')>=0) i2=i; else if(i1<0 && s.indexOf('1층')>=0) i1=i; });
+    if(i2<0||i1<0) return;
+    t.querySelectorAll('tr').forEach(function(r){ var c=r.children; if(c[i2]) c[i2].classList.add('c2'); if(c[i1]) c[i1].classList.add('c1'); });
+  });
+  function set(on){ document.documentElement.classList.toggle('l1',on); b.setAttribute('aria-pressed',on?'true':'false');
+    try{ localStorage.setItem('sejong-l1',on?'1':'0'); }catch(e){} }
+  var on=false; try{ on=localStorage.getItem('sejong-l1')==='1'; }catch(e){}
+  set(on);
+  b.addEventListener('click',function(){ set(!document.documentElement.classList.contains('l1')); });
+})();
+</script>
+</body></html>

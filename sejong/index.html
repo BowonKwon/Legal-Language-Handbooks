@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>세종의 글자로 보는 외래어 표기</title>
+<meta name="description" content="무엇을 하는 연구인가 외국어를 배우는 한국어 화자에게 그 말의 소리를 한글로 안내하는 보조 표기를 만들고, 그 표기의 근거를 하나하나 공개하는 연구다. 글자는 새로 만들지 않는다. 『훈민정음』 해례본이 열어 둔 조작(연서 · 병서 · 방점 등)과 그 뒤 언해본 · 운">
+<meta name="author" content="권보원 (대구지방법원 부장판사)">
+<link rel="preload" href="assets/fonts/sj-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family:"SJ Sans"; src:url("assets/fonts/sj-sans.woff2") format("woff2"); font-weight:100 900; font-display:swap }
+@font-face { font-family:"SJ Serif"; src:url("assets/fonts/sj-serif.woff2") format("woff2"); font-weight:200 900; font-display:swap }
+:root { --paper:#f4f2ec; --sheet:#fff; --ink:#22262b; --muted:#5f6670; --line:#dcd7cb; --c:#7a4f2a; --soft:#f6eee4;
+  --f-body:"SJ Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-display:"SJ Serif","Noto Serif KR","SJ Sans",serif;
+  --f-ipa:"Charis SIL","Doulos SIL","Gentium Plus","Segoe UI","Noto Sans","SJ Sans",sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#16191d; --sheet:#1f2328; --ink:#e8e5de; --muted:#9ca3ab; --line:#363c44; --c:#e0b48a; --soft:#2b2219; color-scheme:dark } }
+* { box-sizing:border-box }
+html { -webkit-text-size-adjust:100% }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); line-height:1.75; word-break:keep-all; overflow-wrap:anywhere; padding:0 16px 56px }
+.wrap { max-width:900px; margin:0 auto }
+a { color:var(--c) }
+header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
+.back { font-size:.88rem; color:var(--muted); margin:0 }
+.site-title { font-family:var(--f-display); font-weight:600; font-size:1.05rem; margin:6px 0 10px }
+.site-title a { color:var(--ink); text-decoration:none }
+nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
+nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+@media print { .tools { position:static } }
+#l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
+#l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
+main h1 { font-family:var(--f-display); font-weight:600; font-size:1.95rem; line-height:1.3; margin:30px 0 8px }
+main h2 { font-family:var(--f-display); font-weight:600; font-size:1.35rem; line-height:1.4; margin:42px 0 10px; scroll-margin-top:56px }
+main h3 { font-weight:700; font-size:1.08rem; margin:28px 0 8px; scroll-margin-top:56px }
+main h4 { font-size:1rem; margin:20px 0 6px }
+main p { margin:0 0 12px }
+.pagetoc { background:var(--sheet); border:1px solid var(--line); padding:10px 16px; margin:14px 0 6px; font-size:.92rem }
+.pagetoc summary { cursor:pointer; color:var(--muted) }
+.pagetoc ol { list-style:none; margin:6px 0 2px; padding-left:.2em } .pagetoc ol ol { padding-left:1.1em }
+.tbl { overflow-x:auto; margin:12px 0 16px; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; width:100%; background:var(--sheet); font-size:.93rem }
+th,td { border-bottom:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top }
+th { color:var(--muted); font-weight:500; font-size:.84rem }
+.tbl.wide table { min-width:1400px; font-size:.86rem }
+td.h, .h { font-size:1.2em; white-space:nowrap }
+td small, .h small { font-size:.66em; color:var(--muted) }
+td.ipa, .ipa { font-family:var(--f-ipa); white-space:nowrap } td.sm { font-size:.84rem }
+.muted { color:var(--muted) }
+.badge { display:inline-block; font-size:.74rem; line-height:1.4; padding:0 6px; border:1px solid var(--c); color:var(--c); border-radius:3px; white-space:nowrap }
+figure.q { margin:14px 0; padding:10px 14px; background:var(--sheet); border:1px solid var(--line); border-left:3px solid var(--c) }
+figure.q p { margin:2px 0 }
+figure.q .src { font-family:var(--f-display); font-size:1.1rem; line-height:1.8 }
+figure.q .rd { color:var(--muted) } figure.q .rd::before { content:"독음 "; font-size:.75rem; color:var(--c) }
+figure.q .tr::before { content:"해석 "; font-size:.75rem; color:var(--c) }
+figure.q figcaption { color:var(--muted); font-size:.85rem; margin-top:4px }
+blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line) }
+code { font-size:.9em; background:var(--soft); padding:0 3px; border-radius:3px }
+ul,ol { padding-left:1.3em } li { margin:3px 0 }
+.footnote { font-size:.88rem; color:var(--muted); border-top:1px solid var(--line); margin-top:36px }
+.footnote hr { display:none }
+ol.bib { list-style:none; padding:0 } ol.bib li { margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid var(--line) }
+ol.bib p { margin:2px 0 } .cite { font-weight:500 } .links, .used { font-size:.86rem; color:var(--muted) } .ann { font-size:.94rem }
+.toc-cats { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.92rem }
+.count { background:var(--soft); border-left:3px solid var(--c); padding:8px 12px }
+.prevnext { display:flex; justify-content:space-between; gap:12px; margin-top:40px; font-size:.92rem }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:14px; color:var(--muted); font-size:.85rem }
+footer p { margin:4px 0 }
+.l1 .c2 { display:none }
+.l1 .c1 { font-weight:500 }
+@media (max-width:480px) { main h1 { font-size:1.6rem } main h2 { font-size:1.22rem } }
+</style>
+</head>
+<body><div class="wrap">
+<header class="site">
+<p class="back"><a href="../">← 법률 외국어 자습서</a></p>
+<p class="site-title"><a href="index.html">세종의 글자로 보는 외래어 표기</a></p>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html" aria-current="page">첫 면</a></li><li><a href="cheje.html">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html">역사</a></li><li><a href="bigyo.html">견주어 보기</a></li><li><a href="silcheung.html">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
+</header>
+<div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
+<main>
+<h1 id="세종의-글자로-보는-외래어-표기">세종의 글자로 보는 외래어 표기</h1>
+<details class="pagetoc" open><summary>이 면의 차례</summary><ol><li><a href="#무엇을-하는-연구인가">무엇을 하는 연구인가</a></li><li><a href="#외래어-표기법과의-관계-0층-병기">외래어 표기법과의 관계 — 0층 병기</a></li><li><a href="#세-축-출처층-근거-등급-표시층">세 축 — 출처층 · 근거 등급 · 표시층</a></li><li><a href="#대표-보기-한-줄">대표 보기 한 줄</a></li><li><a href="#읽는-순서">읽는 순서</a></li><li><a href="#판-표시">판 표시</a></li><li><a href="#english-summary">English summary</a></li></ol></details>
+<h2 id="무엇을-하는-연구인가">무엇을 하는 연구인가</h2>
+<p>외국어를 배우는 한국어 화자에게 그 말의 소리를 한글로 안내하는 보조 표기를 만들고, 그 표기의 근거를 하나하나 공개하는 연구다. 글자는 새로 만들지 않는다. 『훈민정음』 해례본이 열어 둔 조작(연서 · 병서 · 방점 등)과 그 뒤 언해본 · 운서 · 역학서 · 근대 표기안이 실제로 쓴 꼴 가운데 유니코드에 있는 36개만 쓴다.</p>
+<p>출발점은 법률 외국어 자습서였다. 스페인어 juez 는 한 음절인데 외래어 표기법으로는 「후에스」 세 음절이 되고, sentencia 의 s 와 c 는 스페인 표준 발음에서 다른 소리인데 둘 다 ㅅ 이 된다. 표기법은 한국어 안에서 외국어를 한 가지로 적으려는 규범이지 소리를 가르치는 장치가 아니다. 그래서 자습서 표제어 옆에 그대로 붙이면 소리를 잘못 익히게 하는 자리가 생긴다.</p>
+<p>한글을 넓혀 외국 소리를 적으려는 시도는 15세기부터 되풀이되었고, 대부분 규범에서 밀려났다. 이 연구는 그 시도들을 <a href="yeoksa.html">「역사」</a> 면에 모으고, 각 글자에 붙는 근거와 반대 근거를 같은 표에 두며, 표기 체계의 형식 성질을 미리 등록한 지표로 잰다. 『훈민정음』이 외국어를 적으려고 만들어졌다고 말하지 않는다. 후대가 그 조작을 외국 소리에 거듭 빌려 썼다는 사실을 다룬다.</p>
+<h2 id="외래어-표기법과의-관계-0층-병기">외래어 표기법과의 관계 — 0층 병기</h2>
+<p>이 표기는 국립국어원 「외래어 표기법」을 대신하려는 것이 아니다. 표마다 표기법 표기를 함께 둔다. 이 사이트는 그것을 0층이라 부른다. 표기법은 신문과 공문서에서 외래어를 한 가지로 적게 하는 규범이고, 이 표기는 외국어를 배우는 사람이 소리를 떠올리게 하는 보조다. 두 목적은 다르고, 하나가 다른 하나를 틀렸다고 하지 않는다. 일본의 1991년 내각고시가 일반용 第1表 옆에 원음에 가까운 第2表를 둔 것이 가장 가까운 선례다(<a href="bigyo.html">「견주어 보기」</a> 면).</p>
+<h2 id="세-축-출처층-근거-등급-표시층">세 축 — 출처층 · 근거 등급 · 표시층</h2>
+<p>글자 하나를 두고 세 가지를 따로 묻는다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>축</th>
+<th>묻는 것</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>출처층</td>
+<td>이 꼴은 훈민정음 문헌 전통의 어디에서 처음 나오나</td>
+<td>H 해례 · E 언해·운서 · M 역학서·근대안 · R 이 연구의 재해석</td>
+</tr>
+<tr>
+<td>근거 등급</td>
+<td>이 글자를 이 소리에 쓰는 것을 무엇이 받치나</td>
+<td>원전 · 선례 · 실증 · 재해석</td>
+</tr>
+<tr>
+<td>표시층</td>
+<td>독자의 기기에서 무엇으로 보이나</td>
+<td>0 외래어 표기법 · 1 현대 한글 · 2 옛한글 · 3 신자(판 2에 없음)</td>
+</tr>
+</tbody>
+</table></div>
+<p>이 셋을 한 칸에 섞으면 「해례에 있는 글자」와 「해례가 그 소리에 쓴 글자」가 구별되지 않는다. 모든 대응표는 세 축을 따로 둔다. 자세한 정의는 <a href="cheje.html">「표기 체계」</a> 면에 있다.</p>
+<h2 id="대표-보기-한-줄">대표 보기 한 줄</h2>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>낱말</th>
+<th>IPA</th>
+<th>2층 옛한글</th>
+<th>1층 현대 한글</th>
+<th>0층 외래어 표기법</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>juez(스페인어, 판사)</td>
+<td>[ˈxweθ]</td>
+<td><b>훼</b><small>ᅊᅠ</small></td>
+<td><b>훼</b><small>ㅅ</small></td>
+<td>후에스</td>
+</tr>
+<tr>
+<td>sentencia(스페인어, 판결)</td>
+<td>[senˈtenθja]</td>
+<td>센<b>뗀</b>ᅊᅣ</td>
+<td>센<b>뗀</b>샤</td>
+<td>센텐시아</td>
+</tr>
+<tr>
+<td>法院 fǎyuàn(중국어, 법원)</td>
+<td>[fa˨˩˦.ɥɛn˥˩]</td>
+<td>ᅗᅡ웬〮</td>
+<td>파웬</td>
+<td>파위안</td>
+</tr>
+</tbody>
+</table></div>
+<p>juez 는 한 음절이고 θ 는 작은 ᅊ 으로 붙는다. sentencia 의 s 와 c 가 ㅅ 과 ᅊ 으로 갈린다. 法院 의 f 는 ᅗ, 4성은 방점 하나다. 이 기기에서 옛한글이 한 글자씩 조합되어 보이지 않으면 <a href="guhyeon.html">「구현」</a> 면의 지원표를 보고 1층 보기로 바꾼다.</p>
+<h2 id="읽는-순서">읽는 순서</h2>
+<ol>
+<li><strong>표기 체계</strong> — 규칙 전체. 바쁘면 이 면과 「언어별 적용」만 읽어도 된다.</li>
+<li><strong>언어별 적용</strong> — 스페인어 · 러시아어 · 중국어. 규칙표, 표제어 표, 그 언어의 쟁점, 지표.</li>
+<li><strong>글자별 해설</strong> — 꼴마다 아홉 칸. 원문 · 15세기 값 · 후대 쓰임 · 배정과 근거 등급 · 고려한 대안 · 반대 근거 · 남은 문제.</li>
+<li><strong>원전 읽기</strong> — 이 사이트가 기대는 한문·언해 원문 전부를 원문 · 독음 · 해석으로.</li>
+<li><strong>역사</strong>와 <strong>견주어 보기</strong> — 외국 소리를 한글로 적은 시도들과 다른 나라의 방식.</li>
+<li><strong>실증</strong> — 문헌 실증과 이 연구의 지표. 첫 문장이 중요하다. 형식 지표와 학습 효과는 다르다.</li>
+<li><strong>구현</strong> · <strong>주석 문헌 목록</strong> · <strong>남은 문제</strong> — 코드포인트와 글꼴, 문헌 해제, 실증 공백과 판 이력.</li>
+</ol>
+<h2 id="판-표시">판 표시</h2>
+<p><strong>판 2 — 2026. 10. 28.</strong> 판 1(2026. 10. 28., 한 면)의 정정 17건을 반영하고 중국어를 더했다. 무엇이 바뀌었는지는 <a href="namun.html">「남은 문제」</a> 면의 판 이력에 있다. 실험 중인 표기다. 규칙은 판을 올려 고쳐 나가고, 고친 내용은 판과 날짜를 적는다.</p>
+<p>본문은 CC BY-NC 4.0, 데이터(<code>data/</code>)는 CC BY 4.0, 변환 프로그램은 MIT 로 공개한다. 인용하는 법은 <a href="namun.html">「남은 문제」</a> 면에 있다. 원문과 다른 서술을 찾으면 저장소 Issues 로 알려 주시기 바란다.</p>
+<h2 id="english-summary">English summary</h2>
+<p><em>Sejong's Letters for Foreign Sounds</em> is a research site on an auxiliary Korean-script transcription for learners of foreign languages. It uses only 36 letterforms that the Hunminjeongeum tradition actually produced (the Haerye's operations such as stacking ㅇ, doubling, and tone dots, plus the forms added by the Eonhae, the rhyme books and later transcription schemes) and that exist in Unicode. Every assignment of a letter to a sound carries a source layer (H/E/M/R), an evidence grade (original text, precedent, experiment, reinterpretation) and the counter-evidence in the same row. The standard Loanword Orthography is always shown alongside (layer 0); this scheme does not replace it. Three formal metrics (syllable-count match, minimal-pair preservation, reversibility) were pre-registered before computation; they measure properties of the notation, not learning outcomes. Version 2 covers Spanish, Russian and Mandarin. Text CC BY-NC 4.0, data CC BY 4.0, code MIT.</p>
+<nav class="prevnext"><span></span><a href="cheje.html">표기 체계 →</a></nav>
+</main>
+<footer>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="assets/fonts/OFL.txt">사본</a>)</p>
+<p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
+</footer>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('l1btn'); if(!b) return;
+  document.querySelectorAll('table').forEach(function(t){
+    var hs=t.querySelectorAll('thead th'), i2=-1, i1=-1;
+    hs.forEach(function(h,i){ var s=h.textContent; if(i2<0 && s.indexOf('2층')>=0) i2=i; else if(i1<0 && s.indexOf('1층')>=0) i1=i; });
+    if(i2<0||i1<0) return;
+    t.querySelectorAll('tr').forEach(function(r){ var c=r.children; if(c[i2]) c[i2].classList.add('c2'); if(c[i1]) c[i1].classList.add('c1'); });
+  });
+  function set(on){ document.documentElement.classList.toggle('l1',on); b.setAttribute('aria-pressed',on?'true':'false');
+    try{ localStorage.setItem('sejong-l1',on?'1':'0'); }catch(e){} }
+  var on=false; try{ on=localStorage.getItem('sejong-l1')==='1'; }catch(e){}
+  set(on);
+  b.addEventListener('click',function(){ set(!document.documentElement.classList.contains('l1')); });
+})();
+</script>
+</body></html>

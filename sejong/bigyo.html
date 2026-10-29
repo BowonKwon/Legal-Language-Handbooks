@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>견주어 보기 — 다른 나라의 외국어 소리 적기 — 세종의 글자로 보는 외래어 표기</title>
+<meta name="description" content="외국 소리를 자기 문자로 어떻게 적을지는 한국만의 문제가 아니다. 이 면은 가까운 세 곳의 규범을 원문으로 읽고, 이 사이트의 보조 표기가 그 사이 어디에 서는지를 본다. 결론부터 말하면 가장 가까운 선례는 일본의 1991년 내각고시다. 일반 표기와 원음 근사 표기를">
+<meta name="author" content="권보원 (대구지방법원 부장판사)">
+<link rel="preload" href="assets/fonts/sj-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family:"SJ Sans"; src:url("assets/fonts/sj-sans.woff2") format("woff2"); font-weight:100 900; font-display:swap }
+@font-face { font-family:"SJ Serif"; src:url("assets/fonts/sj-serif.woff2") format("woff2"); font-weight:200 900; font-display:swap }
+:root { --paper:#f4f2ec; --sheet:#fff; --ink:#22262b; --muted:#5f6670; --line:#dcd7cb; --c:#7a4f2a; --soft:#f6eee4;
+  --f-body:"SJ Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-display:"SJ Serif","Noto Serif KR","SJ Sans",serif;
+  --f-ipa:"Charis SIL","Doulos SIL","Gentium Plus","Segoe UI","Noto Sans","SJ Sans",sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#16191d; --sheet:#1f2328; --ink:#e8e5de; --muted:#9ca3ab; --line:#363c44; --c:#e0b48a; --soft:#2b2219; color-scheme:dark } }
+* { box-sizing:border-box }
+html { -webkit-text-size-adjust:100% }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); line-height:1.75; word-break:keep-all; overflow-wrap:anywhere; padding:0 16px 56px }
+.wrap { max-width:900px; margin:0 auto }
+a { color:var(--c) }
+header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
+.back { font-size:.88rem; color:var(--muted); margin:0 }
+.site-title { font-family:var(--f-display); font-weight:600; font-size:1.05rem; margin:6px 0 10px }
+.site-title a { color:var(--ink); text-decoration:none }
+nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
+nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+@media print { .tools { position:static } }
+#l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
+#l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
+main h1 { font-family:var(--f-display); font-weight:600; font-size:1.95rem; line-height:1.3; margin:30px 0 8px }
+main h2 { font-family:var(--f-display); font-weight:600; font-size:1.35rem; line-height:1.4; margin:42px 0 10px; scroll-margin-top:56px }
+main h3 { font-weight:700; font-size:1.08rem; margin:28px 0 8px; scroll-margin-top:56px }
+main h4 { font-size:1rem; margin:20px 0 6px }
+main p { margin:0 0 12px }
+.pagetoc { background:var(--sheet); border:1px solid var(--line); padding:10px 16px; margin:14px 0 6px; font-size:.92rem }
+.pagetoc summary { cursor:pointer; color:var(--muted) }
+.pagetoc ol { list-style:none; margin:6px 0 2px; padding-left:.2em } .pagetoc ol ol { padding-left:1.1em }
+.tbl { overflow-x:auto; margin:12px 0 16px; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; width:100%; background:var(--sheet); font-size:.93rem }
+th,td { border-bottom:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top }
+th { color:var(--muted); font-weight:500; font-size:.84rem }
+.tbl.wide table { min-width:1400px; font-size:.86rem }
+td.h, .h { font-size:1.2em; white-space:nowrap }
+td small, .h small { font-size:.66em; color:var(--muted) }
+td.ipa, .ipa { font-family:var(--f-ipa); white-space:nowrap } td.sm { font-size:.84rem }
+.muted { color:var(--muted) }
+.badge { display:inline-block; font-size:.74rem; line-height:1.4; padding:0 6px; border:1px solid var(--c); color:var(--c); border-radius:3px; white-space:nowrap }
+figure.q { margin:14px 0; padding:10px 14px; background:var(--sheet); border:1px solid var(--line); border-left:3px solid var(--c) }
+figure.q p { margin:2px 0 }
+figure.q .src { font-family:var(--f-display); font-size:1.1rem; line-height:1.8 }
+figure.q .rd { color:var(--muted) } figure.q .rd::before { content:"독음 "; font-size:.75rem; color:var(--c) }
+figure.q .tr::before { content:"해석 "; font-size:.75rem; color:var(--c) }
+figure.q figcaption { color:var(--muted); font-size:.85rem; margin-top:4px }
+blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line) }
+code { font-size:.9em; background:var(--soft); padding:0 3px; border-radius:3px }
+ul,ol { padding-left:1.3em } li { margin:3px 0 }
+.footnote { font-size:.88rem; color:var(--muted); border-top:1px solid var(--line); margin-top:36px }
+.footnote hr { display:none }
+ol.bib { list-style:none; padding:0 } ol.bib li { margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid var(--line) }
+ol.bib p { margin:2px 0 } .cite { font-weight:500 } .links, .used { font-size:.86rem; color:var(--muted) } .ann { font-size:.94rem }
+.toc-cats { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.92rem }
+.count { background:var(--soft); border-left:3px solid var(--c); padding:8px 12px }
+.prevnext { display:flex; justify-content:space-between; gap:12px; margin-top:40px; font-size:.92rem }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:14px; color:var(--muted); font-size:.85rem }
+footer p { margin:4px 0 }
+.l1 .c2 { display:none }
+.l1 .c1 { font-weight:500 }
+@media (max-width:480px) { main h1 { font-size:1.6rem } main h2 { font-size:1.22rem } }
+</style>
+</head>
+<body><div class="wrap">
+<header class="site">
+<p class="back"><a href="../">← 법률 외국어 자습서</a></p>
+<p class="site-title"><a href="index.html">세종의 글자로 보는 외래어 표기</a></p>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html">첫 면</a></li><li><a href="cheje.html">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html">역사</a></li><li><a href="bigyo.html" aria-current="page">견주어 보기</a></li><li><a href="silcheung.html">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
+</header>
+<div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
+<main>
+<h1 id="견주어-보기-다른-나라의-외국어-소리-적기">견주어 보기 — 다른 나라의 외국어 소리 적기</h1>
+<details class="pagetoc" open><summary>이 면의 차례</summary><ol><li><a href="#1-확장-방식-세-갈래">1. 확장 방식 세 갈래</a></li><li><a href="#2-일본-1991-내각고시-第1表와-第2表">2. 일본 1991 내각고시 — 第1表와 第2表</a></li><li><a href="#3-북한-외국말적기법">3. 북한 「외국말적기법」</a></li><li><a href="#4-중국-대륙-음역-원칙">4. 중국 대륙 — 음역 원칙</a></li><li><a href="#5-대만-方音符號">5. 대만 — 方音符號</a></li><li><a href="#6-이-표기가-서는-자리">6. 이 표기가 서는 자리</a></li></ol></details>
+<p>외국 소리를 자기 문자로 어떻게 적을지는 한국만의 문제가 아니다. 이 면은 가까운 세 곳의 규범을 원문으로 읽고, 이 사이트의 보조 표기가 그 사이 어디에 서는지를 본다. 결론부터 말하면 가장 가까운 선례는 일본의 1991년 내각고시다. 일반 표기와 원음 근사 표기를 두 표로 나눈 규범이다.</p>
+<h2 id="1-확장-방식-세-갈래">1. 확장 방식 세 갈래</h2>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>갈래</th>
+<th>대표</th>
+<th>무엇을 하나</th>
+<th>새 글자</th>
+<th>이 사이트와의 관계</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 표기 규범을 둘로 나눔</td>
+<td>일본 1991 내각고시 「外来語の表記」</td>
+<td>일반용 第1表와, 원음·원철자에 가깝게 쓰고 싶을 때의 第2表를 따로 둔다. 第2表는 써도 되고 안 써도 된다</td>
+<td>없음. 탁점(ヴ)과 작은 가나 결합</td>
+<td>0층(외래어 표기법)+보조층 구조와 가장 가깝다</td>
+</tr>
+<tr>
+<td>② 조건별 표로 원음 반영</td>
+<td>북한 『외국말적기법』(2001)</td>
+<td>원어 글자마다 「조건」 칸을 두어 뒤 글자에 따라 다른 한글을 준다. 무기 파열음은 된소리</td>
+<td>없음. 현용 자모 안에서 된소리</td>
+<td>ㅃ ㄸ ㄲ를 무기음에 쓰는 기준(음성 근사)이 같다</td>
+</tr>
+<tr>
+<td>③ 음역 원칙으로 뜻과 소리를 함께</td>
+<td>중국 대륙 외국 지명 한자 역사(譯寫) 기술표준</td>
+<td>고유 부분은 소리로, 일반 명칭 부분은 뜻으로 옮기고 굳은 관용을 따른다</td>
+<td>없음. 있는 한자에서 고른다</td>
+<td>글자를 늘리지 않고 고르는 쪽의 끝</td>
+</tr>
+</tbody>
+</table></div>
+<p>대만의 方音符號는 근거 문헌을 확인하지 못해 표에 넣지 않았다(5절).</p>
+<h2 id="2-일본-1991-내각고시-第1表와-第2表">2. 일본 1991 내각고시 — 第1表와 第2表</h2>
+<p>고시는 외래어와 외국 지명·인명을 가타카나로 적는 기준이다. 적용 범위는 「法令，公用文書，新聞，雑誌，放送など，一般の社会生活」이고, 전문 분야와 개인의 표기에는 미치지 않으며, 과거의 여러 표기를 부정하지 않는다(内閣 1991: 前書き 1–4).</p>
+<p>본문의 핵심은 두 표다.</p>
+<figure class="q">
+<p class="src" lang="ja">1　第1表に示す仮名は，外来語や外国の地名・人名を書き表すのに一般的に用いる仮名とする。</p>
+<p class="src" lang="ja">2　第2表に示す仮名は，外来語や外国の地名・人名を原音や原つづりになるべく近く書き表そうとする場合に用いる仮名とする。</p>
+<p class="src" lang="ja">3　第1表・第2表に示す仮名では書き表せないような，特別な音の書き表し方については，ここでは取決めを行わず，自由とする。</p>
+<ol>
+<li class="tr">第1表의 가나는 외래어와 외국 지명·인명을 적는 데 일반적으로 쓰는 가나로 한다. 2. 第2表의 가나는 외래어와 외국 지명·인명을 원음이나 원철자에 되도록 가깝게 적으려 할 때 쓰는 가나로 한다. 3. 두 표의 가나로 적을 수 없는 특별한 소리를 적는 법은 여기서 정하지 않고 자유로 한다.</li>
+</ol>
+</figure>
+<p>(内閣 1991: 本文 1–3) 第1表의 외래음용 가나는 シェ チェ ツァ ツェ ツォ ティ ファ フィ フェ フォ ジェ ディ デュ 13개, 第2表는 イェ ウィ ウェ ウォ クァ クィ クェ クォ ツィ トゥ グァ ドゥ ヴァ ヴィ ヴ ヴェ ヴォ テュ フュ ヴュ 20개다(本文 표). 어느 표를 쓸지는 국어화 정도로 가른다. 국어화 정도가 높은 말은 대체로 第1表로 적고, 그렇지 않은 말이나 외국어에 가깝게 적을 필요가 있는 말, 특히 지명·인명은 第2表로 적을 수 있다(留意事項その1 4). 第2表를 쓸 필요가 없으면 第1表 범위에서 적을 수 있고, 예로 イェ→イエ, トゥ→ツ·ト, ヴァ→バ를 든다(留意事項その1 5).</p>
+<p>새 문자는 없다. ヴ는 ウ에 탁점을 단 것이고 나머지는 작은 가나를 붙인 결합이다. 고시의 「付」는 메이지 이래 문예 작품의 ヷイオリン·ヸオロン·ヹルレエヌ·ヺルガ 같은 표기를 과거 표기로 소개만 한다.</p>
+<p>이 두 층은 하루아침에 생기지 않았다. 1926년 臨時国語調査会의 「仮名遣改定案補則」은 ヷ·ヸ·ヴ·ヹ·ヺ·ヴァ 등을 バ·ビ·ブ·ベ·ボ로 통일하게 했다. 그 이유는 일상에서 쓰는 외국어의 표기가 「現在はなはだ区々になつて居てまことに不便であるから」였다(文化審議会 国語分科会 外来語小委員会 2026: 1). 1946년 문부성 안은 원음에 가깝게 적더라도 가나는 「一般の国民に発音しやすいものにとどめる」고 하면서도 「「ヴ」は従来かなり広く用いているので、必要に応じて採用する」고 했다(같은 자료: 2). 1954년 국어심의회 표기부회 보고가 1991년 고시 때까지 사실상의 기준으로 쓰였다(같은 자료: 2). 일본은 한 번 통일했다가 원음 근사 표기를 허용층으로 되살린 셈이다.</p>
+<h2 id="3-북한-외국말적기법">3. 북한 「외국말적기법」</h2>
+<p>북한의 『외국말적기법』(2001)은 표 하나로 원음을 따라간다. 대응표의 칸은 원어 글자 · 조건 · 우리 글자 · 례이고, 같은 원어 글자라도 조건에 따라 다른 한글을 받는다. 로씨야말 Т는 а, о, у, ъ, ы, э 앞에서 ㄸ(Тарту 따르뚜), е, ё, и, ю, я, ь 앞에서 ㅉ(Тетюхе 쩨쮸헤)이다(국어사정위원회 2001: 17). 에스빠냐말 C는 a, o, u 앞에서 ㄲ(Cuenca 꾸엥까), e, i 앞에서 ㅆ, 모음과 무성 자음 사이에서 받침 ㄱ이다(80쪽).</p>
+<p>새 글자를 만들지 않고 된소리와 조건 분할로 원음에 다가가는 방식이다. 머리말은 「우리 인민들의 서사생활에 부담을 주지 않게」 한다는 원칙을 함께 내세운다(2쪽). 이 사이트가 스페인어·러시아어의 무기 파열음을 ㅃ ㄸ ㄲ로 적는 기준이 바로 이 음성 근사다. 남쪽의 2004년 타이어·베트남어 된소리 예외는 다른 기준에 선 것으로 보이나, 그 제정 이유를 다룬 해설은 아직 보조 문헌이다(정희원 2005, 확인 중).</p>
+<p>조건별 표에는 대가도 있다. 칸이 늘수록 표가 길어지고, 독자가 외워야 할 규칙이 는다. 보조 표기가 조건을 얼마나 둘지는 언어별 적용 면의 규칙표가 정한다.</p>
+<h2 id="4-중국-대륙-음역-원칙">4. 중국 대륙 — 음역 원칙</h2>
+<p>중국은 외국 지명을 국가표준에 따라 한자로 옮긴다. 2017년 유엔 지명표준화회의에 낸 문서에 따르면 그때까지 여덟 개 언어의 표준이 있었고, 다섯 해 사이에 조선어·일본어·페르시아어·라오어 네 표준을 새로 만들었다(Liu 외 2017: 2). 문서는 한자가 「兼具表音和表意功能，一字多音、一音多字的情况普遍」(소리와 뜻을 함께 나타내고, 한 글자에 여러 소리, 한 소리에 여러 글자가 흔하다)하므로 전문 기술 규범이 필요하다고 적는다(2쪽). 공통 원칙은 이렇다.</p>
+<figure class="q">
+<p class="src" lang="lzh">1.名从主人，约定俗成。… 2.地名专名宜音译，通名宜意译；3.派生的地名、由人名命名的地名应同名同译。</p>
+<p class="rd">명종주인, 약정속성. … 지명전명의음역, 통명의의역; 파생적지명·유인명명명적지명응동명동역.</p>
+<ol>
+<li class="tr">이름은 그 주인을 따르되 굳어진 관행을 존중한다. 2. 지명의 고유 부분은 소리로, 일반 명칭 부분은 뜻으로 옮긴다. 3. 파생 지명과 인명에서 온 지명은 같은 이름을 같이 옮긴다.</li>
+</ol>
+</figure>
+<p>(Liu 외 2017: 2) 조선어 표준의 보기를 보면 한자어 지명은 한자로 되돌리고(묘향산-妙香山), 외래어 지명은 소리로 옮기며(호텔리베라-里维拉酒店), 고유어는 뜻으로 옮긴다(까치봉-喜鹊峰)(2–3쪽).</p>
+<p>이 표준은 새 글자를 만들지 않고 있는 한자 가운데서 고른다. 원음에 다가가는 일은 어떤 한자를 고르느냐의 문제가 된다. 그런데도 「이름은 주인을 따른다」와 「굳어진 관행을 존중한다」가 한 조항에 함께 있다. 원음과 관용의 긴장은 문자의 종류와 상관없이 나타난다.</p>
+<h2 id="5-대만-方音符號">5. 대만 — 方音符號</h2>
+<p>대만의 方音符號는 이 비교에 넣으려 했으나 제정 경위와 규범 지위를 확인할 수 있는 문헌을 찾지 못했다. 근거로 쓰지 않는다.</p>
+<h2 id="6-이-표기가-서는-자리">6. 이 표기가 서는 자리</h2>
+<p>이 표기는 외래어 표기법을 대신하지 않는다. 모든 표제어에 고시대로의 외래어 표기를 0층으로 함께 적고, 그 위에 옛 글자를 쓴 보조층을 얹는다. 자리로 치면 일본 第2表와 같다. 원음에 가깝게 적고 싶을 때 쓸 수 있고, 쓰지 않아도 일반 표기는 그대로 남는다.</p>
+<p>독자도 다르다. 1986년 해설은 새 기호를 반대하면서 외래어 표기가 「일부 전문가들만을 위한 것이 아니라 모든 국민을 위한 것」이라는 점을 근거로 들었다(국어연구소 1986: 159–160). 이 사이트의 독자는 모든 국민이 아니라 외국어를 배우는 한국어 화자다. 김세중(1996: 161)은 외래어 표기법이 외국어 발음 표시를 위한 것이 아니라고 했다. 그러나 그는 외국어 발음을 배우려고 새 글자를 들이는 것도 「온당하지 않다」고 했고(171쪽), 한글에 기대어 외국어 발음을 가르치는 것은 오히려 방해가 되는 것이 보통이라고 했다(172쪽). 이 사이트는 그 비판을 정면으로 받는다. 답은 둘이다. 보조층은 외래어 표기를 바꾸지 않고 늘 0층과 나란히 선다. 그리고 한글 표기가 발음 학습을 돕는지 방해하는지는 아직 잰 자료가 없다(실증 면). 된소리 허용을 주장한 김슬옹(2008: 75)조차 ㅸ 같은 옛 글자를 외래어 표기에 되살리자는 생각은 「극단적 이상주의」라 하면서, 괄호 안에 「발음기호나 국제음성기호와 같은 특별목적으로는 얼마든지 가능」하다고 적었다.</p>
+<p>일본 선례와 다른 점도 분명하다. 第1表와 第2表는 같은 가나 체계 안의 차이이고, 일본 독자는 第2表의 가나를 처음 보아도 읽을 수 있다. 이 사이트의 보조층에는 오늘날 독자가 배운 적 없는 꼴(ᄼ · ᄾ · ᄙ 같은 것)이 들어간다. 또 第2表는 일반 사회의 표기 기준이지 발음 학습 도구가 아니다. 「일본도 두 층을 둔다」는 말은 구조가 비슷하다는 뜻까지만 옮길 수 있다.</p>
+<p>반대 근거도 같은 자리에 둔다. 첫째, 표기가 둘로 갈리면 불편하다는 논거다. 일본 1926년 보칙이 ヴ 계열을 버린 이유가 표기가 「区々」(제각각)여서 불편하다는 것이었고(文化審議会 国語分科会 外来語小委員会 2026: 1), 1946년 안도 원음 근사 표기의 가나를 「一般の国民に発音しやすいもの」로 제한했다(같은 자료: 2). 둘째, 김세중(1996: 170)의 경계 비판이다. f·v에 새 글자를 쓰기 시작하면 「얼마나 많은 글자를 새로 만들어서 써야 할지 모른다」. 일본은 두 표 밖을 「自由」로 열어 두어 이 문제를 피했다(内閣 1991: 本文 3). 이 사이트는 반대로 새 꼴을 닫힌 목록 36개로 묶었다. 첫째 논거에 대해서는, 보조층이 0층을 대신하지 않고 늘 나란히 서므로 일반 표기가 갈리지는 않는다고 답할 수 있다. 다만 보조층이 학습자에게 실제로 도움이 되는지, 오히려 혼란을 주는지는 아직 실험으로 확인되지 않았다(실증 면).</p>
+<nav class="prevnext"><a href="yeoksa.html">← 역사</a><a href="silcheung.html">실증 →</a></nav>
+</main>
+<footer>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="assets/fonts/OFL.txt">사본</a>)</p>
+<p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
+</footer>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('l1btn'); if(!b) return;
+  document.querySelectorAll('table').forEach(function(t){
+    var hs=t.querySelectorAll('thead th'), i2=-1, i1=-1;
+    hs.forEach(function(h,i){ var s=h.textContent; if(i2<0 && s.indexOf('2층')>=0) i2=i; else if(i1<0 && s.indexOf('1층')>=0) i1=i; });
+    if(i2<0||i1<0) return;
+    t.querySelectorAll('tr').forEach(function(r){ var c=r.children; if(c[i2]) c[i2].classList.add('c2'); if(c[i1]) c[i1].classList.add('c1'); });
+  });
+  function set(on){ document.documentElement.classList.toggle('l1',on); b.setAttribute('aria-pressed',on?'true':'false');
+    try{ localStorage.setItem('sejong-l1',on?'1':'0'); }catch(e){} }
+  var on=false; try{ on=localStorage.getItem('sejong-l1')==='1'; }catch(e){}
+  set(on);
+  b.addEventListener('click',function(){ set(!document.documentElement.classList.contains('l1')); });
+})();
+</script>
+</body></html>

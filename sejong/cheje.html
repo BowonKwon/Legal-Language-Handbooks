@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>표기 체계 — 세종의 글자로 보는 외래어 표기</title>
+<meta name="description" content="이 면은 규칙을 모아 둔 곳이다. 글자 하나하나의 내력과 반대 근거는 「글자별 해설」에, 언어마다 실제로 적은 결과는 「언어별 적용」에 있다. 여기서는 세 가지만 정한다. 어떤 글자를 쓸 수 있는가, 어떤 소리에 어떤 글자를 주는가, 그리고 그것이 화면에 어떻게 나오">
+<meta name="author" content="권보원 (대구지방법원 부장판사)">
+<link rel="preload" href="assets/fonts/sj-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family:"SJ Sans"; src:url("assets/fonts/sj-sans.woff2") format("woff2"); font-weight:100 900; font-display:swap }
+@font-face { font-family:"SJ Serif"; src:url("assets/fonts/sj-serif.woff2") format("woff2"); font-weight:200 900; font-display:swap }
+:root { --paper:#f4f2ec; --sheet:#fff; --ink:#22262b; --muted:#5f6670; --line:#dcd7cb; --c:#7a4f2a; --soft:#f6eee4;
+  --f-body:"SJ Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-display:"SJ Serif","Noto Serif KR","SJ Sans",serif;
+  --f-ipa:"Charis SIL","Doulos SIL","Gentium Plus","Segoe UI","Noto Sans","SJ Sans",sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#16191d; --sheet:#1f2328; --ink:#e8e5de; --muted:#9ca3ab; --line:#363c44; --c:#e0b48a; --soft:#2b2219; color-scheme:dark } }
+* { box-sizing:border-box }
+html { -webkit-text-size-adjust:100% }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); line-height:1.75; word-break:keep-all; overflow-wrap:anywhere; padding:0 16px 56px }
+.wrap { max-width:900px; margin:0 auto }
+a { color:var(--c) }
+header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
+.back { font-size:.88rem; color:var(--muted); margin:0 }
+.site-title { font-family:var(--f-display); font-weight:600; font-size:1.05rem; margin:6px 0 10px }
+.site-title a { color:var(--ink); text-decoration:none }
+nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
+nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+@media print { .tools { position:static } }
+#l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
+#l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
+main h1 { font-family:var(--f-display); font-weight:600; font-size:1.95rem; line-height:1.3; margin:30px 0 8px }
+main h2 { font-family:var(--f-display); font-weight:600; font-size:1.35rem; line-height:1.4; margin:42px 0 10px; scroll-margin-top:56px }
+main h3 { font-weight:700; font-size:1.08rem; margin:28px 0 8px; scroll-margin-top:56px }
+main h4 { font-size:1rem; margin:20px 0 6px }
+main p { margin:0 0 12px }
+.pagetoc { background:var(--sheet); border:1px solid var(--line); padding:10px 16px; margin:14px 0 6px; font-size:.92rem }
+.pagetoc summary { cursor:pointer; color:var(--muted) }
+.pagetoc ol { list-style:none; margin:6px 0 2px; padding-left:.2em } .pagetoc ol ol { padding-left:1.1em }
+.tbl { overflow-x:auto; margin:12px 0 16px; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; width:100%; background:var(--sheet); font-size:.93rem }
+th,td { border-bottom:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top }
+th { color:var(--muted); font-weight:500; font-size:.84rem }
+.tbl.wide table { min-width:1400px; font-size:.86rem }
+td.h, .h { font-size:1.2em; white-space:nowrap }
+td small, .h small { font-size:.66em; color:var(--muted) }
+td.ipa, .ipa { font-family:var(--f-ipa); white-space:nowrap } td.sm { font-size:.84rem }
+.muted { color:var(--muted) }
+.badge { display:inline-block; font-size:.74rem; line-height:1.4; padding:0 6px; border:1px solid var(--c); color:var(--c); border-radius:3px; white-space:nowrap }
+figure.q { margin:14px 0; padding:10px 14px; background:var(--sheet); border:1px solid var(--line); border-left:3px solid var(--c) }
+figure.q p { margin:2px 0 }
+figure.q .src { font-family:var(--f-display); font-size:1.1rem; line-height:1.8 }
+figure.q .rd { color:var(--muted) } figure.q .rd::before { content:"독음 "; font-size:.75rem; color:var(--c) }
+figure.q .tr::before { content:"해석 "; font-size:.75rem; color:var(--c) }
+figure.q figcaption { color:var(--muted); font-size:.85rem; margin-top:4px }
+blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line) }
+code { font-size:.9em; background:var(--soft); padding:0 3px; border-radius:3px }
+ul,ol { padding-left:1.3em } li { margin:3px 0 }
+.footnote { font-size:.88rem; color:var(--muted); border-top:1px solid var(--line); margin-top:36px }
+.footnote hr { display:none }
+ol.bib { list-style:none; padding:0 } ol.bib li { margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid var(--line) }
+ol.bib p { margin:2px 0 } .cite { font-weight:500 } .links, .used { font-size:.86rem; color:var(--muted) } .ann { font-size:.94rem }
+.toc-cats { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.92rem }
+.count { background:var(--soft); border-left:3px solid var(--c); padding:8px 12px }
+.prevnext { display:flex; justify-content:space-between; gap:12px; margin-top:40px; font-size:.92rem }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:14px; color:var(--muted); font-size:.85rem }
+footer p { margin:4px 0 }
+.l1 .c2 { display:none }
+.l1 .c1 { font-weight:500 }
+@media (max-width:480px) { main h1 { font-size:1.6rem } main h2 { font-size:1.22rem } }
+</style>
+</head>
+<body><div class="wrap">
+<header class="site">
+<p class="back"><a href="../">← 법률 외국어 자습서</a></p>
+<p class="site-title"><a href="index.html">세종의 글자로 보는 외래어 표기</a></p>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html">첫 면</a></li><li><a href="cheje.html" aria-current="page">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html">역사</a></li><li><a href="bigyo.html">견주어 보기</a></li><li><a href="silcheung.html">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
+</header>
+<div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
+<main>
+<h1 id="표기-체계">표기 체계</h1>
+<details class="pagetoc" open><summary>이 면의 차례</summary><ol><li><a href="#1-원칙-세-축과-닫힌-목록-36꼴">1. 원칙 — 세 축과 닫힌 목록 36꼴</a><ol><li><a href="#세-축">세 축</a></li><li><a href="#출처층">출처층</a></li><li><a href="#새-글자를-만드는-조작-여섯으로-닫는다">새 글자를 만드는 조작 — 여섯으로 닫는다</a></li><li><a href="#근거-등급">근거 등급</a></li></ol></li><li><a href="#2-자질-대응표">2. 자질 대응표</a></li><li><a href="#3-꼴-언어-값-표">3. 꼴 × 언어 값 표</a></li><li><a href="#4-일관성-규칙">4. 일관성 규칙</a></li><li><a href="#5-표시-규약-0-1-2층-받침-작은-낱자-강세-방점">5. 표시 규약 — 0 · 1 · 2층, 받침, 작은 낱자, 강세, 방점</a></li></ol></details>
+<p>이 면은 규칙을 모아 둔 곳이다. 글자 하나하나의 내력과 반대 근거는 「글자별 해설」에, 언어마다 실제로 적은 결과는 「언어별 적용」에 있다. 여기서는 세 가지만 정한다. 어떤 글자를 쓸 수 있는가, 어떤 소리에 어떤 글자를 주는가, 그리고 그것이 화면에 어떻게 나오는가.</p>
+<h2 id="1-원칙-세-축과-닫힌-목록-36꼴">1. 원칙 — 세 축과 닫힌 목록 36꼴</h2>
+<h3 id="세-축">세 축</h3>
+<p>글자 하나를 두고 세 가지를 따로 묻는다. 이 셋을 한 칸에 섞으면 「해례에 있는 글자」와 「해례가 그 소리에 쓴 글자」가 구별되지 않는다. 치두음 시옷 ᄼ 이 그런 경우였다. 꼴은 15세기 문헌에 있지만, 그 글자를 스페인어 θ 에 쓰는 것은 15세기 문헌이 한 일이 아니다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>축</th>
+<th>붙는 대상</th>
+<th>묻는 것</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>출처층</td>
+<td>글자(꼴)와 그 글자를 만든 조작</td>
+<td>이 꼴은 훈민정음 문헌 전통의 어디에서 처음 나오나</td>
+<td>H · E · M · R</td>
+</tr>
+<tr>
+<td>근거 등급</td>
+<td>배정(글자 ↔ 소리)</td>
+<td>이 글자를 이 소리에 쓰는 것을 무엇이 받치나</td>
+<td>원전 · 선례 · 실증 · 재해석</td>
+</tr>
+<tr>
+<td>표시층</td>
+<td>화면에 나오는 표기</td>
+<td>독자의 기기에서 무엇으로 보이나</td>
+<td>0 · 1 · 2 · 3</td>
+</tr>
+</tbody>
+</table></div>
+<p>출처층과 근거 등급은 자주 엇갈린다. ㅃ 은 꼴로는 해례층(각자병서)이지만 무기 무성 p 에 쓰는 것은 선례와 실증에 기댄 배정이다. 대응표는 이 두 칸을 늘 따로 둔다.</p>
+<h3 id="출처층">출처층</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>층</th>
+<th>범위</th>
+<th>보기</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H 해례</td>
+<td>『훈민정음』 해례본(1446)의 예의와 해례 본문</td>
+<td>연서 ᄫ · ᄛ, 각자병서 ㄲ · ᅘ · ᅇ, 합용병서, 중성 합용 ᆝ · ᆜ, 방점</td>
+</tr>
+<tr>
+<td>E 언해·운서</td>
+<td>언해본, 『동국정운』(1448), 『홍무정운역훈』(1455), 『사성통해』 등 15~16세기 관찬 문헌</td>
+<td>치두·정치 열 자 ᅎ ᅔ ᅏ ᄼ ᄽ · ᅐ ᅕ ᅑ ᄾ ᄿ, 속음 입성 ㆆ</td>
+</tr>
+<tr>
+<td>M 역학서·근대안</td>
+<td>사역원 역학서(17~18세기), 지석영 『아학편』(1908), 문교부 「들온말 적는 법」(1948) 등</td>
+<td>『아학편』의 ᅂ · ᅈ · ᅋ · ᅄ, ᄙ=l</td>
+</tr>
+<tr>
+<td>R 재해석</td>
+<td>이 연구가 처음 하는 것</td>
+<td>방점 셋째 단계, 연서를 ㅌ 으로 넓힌 꼴</td>
+</tr>
+</tbody>
+</table></div>
+<p>꼴은 가장 이른 층 하나로 적는다. ᄫ 는 1948년 안도 썼지만 H 다. 같은 꼴을 후대가 다른 소리에 썼으면 그 사실은 근거 등급과 반대 근거 칸으로 간다. 위키문헌 해례 전사본 예의 끝의 괄호 안 「漢音齒聲…」 조항은 편집자가 언해본에서 보충한 것이므로 H 의 근거로 쓰지 않는다. 1946년 조선어학회 영인본과 대조한 결과다.</p>
+<h3 id="새-글자를-만드는-조작-여섯으로-닫는다">새 글자를 만드는 조작 — 여섯으로 닫는다</h3>
+<p>김세중(1996)은 외래어를 위해 새 글자를 만들자는 주장에 대해 「얼마나 많은 글자를 새로 만들어야 할지 모른다」고 했다. 이 표기는 그 물음에 숫자로 답하려고 조작의 목록을 닫았다. 훈민정음 문헌 전통에 실제로 쓰인 조작 여섯만 쓰고, 그 산출물 가운데 유니코드에 있는 꼴만 판 2에 쓴다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>코드</th>
+<th>조작</th>
+<th>원문</th>
+<th>층</th>
+<th>산출 꼴</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O1</td>
+<td>연서(ㅇ 을 아래에 이어 씀)</td>
+<td>예의 「ㅇ連書脣音之下則爲脣輕音」, 합자해 「ㅇ連書ㄹ下，爲半舌輕音」</td>
+<td>H</td>
+<td>ᄫ ᅗ ᄝ ᄬ ᄛ</td>
+</tr>
+<tr>
+<td>O2</td>
+<td>각자병서(같은 글자를 나란히)</td>
+<td>제자해 「全淸並書則爲全濁」, 합자해의 ᅘ · ᅇ</td>
+<td>H(ᄙ 은 M)</td>
+<td>ㄲ ㄸ ㅃ ㅆ ㅉ ᅘ ᅇ ᄙ</td>
+</tr>
+<tr>
+<td>O3</td>
+<td>합용병서(다른 글자를 나란히)</td>
+<td>예의 「初聲合用則並書」</td>
+<td>H(ㅇ 앞붙임은 M. ᅊ 꼴의 최초 문헌은 확인 중)</td>
+<td>ᅂ ᅈ ᅋ ᅄ ᅊ</td>
+</tr>
+<tr>
+<td>O4</td>
+<td>중성 합용</td>
+<td>합자해 「ㆍㅡ起ㅣ聲 … 當合二字而用」</td>
+<td>H</td>
+<td>ᆝ ᆜ</td>
+</tr>
+<tr>
+<td>O5</td>
+<td>방점</td>
+<td>예의 「左加一點則去聲，二則上聲，無則平聲」</td>
+<td>H(셋째 단계는 R)</td>
+<td>〮 〯</td>
+</tr>
+<tr>
+<td>O6</td>
+<td>치두·정치 획 늘이기</td>
+<td>언해본 「漢音齒聲은 有齒頭正齒之別ᄒᆞ니」</td>
+<td>E</td>
+<td>ᅎ ᅔ ᅏ ᄼ ᄽ · ᅐ ᅕ ᅑ ᄾ ᄿ</td>
+</tr>
+</tbody>
+</table></div>
+<p>조작이 아니라 있는 글자를 다시 쓰는 것(재배정)은 따로 센다. 반치음 ᅀ, 여린히읗 ᅙ, 옛이응 ᅌ, 아래아 ㆍ 넷이다. 모두 해례의 기본자이거나 이체자다.</p>
+<p>합계는 조작 산출 32꼴과 재배정 4꼴, 36개다. θ 에 쓰는 ᅊ 은 『아학편』의 ㅇ 앞붙임 방식을 ㅌ 에 적용한 꼴이라 O3 산출에 넣어 셌다. 조작은 M 이지만 θ 배정은 이 표기의 재해석이다. ᅊ 꼴 자체는 부호표(KS X 1026-1:2007)에 이미 있는 것을 채택했고, 그 꼴이 처음 나온 문헌은 확인하지 못했다. 판 2는 이 밖의 꼴을 쓰지 않는다. 언어를 더해도 목록은 늘지 않는다. 늘려야 할 때는 R 층으로 표시하고 <a href="namun.html">「남은 문제」</a> 면에 올린 뒤 결정한다.</p>
+<p>뺀 조작도 적어 둔다. 새 가획(ㄱ에서 ㅋ을 만든 식으로 획을 더 더하기)은 해례가 17자에서 닫은 길이다. 사역원 역학서의 부가부호(∘ ┚ △)와 1948년 안의 점 표지는 글자가 아니라 표지다. 획 늘이기를 치음 밖으로 넓히는 것과 ㅇ 아닌 글자로 연서하는 것은 선례도 없고 부호화도 되지 않았다. 『동국정운』의 이영보래 ㅭ 은 한자음 교정용 종성이라 외국 소리 표기와 관계가 없다.</p>
+<h3 id="근거-등급">근거 등급</h3>
+<p>배정 하나에 등급을 여럿 붙일 수 있다. 공개 표에는 가장 강한 것을 앞에, 반대 근거를 같은 행에 둔다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>등급</th>
+<th>정의</th>
+<th>보기</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>원전</td>
+<td>해례·언해·운서 원문이 그 꼴을 같은 조음 범주에 정의하고, 목표 소리가 그 범주의 통설 재구값과 같다</td>
+<td>ᄫ=[β]</td>
+</tr>
+<tr>
+<td>원전(자리)</td>
+<td>운서·언해의 자모 자리는 원문에 있으나, 그 범주의 재구값 원저를 아직 대조하지 못했다(값은 확인 중)</td>
+<td>ᄼ=중국어 s, ᅎ=ts</td>
+</tr>
+<tr>
+<td>선례</td>
+<td>후대 문헌이 같은 꼴을 같은 소리에 실제로 썼다</td>
+<td>ᅀ=z(「들온말 적는 법」 1948)</td>
+</tr>
+<tr>
+<td>실증</td>
+<td>한국어 화자의 지각·산출 실험이나 코퍼스 집계가 그 대응을 받친다</td>
+<td>ㅃ=프랑스어 무기 p(Ooigawa &amp; Shinohara 2009)</td>
+</tr>
+<tr>
+<td>재해석</td>
+<td>위 셋이 없고 이 연구가 조작의 유추나 원문의 조음 묘사로 배정했다</td>
+<td>ᅊ=θ, ᄙ=떠는 r</td>
+</tr>
+</tbody>
+</table></div>
+<p>근거로 적는 문헌은 서지를 두 곳에서 확인하고 원문을 읽은 것뿐이다. 서지만 확인한 문헌은 「확인 중」 표시를 달아 보조로만 적고, 그런 문헌만으로 받치는 배정에는 등급을 매기지 않는다. 주석 문헌 목록의 A · B 등급이 이 구별이다.</p>
+<h2 id="2-자질-대응표">2. 자질 대응표</h2>
+<p>아래 표가 이 표기의 단일 원천이다. 공개 표와 변환 프로그램이 같은 파일(<code>data/mapping.csv</code>)을 읽으므로 둘이 어긋날 수 없다. 행은 언어가 아니라 소리(IPA 분절음)다. 소리를 기준으로 묶어야 같은 소리에 같은 꼴을 주는지 검사할 수 있다.</p>
+<p>읽는 법은 이렇다.</p>
+<ul>
+<li>언어 칸의 <code>*</code> 는 모든 언어에 공통인 값이고, 언어 코드가 적힌 행은 그 언어에서만 쓰는 값이다. 언어 행이 공통 행보다 앞선다.</li>
+<li>2층은 옛한글 표기, 1층은 현대 자모만 쓴 근사다. 0층 규칙 칸은 국립국어원 「외래어 표기법」의 어느 표·조항이 그 소리를 다루는지 적은 것이고, 0층 표기 자체는 철자에서 따로 낸다.</li>
+<li>근거 등급은 세미콜론으로 여럿을 적는다. 약속 문구 칸은 꼴이 소리를 다 담지 못해 약속으로 정한 부분을 적은 것이다. 고려한 대안 칸은 판 2에 쓰지 않은 후보들이다.</li>
+<li>반대 근거 칸이 「반대 근거 찾지 못함」이면 주석 문헌 목록 범위 안에서 찾지 못했다는 뜻이지 반대 근거가 없다는 뜻이 아니다. 79행 가운데 58행이 그렇다. 대부분 현대 한국어에 같은 소리가 있어 다툼이 없는 행(ㅏ ㅔ ㅁ ㄴ 등)이다.</li>
+<li>상태 칸의 「확정」은 판 2에서 결정한 것, 「권고」는 판 2의 기본안으로 쓰되 다음 판에서 바뀔 수 있는 것, 「후보」는 판 2 수록 언어에 나오지 않아 행만 둔 것이다.</li>
+</ul>
+<div class="tbl wide"><table class="mapping"><thead><tr><th>언어</th><th>소리</th><th>환경</th><th>조작</th><th>2층</th><th>출처층</th><th>1층</th><th>0층 규칙</th><th>근거 등급</th><th>약속</th><th>고려한 대안</th><th>근거</th><th>반대 근거</th><th>상태</th><th>비고</th></tr></thead><tbody><tr><td class="">*</td><td class="ipa">p</td><td class="">*</td><td class="">O2</td><td class="h">ㅃ</td><td class="">H</td><td class="h">ㅃ</td><td class="">—</td><td class="">선례 · 실증</td><td class="sm"></td><td class="sm">ㅍ(0층)</td><td class="sm"><a href="munheon.html#bib-ooigawa2009">Ooigawa &amp; Shinohara 2009</a> · <a href="munheon.html#bib-kugeo1986">국어연구소 1986</a> · <a href="munheon.html#bib-lim1996">임동훈 1996</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-nk2001">「외국말적기법」 2001</a> · <a href="munheon.html#bib-kang2008">Kang 2008</a></td><td class="sm"><a href="munheon.html#bib-kangsj1999">강식진 1999</a> · <a href="munheon.html#bib-parkcw2008">박창원 2008</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td>확정</td><td class="sm">실증 공백: 스페인어·러시아어·이탈리아어 자극 실험 없음. 1948 안·『아학편』의 된소리 쪽 배정은 유성음</td></tr><tr><td class="">*</td><td class="ipa">t</td><td class="">*</td><td class="">O2</td><td class="h">ㄸ</td><td class="">H</td><td class="h">ㄸ</td><td class="">—</td><td class="">선례 · 실증</td><td class="sm"></td><td class="sm">ㅌ(0층)</td><td class="sm"><a href="munheon.html#bib-ooigawa2009">Ooigawa &amp; Shinohara 2009</a> · <a href="munheon.html#bib-kugeo1986">국어연구소 1986</a> · <a href="munheon.html#bib-lim1996">임동훈 1996</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-nk2001">「외국말적기법」 2001</a> · <a href="munheon.html#bib-kang2008">Kang 2008</a></td><td class="sm"><a href="munheon.html#bib-kangsj1999">강식진 1999</a> · <a href="munheon.html#bib-parkcw2008">박창원 2008</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td>확정</td><td class="sm">p 와 같음</td></tr><tr><td class="">*</td><td class="ipa">k</td><td class="">*</td><td class="">O2</td><td class="h">ㄲ</td><td class="">H</td><td class="h">ㄲ</td><td class="">—</td><td class="">선례 · 실증</td><td class="sm"></td><td class="sm">ㅋ(0층)</td><td class="sm"><a href="munheon.html#bib-ooigawa2009">Ooigawa &amp; Shinohara 2009</a> · <a href="munheon.html#bib-kugeo1986">국어연구소 1986</a> · <a href="munheon.html#bib-lim1996">임동훈 1996</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-nk2001">「외국말적기법」 2001</a> · <a href="munheon.html#bib-kang2008">Kang 2008</a></td><td class="sm"><a href="munheon.html#bib-kangsj1999">강식진 1999</a> · <a href="munheon.html#bib-parkcw2008">박창원 2008</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td>확정</td><td class="sm">p 와 같음</td></tr><tr><td class="">*</td><td class="ipa">pʰ</td><td class="">*</td><td class="">가획</td><td class="h">ㅍ</td><td class="">H</td><td class="h">ㅍ</td><td class="">—</td><td class="">원전</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">차청</td></tr><tr><td class="">*</td><td class="ipa">tʰ</td><td class="">*</td><td class="">가획</td><td class="h">ㅌ</td><td class="">H</td><td class="h">ㅌ</td><td class="">—</td><td class="">원전</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">차청</td></tr><tr><td class="">*</td><td class="ipa">kʰ</td><td class="">*</td><td class="">가획</td><td class="h">ㅋ</td><td class="">H</td><td class="h">ㅋ</td><td class="">—</td><td class="">원전</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">차청</td></tr><tr><td class="">*</td><td class="ipa">b</td><td class="">*</td><td class="">—</td><td class="h">ㅂ</td><td class="">H</td><td class="h">ㅂ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td>확정</td><td class="sm">해례 전탁은 유성 지향(김유범·고경재 2019, 확인 중)</td></tr><tr><td class="">*</td><td class="ipa">d</td><td class="">*</td><td class="">—</td><td class="h">ㄷ</td><td class="">H</td><td class="h">ㄷ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">ɡ</td><td class="">*</td><td class="">—</td><td class="h">ㄱ</td><td class="">H</td><td class="h">ㄱ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td>확정</td><td class="sm">1948 안 첫소리 g→ㄲ</td></tr><tr><td class="">*</td><td class="ipa">f</td><td class="">*</td><td class="">O1</td><td class="h">ᅗ</td><td class="">H</td><td class="h">ㅍ</td><td class="">—</td><td class="">선례</td><td class="sm">순치음 — ㅇ = 그 글자 자리에서 이(齒)에 대고 새는 소리</td><td class="sm">ᅋ(『아학편』) · ᄫ(역훈 非母)</td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td>확정</td><td class="sm">15세기 원전의 중국어 f 는 ㅸ</td></tr><tr><td class="">*</td><td class="ipa">v</td><td class="">*</td><td class="">O1</td><td class="h">ᄫ</td><td class="">H</td><td class="h">ㅂ</td><td class="">—</td><td class="">선례</td><td class="sm">순치음 — ㅇ = 그 글자 자리에서 이(齒)에 대고 새는 소리</td><td class="sm">ᅄ(『아학편』)</td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td>확정</td><td class="sm">해례 순경음은 양순 [β]. 1956 교과서 적용이 막힘</td></tr><tr><td class="">*</td><td class="ipa">β</td><td class="">*</td><td class="">O1</td><td class="h">ᄫ</td><td class="">H</td><td class="h">ㅂ</td><td class="">—</td><td class="">원전 · 선례</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">스페인어 이음(1장만)</td></tr><tr><td class="">*</td><td class="ipa">θ</td><td class="">*</td><td class="">O3</td><td class="h">ᅊ</td><td class="">M</td><td class="h">ㅅ</td><td class="">—</td><td class="">재해석</td><td class="sm">혀끝-윗니 — ㅇ = 그 글자 자리에서 이(齒)에 대고 새는 소리</td><td class="sm">ᄼ(판 1) · ꥢ(ㄷㅅ) · ᅂ(『아학편』 θ) · ㅌ 연서(3층)</td><td class="sm"><a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a> · <a href="munheon.html#bib-cho2010">초미희 2010</a></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a> · <a href="munheon.html#bib-leedj2002">이돈주 2002</a></td><td>확정</td><td class="sm">판 2 결정. 꼴은 『아학편』 방식(ㅇ 앞붙임)의 정비. 해례대로면 ㅌ 아래 ㅇ(부호 없음)</td></tr><tr><td class="">*</td><td class="ipa">ð</td><td class="">*</td><td class="">O3</td><td class="h">ᅂ</td><td class="">M</td><td class="h">ㄷ</td><td class="">—</td><td class="">재해석</td><td class="sm">혀끝-윗니 — ㅇ = 그 글자 자리에서 이(齒)에 대고 새는 소리</td><td class="sm">ᅈ(『아학편』 ð) · ꥣ(ㄷㅈ)</td><td class="sm"><a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td class="sm"><a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td>확정</td><td class="sm">『아학편』은 ᅂ 를 θ 에 썼다(값이 반대)</td></tr><tr><td class="">*</td><td class="ipa">s</td><td class="">*</td><td class="">—</td><td class="h">ㅅ</td><td class="">H</td><td class="h">ㅅ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">z</td><td class="">*</td><td class="">재배정</td><td class="h">ᅀ</td><td class="">H</td><td class="h">ㅈ</td><td class="">—</td><td class="">선례</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a> · <a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-choganghee2000">趙堈煕 2000</a></td><td class="sm"><a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td>확정</td><td class="sm">원전 등급은 재구 원저 확인 뒤. [z] 는 재구값(고경재 2022, 확인 중). 1948 풀이문 「ㅅ의 흐린 소리(곧 z)」(이경숙 2016: 114)</td></tr><tr><td class="">*</td><td class="ipa">ʂ</td><td class="">*</td><td class="">O6</td><td class="h">ᄾ</td><td class="">E</td><td class="h">ㅅ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-eonhae">『훈민정음』 언해본</a> · <a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><a href="munheon.html#bib-leedj2002">이돈주 2002</a></td><td>확정</td><td class="sm">언해 정치 묘사는 치경구개 쪽. 북방음 권설설 확인 중</td></tr><tr><td class="">*</td><td class="ipa">ʃ</td><td class="">*</td><td class="">O6</td><td class="h">ᄾ</td><td class="">E</td><td class="h">ㅅ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-eonhae">『훈민정음』 언해본</a></td><td class="sm"><a href="munheon.html#bib-leedj2002">이돈주 2002</a></td><td>후보</td><td class="sm">판 2 밖(독일어·프랑스어)</td></tr><tr><td class="">*</td><td class="ipa">ʐ</td><td class="">*</td><td class="">O6+O2</td><td class="h">ᄿ</td><td class="">E</td><td class="h">ㅈ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm">ᅀ(1948 [ʒ], 확인 중)</td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a> · <a href="munheon.html#bib-leedj2002">이돈주 2002</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">꼴의 자리는 역훈 禪母(정치 전탁). 이돈주 2002: 39 의 정치 계열 값은 [ʨ-]·[ʨ&#x27;-]·[dʒ-]이고 禪母 값은 없음. 현대 독자는 ㅆ 된소리로 읽음</td></tr><tr><td class="">*</td><td class="ipa">ʒ</td><td class="">*</td><td class="">O6+O2</td><td class="h">ᄿ</td><td class="">E</td><td class="h">ㅈ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm">ᅀ</td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a> · <a href="munheon.html#bib-leedj2002">이돈주 2002</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>후보</td><td class="sm">판 2 밖(프랑스어). ʐ 행과 같은 이유</td></tr><tr><td class="">*</td><td class="ipa">ɕ</td><td class="">*</td><td class="">—</td><td class="h">ㅅ</td><td class="">H</td><td class="h">ㅅ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">뒤 모음 ㅣ계</td></tr><tr><td class="">*</td><td class="ipa">ts</td><td class="">*</td><td class="">O6</td><td class="h">ᅎ</td><td class="">E</td><td class="h">ㅉ</td><td class="">—</td><td class="">원전(자리)</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">精母 자리(이돈주 2002: 39 표 2). [ts] 재구의 원저는 확인 중</td></tr><tr><td class="">*</td><td class="ipa">tsʰ</td><td class="">*</td><td class="">O6</td><td class="h">ᅔ</td><td class="">E</td><td class="h">ㅊ</td><td class="">—</td><td class="">원전(자리)</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">淸母 자리. [tsʰ] 재구의 원저는 확인 중</td></tr><tr><td class="">*</td><td class="ipa">dz</td><td class="">*</td><td class="">O6+O2</td><td class="h">ᅏ</td><td class="">E</td><td class="h">ㅈ</td><td class="">—</td><td class="">원전(자리)</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>후보</td><td class="sm">從母 자리. 이탈리아어 유성 z(판 2 밖). [dz] 재구의 원저는 확인 중</td></tr><tr><td class="">*</td><td class="ipa">tʂ</td><td class="">*</td><td class="">O6</td><td class="h">ᅐ</td><td class="">E</td><td class="h">ㅈ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td>확정</td><td class="sm">照母 자리. 이돈주 2002: 39 는 照母를 [ʨ-]로 적어 권설 tʂ 와 다름 — 정치음 값 미확정</td></tr><tr><td class="">*</td><td class="ipa">tʂʰ</td><td class="">*</td><td class="">O6</td><td class="h">ᅕ</td><td class="">E</td><td class="h">ㅊ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td>확정</td><td class="sm">穿母 자리. 이돈주 2002: 39 는 穿母를 [ʨ&#x27;-]로 적음. 심소희 2013: 24 표에 ᅔ 조판 예</td></tr><tr><td class="">*</td><td class="ipa">tʃ</td><td class="">*</td><td class="">—</td><td class="h">ㅉ</td><td class="">H</td><td class="h">ㅉ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm">ㅊ(판 1)</td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>권고</td><td class="sm">판 2 기본안 — p t k 와 같은 원리(무기)</td></tr><tr><td class="">*</td><td class="ipa">tɕ</td><td class="">*</td><td class="">—</td><td class="h">ㅉ</td><td class="">H</td><td class="h">ㅉ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">무기. 뒤 모음 ㅣ계</td></tr><tr><td class="">*</td><td class="ipa">tɕʰ</td><td class="">*</td><td class="">—</td><td class="h">ㅊ</td><td class="">H</td><td class="h">ㅊ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">뒤 모음 ㅣ계</td></tr><tr><td class="">*</td><td class="ipa">x</td><td class="">*</td><td class="">—</td><td class="h">ㅎ</td><td class="">H</td><td class="h">ㅎ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm">ᅘ · ㅋ 연서(3층)</td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">맞는 꼴 없음</td></tr><tr><td class="">*</td><td class="ipa">h</td><td class="">*</td><td class="">—</td><td class="h">ㅎ</td><td class="">H</td><td class="h">ㅎ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">m</td><td class="">*</td><td class="">—</td><td class="h">ㅁ</td><td class="">H</td><td class="h">ㅁ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">n</td><td class="">*</td><td class="">—</td><td class="h">ㄴ</td><td class="">H</td><td class="h">ㄴ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">ɲ</td><td class="">*</td><td class="">—</td><td class="h">ㄴ</td><td class="">H</td><td class="h">ㄴ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">뒤 모음 ㅣ계</td></tr><tr><td class="">*</td><td class="ipa">ŋ</td><td class="">음절 첫</td><td class="">재배정</td><td class="h">ᅌ</td><td class="">H</td><td class="h">ㅇ</td><td class="">—</td><td class="">원전</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>후보</td><td class="sm">베트남어(판 2 밖)</td></tr><tr><td class="">*</td><td class="ipa">ŋ</td><td class="">받침</td><td class="">—</td><td class="h">ㅇ</td><td class="">H</td><td class="h">ㅇ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">ɾ</td><td class="">*</td><td class="">—</td><td class="h">ㄹ</td><td class="">H</td><td class="h">ㄹ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm">ᄛ(해례 반설경음)</td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">해례 「舌乍附上腭」는 ᄛ 의 설명. 현대 모음 사이 ㄹ 이 이 소리라 ㄹ</td></tr><tr><td class="">*</td><td class="ipa">r</td><td class="">*</td><td class="">O2</td><td class="h">ᄙ</td><td class="">M</td><td class="h">ㄹ</td><td class="">—</td><td class="">재해석</td><td class="sm">각자병서 「凝」을 ㄹ 에 유추</td><td class="sm">ᄛ · ㄹ</td><td class="sm">—</td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td>확정</td><td class="sm">판 2 결정(안 A 유지). 선례는 모두 ᄙ/ㄹㄹ=l</td></tr><tr><td class="">*</td><td class="ipa">l</td><td class="">어두</td><td class="">—</td><td class="h">ㄹ</td><td class="">H</td><td class="h">ㄹ</td><td class="">—</td><td class="">선례</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">l</td><td class="">모음 사이</td><td class="">—</td><td class="h">ㄹ.ㄹ</td><td class="">H</td><td class="h">ㄹ.ㄹ</td><td class="">—</td><td class="">선례</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a> · <a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">받침 ㄹ + 첫소리 ㄹ</td></tr><tr><td class="">*</td><td class="ipa">ʔ</td><td class="">*</td><td class="">재배정</td><td class="h">ᅙ</td><td class="">H</td><td class="h">—</td><td class="">—</td><td class="">원전</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>후보</td><td class="sm">베트남어 성조 성문화 표지 후보(판 3)</td></tr><tr><td class="">*</td><td class="ipa">ˈ</td><td class="">*</td><td class="">—</td><td class="h">&lt;b&gt;</td><td class="">—</td><td class="h">&lt;b&gt;</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm">방점(쓰지 않음)</td><td class="sm"><a href="munheon.html#bib-hayata1976">Hayata 1976</a> · <a href="munheon.html#bib-hayesharb2021">Hayes-Harb &amp; Barrios 2021</a></td><td class="sm"><a href="munheon.html#bib-hayesharb2021">Hayes-Harb &amp; Barrios 2021</a></td><td>확정</td><td class="sm">굵게. 학습 효과 미실증(Hayes-Harb &amp; Hacking 2015 — 개관 경유 2차 수치)</td></tr><tr><td class="">*</td><td class="ipa">a</td><td class="">*</td><td class="">—</td><td class="h">ㅏ</td><td class="">H</td><td class="h">ㅏ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">e</td><td class="">*</td><td class="">—</td><td class="h">ㅔ</td><td class="">H</td><td class="h">ㅔ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">i</td><td class="">*</td><td class="">—</td><td class="h">ㅣ</td><td class="">H</td><td class="h">ㅣ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">o</td><td class="">*</td><td class="">—</td><td class="h">ㅗ</td><td class="">H</td><td class="h">ㅗ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">u</td><td class="">*</td><td class="">—</td><td class="h">ㅜ</td><td class="">H</td><td class="h">ㅜ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">ɛ</td><td class="">*</td><td class="">—</td><td class="h">ㅐ</td><td class="">H</td><td class="h">ㅐ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">현대 서울말에서 ㅔ 와 합류 — 가역성 위해 구별</td></tr><tr><td class="">*</td><td class="ipa">ɨ</td><td class="">*</td><td class="">—</td><td class="h">ㅡ</td><td class="">H</td><td class="h">ㅡ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">æ</td><td class="">*</td><td class="">—</td><td class="h">ㅐ</td><td class="">H</td><td class="h">ㅐ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">연자음 뒤에서는 ㅒ(엔진의 ㅑ계열 규칙)</td></tr><tr><td class="">*</td><td class="ipa">ɐ</td><td class="">*</td><td class="">—</td><td class="h">ㅏ</td><td class="">H</td><td class="h">ㅏ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">*</td><td class="ipa">ə</td><td class="">*</td><td class="">—</td><td class="h">ㅓ</td><td class="">H</td><td class="h">ㅓ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm">ㆍ(재해석층 선택)</td><td class="sm">—</td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a> · <a href="munheon.html#bib-leesj2018">이승진 &amp; 최홍식 2018</a></td><td>확정</td><td class="sm">판 2 결정(판 1 ㆍ 를 ㅓ 로)</td></tr><tr><td class="">*</td><td class="ipa">y</td><td class="">*</td><td class="">—</td><td class="h">ㅟ</td><td class="">H</td><td class="h">ㅟ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">표준 발음법 단모음 규정 확인 중</td></tr><tr><td class="">es</td><td class="ipa">ʝ</td><td class="">*</td><td class="">—</td><td class="h">ㅇ</td><td class="">H</td><td class="h">ㅇ</td><td class="">외래어 표기법 표 2</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">판 1 유지(이중모음 글자로)</td></tr><tr><td class="">es</td><td class="ipa">ʎ</td><td class="">*</td><td class="">—</td><td class="h">ㅇ</td><td class="">H</td><td class="h">ㅇ</td><td class="">외래어 표기법 표 2</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">yeísmo</td></tr><tr><td class="">ru</td><td class="ipa">ɫ</td><td class="">*</td><td class="">—</td><td class="h">ㄹ</td><td class="">H</td><td class="h">ㄹ</td><td class="">외래어 표기법 표 19</td><td class="">선례</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">l 과 같은 규칙(어두 ㄹ, 모음 사이 ㄹ.ㄹ)</td></tr><tr><td class="">ru</td><td class="ipa">ʲə</td><td class="">*</td><td class="">—</td><td class="h">ㅕ</td><td class="">H</td><td class="h">ㅕ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm">ᆝ(해례 합자해, 선택) · ᆢ(판 1)</td><td class="sm">—</td><td class="sm"><a href="munheon.html#bib-leesj2018">이승진 &amp; 최홍식 2018</a></td><td>확정</td><td class="sm">판 2 결정(판 1 ᆢ 를 ㅕ 로)</td></tr><tr><td class="">ru</td><td class="ipa">ɪ</td><td class="">*</td><td class="">—</td><td class="h">ㅣ</td><td class="">H</td><td class="h">ㅣ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">ru</td><td class="ipa">ʊ</td><td class="">*</td><td class="">—</td><td class="h">ㅜ</td><td class="">H</td><td class="h">ㅜ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm"></td></tr><tr><td class="">ru</td><td class="ipa">t͡s</td><td class="">*</td><td class="">O6</td><td class="h">ᅎ</td><td class="">E</td><td class="h">ㅉ</td><td class="">외래어 표기법 표 19</td><td class="">원전</td><td class="sm"></td><td class="sm"></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">ц</td></tr><tr><td class="">ru</td><td class="ipa">t͡ɕ</td><td class="">*</td><td class="">—</td><td class="h">ㅉ</td><td class="">H</td><td class="h">ㅉ</td><td class="">외래어 표기법 표 19</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">ч</td></tr><tr><td class="">ru</td><td class="ipa">ɕ</td><td class="">*</td><td class="">—</td><td class="h">ㅆ</td><td class="">H</td><td class="h">ㅆ</td><td class="">외래어 표기법 표 19</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">щ [ɕː] — 판 1 유지(엔진은 ː 를 버리고 ɕ 로 읽는다)</td></tr><tr><td class="">ru</td><td class="ipa">ɛ</td><td class="">*</td><td class="">—</td><td class="h">ㅔ</td><td class="">H</td><td class="h">ㅔ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">러시아어 e·ɛ 는 이음 — ㅔ 하나(판 1 유지)</td></tr><tr><td class="">zh</td><td class="ipa">s</td><td class="">*</td><td class="">O6</td><td class="h">ᄼ</td><td class="">E</td><td class="h">ㅅ</td><td class="">중국어 표기 세칙(확인 중)</td><td class="">원전(자리)</td><td class="sm"></td><td class="sm">ㅅ</td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">心母 ᄼ(이돈주 2002: 39 표 2). [s] 재구의 원저는 확인 중. 판 2에서 θ 를 ᅊ 로 옮겨 충돌 없음</td></tr><tr><td class="">zh</td><td class="ipa">f</td><td class="">*</td><td class="">O1</td><td class="h">ᅗ</td><td class="">H</td><td class="h">ㅍ</td><td class="">—</td><td class="">선례</td><td class="sm">순치음 — ㅇ = 그 글자 자리에서 이(齒)에 대고 새는 소리</td><td class="sm">ᄫ(역훈 非母)</td><td class="sm"><a href="munheon.html#bib-leeks2016">이경숙 2016</a></td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td>확정</td><td class="sm">원전 ᄫ 은 공통 값 v 와 부딪쳐 공통 값 ᅗ(판 2 결정)</td></tr><tr><td class="">zh</td><td class="ipa">ʐ</td><td class="">*</td><td class="">O6+O2</td><td class="h">ᄿ</td><td class="">E</td><td class="h">ㅈ</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm">ᅀ(역훈 日母·『아학편』, 확인 중)</td><td class="sm"><a href="munheon.html#bib-haerye1446">『훈민정음』 해례본</a> · <a href="munheon.html#bib-leedj2002">이돈주 2002</a></td><td class="sm"><a href="munheon.html#bib-stonham2014">Stonham &amp; Lee 2014</a></td><td>권고</td><td class="sm">일관성 규칙 ②: 원전 ᅀ 은 공통 값 z 와 부딪쳐 공통 값 ᄿ(러시아어 ж 와 같음). 등급은 ʐ 공통 행과 같이 재해석</td></tr><tr><td class="">zh</td><td class="ipa">ɻ̩</td><td class="">*</td><td class="">—</td><td class="h">ㅡ</td><td class="">H</td><td class="h">ㅡ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>권고</td><td class="sm">zhi chi shi ri</td></tr><tr><td class="">zh</td><td class="ipa">ɹ̩</td><td class="">*</td><td class="">—</td><td class="h">ㅡ</td><td class="">H</td><td class="h">ㅡ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>권고</td><td class="sm">zi ci si</td></tr><tr><td class="">zh</td><td class="ipa">ɤ</td><td class="">*</td><td class="">—</td><td class="h">ㅓ</td><td class="">H</td><td class="h">ㅓ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>권고</td><td class="sm"></td></tr><tr><td class="">zh</td><td class="ipa">ɚ</td><td class="">*</td><td class="">—</td><td class="h">ㅓ.ㄹ</td><td class="">H</td><td class="h">ㅓ.ㄹ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>권고</td><td class="sm">er — 받침 ㄹ</td></tr><tr><td class="">zh</td><td class="ipa">ɛ</td><td class="">*</td><td class="">—</td><td class="h">ㅔ</td><td class="">H</td><td class="h">ㅔ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>권고</td><td class="sm">운모 ie·üe 의 ㅔ(ㅖ·ㅞ). 러시아어와 같이 ㅔ 하나</td></tr><tr><td class="">zh</td><td class="ipa">ɥɛ</td><td class="">*</td><td class="">—</td><td class="h">ㅞ</td><td class="">H</td><td class="h">ㅞ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>권고</td><td class="sm">üe</td></tr><tr><td class="">zh</td><td class="ipa">T˥</td><td class="">*</td><td class="">O5</td><td class="h">〮</td><td class="">H</td><td class="h">—</td><td class="">—</td><td class="">원전 · 재해석</td><td class="sm"></td><td class="sm">무점(Z-a)</td><td class="sm"><a href="munheon.html#bib-kangsj1999">강식진 1999</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">1성=1점(Z-b 조치형)</td></tr><tr><td class="">zh</td><td class="ipa">T˧˥</td><td class="">*</td><td class="">O5</td><td class="h">〯</td><td class="">H</td><td class="h">—</td><td class="">—</td><td class="">원전</td><td class="sm"></td><td class="sm">무점(Z-a)</td><td class="sm"><a href="munheon.html#bib-kangsj1999">강식진 1999</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">2성=2점</td></tr><tr><td class="">zh</td><td class="ipa">T˨˩˦</td><td class="">*</td><td class="">O5</td><td class="h">—</td><td class="">H</td><td class="h">—</td><td class="">—</td><td class="">원전</td><td class="sm"></td><td class="sm">2점(Z-a)</td><td class="sm"><a href="munheon.html#bib-kangsj1999">강식진 1999</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">3성=무점. 3성+3성은 앞 글자 2점(「번역노걸대박통사범례」의 표층 값 원칙, 강식진 1999: 41)</td></tr><tr><td class="">zh</td><td class="ipa">T˥˩</td><td class="">*</td><td class="">O5</td><td class="h">〮</td><td class="">H</td><td class="h">—</td><td class="">—</td><td class="">재해석</td><td class="sm"></td><td class="sm">1점(Z-a)</td><td class="sm"><a href="munheon.html#bib-shim2013">심소희 2013</a></td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">4성=1점 가안 — 범례 대응 미확인, 1성과 합류</td></tr><tr><td class="">ru</td><td class="ipa">ʉ</td><td class="">*</td><td class="">—</td><td class="h">ㅜ</td><td class="">H</td><td class="h">ㅜ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">ю 의 연자음 사이 이음. u 와 같은 글자(엔진 기본값을 2026-10-28 명세로 올림)</td></tr><tr><td class="">ru</td><td class="ipa">ɵ</td><td class="">*</td><td class="">—</td><td class="h">ㅗ</td><td class="">H</td><td class="h">ㅗ</td><td class="">—</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">ё 의 연자음 사이 이음. o 와 같은 글자(엔진 기본값을 2026-10-28 명세로 올림)</td></tr><tr><td class="">zh</td><td class="ipa">l</td><td class="">*</td><td class="">—</td><td class="h">ㄹ</td><td class="">H</td><td class="h">ㄹ</td><td class="">외래어 표기법 표 5</td><td class="">—</td><td class="sm"></td><td class="sm"></td><td class="sm">—</td><td class="sm"><span class="muted">반대 근거 찾지 못함</span></td><td>확정</td><td class="sm">모든 음절 첫소리 ㄹ. 모음 사이 ㄹ 덧받침 규칙은 쓰지 않는다(2026-10-28 독립 재현 보완 1)</td></tr></tbody></table></div>
+<p>표의 열 이름과 데이터 라이선스(CC BY 4.0)는 <a href="guhyeon.html">「구현」</a> 면에 있다.</p>
+<h2 id="3-꼴-언어-값-표">3. 꼴 × 언어 값 표</h2>
+<p>같은 꼴이 언어마다 다른 소리를 가리키면 독자는 언어를 알아야 글자를 읽을 수 있다. 판 2는 그런 경우를 없앴다. 아래 표는 그것을 확인하는 표다. 공통 값은 한 꼴에 배정한 IPA 묶음이다(ᄫ 은 v 와 β). 빈 칸은 그 언어가 공통 값을 그대로 쓴다는 뜻이고, 값이 적힌 칸은 그 언어에서 이 꼴이 받는 값이 공통 값 안에 있음을 적어 둔 것이다. 이 표는 이 표기의 배정 표이고, 15세기 문헌이 그 꼴을 그 소리에 썼다는 확인 표가 아니다. 원전 값과 다른 두 곳(중국어 f · r)은 아래에 적었다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>꼴</th>
+<th>공통 값</th>
+<th>스페인어</th>
+<th>러시아어</th>
+<th>중국어</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ㅃ ㄸ ㄲ</td>
+<td>p t k(무기 무성)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᅗ</td>
+<td>f</td>
+<td></td>
+<td></td>
+<td>f</td>
+</tr>
+<tr>
+<td>ᄫ</td>
+<td>v · β</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᅊ</td>
+<td>θ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᅂ</td>
+<td>ð</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᅀ</td>
+<td>z</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᄼ</td>
+<td>—</td>
+<td></td>
+<td></td>
+<td>s</td>
+</tr>
+<tr>
+<td>ᄾ</td>
+<td>ʂ(· ʃ)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᄿ</td>
+<td>ʐ(· ʒ)</td>
+<td></td>
+<td></td>
+<td>ʐ</td>
+</tr>
+<tr>
+<td>ᅎ</td>
+<td>ts</td>
+<td></td>
+<td>t͡s</td>
+<td></td>
+</tr>
+<tr>
+<td>ᅔ</td>
+<td>tsʰ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᅐ</td>
+<td>tʂ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᅕ</td>
+<td>tʂʰ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ᄙ</td>
+<td>떠는 r</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>받침 ㄹ + ㄹ</td>
+<td>모음 사이 l</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>〮 〯</td>
+<td>성조(중국어만)</td>
+<td></td>
+<td></td>
+<td>1성 1점 · 2성 2점 · 3성 무점 · 4성 1점</td>
+</tr>
+</tbody>
+</table></div>
+<p>두 곳에서 원전 값을 공통 값에 양보했다. 중국어 f 의 15세기 값은 『홍무정운역훈』 非母의 ᄫ 이지만, 공통 값 v 와 부딪치므로 ᅗ 를 쓴다. 중국어 r [ʐ]의 원전 값은 日母의 ᅀ 이지만 공통 값 z 와 부딪치므로 러시아어 ж 와 같은 ᄿ 를 쓴다. 두 경우 모두 해설에 원전 값을 적어 두었다. 반대로 중국어 s 는 역훈 자리 그대로 치두음 시옷 ᄼ 이다. 판 1이 ᄼ 을 스페인어 θ 에 썼기 때문에 충돌이 있었는데, 판 2에서 θ 를 ᅊ 로 옮기면서 풀렸다.</p>
+<h2 id="4-일관성-규칙">4. 일관성 규칙</h2>
+<ol>
+<li><strong>한 언어 안의 대립을 먼저 지킨다.</strong> 그 언어에서 뜻을 가르는 두 소리가 같은 표기로 합류하면 그 배정은 쓰지 않는다. 떠는 r 에 ᄙ 을 둔 것이 이 규칙의 결과다. 선례를 따라 ᄙ 을 l 에 주면 스페인어 pero 와 perro 가 같아진다.</li>
+<li><strong>그 언어에 원전·선례 값이 있으면 그것을 따르되, 공통 값과 부딪치면 공통 값을 앞세운다.</strong> 중국어의 z c s 와 zh ch sh 는 『홍무정운역훈』 자모 자리(ᅎ ᅔ ᄼ · ᅐ ᅕ ᄾ)이고, f 와 r 은 위 3절대로 공통 값이다.</li>
+<li><strong>둘 다 없으면 체계 공통 값을 쓴다.</strong> ᅊ=θ · ᅂ=ð · ᅗ=f · ᄫ=v · ᅀ=z · ᄾ=ʂ · ᄿ=ʐ · ᅎ=ts · ᄙ=떠는 r.</li>
+<li>그 결과 같은 꼴이 언어마다 다른 값을 갖는 경우는 없다(값은 공통 값 묶음 안에서 같다). 3절 표가 그 확인이다.</li>
+</ol>
+<h2 id="5-표시-규약-0-1-2층-받침-작은-낱자-강세-방점">5. 표시 규약 — 0 · 1 · 2층, 받침, 작은 낱자, 강세, 방점</h2>
+<p><strong>층의 순서.</strong> 표마다 외래어 표기법(0층)을 늘 함께 둔다. 주 표기는 옛한글(2층)이고, 현대 한글 근사(1층)는 접어 두거나 기기에서 옛한글이 조합되지 않을 때 대신 보인다. 신자(3층)는 판 2에 없다.</p>
+<p><strong>0층.</strong> 국립국어원 「외래어 표기법」을 철자에 기계로 적용한 것이다. 스페인어는 표 2와 제3장 제4절, 러시아어는 표 19와 제3장 제21절 제1항~제10항, 중국어는 표 5와 제3장 제7절(성조를 구별하지 않고, ㅈ ㅉ ㅊ 뒤의 ㅑ ㅖ ㅛ ㅠ 는 ㅏ ㅔ ㅗ ㅜ 로)을 쓴다. 같은 프로그램이 규범에 실린 보기를 모두 규범대로 적는 것을 시험으로 확인했다(스페인어 60개, 러시아어 121개). 표기법은 강세를 적지 않고, 러시아어 ъ 에는 규정이 없다.</p>
+<p><strong>1층.</strong> 현대 자모 24자와 완성형 음절만 쓴다. 옛 꼴 자리에는 가장 가까운 현대 글자가 온다(ᅗ → ㅍ, ᄫ → ㅂ, ᅊ → ㅅ, ᅀ → ㅈ, ᄾ → ㅅ, ᄿ → ㅈ, ᅎ → ㅉ, ᄙ → ㄹ, 치두음 ᄼ → ㅅ). 현대 한국어에 있는 소리(ɾ · ɨ 등)는 1층이 곧 정식 표기다. 중국어 1층은 방점을 적지 않는다.</p>
+<p><strong>2층.</strong> 유니코드 첫가끝 조합형으로 적는다. 1절의 36꼴이 모두 여기 들어간다. 현대 음절은 완성형으로, 옛 꼴이 든 음절만 첫가끝 자모 열로 저장한다(KS X 1026-1 의 원칙).</p>
+<p><strong>받침.</strong> 받침으로 그대로 나는 자음만 받침에 둔다. 스페인어는 n l m k p, 러시아어는 ㄴ ㅁ ㄹ, 중국어는 n ŋ 과 er 의 ㄹ 이다. 나머지 자음은 「으」를 붙여 음절을 늘리지 않고 <strong>작은 낱자</strong>로 적는다. juez 가 「후에스」 세 음절이 아니라 「훼」 한 음절에 작은 ᅊ 이 붙는 꼴이 되는 까닭이다. 현대 자모나 호환 자모가 있는 꼴은 그 낱자를, 없는 꼴(ᄼ ᄾ ᄿ ᅎ ᄙ ᅊ)은 초성 뒤에 중성 채움 문자(U+1160)를 붙여 적는다. 러시아어의 모음 없는 연자음은 ㅣ 를 붙인 작은 음절(띠 · 리)로 적어 경자음의 작은 낱자와 가른다. мат 과 мать 가 이렇게 갈린다.</p>
+<p><strong>활음.</strong> j · w 와 모음은 이중모음 글자 하나로 적는다(ㅑ ㅖ ㅛ ㅠ · ㅘ ㅞ ㅟ ㅝ). 뒤에 오는 활음(ai · au · ei 등)은 이 · 오 · 우 를 보통 크기로 붙인다. 그 때문에 음절 수가 하나 늘어나는데, 이것은 <a href="silcheung.html">「실증」</a> 면의 음절 수 지표에 그대로 드러난다. 작은 글자로 바꿀지는 판 3 과제다.</p>
+<p><strong>강세.</strong> 강세 음절은 굵게 적는다. 방점은 쓰지 않는다. 방점은 음높이를 적은 부호이고 강세는 다른 범주이며, 같은 사이트에서 중국어가 방점을 성조에 쓰기 때문이다. 굵게는 스크린리더와 평문 복사에서 사라지므로 데이터에는 IPA 강세 부호 ˈ 를 함께 싣는다. 강세를 굵게 적는 것이 학습을 돕는지는 실험으로 확인되지 않았다.</p>
+<p><strong>방점.</strong> 중국어 성조에만 쓴다. 1성 1점, 2성 2점, 3성 무점, 4성 1점이고 경성은 무점이다. 3성이 잇달면 앞 글자를 2점으로 적는다. 「번역노걸대박통사범례」가 연속 상성을 바뀐 뒤의 값으로 적은 원칙을 따른 것이다. 1성과 4성이 같은 점이 되므로 병음 성조 부호를 늘 옆에 둔다. 방점은 저장할 때 음절 뒤에 붙는 결합 부호(U+302E · U+302F)이고 표시는 음절 왼쪽이다.</p>
+<p><strong>장모음·비모음.</strong> 판 2 수록 언어에는 없다. 장모음은 같은 모음을 작게 거듭 적는 안(1948년 안의 「같은 모음 거듭」 선례)을, 비모음은 표지 없음(모음 + ㅇ 받침의 1층 근사)을 후보로 적어 두었다.</p>
+<p><strong>정규화.</strong> 문자열은 NFC 로 저장한다. NFC 는 「ᄀ+ᅡ+옛 종성」을 「가+옛 종성」(완성형 음절 뒤에 옛 종성 자모)으로 묶는다. KS X 1026-1 은 이 꼴을 잘못된 형식으로 들고 초·중·종 자모 열을 유지하라고 하지만(Kim 2008: 13), 웹 환경 대부분이 NFC 를 거치므로 이 표기는 그 결과를 받아들이고 글꼴이 조합하게 둔다. 자세한 것은 <a href="guhyeon.html">「구현」</a> 면에 있다.</p>
+<nav class="prevnext"><a href="index.html">← 첫 면</a><a href="eoneo/es.html">스페인어 →</a></nav>
+</main>
+<footer>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="assets/fonts/OFL.txt">사본</a>)</p>
+<p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
+</footer>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('l1btn'); if(!b) return;
+  document.querySelectorAll('table').forEach(function(t){
+    var hs=t.querySelectorAll('thead th'), i2=-1, i1=-1;
+    hs.forEach(function(h,i){ var s=h.textContent; if(i2<0 && s.indexOf('2층')>=0) i2=i; else if(i1<0 && s.indexOf('1층')>=0) i1=i; });
+    if(i2<0||i1<0) return;
+    t.querySelectorAll('tr').forEach(function(r){ var c=r.children; if(c[i2]) c[i2].classList.add('c2'); if(c[i1]) c[i1].classList.add('c1'); });
+  });
+  function set(on){ document.documentElement.classList.toggle('l1',on); b.setAttribute('aria-pressed',on?'true':'false');
+    try{ localStorage.setItem('sejong-l1',on?'1':'0'); }catch(e){} }
+  var on=false; try{ on=localStorage.getItem('sejong-l1')==='1'; }catch(e){}
+  set(on);
+  b.addEventListener('click',function(){ set(!document.documentElement.classList.contains('l1')); });
+})();
+</script>
+</body></html>
