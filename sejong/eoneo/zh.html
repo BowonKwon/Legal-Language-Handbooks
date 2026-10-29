@@ -1,0 +1,1170 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>중국어 — 세종의 글자로 보는 외래어 표기</title>
+<meta name="description" content="1. 규칙표 『本院认为 — 조문과 판결의 중국어』의 표제어를 표본으로 삼아 판 2에서 처음 넣었다. 책에 이 표기를 붙일지는 다음 판에서 정한다. 주 표기는 병음이고, 이 표기는 그 옆의 보조다. 병음의 성조 부호를 늘 함께 둔다. 중국어는 이 표기에서 특별한 자리에">
+<meta name="author" content="권보원 (대구지방법원 부장판사)">
+<link rel="preload" href="../assets/fonts/sj-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family:"SJ Sans"; src:url("../assets/fonts/sj-sans.woff2") format("woff2"); font-weight:100 900; font-display:swap }
+@font-face { font-family:"SJ Serif"; src:url("../assets/fonts/sj-serif.woff2") format("woff2"); font-weight:200 900; font-display:swap }
+:root { --paper:#f4f2ec; --sheet:#fff; --ink:#22262b; --muted:#5f6670; --line:#dcd7cb; --c:#7a4f2a; --soft:#f6eee4;
+  --f-body:"SJ Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-display:"SJ Serif","Noto Serif KR","SJ Sans",serif;
+  --f-ipa:"Charis SIL","Doulos SIL","Gentium Plus","Segoe UI","Noto Sans","SJ Sans",sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#16191d; --sheet:#1f2328; --ink:#e8e5de; --muted:#9ca3ab; --line:#363c44; --c:#e0b48a; --soft:#2b2219; color-scheme:dark } }
+* { box-sizing:border-box }
+html { -webkit-text-size-adjust:100% }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); line-height:1.75; word-break:keep-all; overflow-wrap:anywhere; padding:0 16px 56px }
+.wrap { max-width:900px; margin:0 auto }
+a { color:var(--c) }
+header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
+.back { font-size:.88rem; color:var(--muted); margin:0 }
+.site-title { font-family:var(--f-display); font-weight:600; font-size:1.05rem; margin:6px 0 10px }
+.site-title a { color:var(--ink); text-decoration:none }
+nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
+nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+@media print { .tools { position:static } }
+#l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
+#l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
+main h1 { font-family:var(--f-display); font-weight:600; font-size:1.95rem; line-height:1.3; margin:30px 0 8px }
+main h2 { font-family:var(--f-display); font-weight:600; font-size:1.35rem; line-height:1.4; margin:42px 0 10px; scroll-margin-top:56px }
+main h3 { font-weight:700; font-size:1.08rem; margin:28px 0 8px; scroll-margin-top:56px }
+main h4 { font-size:1rem; margin:20px 0 6px }
+main p { margin:0 0 12px }
+.pagetoc { background:var(--sheet); border:1px solid var(--line); padding:10px 16px; margin:14px 0 6px; font-size:.92rem }
+.pagetoc summary { cursor:pointer; color:var(--muted) }
+.pagetoc ol { list-style:none; margin:6px 0 2px; padding-left:.2em } .pagetoc ol ol { padding-left:1.1em }
+.tbl { overflow-x:auto; margin:12px 0 16px; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; width:100%; background:var(--sheet); font-size:.93rem }
+th,td { border-bottom:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top }
+th { color:var(--muted); font-weight:500; font-size:.84rem }
+.tbl.wide table { min-width:1400px; font-size:.86rem }
+td.h, .h { font-size:1.2em; white-space:nowrap }
+td small, .h small { font-size:.66em; color:var(--muted) }
+td.ipa, .ipa { font-family:var(--f-ipa); white-space:nowrap } td.sm { font-size:.84rem }
+.muted { color:var(--muted) }
+.badge { display:inline-block; font-size:.74rem; line-height:1.4; padding:0 6px; border:1px solid var(--c); color:var(--c); border-radius:3px; white-space:nowrap }
+figure.q { margin:14px 0; padding:10px 14px; background:var(--sheet); border:1px solid var(--line); border-left:3px solid var(--c) }
+figure.q p { margin:2px 0 }
+figure.q .src { font-family:var(--f-display); font-size:1.1rem; line-height:1.8 }
+figure.q .rd { color:var(--muted) } figure.q .rd::before { content:"독음 "; font-size:.75rem; color:var(--c) }
+figure.q .tr::before { content:"해석 "; font-size:.75rem; color:var(--c) }
+figure.q figcaption { color:var(--muted); font-size:.85rem; margin-top:4px }
+blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line) }
+code { font-size:.9em; background:var(--soft); padding:0 3px; border-radius:3px }
+ul,ol { padding-left:1.3em } li { margin:3px 0 }
+.footnote { font-size:.88rem; color:var(--muted); border-top:1px solid var(--line); margin-top:36px }
+.footnote hr { display:none }
+ol.bib { list-style:none; padding:0 } ol.bib li { margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid var(--line) }
+ol.bib p { margin:2px 0 } .cite { font-weight:500 } .links, .used { font-size:.86rem; color:var(--muted) } .ann { font-size:.94rem }
+.toc-cats { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.92rem }
+.count { background:var(--soft); border-left:3px solid var(--c); padding:8px 12px }
+.prevnext { display:flex; justify-content:space-between; gap:12px; margin-top:40px; font-size:.92rem }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:14px; color:var(--muted); font-size:.85rem }
+footer p { margin:4px 0 }
+.l1 .c2 { display:none }
+.l1 .c1 { font-weight:500 }
+@media (max-width:480px) { main h1 { font-size:1.6rem } main h2 { font-size:1.22rem } }
+</style>
+</head>
+<body><div class="wrap">
+<header class="site">
+<p class="back"><a href="../../">← 법률 외국어 자습서</a></p>
+<p class="site-title"><a href="../index.html">세종의 글자로 보는 외래어 표기</a></p>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="../index.html">첫 면</a></li><li><a href="../cheje.html">표기 체계</a></li><li><a href="../eoneo/es.html">스페인어</a></li><li><a href="../eoneo/ru.html">러시아어</a></li><li><a href="../eoneo/zh.html" aria-current="page">중국어</a></li><li><a href="../geulja.html">글자별 해설</a></li><li><a href="../genjeon.html">원전 읽기</a></li><li><a href="../yeoksa.html">역사</a></li><li><a href="../bigyo.html">견주어 보기</a></li><li><a href="../silcheung.html">실증</a></li><li><a href="../guhyeon.html">구현</a></li><li><a href="../munheon.html">주석 문헌 목록</a></li><li><a href="../namun.html">남은 문제</a></li></ul></nav>
+</header>
+<div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
+<main>
+<h1 id="중국어">중국어</h1>
+<details class="pagetoc" open><summary>이 면의 차례</summary><ol><li><a href="#1-규칙표">1. 규칙표</a></li><li><a href="#2-표제어-표">2. 표제어 표</a></li><li><a href="#3-이-언어의-쟁점">3. 이 언어의 쟁점</a></li><li><a href="#4-지표">4. 지표</a></li></ol></details>
+<h2 id="1-규칙표">1. 규칙표</h2>
+<p>『本院认为 — 조문과 판결의 중국어』의 표제어를 표본으로 삼아 판 2에서 처음 넣었다. 책에 이 표기를 붙일지는 다음 판에서 정한다. 주 표기는 병음이고, 이 표기는 그 옆의 보조다. 병음의 성조 부호를 늘 함께 둔다.</p>
+<p>중국어는 이 표기에서 특별한 자리에 있다. 치두음·정치음 열 자와 방점은 15세기에 바로 중국 한자음을 적으려고 쓰였던 장치다. 다만 그 글자들은 『훈민정음』 해례본에는 없고 언해본과 『홍무정운역훈』(1455)이 더한 것이며, 신숙주는 『동국정운』 서문에서 조선 한자음에는 치두·정치의 구별이 없다고 했다. 그래서 중국어의 z c s 와 zh ch sh 에는 역훈의 값(ᅎ ᅔ ᄼ · ᅐ ᅕ ᄾ)을 그대로 쓴다. 이것이 이 사이트에서 「원전」 등급이 가장 많이 붙는 언어다.</p>
+<p>IPA 는 병음에서 규칙으로 바꾼 것이다(사전형 성조, 변조는 표기 단계에서 3성 연속만 적용). 성모는 자질 대응표에서, 운모는 아래 운모 표에서 온다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>소리</th>
+<th>2층</th>
+<th>1층</th>
+<th>조작 · 출처층</th>
+<th>근거 등급</th>
+<th>근거</th>
+<th>반대 근거</th>
+<th>상태</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>p</td>
+<td>ㅃ</td>
+<td>ㅃ</td>
+<td>O2 · H</td>
+<td>선례;실증</td>
+<td>Ooigawa &amp; Shinohara 2009 · 국어연구소 1986 · 임동훈 1996 · 이경숙 2016 · 「외국말적기법」 2001 · Kang 2008</td>
+<td>강식진 1999 · 박창원 2008 · 이경숙 2016</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>t</td>
+<td>ㄸ</td>
+<td>ㄸ</td>
+<td>O2 · H</td>
+<td>선례;실증</td>
+<td>Ooigawa &amp; Shinohara 2009 · 국어연구소 1986 · 임동훈 1996 · 이경숙 2016 · 「외국말적기법」 2001 · Kang 2008</td>
+<td>강식진 1999 · 박창원 2008 · 이경숙 2016</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>k</td>
+<td>ㄲ</td>
+<td>ㄲ</td>
+<td>O2 · H</td>
+<td>선례;실증</td>
+<td>Ooigawa &amp; Shinohara 2009 · 국어연구소 1986 · 임동훈 1996 · 이경숙 2016 · 「외국말적기법」 2001 · Kang 2008</td>
+<td>강식진 1999 · 박창원 2008 · 이경숙 2016</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>pʰ</td>
+<td>ㅍ</td>
+<td>ㅍ</td>
+<td>가획 · H</td>
+<td>원전</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>tʰ</td>
+<td>ㅌ</td>
+<td>ㅌ</td>
+<td>가획 · H</td>
+<td>원전</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>kʰ</td>
+<td>ㅋ</td>
+<td>ㅋ</td>
+<td>가획 · H</td>
+<td>원전</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>ʂ</td>
+<td>ᄾ</td>
+<td>ㅅ</td>
+<td>O6 · E</td>
+<td>재해석</td>
+<td>『훈민정음』 언해본 · 심소희 2013</td>
+<td>이돈주 2002</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>ɕ</td>
+<td>ㅅ</td>
+<td>ㅅ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>ts</td>
+<td>ᅎ</td>
+<td>ㅉ</td>
+<td>O6 · E</td>
+<td>원전(자리)</td>
+<td>심소희 2013</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>tsʰ</td>
+<td>ᅔ</td>
+<td>ㅊ</td>
+<td>O6 · E</td>
+<td>원전(자리)</td>
+<td>심소희 2013</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>tʂ</td>
+<td>ᅐ</td>
+<td>ㅈ</td>
+<td>O6 · E</td>
+<td>재해석</td>
+<td>심소희 2013</td>
+<td>심소희 2013</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>tʂʰ</td>
+<td>ᅕ</td>
+<td>ㅊ</td>
+<td>O6 · E</td>
+<td>재해석</td>
+<td>심소희 2013</td>
+<td>심소희 2013</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>tɕ</td>
+<td>ㅉ</td>
+<td>ㅉ</td>
+<td>— · H</td>
+<td>재해석</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>tɕʰ</td>
+<td>ㅊ</td>
+<td>ㅊ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>x</td>
+<td>ㅎ</td>
+<td>ㅎ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>m</td>
+<td>ㅁ</td>
+<td>ㅁ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>n</td>
+<td>ㄴ</td>
+<td>ㄴ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>ŋ(음절 첫)</td>
+<td>ᅌ</td>
+<td>ㅇ</td>
+<td>재배정 · H</td>
+<td>원전</td>
+<td>『훈민정음』 해례본</td>
+<td>반대 근거 찾지 못함</td>
+<td>후보</td>
+</tr>
+<tr>
+<td>ŋ(받침)</td>
+<td>ㅇ</td>
+<td>ㅇ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>l(어두)</td>
+<td>ㄹ</td>
+<td>ㄹ</td>
+<td>— · H</td>
+<td>선례</td>
+<td>이경숙 2016 · Stonham &amp; Lee 2014</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>l(모음 사이)</td>
+<td>ㄹ.ㄹ</td>
+<td>ㄹ.ㄹ</td>
+<td>— · H</td>
+<td>선례</td>
+<td>이경숙 2016 · Stonham &amp; Lee 2014</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>s</td>
+<td>ᄼ</td>
+<td>ㅅ</td>
+<td>O6 · E</td>
+<td>원전(자리)</td>
+<td>심소희 2013</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>f</td>
+<td>ᅗ</td>
+<td>ㅍ</td>
+<td>O1 · H</td>
+<td>선례</td>
+<td>이경숙 2016</td>
+<td>심소희 2013</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>ʐ</td>
+<td>ᄿ</td>
+<td>ㅈ</td>
+<td>O6+O2 · E</td>
+<td>재해석</td>
+<td>『훈민정음』 해례본 · 이돈주 2002</td>
+<td>Stonham &amp; Lee 2014</td>
+<td>권고</td>
+</tr>
+<tr>
+<td>ɻ̩</td>
+<td>ㅡ</td>
+<td>ㅡ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>권고</td>
+</tr>
+<tr>
+<td>ɹ̩</td>
+<td>ㅡ</td>
+<td>ㅡ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>권고</td>
+</tr>
+<tr>
+<td>ɤ</td>
+<td>ㅓ</td>
+<td>ㅓ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>권고</td>
+</tr>
+<tr>
+<td>ɚ</td>
+<td>ㅓ.ㄹ</td>
+<td>ㅓ.ㄹ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>권고</td>
+</tr>
+<tr>
+<td>ɛ</td>
+<td>ㅔ</td>
+<td>ㅔ</td>
+<td>— · H</td>
+<td>—</td>
+<td>—</td>
+<td>반대 근거 찾지 못함</td>
+<td>권고</td>
+</tr>
+<tr>
+<td>T˥</td>
+<td>〮</td>
+<td>—</td>
+<td>O5 · H</td>
+<td>원전;재해석</td>
+<td>강식진 1999</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>T˧˥</td>
+<td>〯</td>
+<td>—</td>
+<td>O5 · H</td>
+<td>원전</td>
+<td>강식진 1999</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>T˨˩˦</td>
+<td>—</td>
+<td>—</td>
+<td>O5 · H</td>
+<td>원전</td>
+<td>강식진 1999</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+<tr>
+<td>T˥˩</td>
+<td>〮</td>
+<td>—</td>
+<td>O5 · H</td>
+<td>재해석</td>
+<td>심소희 2013</td>
+<td>반대 근거 찾지 못함</td>
+<td>확정</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>성모.</strong> b d g 는 무기음이라 ㅃ ㄸ ㄲ, p t k 는 유기음이라 ㅍ ㅌ ㅋ 이다. 외래어 표기법도 b d g 를 ㅂ ㄷ ㄱ 으로 적는 것 외에는 같은 방향이다. j q x 는 현대 ㅉ ㅊ ㅅ 에 ㅣ 계열 모음을 붙인다. 언해본에 이 자리의 글자가 따로 없고 현대 「찌 · 치 · 시」가 이미 같은 소리다. h 는 ㅎ 이다. f 는 공통 값 ᅗ 를 쓴다. 역훈은 非母를 ᄫ 로 적었지만 이 표기에서 ᄫ 는 v 라서 양보했다. r [ʐ]도 역훈의 日母 ᅀ 대신 러시아어 ж 와 같은 ᄿ 를 쓴다. 두 경우 모두 「글자별 해설」에 원전 값을 적어 두었다.</p>
+<p><strong>운모.</strong> 뒤에 오는 활음(ai · ao · ou · ei 등)은 보통 크기 글자로 붙이고, 앞 활음은 이중모음 글자 하나로 적는다. e 는 [ɤ]라 ㅓ, er 은 ㅓ 에 받침 ㄹ, zhi · zi 류의 설측 모음은 ㅡ 다. ü 는 ㅟ, üe 는 ㅞ 다. 현대 한국어 화자 대부분이 ㅟ · ㅚ 를 이중모음으로 내므로 ü 의 근사는 거칠다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>병음 운모</th>
+<th>IPA</th>
+<th>중성</th>
+<th>받침</th>
+<th>덧붙는 글자</th>
+<th>2층 보기(성모 없음)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>a</td>
+<td>ㅏ</td>
+<td>—</td>
+<td>—</td>
+<td>아</td>
+</tr>
+<tr>
+<td>o</td>
+<td>o</td>
+<td>ㅗ</td>
+<td>—</td>
+<td>—</td>
+<td>오</td>
+</tr>
+<tr>
+<td>e</td>
+<td>ɤ</td>
+<td>ㅓ</td>
+<td>—</td>
+<td>—</td>
+<td>어</td>
+</tr>
+<tr>
+<td>ê</td>
+<td>ɛ</td>
+<td>ㅔ</td>
+<td>—</td>
+<td>—</td>
+<td>에</td>
+</tr>
+<tr>
+<td>er</td>
+<td>ɚ</td>
+<td>ㅓ</td>
+<td>ㄹ</td>
+<td>—</td>
+<td>얼</td>
+</tr>
+<tr>
+<td>i</td>
+<td>i</td>
+<td>ㅣ</td>
+<td>—</td>
+<td>—</td>
+<td>이</td>
+</tr>
+<tr>
+<td>u</td>
+<td>u</td>
+<td>ㅜ</td>
+<td>—</td>
+<td>—</td>
+<td>우</td>
+</tr>
+<tr>
+<td>ü</td>
+<td>y</td>
+<td>ㅟ</td>
+<td>—</td>
+<td>—</td>
+<td>위</td>
+</tr>
+<tr>
+<td>ai</td>
+<td>ai</td>
+<td>ㅏ</td>
+<td>—</td>
+<td>이</td>
+<td>아이</td>
+</tr>
+<tr>
+<td>ei</td>
+<td>ei</td>
+<td>ㅔ</td>
+<td>—</td>
+<td>이</td>
+<td>에이</td>
+</tr>
+<tr>
+<td>ao</td>
+<td>au</td>
+<td>ㅏ</td>
+<td>—</td>
+<td>오</td>
+<td>아오</td>
+</tr>
+<tr>
+<td>ou</td>
+<td>ou</td>
+<td>ㅓ</td>
+<td>—</td>
+<td>우</td>
+<td>어우</td>
+</tr>
+<tr>
+<td>an</td>
+<td>an</td>
+<td>ㅏ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>안</td>
+</tr>
+<tr>
+<td>en</td>
+<td>ən</td>
+<td>ㅓ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>언</td>
+</tr>
+<tr>
+<td>ang</td>
+<td>aŋ</td>
+<td>ㅏ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>앙</td>
+</tr>
+<tr>
+<td>eng</td>
+<td>əŋ</td>
+<td>ㅓ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>엉</td>
+</tr>
+<tr>
+<td>ong</td>
+<td>ʊŋ</td>
+<td>ㅜ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>웅</td>
+</tr>
+<tr>
+<td>ia</td>
+<td>ja</td>
+<td>ㅑ</td>
+<td>—</td>
+<td>—</td>
+<td>야</td>
+</tr>
+<tr>
+<td>ie</td>
+<td>jɛ</td>
+<td>ㅖ</td>
+<td>—</td>
+<td>—</td>
+<td>예</td>
+</tr>
+<tr>
+<td>iao</td>
+<td>jau</td>
+<td>ㅑ</td>
+<td>—</td>
+<td>오</td>
+<td>야오</td>
+</tr>
+<tr>
+<td>iu</td>
+<td>jou</td>
+<td>ㅠ</td>
+<td>—</td>
+<td>—</td>
+<td>유</td>
+</tr>
+<tr>
+<td>ian</td>
+<td>jɛn</td>
+<td>ㅖ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>옌</td>
+</tr>
+<tr>
+<td>in</td>
+<td>in</td>
+<td>ㅣ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>인</td>
+</tr>
+<tr>
+<td>iang</td>
+<td>jaŋ</td>
+<td>ㅑ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>양</td>
+</tr>
+<tr>
+<td>ing</td>
+<td>iŋ</td>
+<td>ㅣ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>잉</td>
+</tr>
+<tr>
+<td>iong</td>
+<td>jʊŋ</td>
+<td>ㅠ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>융</td>
+</tr>
+<tr>
+<td>ua</td>
+<td>wa</td>
+<td>ㅘ</td>
+<td>—</td>
+<td>—</td>
+<td>와</td>
+</tr>
+<tr>
+<td>uo</td>
+<td>wo</td>
+<td>ㅝ</td>
+<td>—</td>
+<td>—</td>
+<td>워</td>
+</tr>
+<tr>
+<td>uai</td>
+<td>wai</td>
+<td>ㅘ</td>
+<td>—</td>
+<td>이</td>
+<td>와이</td>
+</tr>
+<tr>
+<td>ui</td>
+<td>wei</td>
+<td>ㅞ</td>
+<td>—</td>
+<td>이</td>
+<td>웨이</td>
+</tr>
+<tr>
+<td>uan</td>
+<td>wan</td>
+<td>ㅘ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>완</td>
+</tr>
+<tr>
+<td>un</td>
+<td>wən</td>
+<td>ㅝ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>원</td>
+</tr>
+<tr>
+<td>uang</td>
+<td>waŋ</td>
+<td>ㅘ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>왕</td>
+</tr>
+<tr>
+<td>ueng</td>
+<td>wəŋ</td>
+<td>ㅝ</td>
+<td>ㅇ</td>
+<td>—</td>
+<td>웡</td>
+</tr>
+<tr>
+<td>üe</td>
+<td>ɥɛ</td>
+<td>ㅞ</td>
+<td>—</td>
+<td>—</td>
+<td>웨</td>
+</tr>
+<tr>
+<td>üan</td>
+<td>ɥɛn</td>
+<td>ㅞ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>웬</td>
+</tr>
+<tr>
+<td>ün</td>
+<td>yn</td>
+<td>ㅟ</td>
+<td>ㄴ</td>
+<td>—</td>
+<td>윈</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>성조.</strong> 방점으로 적는다. 1성 1점, 2성 2점, 3성 무점, 4성 1점, 경성 무점이다. 3성이 잇달면 앞 글자를 2점으로 적는다(法理 fǎlǐ → ᅗᅡ〯리). 1성과 4성이 같은 점이 되는 것은 병음 성조 부호로 메운다. 1층은 방점을 적지 않는다.</p>
+<h2 id="2-표제어-표">2. 표제어 표</h2>
+<p>책의 1장(소리)과 6장(계약) 표제어 가운데 병음이 있는 것 전부, 34개다. 외래어 표기법 칸은 표 5(중국어의 발음 부호와 한글 대조표)와 제3장 제7절을 적용했다. 표기법은 성조를 구별하지 않고, ㅈ ㅉ ㅊ 뒤의 ㅑ ㅖ ㅛ ㅠ 를 ㅏ ㅔ ㅗ ㅜ 로 적는다. 이 34개가 지표의 기준 표본이다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>낱말</th>
+<th>병음</th>
+<th>뜻</th>
+<th>IPA</th>
+<th>2층 옛한글</th>
+<th>1층 현대 한글</th>
+<th>0층 외래어 표기법</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>法律</td>
+<td>fa3lü4</td>
+<td>법률</td>
+<td>[fa˨˩˦.ly˥˩]</td>
+<td>ᅗᅡ뤼〮</td>
+<td>파뤼</td>
+<td>파뤼</td>
+</tr>
+<tr>
+<td>法院</td>
+<td>fa3yuan4</td>
+<td>법원</td>
+<td>[fa˨˩˦.ɥɛn˥˩]</td>
+<td>ᅗᅡ웬〮</td>
+<td>파웬</td>
+<td>파위안</td>
+</tr>
+<tr>
+<td>证据</td>
+<td>zheng4ju4</td>
+<td>증거</td>
+<td>[tʂəŋ˥˩.tɕy˥˩]</td>
+<td>ᅐᅥᆼ〮쮜〮</td>
+<td>정쮜</td>
+<td>정쥐</td>
+</tr>
+<tr>
+<td>银行</td>
+<td>yin2hang2</td>
+<td>은행</td>
+<td>[in˧˥.xaŋ˧˥]</td>
+<td>인〯항〯</td>
+<td>인항</td>
+<td>인항</td>
+</tr>
+<tr>
+<td>行为</td>
+<td>xing2wei2</td>
+<td>행위</td>
+<td>[ɕiŋ˧˥.wei˧˥]</td>
+<td>싱〯웨〯이</td>
+<td>싱웨이</td>
+<td>싱웨이</td>
+</tr>
+<tr>
+<td>重审</td>
+<td>chong2shen3</td>
+<td>다시 심리함 — 2심이 사건을 원심법원에 돌려보내(发回) 다시 재판하게 하는 것</td>
+<td>[tʂʰʊŋ˧˥.ʂən˨˩˦]</td>
+<td>ᅕᅮᆼ〯ᄾᅥᆫ</td>
+<td>충선</td>
+<td>충선</td>
+</tr>
+<tr>
+<td>处罚</td>
+<td>chu3fa2</td>
+<td>처벌</td>
+<td>[tʂʰu˨˩˦.fa˧˥]</td>
+<td>ᅕᅮᅗᅡ〯</td>
+<td>추파</td>
+<td>추파</td>
+</tr>
+<tr>
+<td>调查</td>
+<td>diao4cha2</td>
+<td>조사</td>
+<td>[tjau˥˩.tʂʰa˧˥]</td>
+<td>땨〮오ᅕᅡ〯</td>
+<td>땨오차</td>
+<td>댜오차</td>
+</tr>
+<tr>
+<td>一律</td>
+<td>yi1lü4</td>
+<td>일률적으로, 예외 없이</td>
+<td>[i˥.ly˥˩]</td>
+<td>이〮뤼〮</td>
+<td>이뤼</td>
+<td>이뤼</td>
+</tr>
+<tr>
+<td>不当</td>
+<td>bu4dang4</td>
+<td>부당 — 마땅하지 않음</td>
+<td>[pu˥˩.taŋ˥˩]</td>
+<td>뿌〮땅〮</td>
+<td>뿌땅</td>
+<td>부당</td>
+</tr>
+<tr>
+<td>法理</td>
+<td>fa3li3</td>
+<td>법리</td>
+<td>[fa˨˩˦.li˨˩˦]</td>
+<td>ᅗᅡ〯리</td>
+<td>파리</td>
+<td>파리</td>
+</tr>
+<tr>
+<td>关系</td>
+<td>guan1xi5</td>
+<td>관계</td>
+<td>[kwan˥.ɕi]</td>
+<td>꽌〮시</td>
+<td>꽌시</td>
+<td>관시</td>
+</tr>
+<tr>
+<td>期限</td>
+<td>qi1xian4</td>
+<td>기한</td>
+<td>[tɕʰi˥.ɕjɛn˥˩]</td>
+<td>치〮셴〮</td>
+<td>치셴</td>
+<td>치셴</td>
+</tr>
+<tr>
+<td>说服</td>
+<td>shuo1fu2</td>
+<td>설득하다</td>
+<td>[ʂwo˥.fu˧˥]</td>
+<td>ᄾᅯ〮ᅗᅮ〯</td>
+<td>숴푸</td>
+<td>숴푸</td>
+</tr>
+<tr>
+<td>合同</td>
+<td>he2tong5</td>
+<td>계약 — 한국어 합동(合同)과 뜻이 다르다</td>
+<td>[xɤ˧˥.tʰʊŋ]</td>
+<td>허〯퉁</td>
+<td>허퉁</td>
+<td>허퉁</td>
+</tr>
+<tr>
+<td>甲方</td>
+<td>jia3fang1</td>
+<td>갑 — 계약서에서 앞에 적는 당사자</td>
+<td>[tɕja˨˩˦.faŋ˥]</td>
+<td>쨔ᅗᅡᆼ〮</td>
+<td>쨔팡</td>
+<td>자팡</td>
+</tr>
+<tr>
+<td>乙方</td>
+<td>yi3fang1</td>
+<td>을 — 계약서에서 뒤에 적는 당사자</td>
+<td>[i˨˩˦.faŋ˥]</td>
+<td>이ᅗᅡᆼ〮</td>
+<td>이팡</td>
+<td>이팡</td>
+</tr>
+<tr>
+<td>要约</td>
+<td>yao1yue1</td>
+<td>청약</td>
+<td>[jau˥.ɥɛ˥]</td>
+<td>야〮오웨〮</td>
+<td>야오웨</td>
+<td>야오웨</td>
+</tr>
+<tr>
+<td>承诺</td>
+<td>cheng2nuo4</td>
+<td>승낙 — 일상어에서는 약속</td>
+<td>[tʂʰəŋ˧˥.nwo˥˩]</td>
+<td>ᅕᅥᆼ〯눠〮</td>
+<td>청눠</td>
+<td>청눠</td>
+</tr>
+<tr>
+<td>成立</td>
+<td>cheng2li4</td>
+<td>(계약의) 성립</td>
+<td>[tʂʰəŋ˧˥.li˥˩]</td>
+<td>ᅕᅥᆼ〯리〮</td>
+<td>청리</td>
+<td>청리</td>
+</tr>
+<tr>
+<td>生效</td>
+<td>sheng1xiao4</td>
+<td>효력이 생기다</td>
+<td>[ʂəŋ˥.ɕjau˥˩]</td>
+<td>ᄾᅥᆼ〮샤〮오</td>
+<td>성샤오</td>
+<td>성샤오</td>
+</tr>
+<tr>
+<td>履行</td>
+<td>lü3xing2</td>
+<td>이행</td>
+<td>[ly˨˩˦.ɕiŋ˧˥]</td>
+<td>뤼싱〯</td>
+<td>뤼싱</td>
+<td>뤼싱</td>
+</tr>
+<tr>
+<td>格式条款</td>
+<td>ge2shi4 tiao2kuan3</td>
+<td>약관(표준 조항)</td>
+<td>[kɤ˧˥.ʂɻ̩˥˩.tʰjau˧˥.kʰwan˨˩˦]</td>
+<td>꺼〯ᄾᅳ〮탸〯오콴</td>
+<td>꺼스탸오콴</td>
+<td>거스 탸오콴</td>
+</tr>
+<tr>
+<td>同时履行抗辩</td>
+<td>tong2shi2 lü3xing2 kang4bian4</td>
+<td>동시이행의 항변</td>
+<td>[tʰʊŋ˧˥.ʂɻ̩˧˥.ly˨˩˦.ɕiŋ˧˥.kʰaŋ˥˩.pjɛn˥˩]</td>
+<td>퉁〯ᄾᅳ〯뤼싱〯캉〮뼨〮</td>
+<td>퉁스뤼싱캉뼨</td>
+<td>퉁스 뤼싱 캉볜</td>
+</tr>
+<tr>
+<td>不安抗辩</td>
+<td>bu4an1 kang4bian4</td>
+<td>불안의 항변 — 먼저 이행할 쪽이 이행을 멈추는 권리</td>
+<td>[pu˥˩.an˥.kʰaŋ˥˩.pjɛn˥˩]</td>
+<td>뿌〮안〮캉〮뼨〮</td>
+<td>뿌안캉뼨</td>
+<td>부안 캉볜</td>
+</tr>
+<tr>
+<td>情势变更</td>
+<td>qing2shi4 bian4geng1</td>
+<td>사정변경</td>
+<td>[tɕʰiŋ˧˥.ʂɻ̩˥˩.pjɛn˥˩.kəŋ˥]</td>
+<td>칭〯ᄾᅳ〮뼨〮껑〮</td>
+<td>칭스뼨껑</td>
+<td>칭스 볜겅</td>
+</tr>
+<tr>
+<td>催告</td>
+<td>cui1 gao4</td>
+<td>최고 — 이행을 재촉하는 통지</td>
+<td>[tsʰwei˥.kau˥˩]</td>
+<td>ᅔᅰ〮이까〮오</td>
+<td>췌이까오</td>
+<td>추이 가오</td>
+</tr>
+<tr>
+<td>解除</td>
+<td>jie3chu2</td>
+<td>해제·해지 — 한국어의 둘을 함께 덮는다</td>
+<td>[tɕjɛ˨˩˦.tʂʰu˧˥]</td>
+<td>쪠ᅕᅮ〯</td>
+<td>쪠추</td>
+<td>제추</td>
+</tr>
+<tr>
+<td>违约责任</td>
+<td>wei2yue1 ze2ren4</td>
+<td>계약위반 책임(위약책임)</td>
+<td>[wei˧˥.ɥɛ˥.tsɤ˧˥.ʐən˥˩]</td>
+<td>웨〯이웨〮ᅎᅥ〯ᄿᅥᆫ〮</td>
+<td>웨이웨쩌전</td>
+<td>웨이웨 쩌런</td>
+</tr>
+<tr>
+<td>损失</td>
+<td>sun3shi1</td>
+<td>손실, 손해</td>
+<td>[swən˨˩˦.ʂɻ̩˥]</td>
+<td>ᄼᅯᆫᄾᅳ〮</td>
+<td>숸스</td>
+<td>쑨스</td>
+</tr>
+<tr>
+<td>预见</td>
+<td>yu4jian4</td>
+<td>예견하다 — 배상 범위를 가르는 말</td>
+<td>[y˥˩.tɕjɛn˥˩]</td>
+<td>위〮쪤〮</td>
+<td>위쪤</td>
+<td>위젠</td>
+</tr>
+<tr>
+<td>违约金</td>
+<td>wei2yue1jin1</td>
+<td>위약금 — 늘려 달라고도, 줄여 달라고도 청구할 수 있다</td>
+<td>[wei˧˥.ɥɛ˥.tɕin˥]</td>
+<td>웨〯이웨〮찐〮</td>
+<td>웨이웨찐</td>
+<td>웨이웨진</td>
+</tr>
+<tr>
+<td>定金</td>
+<td>ding4jin1</td>
+<td>정금 — 위약하면 몰수되거나 두 배로 돌려주는 계약금</td>
+<td>[tiŋ˥˩.tɕin˥]</td>
+<td>띵〮찐〮</td>
+<td>띵찐</td>
+<td>딩진</td>
+</tr>
+<tr>
+<td>不可抗力</td>
+<td>bu4ke3kang4li4</td>
+<td>불가항력</td>
+<td>[pu˥˩.kʰɤ˨˩˦.kʰaŋ˥˩.li˥˩]</td>
+<td>뿌〮커캉〮리〮</td>
+<td>뿌커캉리</td>
+<td>부커캉리</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="3-이-언어의-쟁점">3. 이 언어의 쟁점</h2>
+<p><strong>치두·정치 글자는 언해본과 역훈의 것이다.</strong> 판 1은 「훈민정음이 애초에 한자음을 적으려고 치두음·정치음 글자를 따로 두었다」고 썼다. 「애초에」가 해례 단계로 읽히므로 고쳤다. 해례본에는 이 열 자가 없다. 언해본이 「漢音齒聲은 有齒頭正齒之別ᄒᆞ니」라 하여 더했고, 『홍무정운역훈』이 중국 한자음 전사에 썼다. 『동국정운』 서문은 조선 한자음에 그 구별이 없다고 했다. 이 사이트의 서술은 「언해본과 『홍무정운역훈』이 중국 한자음을 적으려고 글자를 더했다」다.</p>
+<p><strong>성조 — 두 방식 가운데 조치형을 골랐다.</strong> 해례의 세 범주(무점 · 1점 · 2점)로 4성을 담으면 어느 방식이든 두 성조가 하나로 접힌다. 원전에는 두 방식이 있다. 『사성통고』 범례 제10조는 성조 범주에 점 수를 배당했고(평성 무점 · 상성 2점 · 거성·입성 1점, 심소희 2013: 35), 「번역노걸대박통사범례」의 우측음은 한어 소리를 국어 평·상·거성의 「呼勢」에 견주어 점을 정했다(강식진 1999: 36). 이 표기는 뒤쪽(조치형 Z-b)을 쓴다. 목적이 소리 안내이고, 범례가 변조도 바뀐 뒤의 값으로 적었기 때문이다(상성 연속은 앞 글자 2점, 강식진 1999: 41). 4성을 1점으로 적는 것은 범례에서 대응을 확인하지 못한 가안이다. 두 방식의 성조 대립 보존을 함께 쟀다(<a href="../silcheung.html">「실증」</a> 면 C3). 성조 6쌍 합계에서 조류형(Z-a)이 243쌍 중 204(0.840), 조치형(Z-b)이 194(0.798)였다. Z-b 가 1성과 4성을 합치고, 3성 연속 변조 때문에 2성/3성 일부가 합쳐진다. 扶养 fúyǎng 과 抚养 fǔyǎng 이 Z-b 에서 같은 표기가 되는데, 실제 발음에서도 같은 소리다.</p>
+<p><strong>f 와 r 은 원전 값을 공통 값에 양보했다.</strong> <a href="../cheje.html">「표기 체계」</a> 면 3절에 적었다. 역훈 非母 = ᄫ, 日母 = ᅀ 이지만, 이 표기에서 ᄫ 는 v, ᅀ 는 z 라서 중국어 f 는 ᅗ, r 은 ᄿ 다. 『아학편』도 ㅿ 를 중국어 日母에 썼다.</p>
+<p><strong>0층과의 거리가 가장 크다.</strong> 외래어 표기법은 성조를 적지 않고 s/sh, s/x, c/ch 를 가르지 않는다. 대립 보존 지표에서 0층이 0.164, 1층이 0.131 에 그친 까닭이다. 2층은 0.839 다. 중국어는 옛 글자가 하는 일이 가장 큰 언어다.</p>
+<p><strong>음절 수.</strong> 뒤 활음을 보통 크기로 붙이는 규칙 때문에 ai · ao · ou · ei 가 든 음절은 두 글자가 된다. 음절 수 일치율 0.765 의 나머지가 그것이다. 0층도 같은 방식이라 값이 비슷하다(0.735).</p>
+<h2 id="4-지표">4. 지표</h2>
+<p><a href="../silcheung.html">「실증」</a> 면에 사전 등록한 형식 지표 셋의 중국어 값이다. 한국어 화자가 이 표기로 더 잘 듣거나 말하는지는 재지 않았다. 표본은 2절의 표제어 전부이고, 구간은 95% 부트스트랩 백분위(2,000회)다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>변형</th>
+<th>M1 음절 수 일치</th>
+<th>초과 음절 평균</th>
+<th>M2-sub 대립 보존</th>
+<th>M2-real</th>
+<th>M3a 유일 복원</th>
+<th>M3c 분절음 오류</th>
+<th>운율 복원</th>
+<th>렌더 오류</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2층 옛한글(판 2)</td>
+<td>0.765 [0.618, 0.912] (n=34)</td>
+<td>0.265</td>
+<td>0.839 [0.797, 0.879] (n=305)</td>
+<td>0.8571</td>
+<td>0.529 [0.382, 0.706] (n=34)</td>
+<td>0.0596</td>
+<td>0.529 [0.382, 0.706] (n=34)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1층 현대 한글</td>
+<td>0.765 [0.618, 0.912] (n=34)</td>
+<td>0.265</td>
+<td>0.131 [0.095, 0.171] (n=305)</td>
+<td>0.8571</td>
+<td>0.088 [0.000, 0.176] (n=34)</td>
+<td>0.2318</td>
+<td>0.088 [0.000, 0.176] (n=34)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Z-a 조류형</td>
+<td>0.765 [0.618, 0.912] (n=34)</td>
+<td>0.265</td>
+<td>0.872 [0.833, 0.908] (n=305)</td>
+<td>1.0</td>
+<td>0.559 [0.382, 0.706] (n=34)</td>
+<td>0.0563</td>
+<td>0.559 [0.382, 0.706] (n=34)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0층 외래어 표기법</td>
+<td>0.735 [0.588, 0.882] (n=34)</td>
+<td>0.294</td>
+<td>0.164 [0.124, 0.207] (n=299)</td>
+<td>0.8571</td>
+<td>0.059 [0.000, 0.147] (n=34)</td>
+<td>0.2053</td>
+<td>0.088 [0.000, 0.176] (n=34)</td>
+<td>0</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>2층 옛한글(판 2) 유형별 M2-sub: c/ch 1.00 · s/sh 1.00 · s/x 1.00 · z/zh 1.00 · 성조 1/2 1.00 · 성조 1/3 1.00 · 성조 1/4 0.00 · 성조 2/3 0.89 · 성조 2/4 1.00 · 성조 3/4 1.00 · 유기/무기 1.00</li>
+<li>1층 현대 한글 유형별 M2-sub: c/ch 0.00 · s/sh 0.00 · s/x 0.00 · z/zh 1.00 · 성조 1/2 0.00 · 성조 1/3 0.00 · 성조 1/4 0.00 · 성조 2/3 0.00 · 성조 2/4 0.00 · 성조 3/4 0.00 · 유기/무기 1.00</li>
+<li>Z-a 조류형 유형별 M2-sub: c/ch 1.00 · s/sh 1.00 · s/x 1.00 · z/zh 1.00 · 성조 1/2 0.00 · 성조 1/3 1.00 · 성조 1/4 1.00 · 성조 2/3 1.00 · 성조 2/4 1.00 · 성조 3/4 1.00 · 유기/무기 1.00</li>
+<li>0층 외래어 표기법 유형별 M2-sub: c/ch 0.00 · s/sh 1.00 · s/x 1.00 · z/zh 1.00 · 성조 1/2 0.00 · 성조 1/3 0.00 · 성조 1/4 0.00 · 성조 2/3 0.00 · 성조 2/4 0.00 · 성조 3/4 0.00 · 유기/무기 1.00</li>
+</ul>
+<p>전체 치환쌍의 대립 보존율은 Z-a 0.872, Z-b 0.839 이고, 성조쌍(243쌍)만 보면 각각 0.840, 0.798 이다. 유형별로 보면 Z-a 는 1성/2성을 잃고(0.00), Z-b 는 1성/4성을 잃는다(0.00). 어느 쪽이든 병음 성조 부호를 함께 두어야 네 성조가 다 살아난다. 0층은 성조 6쌍이 모두 0 이고 c/ch 도 0 이다(s/sh · s/x 는 글자가 갈려 1.00).</p>
+<nav class="prevnext"><a href="../eoneo/ru.html">← 러시아어</a><a href="../geulja.html">글자별 해설 →</a></nav>
+</main>
+<footer>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="../assets/fonts/OFL.txt">사본</a>)</p>
+<p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
+</footer>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('l1btn'); if(!b) return;
+  document.querySelectorAll('table').forEach(function(t){
+    var hs=t.querySelectorAll('thead th'), i2=-1, i1=-1;
+    hs.forEach(function(h,i){ var s=h.textContent; if(i2<0 && s.indexOf('2층')>=0) i2=i; else if(i1<0 && s.indexOf('1층')>=0) i1=i; });
+    if(i2<0||i1<0) return;
+    t.querySelectorAll('tr').forEach(function(r){ var c=r.children; if(c[i2]) c[i2].classList.add('c2'); if(c[i1]) c[i1].classList.add('c1'); });
+  });
+  function set(on){ document.documentElement.classList.toggle('l1',on); b.setAttribute('aria-pressed',on?'true':'false');
+    try{ localStorage.setItem('sejong-l1',on?'1':'0'); }catch(e){} }
+  var on=false; try{ on=localStorage.getItem('sejong-l1')==='1'; }catch(e){}
+  set(on);
+  b.addEventListener('click',function(){ set(!document.documentElement.classList.contains('l1')); });
+})();
+</script>
+</body></html>

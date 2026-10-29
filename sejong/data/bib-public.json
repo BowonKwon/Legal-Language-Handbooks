@@ -1,0 +1,4673 @@
+[
+ {
+  "id": "haerye1446",
+  "type": "book",
+  "title": "訓民正音(해례본) — 朝鮮語學會 석판 영인",
+  "author": [
+   {
+    "literal": "世宗"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1946
+    ]
+   ]
+  },
+  "URL": "https://kyudb.snu.ac.kr/book/view.do?book_cd=GG43224_00",
+  "publisher": "朝鮮語學會",
+  "publisher-place": "서울",
+  "note": "간송미술관 원간본(1446) 저본 석판 영인, 1책 33장(저본 기재는 규장각 서지 재확인 예정). 영인 발행 朝鮮語學會",
+  "language": "ko",
+  "original-date": {
+   "date-parts": [
+    [
+     1446
+    ]
+   ]
+  },
+  "custom": {
+   "grade": "A",
+   "category": "원전·영인",
+   "oa_url": "https://commons.wikimedia.org/wiki/File:조선어학회_훈민정음.pdf",
+   "annotation": "1946년 조선어학회가 간송미술관 원간본을 저본으로 찍은 석판 영인으로, 1책 33장이다. 세종이 지은 예의와 정인지 등 여덟 신하가 지은 해례로 나뉘며, 연서·병서·부서·방점 규정과 제자해·합자해의 조음 설명이 모두 여기 있다. 이 사이트는 원문 글자를 이 영인 기준으로 적고, 위키문헌 전사본과 다른 글자는 따로 밝힌다.",
+   "used_in": [
+    "01",
+    "02",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "eonhae",
+  "type": "book",
+  "title": "世宗御製訓民正音(훈민정음 언해본)",
+  "note": "월인석보(1459) 권두본 계통. 위키문헌 전사(판 460083)는 치두·정치 글자 구별을 잃었으므로 글자 모양은 1568년 중간본 『월인석보』 권1 권두 언해 사진(위키미디어 공용)으로 확인. 1459년 초간본 사진은 미대조",
+  "language": "ko",
+  "author": [
+   {
+    "literal": "世宗"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1459
+    ]
+   ]
+  },
+  "container-title": "月印釋譜 卷1",
+  "URL": "https://ko.wikisource.org/wiki/훈민정음_언해본",
+  "custom": {
+   "grade": "A",
+   "category": "원전·영인",
+   "oa_url": "https://commons.wikimedia.org/wiki/Category:Hunminjeongeum_Eonhae",
+   "annotation": "『월인석보』(1459) 권두에 실린 계통의 언해본이다. 예의를 우리말로 풀면서 해례에 없는 조항, 곧 중국 한자음의 잇소리를 치두와 정치로 가르는 대목과 그 열 글자를 덧붙였다. 위키문헌 전사는 이 열 글자의 꼴 구별을 잃었으므로 꼴은 영인으로 확인해야 한다. 이 사이트에서 E층 글자의 출처다.",
+   "used_in": [
+    "01",
+    "02"
+   ]
+  }
+ },
+ {
+  "id": "donggukjeongun1448",
+  "type": "book",
+  "title": "東國正韻 권1",
+  "author": [
+   {
+    "literal": "신숙주 등"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1448
+    ]
+   ]
+  },
+  "URL": "https://commons.wikimedia.org/wiki/File:Donggukjeongun,_Volume_1.djvu",
+  "note": "신숙주 등 편, 전 6권 가운데 권1. Commons 파일(116쪽)은 소장처·촬영 저본을 적지 않았다",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "원전·영인",
+   "oa_url": "https://commons.wikimedia.org/wiki/File:Donggukjeongun,_Volume_1.djvu",
+   "annotation": "신숙주 등이 엮은 6권짜리 한자음 운서의 권1 영인이다. 당시 조선 한자음을 중국 운서에 기대어 규범음으로 고쳐 한글로 적은 책이다(이돈주 2002: 28). 촬영 저본이 어느 소장본인지는 영인 설명에 적혀 있지 않다.",
+   "used_in": [
+    "01",
+    "03"
+   ]
+  }
+ },
+ {
+  "id": "hongmuyeokhun1455",
+  "type": "book",
+  "title": "洪武正韻譯訓",
+  "author": [
+   {
+    "family": "신",
+    "given": "숙주"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1455
+    ]
+   ]
+  },
+  "note": "신숙주 등 편, 16권 8책",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "원전·영인",
+   "oa_url": "",
+   "annotation": "명의 관찬 운서 『홍무정운』의 한자에 한글로 정음과 속음을 단 신숙주 등의 역훈서다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "saseongtonghae1517",
+  "type": "book",
+  "title": "四聲通解",
+  "author": [
+   {
+    "family": "최",
+    "given": "세진"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1517
+    ]
+   ]
+  },
+  "note": "1517년 서. 영인: 대제각 1988, 홍문각 1998, 학자원 2017",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "원전·영인",
+   "oa_url": "",
+   "annotation": "최세진이 『사성통고』를 보충해 엮은 중국어 한자음 운서로, 정음·속음·금속음 표기를 담는다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "ahakpyeon1908",
+  "type": "book",
+  "title": "兒學編",
+  "author": [
+   {
+    "family": "지",
+    "given": "석영"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1908
+    ]
+   ]
+  },
+  "note": "Stonham & Lee(2014) 경유 확인",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "원전·영인",
+   "oa_url": "",
+   "annotation": "지석영이 엮은 한자 학습서로, 한자마다 중국어·일본어·영어 뜻과 한글 발음 표기를 붙였다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "deulonmal1948",
+  "type": "legislation",
+  "title": "들온말 적는 법",
+  "author": [
+   {
+    "literal": "문교부"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1948
+    ]
+   ]
+  },
+  "publisher": "문교부",
+  "note": "원책 미열람. 이경숙(2016: 111–115)이 전재한 본문으로 읽었다. 학술용어제정위원회 제20분과 언어과학위원회. 1952년 재발행 기록",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.accesson.kr/ksq/v.39/1/107/40976",
+   "annotation": "문교부 학술용어제정위원회 제20분과(언어과학)가 1948년에 낸 외래어 표기안이다. 현용 자모 밖의 글자와 부호를 쓰고 장음은 같은 모음을 거듭 적었다(국어연구소 1986: 139의 연혁). 원문은 이경숙(2016)이 전재한 판으로 읽었다. 이 사이트는 ᄫ·ᅗ·ᅀ 같은 옛 글자를 외국 소리에 다시 쓴 근대 선례로 쓴다.",
+   "used_in": [
+    "02",
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "sillok",
+  "type": "book",
+  "title": "世宗實錄 — 훈민정음 창제·『동국정운』 관련 기사",
+  "author": [
+   {
+    "literal": "국사편찬위원회"
+   }
+  ],
+  "publisher": "국사편찬위원회",
+  "note": "기사: 세종 25.12.30(wda_12512030_002), 26.2.20(wda_12602020_001), 28.9.29(wda_12809029_004), 29.9.29(wda_12909029_002). 날짜는 음력",
+  "language": "ko",
+  "URL": "https://sillok.history.go.kr/id/wda_12512030_002",
+  "custom": {
+   "grade": "A",
+   "category": "원전·영인",
+   "oa_url": "",
+   "annotation": "국사편찬위원회 공개본 『세종실록』에서 훈민정음 창제·반포와 『동국정운』 편찬에 관한 기사 넷을 골랐다(세종 25년 12월 30일, 26년 2월 20일, 28년 9월 29일, 29년 9월 29일). 날짜는 실록 원문대로 음력이다. 새 글자로 한자음과 외국어 음을 다룬 조정의 기록을 원문으로 확인하는 데 쓴다.",
+   "used_in": [
+    "01",
+    "03"
+   ]
+  }
+ },
+ {
+  "id": "leehh1997",
+  "type": "article-journal",
+  "title": "훈민정음",
+  "author": [
+   {
+    "family": "이",
+    "given": "현희"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "7",
+  "issue": "4",
+  "page": "237–253",
+  "URL": "https://www.korean.go.kr/nkview/nklife/1997_4/1997_0412.pdf",
+  "publisher": "국립국어연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "문자론·음가 재구",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/1997_4/1997_0412.pdf",
+   "annotation": "『새국어생활』의 국어학 개설 연재 가운데 한 편이다. 책 『훈민정음』의 짜임을 따라가며 예의 4장과 해례 29장이 장차와 판심제를 따로 가진다는 점, 임금의 글과 신하의 글을 글자 크기로 구별한 점, 구두점과 권성을 『성리대전』 체재에서 빌린 점을 정리한다. 이 사이트는 해례 본문과 그 밖의 문헌이 정한 것을 가르는 데 쓴다.",
+   "used_in": [
+    "01",
+    "02"
+   ]
+  }
+ },
+ {
+  "id": "leedj2002",
+  "type": "article-journal",
+  "title": "신숙주와 훈민정음",
+  "author": [
+   {
+    "family": "이",
+    "given": "돈주"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2002
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "12",
+  "issue": "3",
+  "page": "27–42",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2002_3/2002_0302.pdf",
+  "publisher": "국립국어연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "운서·역학서",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2002_3/2002_0302.pdf",
+   "annotation": "신숙주가 해례 편찬, 『동국정운』, 『홍무정운역훈』에 걸쳐 한 일을 중국 음운학의 배경에서 묶어 본 글이다. 조선 한자음에 대한 판단과 중국어 음 표기를 장을 나눠 다룬다. 이 사이트는 치음 글자들의 15세기 쓰임을 확인하는 근거이자, θ 에 치두음 시옷을 쓰던 판 1 배정의 반대 근거로 쓴다.",
+   "used_in": [
+    "02",
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "kangsh2002",
+  "type": "article-journal",
+  "title": "신숙주와 운서(韻書)",
+  "author": [
+   {
+    "family": "강",
+    "given": "신항"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2002
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "12",
+  "issue": "3",
+  "page": "43–56",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2002_3/2002_0303.pdf",
+  "publisher": "국립국어연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "운서·역학서",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2002_3/2002_0303.pdf",
+   "annotation": "반절법과 중국 운서의 역사에서 시작해, 세종 대 한자음 정리 사업에서 신숙주가 맡은 몫을 서술한다. 『사성통고』가 『홍무정운역훈』의 반절과 뜻풀이를 덜어 내고 정음과 속음을 31자모 순으로 추린 책이라는 설명이 있다. 이 사이트는 운서 계보를 적는 데 쓴다.",
+   "used_in": [
+    "01",
+    "03"
+   ]
+  }
+ },
+ {
+  "id": "shim2013",
+  "type": "article-journal",
+  "title": "『홍무정운역훈』의 문백이독 연구",
+  "author": [
+   {
+    "family": "심",
+    "given": "소희"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013,
+     10
+    ]
+   ]
+  },
+  "container-title": "한중언어문화연구",
+  "page": "3–42",
+  "DOI": "10.16874/jslckc.2013..33.001",
+  "URL": "https://journal.kci.go.kr/ksclc/archive/articlePdf?artiId=ART001817222",
+  "language": "ko",
+  "issue": "33",
+  "custom": {
+   "grade": "A",
+   "category": "운서·역학서",
+   "oa_url": "https://journal.kci.go.kr/ksclc/archive/articlePdf?artiId=ART001817222",
+   "annotation": "『홍무정운역훈』이 문언음(정음)과 백화음(속음)을 각각 어떻게 채취했는지 밝히고, 두 음이 성모와 운모에서 갈리는 경우를 운목별로 정리한다. 『사성통고』 범례의 방점 조항을 원문으로 인용한다. 이 사이트에서 중국어 치두·정치 글자의 값과 방점 조류형의 근거다.",
+   "used_in": [
+    "01",
+    "02",
+    "06",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "takekoshi2013",
+  "type": "paper-conference",
+  "title": "中国語史研究におけるテキストの問題",
+  "author": [
+   {
+    "family": "竹越",
+    "given": "孝"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "container-title": "日本中国学会 발표 자료(2013.10.14, 秋田大学)",
+  "URL": "https://nippon-chugoku-gakkai.org/wp-content/uploads/2024/06/takekoshi.pdf",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "https://nippon-chugoku-gakkai.org/wp-content/uploads/2024/06/takekoshi.pdf",
+   "annotation": "중국어사 연구에서 쓰는 문헌 텍스트(판본·사본)의 문제를 다룬 학회 발표 자료다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leesk2009",
+  "type": "article-journal",
+  "title": "훈민정음의 첩운(疊韻) 권점 분석",
+  "author": [
+   {
+    "family": "이",
+    "given": "상규"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "19",
+  "issue": "1",
+  "page": "155–184",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2009_1/2009_0110.pdf",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "원전·영인",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2009_1/2009_0110.pdf",
+   "annotation": "『훈민정음』 해례본에 찍힌 첩운 권점의 쓰임을 분석한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimby2018",
+  "type": "article-journal",
+  "title": "『훈민정음』 <합자해>의 기능에 대한 재조명",
+  "author": [
+   {
+    "family": "김",
+    "given": "부연"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "한국어학",
+  "volume": "81",
+  "page": "131–167",
+  "DOI": "10.20405/kl.2018.11.81.131",
+  "publisher": "한국어학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "해례 합자해가 맡은 기능, 특히 고유어 밖의 소리를 허용하는 조항을 어떻게 읽을지를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "parkhw2024",
+  "type": "article-journal",
+  "title": "<合字解>에 나타나는 '合字'의 개념과 범위",
+  "author": [
+   {
+    "family": "박",
+    "given": "형우"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "38",
+  "page": "109–138",
+  "publisher": "국어사학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "합자해의 「합자」가 가리키는 개념과 그 범위를 따진다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "shin2004",
+  "type": "article-journal",
+  "title": "≪飜譯老乞大≫에 나타난 좌측음의 성격에 대하여",
+  "author": [
+   {
+    "family": "신",
+    "given": "용권"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "container-title": "중국문학",
+  "volume": "42",
+  "page": "243–269",
+  "publisher": "한국중국어문학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『번역노걸대』의 왼쪽 한자음 표기(좌측음)가 무엇을 반영하는지를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "shin2011",
+  "type": "article-journal",
+  "title": "<번역노걸대․박통사>에 나타난 정속음의 개념에 대한 재검토",
+  "author": [
+   {
+    "family": "신",
+    "given": "용권"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "container-title": "한글",
+  "volume": "293",
+  "page": "83–115",
+  "publisher": "한글학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『번역노걸대』·『번역박통사』에 나오는 정음·속음 개념을 다시 검토한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "shin2008",
+  "type": "article-journal",
+  "title": "老乞大諺解書에 나타난 漢語 聲調 표기와 관련된 몇 가지 문제에 대하여",
+  "author": [
+   {
+    "family": "신",
+    "given": "용권"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "container-title": "중국문학",
+  "volume": "57",
+  "page": "405–436",
+  "DOI": "10.21192/scll.57..200811.018",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『노걸대』 언해서들에서 중국어 성조를 방점으로 적은 방식의 문제들을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "endo1990",
+  "type": "book",
+  "title": "《翻譯老乞大・朴通事》漢字注音索引",
+  "editor": [
+   {
+    "family": "遠藤",
+    "given": "光暁"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1990
+    ]
+   ]
+  },
+  "publisher": "好文出版",
+  "publisher-place": "東京",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『번역노걸대』·『번역박통사』의 한자 주음을 찾아볼 수 있게 만든 색인이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeongwy2005",
+  "type": "article-journal",
+  "title": "『訓民正音』언해본의 성립과 원본 재구",
+  "author": [
+   {
+    "family": "정",
+    "given": "우영"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2005
+    ]
+   ]
+  },
+  "container-title": "국어국문학",
+  "volume": "141",
+  "page": "75–113",
+  "publisher": "국어국문학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "원전·영인",
+   "oa_url": "",
+   "annotation": "『훈민정음』 언해본이 어떻게 성립했는지와 원본의 재구를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeongk2020",
+  "type": "article-journal",
+  "title": "훈민정음의 <언해본>: 고려대 도서관 육당문고 소장의 「훈민정음」을 중심으로",
+  "author": [
+   {
+    "family": "정",
+    "given": "광"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "어문논집",
+  "volume": "88",
+  "page": "5–48",
+  "DOI": "10.33335/KLL.88.1",
+  "publisher": "민족어문학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "원전·영인",
+   "oa_url": "",
+   "annotation": "고려대 육당문고 소장 『훈민정음』 언해본의 서지와 성격을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimjh2012",
+  "type": "article-journal",
+  "title": "이른바 세종이 정한 「통고 사성도」에 대하여",
+  "author": [
+   {
+    "family": "김",
+    "given": "지홍"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "규장각",
+  "volume": "40",
+  "page": "1–49",
+  "DOI": "10.22943/kyujg.2012..40.001",
+  "publisher": "서울대학교 규장각한국학연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "세종이 정했다고 전하는 「통고 사성도」의 실체를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kangwh2026",
+  "type": "article-journal",
+  "title": "『홍무정운역훈』의 DB 구축과 정⋅속음 체계의 고찰",
+  "author": [
+   {
+    "family": "강",
+    "given": "운화"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "중국언어연구",
+  "volume": "125",
+  "page": "1–32",
+  "publisher": "한국중국언어학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『홍무정운역훈』을 데이터베이스로 구축하고 그로써 정음·속음 체계를 살핀다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "moon2020",
+  "type": "article-journal",
+  "title": "『동국정운(東國正韻)』 한자음의 종성 'ㅭ'·'ㅱ' 고찰 — 'ㆆ'·'ㅇ'을 중심으로",
+  "author": [
+   {
+    "family": "문",
+    "given": "성호"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "人文學硏究",
+  "volume": "33",
+  "page": "337–366",
+  "DOI": "10.31323/SH.2020.06.33.13",
+  "publisher": "인천대학교 인문학연구소",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『동국정운』 한자음의 종성 ㅭ·ㅱ 표기를 ㆆ·ㅇ 과 관련지어 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "joo2009a",
+  "type": "article-journal",
+  "title": "≪四聲通解≫凡例考(Ⅰ)",
+  "author": [
+   {
+    "family": "주",
+    "given": "성일"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "container-title": "중국문학연구",
+  "volume": "38",
+  "page": "115–150",
+  "publisher": "한국중문학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『사성통해』 범례를 조항별로 고찰한 연속 논문의 첫째 편이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "joo2009b",
+  "type": "article-journal",
+  "title": "≪四聲通解≫凡例考(Ⅱ)",
+  "author": [
+   {
+    "family": "주",
+    "given": "성일"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "container-title": "중국문학연구",
+  "volume": "39",
+  "page": "215–246",
+  "publisher": "한국중문학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『사성통해』 범례를 조항별로 고찰한 연속 논문의 둘째 편이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimjw2013",
+  "type": "book",
+  "title": "훈민정음: 사진과 기록으로 읽는 한글의 역사",
+  "author": [
+   {
+    "family": "김",
+    "given": "주원"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "publisher": "민음사",
+  "publisher-place": "서울",
+  "ISBN": "9788937485008",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "사진과 기록을 바탕으로 훈민정음과 한글의 역사를 개관한 단행본이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kangsj1999",
+  "type": "article-journal",
+  "title": "최세진의 번역 활동",
+  "author": [
+   {
+    "family": "강",
+    "given": "식진"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1999
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "9",
+  "issue": "3",
+  "page": "31–54",
+  "URL": "https://www.korean.go.kr/nkview/nklife/1999_3/1999_0303.pdf",
+  "publisher": "국립국어연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "운서·역학서",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/1999_3/1999_0303.pdf",
+   "annotation": "최세진의 생애와 번역 저술을 『번역노걸대』·『번역박통사』 범례 중심으로 살핀다. 운서음을 글자 왼쪽(좌음)에, 당대 북방 현실음을 오른쪽(우음)에 나란히 단 방식과, 상성이 이어질 때 앞 글자에 두 점을 찍는 방점조를 해설한다. 이 사이트에서 중국어 성조를 방점으로 적는 방식의 근거다.",
+   "used_in": [
+    "01",
+    "02",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "yeon2014",
+  "type": "article-journal",
+  "title": "청학서: 선조들이 만난 만주어",
+  "author": [
+   {
+    "family": "연",
+    "given": "규동"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "24",
+  "issue": "1",
+  "page": "39–60",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2014_1/24_0103.pdf",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2014_1/24_0103.pdf",
+   "annotation": "사역원 청학서(만주어 학습서)의 종류와 내용을 소개한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "choganghee2000",
+  "type": "article-journal",
+  "title": "鼻濁音の喪失過程について ―朝鮮時代の日本語学習書を中心に―",
+  "author": [
+   {
+    "family": "趙",
+    "given": "堈煕"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2000
+    ]
+   ]
+  },
+  "container-title": "岡大国文論稿",
+  "volume": "28",
+  "page": "82–93",
+  "DOI": "10.18926/okadaironkou/60212",
+  "URL": "https://ousar.lib.okayama-u.ac.jp/en/journal/okadaironkou/--/28/article/60212",
+  "language": "ja",
+  "custom": {
+   "grade": "A",
+   "category": "운서·역학서",
+   "oa_url": "https://ousar.lib.okayama-u.ac.jp/en/journal/okadaironkou/--/28/article/60212",
+   "annotation": "『첩해신어』 원간본(1676), 개수본(1748), 중간본(1781)에서 일본어 탁음에 붙은 한글 음주를 세 갈래로 나누어 견준다. 앞 음절에 비음 받침을 다는 방식, 비음 글자를 앞붙이는 방식, 평음만 쓰는 방식이 판을 거듭하며 비율이 바뀌는 것을 비음 요소가 사라지는 과정으로 읽는다. 일본어로 쓰였다. 이 사이트는 역학서가 외국 소리를 한글로 적은 실례로 쓴다.",
+   "used_in": [
+    "02",
+    "03"
+   ]
+  }
+ },
+ {
+  "id": "chorc2014",
+  "type": "article-journal",
+  "title": "『捷解新語』における清音と濁音のハングル音注 ―単子音と重ね子音の用例を中心に―",
+  "author": [
+   {
+    "family": "趙",
+    "given": "來喆"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "日本学研究",
+  "volume": "42",
+  "page": "321–337",
+  "URL": "https://www.earticle.net/Article/A218936",
+  "publisher": "단국대학교 일본연구소",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『첩해신어』에서 일본어 청음과 탁음에 붙인 한글 음주를 홑자음과 겹자음 용례 중심으로 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "nakayama2011",
+  "type": "article-journal",
+  "title": "17世紀の撥音に関する考察 ―『捷解新語』のハングル音注を通して―",
+  "author": [
+   {
+    "family": "中山",
+    "given": "めぐみ"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "container-title": "麗澤学際ジャーナル",
+  "volume": "19",
+  "issue": "1",
+  "page": "11–31",
+  "DOI": "10.18901/00000176",
+  "URL": "https://reitaku.repo.nii.ac.jp/records/190",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "https://reitaku.repo.nii.ac.jp/records/190",
+   "annotation": "『첩해신어』의 한글 음주로 17세기 일본어 발음(撥音)을 고찰한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeongsh2014",
+  "type": "article-journal",
+  "title": "왜학서로 만나는 선인들의 삶",
+  "author": [
+   {
+    "family": "정",
+    "given": "승혜"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "24",
+  "issue": "1",
+  "page": "61–80",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2014_1/24_0104.pdf",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2014_1/24_0104.pdf",
+   "annotation": "사역원 왜학서(일본어 학습서)에 드러난 당시 사람들의 생활상을 소개한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeongsh2003",
+  "type": "book",
+  "title": "조선후기 왜학서 연구",
+  "author": [
+   {
+    "family": "정",
+    "given": "승혜"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "publisher": "태학사",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "조선 후기 왜학서의 종류와 변천을 다룬 연구서다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leejs1982",
+  "type": "thesis",
+  "title": "倭學書에 나타난 日本語의 한글轉寫表記 ―司譯院 譯學書를 中心으로―",
+  "author": [
+   {
+    "family": "이",
+    "given": "정수"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1982
+    ]
+   ]
+  },
+  "publisher": "서울대학교",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "사역원 왜학서에 나타난 일본어의 한글 전사 표기를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "bae1999",
+  "type": "article-journal",
+  "title": "倭學書ザ行音轉寫表記の淸音化の傾向",
+  "author": [
+   {
+    "family": "裵",
+    "given": "錫柱"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1999
+    ]
+   ]
+  },
+  "container-title": "論文集(경주대학교)",
+  "volume": "12",
+  "issue": "1",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "왜학서에서 일본어 ザ행음을 한글로 옮긴 표기가 청음 쪽으로 기우는 경향을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "bae2001",
+  "type": "article-journal",
+  "title": "倭學書の四っ假名轉寫表記考",
+  "author": [
+   {
+    "family": "裵",
+    "given": "錫柱"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2001
+    ]
+   ]
+  },
+  "container-title": "論文集(경주대학교)",
+  "volume": "14",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "왜학서에서 일본어 「四つ仮名」(じ·ぢ·ず·づ)를 한글로 옮긴 표기를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "heo2021",
+  "type": "article-journal",
+  "title": "転写資料を活用した韓国語音韻史の研究 ―近世日韓の語学書を中心に―",
+  "author": [
+   {
+    "family": "許",
+    "given": "仁寧"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "container-title": "비교일본학",
+  "volume": "53",
+  "page": "21–40",
+  "URL": "https://www.earticle.net/Article/A407824",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "근세 한일 어학서의 전사 자료를 한국어 음운사 연구에 쓰는 방법을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "heo2022",
+  "type": "article-journal",
+  "title": "왜학서에 대한 한국어학적 연구의 회고와 전망",
+  "author": [
+   {
+    "family": "허",
+    "given": "인영"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "34",
+  "page": "69–102",
+  "publisher": "국어사학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "왜학서에 대한 한국어학적 연구의 흐름을 돌아보고 과제를 정리한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "so2024",
+  "type": "article-journal",
+  "title": "청학서 한글 전사 표기에 보이는 '병서'와 '연서'",
+  "author": [
+   {
+    "family": "소",
+    "given": "뢰"
+   },
+   {
+    "family": "임",
+    "given": "다영"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "국어학",
+  "volume": "109",
+  "page": "103–129",
+  "DOI": "10.15811/jkl.2024..109.004",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "청학서의 만주어 한글 전사에 나오는 병서와 연서 표기를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "so2023",
+  "type": "article-journal",
+  "title": "청학서 만·한 대역에 보이는 음절 대칭과 비대칭",
+  "author": [
+   {
+    "family": "소",
+    "given": "뢰"
+   },
+   {
+    "family": "임",
+    "given": "다영"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "한중인문학연구",
+  "volume": "81",
+  "page": "161–186",
+  "URL": "https://www.earticle.net/Article/A439604",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "청학서의 만주어·한국어 대역에서 음절이 대응하거나 어긋나는 양상을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimyb2013",
+  "type": "article-journal",
+  "title": "『同文類解』의 滿洲語 한글 표기 체계에 대하여",
+  "author": [
+   {
+    "family": "김",
+    "given": "유범"
+   },
+   {
+    "family": "김",
+    "given": "미미"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "container-title": "민족문화연구",
+  "volume": "58",
+  "page": "553–578",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『동문유해』의 만주어 한글 표기 체계를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "oh2017",
+  "type": "article-journal",
+  "title": "『동문유해』 만주어 한글 표기와 만주 문자의 대응 관계 고찰 ―구별 기호가 있는 한글표기를 중심으로―",
+  "author": [
+   {
+    "family": "오",
+    "given": "민석"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "민족문화연구",
+  "volume": "77",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『동문유해』의 만주어 한글 표기와 만주 문자의 대응을 구별 기호가 붙은 표기 중심으로 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimk2010",
+  "type": "article-journal",
+  "title": "만주어의 한글 문자 차용에 대하여",
+  "author": [
+   {
+    "family": "김",
+    "given": "국"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "container-title": "한국어정보학",
+  "volume": "12",
+  "issue": "1",
+  "page": "40–46",
+  "URL": "https://www.earticle.net/Article/A148823",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "만주어를 적으려고 한글 글자를 빌려 쓴 방식을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "xie2021",
+  "type": "article-journal",
+  "title": "≪몽어유해≫ 부가부호 '△'에 대한 연구",
+  "author": [
+   {
+    "family": "사",
+    "given": "수란"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "container-title": "몽골학",
+  "volume": "67",
+  "page": "33–64",
+  "DOI": "10.17292/kams.2021..67.002",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『몽어유해』에 쓰인 부가 부호 △ 의 기능을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "xing2025",
+  "type": "article-journal",
+  "title": "몽어유해(蒙語類解)의 'ㅅ, ㄷ'에 후행하는 'ㅎ' 발음에 대하여",
+  "author": [
+   {
+    "family": "형",
+    "given": "매연"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "몽골학",
+  "volume": "82",
+  "page": "99–123",
+  "DOI": "10.17292/kams.2025.82.99",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『몽어유해』에서 ㅅ·ㄷ 뒤에 오는 ㅎ 의 발음을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "shin2012",
+  "type": "article-journal",
+  "title": "《번역노걸대ㆍ박통사》의 한어음 표기와 관련된 몇 가지 문제에 대하여",
+  "author": [
+   {
+    "family": "신",
+    "given": "용권"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "언어학",
+  "volume": "62",
+  "publisher": "한국언어학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『번역노걸대』·『번역박통사』의 중국어음 표기와 관련된 문제들을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "shin2007",
+  "type": "paper-conference",
+  "title": "《飜譯老乞大》에 나타난 左右音의 성격",
+  "author": [
+   {
+    "family": "愼",
+    "given": "鏞權"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2007
+    ]
+   ]
+  },
+  "container-title": "한국언어학회 학술대회지",
+  "volume": "2007",
+  "issue": "7",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『번역노걸대』에 나타난 좌음과 우음의 성격을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "byeon2012",
+  "type": "article-journal",
+  "title": "만다린 속에서의 중세 한국 轉寫音의 위치 ―《번역노걸대》 좌⋅우음과 만다린 방언의 친연성 비교를 통하여―",
+  "author": [
+   {
+    "family": "변",
+    "given": "지원"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "중국문학",
+  "volume": "71",
+  "page": "123–144",
+  "URL": "https://www.earticle.net/Article/A177182",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『번역노걸대』의 좌음·우음이 현대 북방 방언 가운데 어디와 가까운지를 견준다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "shim2005",
+  "type": "article-journal",
+  "title": "조선시대 외국어 한글표기법의 고찰",
+  "author": [
+   {
+    "family": "심",
+    "given": "소희"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2005
+    ]
+   ]
+  },
+  "container-title": "중국어문학지",
+  "volume": "17",
+  "publisher": "중국어문학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "조선 시대에 외국어를 한글로 적은 방식들을 고찰한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leekm2011",
+  "type": "book",
+  "title": "A History of the Korean Language",
+  "author": [
+   {
+    "family": "Lee",
+    "given": "Ki-Moon"
+   },
+   {
+    "family": "Ramsey",
+    "given": "S. Robert"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "DOI": "10.1017/CBO9780511974045",
+  "publisher": "Cambridge University Press",
+  "publisher-place": "Cambridge",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "한국어의 역사를 고대부터 현대까지 개관한 영문 단행본이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeongk2002",
+  "type": "book",
+  "title": "譯學書研究",
+  "author": [
+   {
+    "family": "鄭",
+    "given": "光"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2002
+    ]
+   ]
+  },
+  "publisher": "제이앤씨",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "사역원 역학서 전반을 다룬 연구서다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeongk1998",
+  "type": "book",
+  "title": "司譯院 譯學書 冊板研究",
+  "author": [
+   {
+    "family": "정",
+    "given": "광"
+   },
+   {
+    "family": "윤",
+    "given": "세영"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "publisher": "고려대학교출판부",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "사역원 역학서의 책판을 조사한 연구서다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leesk2002",
+  "type": "book",
+  "title": "蒙學三書의 蒙古語研究",
+  "author": [
+   {
+    "family": "李",
+    "given": "聖揆"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2002
+    ]
+   ]
+  },
+  "publisher": "단국대학교출판부",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "사역원 몽학서 세 가지로 몽골어를 연구한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimhs1974",
+  "type": "book",
+  "title": "蒙學三書研究",
+  "author": [
+   {
+    "family": "金",
+    "given": "炯秀"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1974
+    ]
+   ]
+  },
+  "publisher": "螢雪出版社",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "사역원 몽학서 세 가지를 다룬 연구서다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "hamada1970",
+  "type": "book",
+  "title": "朝鮮資料による日本語研究",
+  "author": [
+   {
+    "family": "濱田",
+    "given": "敦"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1970
+    ]
+   ]
+  },
+  "publisher": "岩波書店",
+  "note": "正 1970(岩波書店)·続 1983(臨川書店)",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "조선 자료(역학서 등)로 일본어사를 연구한 논문집이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "otomo1956",
+  "type": "article-journal",
+  "title": "『捷解新語』に見られる濁音表記",
+  "author": [
+   {
+    "family": "大友",
+    "given": "信一"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1956
+    ]
+   ]
+  },
+  "container-title": "言語研究",
+  "volume": "30",
+  "publisher": "日本言語学会",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "『첩해신어』에 나타난 탁음 표기를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeongsh2022",
+  "type": "article-journal",
+  "title": "한국의 역학서(譯學書) 연구 현황과 과제",
+  "author": [
+   {
+    "family": "정",
+    "given": "승혜"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "34",
+  "page": "7–26",
+  "URL": "https://www.earticle.net/Article/A411457",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "한국의 역학서 연구 현황을 정리하고 과제를 제시한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leejh2022",
+  "type": "article-journal",
+  "title": "漢語 학습서의 국어학적 가치에 관하여",
+  "author": [
+   {
+    "family": "이",
+    "given": "준환"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "34",
+  "page": "27–67",
+  "URL": "https://m.earticle.net/Article/A411458",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "한어 학습서가 국어학 자료로서 갖는 가치를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "parksc2022",
+  "type": "article-journal",
+  "title": "청학서에 대한 국어학적 연구 ―특히 만주어와 한국어의 시상체계에 관한 연구를 중심으로―",
+  "author": [
+   {
+    "family": "박",
+    "given": "상철"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "34",
+  "page": "103–145",
+  "URL": "https://www.earticle.net/Article/A411460",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "운서·역학서",
+   "oa_url": "",
+   "annotation": "청학서를 국어학적으로 다루며 만주어와 한국어의 시상 체계를 견준다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "sampson2015",
+  "type": "chapter",
+  "title": "A featural system: Korean Hangul",
+  "author": [
+   {
+    "family": "Sampson",
+    "given": "Geoffrey"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "Writing Systems (2nd ed.)",
+  "publisher": "Equinox",
+  "publisher-place": "Sheffield",
+  "ISBN": "978-1-78179-103-5",
+  "language": "en",
+  "URL": "https://grsampson.net/BWSys.html",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "한글을 자질 문자 체계의 사례로 다룬 문자론 개설서의 장이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leeso2009",
+  "type": "article-journal",
+  "title": "The Korean alphabet: An optimal featural system with graphical ingenuity",
+  "author": [
+   {
+    "family": "Lee",
+    "given": "Sang-Oak"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "container-title": "Written Language & Literacy",
+  "volume": "12",
+  "issue": "2",
+  "DOI": "10.1075/wll.12.2.05lee",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "한글을 자질 문자 체계로 보고 그 글꼴 설계를 평가한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "coulmas2000",
+  "type": "review",
+  "title": "Review of Kim-Renaud (ed.), The Korean Alphabet: Its History and Structure",
+  "author": [
+   {
+    "family": "Coulmas",
+    "given": "Florian"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2000
+    ]
+   ]
+  },
+  "container-title": "Korean Studies",
+  "volume": "24",
+  "DOI": "10.1353/ks.2000.0002",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "한글의 역사와 구조를 다룬 편저(Kim-Renaud 1997)에 대한 서평이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimrenaud1997",
+  "type": "book",
+  "title": "The Korean Alphabet: Its History and Structure",
+  "editor": [
+   {
+    "family": "Kim-Renaud",
+    "given": "Young-Key"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "publisher": "University of Hawai'i Press",
+  "publisher-place": "Honolulu",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "한글의 역사와 구조를 다룬 영문 논문 모음이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "chosd2019",
+  "type": "chapter",
+  "title": "Writing system",
+  "author": [
+   {
+    "family": "Cho",
+    "given": "Sungdai"
+   },
+   {
+    "family": "Whitman",
+    "given": "John"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "Korean: A Linguistic Introduction",
+  "DOI": "10.1017/9781139048842.004",
+  "publisher": "Cambridge University Press",
+  "publisher-place": "Cambridge",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "한국어 개설서에서 문자 체계를 다룬 장이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "stonham2014",
+  "type": "article-journal",
+  "title": "An Early 20th Century Korean Phonetic Alphabet",
+  "author": [
+   {
+    "family": "Stonham",
+    "given": "John"
+   },
+   {
+    "family": "Lee",
+    "given": "Hyehyun"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "Journal of Universal Language",
+  "volume": "15",
+  "issue": "2",
+  "page": "115–146",
+  "DOI": "10.22425/jul.2014.15.2.115",
+  "URL": "http://www.sejongjul.org/download/download_pdf?pid=jul-15-2-115",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "문자론·음가 재구",
+   "oa_url": "http://www.sejongjul.org/download/download_pdf?pid=jul-15-2-115",
+   "annotation": "지석영의 『아학편』(1908)이 영어 낱말에 단 한글 발음 표기를 글자 단위로 분석한다. ㅇ 을 앞에 붙인 꼴로 f·v·θ·ð 를 적은 방식과, 책 안에서 그 구별이 흔들리는 대목을 함께 보여 준다. 이 사이트에서 θ=ᅊ·ð=ᅂ 배정의 선례이자 반대 근거다.",
+   "used_in": [
+    "02",
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "kogj2022",
+  "type": "article-journal",
+  "title": "반치음 'ㅿ' 음가 [j] 가설에 대한 검토: 주로 한자음의 관점에서",
+  "author": [
+   {
+    "family": "고",
+    "given": "경재"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "34",
+  "page": "196–241",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "반치음 ㅿ 의 음가를 [j] 로 보는 가설을 한자음 쪽에서 검토한다.",
+   "used_in": [
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "kogj2025",
+  "type": "article-journal",
+  "title": "15세기 순경음 비읍 'ㅸ'의 음가와 변화에 대한 고찰: 'β>w' 규칙의 타당성을 중심으로",
+  "author": [
+   {
+    "family": "고",
+    "given": "경재"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "한글",
+  "volume": "86",
+  "issue": "1",
+  "page": "71–137",
+  "DOI": "10.22557/HG.2025.3.86.1.71",
+  "publisher": "한글학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "15세기 순경음 ㅸ 의 음가와, β 가 w 로 바뀌었다는 규칙의 타당성을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leeds2010",
+  "type": "article-journal",
+  "title": "'ㅸ' 포함 어휘의 형태론적 분석",
+  "author": [
+   {
+    "family": "이",
+    "given": "동석"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "11",
+  "page": "221–249",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "ㅸ 이 든 낱말들을 형태론적으로 분석한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimyb2019",
+  "type": "article-journal",
+  "title": "『훈민정음』의 각자병서자와 전탁음의 음가에 대한 재론",
+  "author": [
+   {
+    "family": "김",
+    "given": "유범"
+   },
+   {
+    "family": "고",
+    "given": "경재"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "우리말연구",
+  "volume": "59",
+  "page": "5–45",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "해례의 각자병서 글자와 전탁음의 음가를 다시 논한다.",
+   "used_in": [
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "shinsy2006",
+  "type": "article-journal",
+  "title": "치음 /ㅅ/, /ㅈ/의 조음위치 이동 원인과 변화 과정",
+  "author": [
+   {
+    "family": "신",
+    "given": "승용"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2006
+    ]
+   ]
+  },
+  "container-title": "국제어문",
+  "volume": "36",
+  "page": "117–144",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "치음 ㅅ·ㅈ 의 조음 위치가 옮겨 간 원인과 과정을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "hayata1976",
+  "type": "article-journal",
+  "title": "An Attempt at a Family Tree for Accent in Some Korean Dialects",
+  "author": [
+   {
+    "family": "Hayata",
+    "given": "Teruhiro"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1976
+    ]
+   ]
+  },
+  "container-title": "文學研究",
+  "volume": "73",
+  "page": "1–26",
+  "DOI": "10.15017/2557154",
+  "publisher": "九州大学文学部",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "문자론·음가 재구",
+   "oa_url": "https://hdl.handle.net/2324/2557154",
+   "annotation": "중세 한국어 자료와 스무 곳 남짓한 방언의 악센트 자료를 모아, 대립이 중화되는 방식을 견주어 방언 악센트의 계통수를 세워 보려는 논문이다. 일본어 방언 악센트 계통 연구의 방법을 빌렸다. 이 사이트는 방점이 적은 것이 높낮이 대립이었다는 배경을 적는 데 쓴다.",
+   "used_in": [
+    "02",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "constable2011",
+  "type": "report",
+  "title": "Proposal to change the General_Category of Hangul tone marks U+302E and U+302F",
+  "author": [
+   {
+    "family": "Constable",
+    "given": "Peter"
+   },
+   {
+    "family": "Iancu",
+    "given": "Laurențiu"
+   },
+   {
+    "family": "Robinson",
+    "given": "Dwayne"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "URL": "https://unicode.org/L2/L2011/11402-bangjeom.pdf",
+  "publisher": "Unicode Consortium",
+  "note": "L2/11-402 (2011-10-20)",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "https://unicode.org/L2/L2011/11402-bangjeom.pdf",
+   "annotation": "방점 U+302E·U+302F 의 유니코드 일반 범주를 바꾸자는 제안서다.",
+   "used_in": [
+    "08"
+   ]
+  }
+ },
+ {
+  "id": "choi2025",
+  "type": "article-journal",
+  "title": "비어두 음절 /ㆍ/의 개별적 변화 양상: 특수 어간 교체형과 문법 형태를 중심으로",
+  "author": [
+   {
+    "family": "최",
+    "given": "우진"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "41",
+  "page": "103–132",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "비어두 음절 ㆍ 가 낱말에 따라 따로 변한 양상을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimje2022",
+  "type": "article-journal",
+  "title": "중세·근대 국어 자음체계 연구의 성과와 전망",
+  "author": [
+   {
+    "family": "김",
+    "given": "지은"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "국어사연구",
+  "volume": "35",
+  "page": "41–66",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "중세·근대 국어 자음 체계 연구의 성과를 정리하고 전망한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leesj2018",
+  "type": "article-journal",
+  "title": "제주어 화자에서 '아래 아'(/ㆍ/) 조음의 영상의학적 및 음향학적 특성",
+  "author": [
+   {
+    "family": "이",
+    "given": "승진"
+   },
+   {
+    "family": "최",
+    "given": "홍식"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "말소리와 음성과학",
+  "volume": "10",
+  "issue": "1",
+  "page": "57–64",
+  "DOI": "10.13064/KSSS.2018.10.1.057",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "문자론·음가 재구",
+   "oa_url": "https://www.eksss.org/download/download_pdf?pid=pss-10-1-57",
+   "annotation": "제주어 화자 두 명(70대와 30대 남성)이 발음한 아래아를 CT 영상의 성도 모양과 제1·제2 포먼트로 잰 연구다. 고령 화자의 아래아는 비슷한 모음들과 따로 떨어진 값을 보였고, 젊은 화자에서는 ㅗ 와 갈리지 않았다. 표본이 둘뿐이다. 이 사이트는 ㆍ 를 [ə] 에 쓰지 않기로 한 판단의 근거로 쓴다.",
+   "used_in": [
+    "02",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "kojh2019",
+  "type": "article-journal",
+  "title": "제주어에 남아 있는 ⟨ᆢ⟩와 ⟨ᆜ⟩ 모음",
+  "author": [
+   {
+    "family": "고",
+    "given": "재환"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "인문학연구",
+  "volume": "26",
+  "page": "119–136",
+  "publisher": "제주대학교 인문과학연구소",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "제주어에 남아 있는 ㆍ 와 ᆢ 모음을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimjw2010",
+  "type": "article-journal",
+  "title": "세계 속의 한글의 위상을 위한 몇 가지 고찰: 외래어 표기를 위한 훈민정음의 능동적인 활용방안",
+  "author": [
+   {
+    "family": "김",
+    "given": "재원"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "container-title": "영상문화",
+  "volume": "15",
+  "page": "97–132",
+  "publisher": "한국영상문화학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "훈민정음 글자를 외래어 표기에 적극적으로 쓰는 방안을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leehb2011",
+  "type": "article-journal",
+  "title": "국제한글음성문자의 일본어, 중국어, 태국어 표기",
+  "author": [
+   {
+    "family": "이",
+    "given": "현복"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "container-title": "동아문화",
+  "volume": "49",
+  "page": "91–117",
+  "publisher": "서울대학교 동아문화연구소",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "국제한글음성문자로 일본어·중국어·태국어를 적는 방식을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "defrancis1989",
+  "type": "book",
+  "title": "Visible Speech: The Diverse Oneness of Writing Systems",
+  "author": [
+   {
+    "family": "DeFrancis",
+    "given": "John"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1989
+    ]
+   ]
+  },
+  "publisher": "University of Hawai'i Press",
+  "publisher-place": "Honolulu",
+  "ISBN": "0-8248-1207-7",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "세계 문자 체계를 표음성 기준으로 비교한 문자론 단행본이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "ledyard1966",
+  "type": "thesis",
+  "title": "The Korean Language Reform of 1446: The Origin, Background, and Early History of the Korean Alphabet",
+  "author": [
+   {
+    "family": "Ledyard",
+    "given": "Gari K."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1966
+    ]
+   ]
+  },
+  "publisher": "University of California, Berkeley",
+  "note": "재간: Seoul: Sin'gu Munhwasa, 1998(국립국어연구원 총서 2)",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "1446년 훈민정음 창제의 배경과 초기 역사를 다룬 박사 논문이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leekmnda",
+  "type": "webpage",
+  "title": "알고 싶은 한글 — Sampson 『Writing Systems』(1985) 서평",
+  "author": [
+   {
+    "family": "이",
+    "given": "기문"
+   }
+  ],
+  "container-title": "알고 싶은 한글(국립국어원 누리집)",
+  "URL": "https://korean.go.kr/hangeul/short/003c.html",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "Sampson의 『Writing Systems』가 한글을 다룬 부분에 대한 서평이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "mackenzie2022",
+  "type": "article-journal",
+  "title": "The Genesis of Spanish /θ/: A Revised Model",
+  "author": [
+   {
+    "family": "Mackenzie",
+    "given": "Ian"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     7,
+     22
+    ]
+   ]
+  },
+  "container-title": "Languages",
+  "volume": "7",
+  "issue": "3",
+  "page": "191",
+  "DOI": "10.3390/languages7030191",
+  "URL": "https://doi.org/10.3390/languages7030191",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "https://doi.org/10.3390/languages7030191",
+   "annotation": "스페인어 /θ/ 가 어떤 경로로 생겼는지에 관한 기존 모형을 고쳐 제시하는 역사음운론 논문이다(Languages 7권 3호, 오픈 액세스). 이 사이트는 θ 글자를 고를 때 스페인어 /θ/ 의 역사를 적는 보조 문헌으로 쓴다.",
+   "used_in": [
+    "02",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "kangsh1987",
+  "type": "book",
+  "title": "훈민정음연구",
+  "author": [
+   {
+    "family": "강",
+    "given": "신항"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1987
+    ]
+   ]
+  },
+  "publisher": "성균관대학교출판부",
+  "note": "수정증보판 2003",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "훈민정음의 창제와 해례 내용을 종합적으로 다룬 연구서다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "sohn1999",
+  "type": "book",
+  "title": "The Korean Language",
+  "author": [
+   {
+    "family": "Sohn",
+    "given": "Ho-Min"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1999
+    ]
+   ]
+  },
+  "publisher": "Cambridge University Press",
+  "publisher-place": "Cambridge",
+  "note": "Cambridge Language Surveys 12",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "한국어의 구조와 역사를 개관한 영문 단행본이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimcho2002",
+  "type": "book",
+  "title": "The Korean Alphabet of 1446: Expositions, OPA, the Visible Speech Sounds, Annotated Translation, Future Applicability",
+  "author": [
+   {
+    "family": "Kim-Cho",
+    "given": "Sek Yen"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2002
+    ]
+   ]
+  },
+  "publisher": "Humanity Books",
+  "publisher-place": "Amherst, NY",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "1446년 훈민정음 해례의 영어 역주와 그 글자의 장래 응용을 다룬 단행본이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "king1996",
+  "type": "chapter",
+  "title": "Korean writing",
+  "author": [
+   {
+    "family": "King",
+    "given": "Ross"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Daniels",
+    "given": "Peter T."
+   },
+   {
+    "family": "Bright",
+    "given": "William"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "container-title": "The World's Writing Systems",
+  "page": "218–227",
+  "publisher": "Oxford University Press",
+  "publisher-place": "New York",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "세계 문자 체계 편람에서 한국어 문자를 다룬 장이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leeks2016",
+  "type": "article-journal",
+  "title": "문교부의 '외래어 표기법' 변천 과정과 수용 양상 — 외래어 표기법(1986) 제정 이전의 문교부안과 편수자료를 중심으로",
+  "author": [
+   {
+    "family": "이",
+    "given": "경숙"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "container-title": "정신문화연구",
+  "volume": "39",
+  "issue": "1",
+  "page": "107–139",
+  "DOI": "10.25024/ksq.39.1.201603.107",
+  "URL": "https://www.accesson.kr/ksq/assets/pdf/40976/journal-39-1-107.pdf",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.accesson.kr/ksq/assets/pdf/40976/journal-39-1-107.pdf",
+   "annotation": "1986년 외래어 표기법 이전에 문교부가 낸 세 안, 곧 1948년 「들온말 적는 법」, 1958년 「로마자의 한글화 표기법」, 1969년 「외래어의 한글 표기법」을 차례로 살피고 편수자료가 그것을 어떻게 받아들였는지 따진다. 1948년 안의 전문을 싣고 있다. 이 사이트에서 근대 표기안의 글자 배정을 확인하는 주 문헌이다.",
+   "used_in": [
+    "02",
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "parkcw2004",
+  "type": "article-journal",
+  "title": "외래어 표기 양상의 변천",
+  "author": [
+   {
+    "family": "박",
+    "given": "창원"
+   },
+   {
+    "family": "김",
+    "given": "수현"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "14",
+  "issue": "2",
+  "page": "59–102",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2004_2/2004_0203.pdf",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2004_2/2004_0203.pdf",
+   "annotation": "개화기 이후 외국어가 국어에 들어오며 생긴 표기의 흔들림을 규정의 변화, 음절 첫 자음, 음절 끝 자음, 모음, 장음으로 나누어 시대별로 정리한다. 이 사이트는 규범 이전과 이후의 표기 관행을 적는 데 쓴다.",
+   "used_in": [
+    "03"
+   ]
+  }
+ },
+ {
+  "id": "kimhj1996",
+  "type": "article-journal",
+  "title": "외래어 표기, 남북한이 어떻게 다른가 — 외래어 표기법·국어 사전·국어 교과서를 중심으로",
+  "author": [
+   {
+    "family": "김",
+    "given": "희진"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "6",
+  "issue": "4",
+  "page": "73–104",
+  "URL": "https://www.korean.go.kr/nkview/nklife/1996_4/1996_0404.pdf",
+  "publisher": "국립국어연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/1996_4/1996_0404.pdf",
+   "annotation": "남북한의 외래어 표기가 표기법·사전·교과서에서 어떻게 다른지를 견준다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "lim1996",
+  "type": "article-journal",
+  "title": "외래어 표기법의 원리와 실제",
+  "author": [
+   {
+    "family": "임",
+    "given": "동훈"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "6",
+  "issue": "4",
+  "page": "41–61",
+  "URL": "https://www.korean.go.kr/nkview/nklife/1996_4/1996_0402.pdf",
+  "publisher": "국립국어연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/1996_4/1996_0402.pdf",
+   "annotation": "외래어가 고유어·한자어와 다른 점을 짚은 뒤, 표기법의 변천과 1986년 표기법의 원리를 설명하고 실제 적용 사례를 든다. 무성 파열음을 된소리로 적지 않는 원칙의 취지도 다룬다. 이 사이트에서 0층 규범의 원리와 ㅃ ㄸ ㄲ 논쟁의 배경으로 쓴다.",
+   "used_in": [
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "kugeo1986",
+  "type": "article-journal",
+  "title": "외래어 표기법 [해설]",
+  "author": [
+   {
+    "literal": "국어연구소"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1986
+    ]
+   ]
+  },
+  "container-title": "국어생활",
+  "URL": "https://www.korean.go.kr/nkview/nklife/1986_1/1986_0110.pdf",
+  "language": "ko",
+  "page": "139–173",
+  "note": "지면에 저자 표시 없음, 발행 기관으로 적음. 호차 미확인(국립국어원 PDF 경로 1986_1)",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/1986_1/1986_0110.pdf",
+   "annotation": "1986년 고시와 함께 나온 해설이다. 1933년 통일안부터 1972년 편수자료 합본까지의 연혁, 개정이 필요했던 까닭과 추진 경위, 조항별 풀이를 담았다. 이 사이트에서 현행 규범의 연혁과 「새 문자를 쓰지 않는다」 원칙의 출처다.",
+   "used_in": [
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "kimso2008",
+  "type": "article-journal",
+  "title": "외래어표기법의 된소리 표기 허용에 대한 맥락 잡기",
+  "author": [
+   {
+    "family": "김",
+    "given": "슬옹"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "18",
+  "issue": "4",
+  "page": "71–85",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2008_4/2008_0404.pdf",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2008_4/2008_0404.pdf",
+   "annotation": "외래어 표기법이 받침을 일곱으로 제한하고 된소리를 거의 쓰지 않게 한 조항을 비판하고, 표기와 발음 표시를 둘로 나누는 방안을 내놓는다. 이 사이트는 0층 규범과 보조 표기를 나란히 두는 설계의 견줄 거리로 쓴다.",
+   "used_in": [
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "parkcw2008",
+  "type": "article-journal",
+  "title": "외래어표기법의 된소리 표기에 대하여",
+  "author": [
+   {
+    "family": "박",
+    "given": "창원"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "18",
+  "issue": "4",
+  "page": "87–103",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2008_4/2008_0405.pdf",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2008_4/2008_0405.pdf",
+   "annotation": "외래어 표기법의 된소리 관련 조항을 다시 읽고, 음운과 글자가 일대일로 맞지 않는 경우와 한 표기가 여러 발음을 가질 수 있는 경우를 고유어에서부터 짚는다. 그 위에서 파열음을 적는 원칙 세 가지를 나란히 놓고 따진다. 이 사이트에서 무기 파열음을 ㅃ ㄸ ㄲ 로 적는 배정의 반대 근거다.",
+   "used_in": [
+    "03",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "shimjk2008",
+  "type": "article-journal",
+  "title": "외래어표기법의 문제점과 그 해결책",
+  "author": [
+   {
+    "family": "심",
+    "given": "재기"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "18",
+  "issue": "4",
+  "page": "105–124",
+  "URL": "https://www.korean.go.kr/nkview/nklife/2008_4/2008_0406.pdf",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/2008_4/2008_0406.pdf",
+   "annotation": "외래어 표기법의 문제점과 해결책을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimsj1996",
+  "type": "article-journal",
+  "title": "외래어 표기법에 대한 비판 분석",
+  "author": [
+   {
+    "family": "김",
+    "given": "세중"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "container-title": "새국어생활",
+  "volume": "6",
+  "issue": "4",
+  "page": "161–174",
+  "URL": "https://www.korean.go.kr/nkview/nklife/1996_4/1996_0408.pdf",
+  "publisher": "국립국어연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://www.korean.go.kr/nkview/nklife/1996_4/1996_0408.pdf",
+   "annotation": "1990년대 중반 민원과 언론에 나온 외래어 표기법 개정 요구를 사례별로 들고, 그 상당수가 외래어 표기를 외국어 발음 표기로 오해한 데서 왔다고 논증한다. 외래어 표기에 새 기호를 들이지 않는다는 원칙을 옹호한다. 이 사이트는 0층 규범과 보조 표기를 가르는 출발점으로 이 비판을 받아 적는다.",
+   "used_in": [
+    "03"
+   ]
+  }
+ },
+ {
+  "id": "mct2004",
+  "type": "legislation",
+  "title": "외래어 표기법 — 표 15(타이어)·표 16(베트남어) 신설(문화관광부 고시 제2004-11호)",
+  "author": [
+   {
+    "literal": "문화관광부"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "URL": "https://korean.go.kr/kornorms/regltn/regltnView.do?regltn_code=0003",
+  "note": "2004. 12. 20. 고시. 현행본은 문화체육관광부 고시 제2017-14호",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://korean.go.kr/kornorms/regltn/regltnView.do?regltn_code=0003",
+   "annotation": "외래어 표기법을 개정한 2004년 12월 20일 문화관광부 고시 제2004-11호다. 외래어 표기법은 그 뒤에도 고쳐져 현행본은 2017년 문화체육관광부 고시 제2017-14호다(국립국어원 어문 규범 누리집의 고시 이력). 이 사이트는 0층 규범이 언어별 표를 늘려 온 과정을 적는 데 쓴다.",
+   "used_in": [
+    "03",
+    "04"
+   ]
+  }
+ },
+ {
+  "id": "jeonghw2005",
+  "type": "article-journal",
+  "title": "동남아시아 언어의 외래어 표기법과 된소리 사용에 관한 문제",
+  "author": [
+   {
+    "family": "정",
+    "given": "희원"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2005
+    ]
+   ],
+   "circa": true
+  },
+  "container-title": "새 국어 소식",
+  "URL": "https://www.korean.go.kr/nkview/nknews/200501/78_4.html",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "규범사·비판",
+   "oa_url": "",
+   "annotation": "동남아시아 언어의 외래어 표기법에서 된소리를 쓰는 문제를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leekg2020",
+  "type": "article-journal",
+  "title": "북한 외래어 표기법의 변천 양상과 과제",
+  "author": [
+   {
+    "family": "이",
+    "given": "관규"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "한국어문교육",
+  "volume": "32",
+  "page": "169–194",
+  "DOI": "10.24008/klle.2020..32.006",
+  "URL": "https://scholar.korea.ac.kr/handle/2021.sw.korea/130799",
+  "publisher": "고려대학교 한국어문교육연구소",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "규범사·비판",
+   "oa_url": "",
+   "annotation": "북한 외래어 표기법의 변천과 과제를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leekmndb",
+  "type": "webpage",
+  "title": "알고 싶은 한글 — 외래어 표기와 새 글자",
+  "author": [
+   {
+    "family": "이",
+    "given": "기문"
+   }
+  ],
+  "container-title": "알고 싶은 한글(국립국어원 누리집)",
+  "URL": "https://www.korean.go.kr/hangeul/short/003e.html",
+  "publisher": "국립국어원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "규범사·비판",
+   "oa_url": "",
+   "annotation": "외래어 표기에 새 글자를 쓰는 문제를 다룬 해설이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "naikaku1991",
+  "type": "legislation",
+  "title": "外来語の表記(内閣告示第2号)",
+  "author": [
+   {
+    "literal": "内閣"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1991
+    ]
+   ]
+  },
+  "URL": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/pdf/94380801_03.pdf",
+  "note": "1991. 6. 28. 고시",
+  "language": "ja",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/pdf/94380801_03.pdf",
+   "annotation": "일본 내각고시 제2호 「외래어 표기」다. 일반 사회의 표기에 쓰는 가나를 제1표에, 원음이나 원 철자에 가깝게 적고자 할 때 쓰는 가나를 제2표에 두고, 두 표로 적을 수 없는 특별한 음은 정하지 않고 자유에 맡긴다. 전문 분야와 개인의 표기, 고유 명사에는 미치지 않는다고 밝힌다. 이 사이트에서 규범층과 보조층을 나란히 둔 가장 가까운 외국 선례다.",
+   "used_in": [
+    "04"
+   ]
+  }
+ },
+ {
+  "id": "tanaka1992",
+  "type": "article-journal",
+  "title": "小学校国語科における『外来語の表記』の指導について",
+  "author": [
+   {
+    "family": "田中",
+    "given": "瑩"
+   },
+   {
+    "family": "門脇",
+    "given": "佳"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1992
+    ]
+   ]
+  },
+  "container-title": "教科教育研究論集",
+  "volume": "6",
+  "page": "39–65",
+  "URL": "https://ir.lib.shimane-u.ac.jp/47118/files/621",
+  "publisher": "島根大学",
+  "language": "ja",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "https://ir.lib.shimane-u.ac.jp/47118/files/621",
+   "annotation": "일본 초등학교 국어과에서 「외래어 표기」를 지도하는 방법을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leehb2000",
+  "type": "article-journal",
+  "title": "국제한글음성문자의 음성학적 자판배열",
+  "author": [
+   {
+    "family": "이",
+    "given": "현복"
+   },
+   {
+    "family": "조",
+    "given": "운일"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2000
+    ]
+   ]
+  },
+  "container-title": "말소리",
+  "volume": "39",
+  "page": "43–51",
+  "URL": "https://koreascience.kr/article/JAKO200013842070273.page",
+  "publisher": "대한음성학회",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "국제한글음성문자를 위한 음성학적 자판 배열을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leehb2009",
+  "type": "article-journal",
+  "title": "International Korean phonetic alphabet: its application in MS Word",
+  "author": [
+   {
+    "family": "Lee",
+    "given": "Hyun Bok"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "container-title": "英語音声学",
+  "URL": "http://ci.nii.ac.jp/naid/40016740003",
+  "publisher": "日本英語音声学会",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "문자론·음가 재구",
+   "oa_url": "",
+   "annotation": "국제한글음성문자를 MS Word에서 쓰는 방법을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "nk2001",
+  "type": "legislation",
+  "title": "외국말적기법",
+  "author": [
+   {
+    "literal": "조선민주주의인민공화국 국어사정위원회"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2001
+    ]
+   ]
+  },
+  "URL": "https://commons.wikimedia.org/wiki/File:%EC%99%B8%EA%B5%AD%EB%A7%90%EC%A0%81%EA%B8%B0%EB%B2%95(2001).pdf",
+  "publisher": "조선민주주의인민공화국 국어사정위원회",
+  "note": "주체90(2001)년 8월 인쇄·발행, 본문 145쪽(스캔 148면). 인쇄소 과학원",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "규범사·비판",
+   "oa_url": "https://commons.wikimedia.org/wiki/File:%EC%99%B8%EA%B5%AD%EB%A7%90%EC%A0%81%EA%B8%B0%EB%B2%95(2001).pdf",
+   "annotation": "북한 국어사정위원회가 2001년에 낸 본문 145쪽짜리 규범집으로, 1982년판을 대신한다고 머리말에 적었다. 언어마다 원어 글자, 위치·결합 조건, 우리 글자, 보기를 한 행에 둔 대응표로 짜였고, 된소리 글자를 쓴다. 스캔본이라 텍스트 층이 없다. 이 사이트에서 조건별 대응표 형식과 된소리 표기의 비교 대상이다.",
+   "used_in": [
+    "03",
+    "04"
+   ]
+  }
+ },
+ {
+  "id": "liu2017",
+  "type": "report",
+  "title": "中国外语地名汉字译写技术标准制订工作的新进展(New Developments in Formulating the Transformation Guidelines of Geographical Names from Foreign Languages into Chinese)",
+  "author": [
+   {
+    "family": "刘",
+    "given": "连安"
+   },
+   {
+    "family": "高",
+    "given": "钰"
+   },
+   {
+    "family": "纪",
+    "given": "元"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017,
+     6,
+     23
+    ]
+   ]
+  },
+  "URL": "https://unstats.un.org/UNSD/geoinfo/UNGEGN/docs/11th-uncsgn-docs/E_Conf.105_71_en.pdf",
+  "publisher": "United Nations",
+  "note": "E/CONF.105/71/CRP.71, 제11차 유엔 지명표준화회의. CRP.71 본문은 회의 문서 폴더에 있음(URL 은 요약문 E/CONF.105/71)",
+  "language": "zh",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/11th-uncsgn-docs/",
+   "annotation": "제11차 유엔 지명표준화회의(2017)에 중국이 낸 문서로, 외국 지명을 한자로 옮기는 국가표준 네 가지(조선어·일본어·페르시아어·라오어)를 새로 정한 경과를 보고한다. 현지 표준 지명을 따르고 관용 역명은 이어 쓰며, 고유 부분은 음역하고 일반 명칭은 의역한다는 공통 원칙을 든다. 이 사이트는 표음 문자가 아닌 체계의 외래어 표기 사례로 쓴다.",
+   "used_in": [
+    "04"
+   ]
+  }
+ },
+ {
+  "id": "hacker2012",
+  "type": "article-journal",
+  "title": "The Change from Respelling to IPA in English Dictionaries: Increase in Accuracy or Increase in Prescriptivism?",
+  "author": [
+   {
+    "family": "Häcker",
+    "given": "Martina"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "Language & History",
+  "volume": "55",
+  "issue": "1",
+  "page": "47–62",
+  "DOI": "10.1179/1759753612Z.0000000004",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "영어 사전의 발음 표시가 고쳐 쓰기 방식에서 IPA로 바뀐 것이 정확성의 향상인지 규범성의 강화인지를 묻는다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "bunkacho2026",
+  "type": "report",
+  "title": "外来語の表記等に関する平成3年内閣告示以前の施策例(資料2)",
+  "author": [
+   {
+    "literal": "文化審議会 国語分科会 外来語小委員会"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "URL": "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/gairai/gairai_02/pdf/94397201_01.pdf",
+  "publisher": "文化庁",
+  "note": "2026. 6. 12. 회의 자료",
+  "language": "ja",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/gairai/gairai_02/pdf/94397201_01.pdf",
+   "annotation": "일본 문화심의회 국어분과회 외래어소위원회의 2026년 6월 회의 자료다. 1902년 문부성의 외국 지명·인명 조사부터 1991년 내각고시 이전까지 정부가 내놓은 외래어 표기 시책을 연대순으로 요약한다. 이 사이트는 일본 규범의 역사를 적는 데 쓴다.",
+   "used_in": [
+    "04"
+   ]
+  }
+ },
+ {
+  "id": "ooigawa2009",
+  "type": "paper-conference",
+  "title": "Three-way laryngeal categorization of Japanese, French, English and Chinese plosives by Korean speakers",
+  "author": [
+   {
+    "family": "Ooigawa",
+    "given": "Tomohiko"
+   },
+   {
+    "family": "Shinohara",
+    "given": "Shigeko"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "container-title": "Proceedings of Interspeech 2009",
+  "page": "1683–1686",
+  "DOI": "10.21437/Interspeech.2009-509",
+  "publisher-place": "Brighton",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.21437/Interspeech.2009-509",
+   "annotation": "한국어 화자가 일본어·프랑스어·영어·중국어의 파열음을 평음·격음·경음 중 무엇으로 듣는지 시험한 지각 실험이다. 언어마다 남성 화자 세 명이 녹음한 두 음절 무의미 낱말을 자극으로 썼고, 차용어에서 굳은 대응과 실제 지각이 어긋나는 대목을 보고한다. 이 사이트에서 무기 파열음을 ㅃ ㄸ ㄲ 로 적는 배정의 실증 근거다.",
+   "used_in": [
+    "02",
+    "05",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "kang2008",
+  "type": "article-journal",
+  "title": "Tensification of voiced stops in English loanwords in Korean",
+  "author": [
+   {
+    "family": "Kang",
+    "given": "Yoonjung"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "container-title": "Harvard Studies in Korean Linguistics",
+  "volume": "XII",
+  "page": "179–192",
+  "language": "en",
+  "URL": "https://www.yoonjungkang.com/uploads/1/1/6/2/11625099/harvard2008.pdf",
+  "note": "저자 원고 PDF, 쪽은 저자 논문 목록의 179–192",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://www.yoonjungkang.com/uploads/1/1/6/2/11625099/harvard2008.pdf",
+   "annotation": "영어 유성 파열음이 대개 평음으로 들어오는데 일부 낱말에서만 어두 경음으로 나타나는 까닭을 묻는다. 1937년 『모던조선외래어사전』 자료를 견주어, 그 낱말들이 20세기 초에 들어와 당시의 대응을 간직한 것이라고 설명한다. 이 사이트는 된소리 표기의 역사적 선례와 규범의 영향을 적는 데 쓴다.",
+   "used_in": [
+    "03",
+    "05"
+   ]
+  }
+ },
+ {
+  "id": "kang2003",
+  "type": "article-journal",
+  "title": "Perceptual similarity in loanword adaptation: English postvocalic word-final stops in Korean",
+  "author": [
+   {
+    "family": "Kang",
+    "given": "Yoonjung"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "container-title": "Phonology",
+  "volume": "20",
+  "issue": "2",
+  "page": "219–273",
+  "DOI": "10.1017/S0952675703004524",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "영어 낱말 끝 파열음이 한국어 차용어에서 모음을 덧붙이는지를 지각 유사성으로 설명한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kenstowicz2005",
+  "type": "paper-conference",
+  "title": "The phonetics and phonology of Korean loanword adaptation",
+  "author": [
+   {
+    "family": "Kenstowicz",
+    "given": "Michael"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Rhee",
+    "given": "S.-J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2005
+    ]
+   ]
+  },
+  "container-title": "Proceedings of the First European Conference on Korean Linguistics (ECKL 1)",
+  "page": "17–32",
+  "publisher": "Hankook",
+  "publisher-place": "Seoul",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "한국어 차용어 적응의 음성학적·음운론적 측면을 개관한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "schmidt1996",
+  "type": "article-journal",
+  "title": "Cross-language identification of consonants. Part 1. Korean perception of English",
+  "author": [
+   {
+    "family": "Schmidt",
+    "given": "Anna Marie"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "container-title": "Journal of the Acoustical Society of America",
+  "volume": "99",
+  "issue": "5",
+  "page": "3201–3211",
+  "DOI": "10.1121/1.414804",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "한국어 화자가 영어 자음을 어떻게 판별하는지를 다룬 교차 언어 지각 연구다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "ito2006",
+  "type": "chapter",
+  "title": "The adaptation of Japanese loanwords into Korean",
+  "author": [
+   {
+    "family": "Ito",
+    "given": "Chiyuki"
+   },
+   {
+    "family": "Kang",
+    "given": "Yoonjung"
+   },
+   {
+    "family": "Kenstowicz",
+    "given": "Michael"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Kenstowicz",
+    "given": "Michael"
+   },
+   {
+    "family": "Hsieh",
+    "given": "F."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2006
+    ]
+   ]
+  },
+  "container-title": "Studies in Loanword Phonology (MIT Working Papers in Linguistics 52)",
+  "page": "65–104",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "일본어 낱말이 한국어에 차용될 때의 적응 양상을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "dejong2012",
+  "type": "article-journal",
+  "title": "Loanword phonology and perceptual mapping: Comparing two corpora of Korean contact with English",
+  "author": [
+   {
+    "family": "de Jong",
+    "given": "Kenneth J."
+   },
+   {
+    "family": "Cho",
+    "given": "Mi-Hui"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "Language",
+  "volume": "88",
+  "issue": "2",
+  "page": "341–368",
+  "DOI": "10.1353/lan.2012.0035",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "한국어와 영어 접촉의 두 코퍼스를 견주어 차용어 음운과 지각 대응의 관계를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "cho2024",
+  "type": "article-journal",
+  "title": "Factors influencing vowel adaptation in English loanwords in Korean",
+  "author": [
+   {
+    "family": "Cho",
+    "given": "Mi-Hui"
+   },
+   {
+    "family": "Lee",
+    "given": "Shinsook"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "Poznań Studies in Contemporary Linguistics",
+  "DOI": "10.1515/psicl-2023-0047",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "영어 차용어의 모음이 한국어에서 적응될 때 작용하는 요인을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "cho2009",
+  "type": "article-journal",
+  "title": "한국 학습자들의 영어 순자음 혼동",
+  "author": [
+   {
+    "family": "초",
+    "given": "미희"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "container-title": "한국콘텐츠학회논문지",
+  "volume": "9",
+  "issue": "1",
+  "page": "455–464",
+  "DOI": "10.5392/JKCA.2009.9.1.455",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.5392/JKCA.2009.9.1.455",
+   "annotation": "한국 학습자가 영어 순음 계열 자음을 혼동하는 양상을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "cho2010",
+  "type": "article-journal",
+  "title": "한국 EFL 학생들의 영어 전방 설정 자음 혼동",
+  "author": [
+   {
+    "family": "초",
+    "given": "미희"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "container-title": "한국콘텐츠학회논문지",
+  "volume": "10",
+  "issue": "5",
+  "page": "460–466",
+  "DOI": "10.5392/JKCA.2010.10.5.460",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.5392/JKCA.2010.10.5.460",
+   "annotation": "한국 대학생 40명에게 영어 전방 설정 자음이 든 무의미 낱말을 네 운율 위치에서 들려주고 판별하게 한 지각 실험이다. 자음별 혼동표를 제시하며, 한국어에 없는 θ·ð 가 가장 어려웠다. 이 사이트는 θ 와 s 를 표기에서 갈라 둘 필요의 실증 근거로 쓴다.",
+   "used_in": [
+    "02",
+    "05"
+   ]
+  }
+ },
+ {
+  "id": "jang2014",
+  "type": "article-journal",
+  "title": "Perception of English consonants in different prosodic positions by Korean learners of English",
+  "author": [
+   {
+    "family": "Jang",
+    "given": "Mi"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "말소리와 음성과학",
+  "volume": "6",
+  "issue": "1",
+  "page": "11–19",
+  "DOI": "10.13064/KSSS.2014.6.1.011",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.13064/KSSS.2014.6.1.011",
+   "annotation": "한국인 영어 학습자의 영어 자음 지각이 운율 위치에 따라 어떻게 달라지는지를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "ko2020",
+  "type": "article-journal",
+  "title": "Perception and production of Mandarin lexical tones in Korean learners of Mandarin Chinese",
+  "author": [
+   {
+    "family": "Ko",
+    "given": "Sungsil"
+   },
+   {
+    "family": "Choi",
+    "given": "Jiyoun"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "말소리와 음성과학",
+  "volume": "12",
+  "issue": "1",
+  "page": "11–17",
+  "DOI": "10.13064/KSSS.2020.12.1.011",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.13064/KSSS.2020.12.1.011",
+   "annotation": "중국어 전공 한국인 학부생 12명을 대상으로 중국어 네 성조의 지각과 산출을 함께 잰 실험이다. 산출은 중국어 모어 화자가 판정했다. 2성과 3성의 구별이 가장 어려웠다. 이 사이트는 중국어 성조 방점 배정을 실증 면에서 견주는 데 쓴다.",
+   "used_in": [
+    "05",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "tsukada2019",
+  "type": "article-journal",
+  "title": "The perception of Mandarin lexical tones by native Korean speakers differing in their experience with Mandarin",
+  "author": [
+   {
+    "family": "Tsukada",
+    "given": "Kimiko"
+   },
+   {
+    "family": "Han",
+    "given": "Jeong-Im"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "Second Language Research",
+  "volume": "35",
+  "issue": "3",
+  "page": "305–318",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "중국어 경험이 다른 한국어 화자들의 중국어 성조 지각을 견준다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leeg2022",
+  "type": "article-journal",
+  "title": "Perceptual weighting on English lexical stress by Korean learners of English",
+  "author": [
+   {
+    "family": "Lee",
+    "given": "Goun"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "말소리와 음성과학",
+  "volume": "14",
+  "issue": "4",
+  "page": "19–24",
+  "DOI": "10.13064/KSSS.2022.14.4.019",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.13064/KSSS.2022.14.4.019",
+   "annotation": "한국인 영어 학습자가 영어 강세를 지각할 때 어떤 단서에 무게를 두는지를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leeg2024",
+  "type": "article-journal",
+  "title": "Exploring stress encoding cues in English by Korean L2 speakers",
+  "author": [
+   {
+    "family": "Lee",
+    "given": "Goun"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "말소리와 음성과학",
+  "volume": "16",
+  "issue": "3",
+  "page": "33–38",
+  "DOI": "10.13064/KSSS.2024.16.3.033",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.13064/KSSS.2024.16.3.033",
+   "annotation": "한국인 영어 화자가 강세를 산출할 때 쓰는 음향 단서를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "silva2006",
+  "type": "article-journal",
+  "title": "Acoustic evidence for the emergence of tonal contrast in contemporary Korean",
+  "author": [
+   {
+    "family": "Silva",
+    "given": "David J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2006
+    ]
+   ]
+  },
+  "container-title": "Phonology",
+  "volume": "23",
+  "issue": "2",
+  "page": "287–308",
+  "DOI": "10.1017/S0952675706000911",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "현대 한국어에서 성조 대립이 생겨나고 있다는 음향 증거를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "hayesharb2021",
+  "type": "article-journal",
+  "title": "The influence of orthography in second language phonological acquisition",
+  "author": [
+   {
+    "family": "Hayes-Harb",
+    "given": "Rachel"
+   },
+   {
+    "family": "Barrios",
+    "given": "Shannon"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "container-title": "Language Teaching",
+  "volume": "54",
+  "issue": "3",
+  "page": "297–326",
+  "DOI": "10.1017/S0261444820000658",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.1017/S0261444820000658",
+   "annotation": "글로 된 입력이 제2언어 음운 습득(음운 인식, 음소 지각, 낱말 발음과 인지)에 주는 영향을 다룬 연구들을 모아 정리한 개관이다. 효과를 좌우하는 변수 넷(체계성, 글자의 익숙함, 모어와 대응이 같은가, 들어서 구별할 수 있는가)을 세운다. 이 사이트에서 표기가 발음 학습을 돕는다는 주장이 아직 실증되지 않았다고 적는 근거다.",
+   "used_in": [
+    "05",
+    "06"
+   ]
+  }
+ },
+ {
+  "id": "bassetti2015",
+  "type": "article-journal",
+  "title": "Second language phonology at the interface between acoustic and orthographic input",
+  "author": [
+   {
+    "family": "Bassetti",
+    "given": "Bene"
+   },
+   {
+    "family": "Escudero",
+    "given": "Paola"
+   },
+   {
+    "family": "Hayes-Harb",
+    "given": "Rachel"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "Applied Psycholinguistics",
+  "volume": "36",
+  "issue": "1",
+  "page": "1–6",
+  "DOI": "10.1017/S0142716414000393",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.1017/S0142716414000393",
+   "annotation": "제2언어 음운 습득에서 음성 입력과 표기 입력이 만나는 지점을 다룬 특집의 서론이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "showalter2013",
+  "type": "article-journal",
+  "title": "Unfamiliar orthographic information and second language word learning: A novel lexicon study",
+  "author": [
+   {
+    "family": "Showalter",
+    "given": "Catherine E."
+   },
+   {
+    "family": "Hayes-Harb",
+    "given": "Rachel"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "container-title": "Second Language Research",
+  "volume": "29",
+  "issue": "2",
+  "page": "185–200",
+  "DOI": "10.1177/0267658313480154",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "낯선 문자의 표기 정보가 제2언어 낱말 학습에 주는 영향을 인공 어휘 실험으로 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "hayesharb2015",
+  "type": "article-journal",
+  "title": "The influence of written stress marks on native English speakers' acquisition of Russian lexical stress contrasts",
+  "author": [
+   {
+    "family": "Hayes-Harb",
+    "given": "Rachel"
+   },
+   {
+    "family": "Hacking",
+    "given": "Jane F."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "Slavic and East European Journal",
+  "volume": "59",
+  "issue": "1",
+  "page": "91–109",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "글로 표시한 강세 부호가 영어 화자의 러시아어 강세 대립 학습에 주는 영향을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "escudero2014",
+  "type": "article-journal",
+  "title": "Learning words in a new language: Orthography doesn't always help",
+  "author": [
+   {
+    "family": "Escudero",
+    "given": "Paola"
+   },
+   {
+    "family": "Simon",
+    "given": "Ellen"
+   },
+   {
+    "family": "Mulak",
+    "given": "Karen E."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "Bilingualism: Language and Cognition",
+  "volume": "17",
+  "issue": "2",
+  "page": "384–395",
+  "DOI": "10.1017/S1366728913000436",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "새 언어의 낱말 학습에서 표기 정보가 늘 도움이 되는지를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "burki2019",
+  "type": "article-journal",
+  "title": "Orthography and second language word learning: Moving beyond \"friend or foe?\"",
+  "author": [
+   {
+    "family": "Bürki",
+    "given": "Audrey"
+   },
+   {
+    "family": "Welby",
+    "given": "Pauline"
+   },
+   {
+    "family": "Clément",
+    "given": "Mélanie"
+   },
+   {
+    "family": "Spinelli",
+    "given": "Elsa"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "Journal of the Acoustical Society of America",
+  "volume": "145",
+  "issue": "4",
+  "page": "EL265–EL271",
+  "DOI": "10.1121/1.5094923",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "표기와 제2언어 낱말 학습의 관계를 실험으로 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leehy2009",
+  "type": "book",
+  "title": "Bahasa Cia-Cia 1",
+  "author": [
+   {
+    "family": "이",
+    "given": "호영"
+   },
+   {
+    "family": "황",
+    "given": "효성"
+   },
+   {
+    "literal": "Abidin"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "publisher": "훈민정음학회",
+  "publisher-place": "서울",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "찌아찌아어를 한글로 적은 교재다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "dessiar2021",
+  "type": "article-journal",
+  "title": "A contrastive study on Korean and Cia-Cia language vowels based on an acoustic experiment",
+  "author": [
+   {
+    "family": "Dessiar",
+    "given": "Achmad Rio"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "container-title": "Humaniora",
+  "volume": "33",
+  "issue": "3",
+  "page": "182–192",
+  "DOI": "10.22146/jh.68044",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.22146/jh.68044",
+   "annotation": "인도네시아 부톤섬의 찌아찌아어와 한국어 단모음을 음향 실험으로 견준다. 찌아찌아어에는 한국어 ㅡ·ㅓ 에 맞는 모음이 없는데, 한글 표기가 자음 연쇄 사이에 ㅡ 를 끼워 원래와 다른 음절을 만드는 문제를 지적한다. 이 사이트는 한글을 다른 언어 표기에 빌려 쓴 현대 사례로 쓴다.",
+   "used_in": [
+    "03",
+    "04"
+   ]
+  }
+ },
+ {
+  "id": "dessiar2020",
+  "type": "article-journal",
+  "title": "찌아찌아어의 한글 표기와 찌아찌아어 특성과의 상관성에 대한 연구",
+  "author": [
+   {
+    "family": "데시아르",
+    "given": "아흐마드 리오"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "인문과학",
+  "volume": "78",
+  "page": "5–34",
+  "DOI": "10.31310/HUM.078.01",
+  "publisher": "성균관대학교 인문학연구원",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "찌아찌아어의 한글 표기와 찌아찌아어의 언어 특성 사이의 관계를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeon2010",
+  "type": "article-journal",
+  "title": "인도네시아의 언어정책 — 찌아찌아어 한글 표기 문제와 관련하여",
+  "author": [
+   {
+    "family": "전",
+    "given": "태현"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "container-title": "한국언어문화학",
+  "volume": "7",
+  "issue": "2",
+  "page": "171–193",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "인도네시아의 언어 정책을 찌아찌아어 한글 표기 문제와 관련지어 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "jeon2012",
+  "type": "article-journal",
+  "title": "찌아찌아족 한글 사용의 미래: 문자사의 관점에서",
+  "author": [
+   {
+    "family": "전",
+    "given": "태현"
+   },
+   {
+    "family": "조",
+    "given": "태영"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "한글",
+  "volume": "298",
+  "page": "107–134",
+  "DOI": "10.22557/HG.2012.12.298.107",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "찌아찌아족의 한글 사용이 앞으로 어떻게 될지를 문자사 관점에서 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "azharnd",
+  "type": "article-journal",
+  "title": "Saat-saat kritis bahasa Cia-Cia",
+  "author": [
+   {
+    "family": "Azhar",
+    "given": "Iqbal Nurul"
+   }
+  ],
+  "container-title": "Prosodi",
+  "URL": "https://journal.trunojoyo.ac.id/prosodi/article/view/68",
+  "publisher": "Universitas Trunojoyo",
+  "language": "id",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "https://journal.trunojoyo.ac.id/prosodi/article/view/68",
+   "annotation": "찌아찌아어가 놓인 위기 상황을 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "leejk1937",
+  "type": "book",
+  "title": "鮮和兩引 모던朝鮮外來語辭典",
+  "editor": [
+   {
+    "family": "이",
+    "given": "종극"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1937
+    ]
+   ]
+  },
+  "publisher": "한성도서주식회사",
+  "publisher-place": "경성",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "규범사·비판",
+   "oa_url": "",
+   "annotation": "1937년에 나온 외래어 사전으로, 당시 외래어의 한글 표기를 보여 준다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "unicode2026",
+  "type": "standard",
+  "title": "The Unicode Standard, Version 18.0 — Core Specification, ch. 18 East Asia, §18.6 Hangul",
+  "author": [
+   {
+    "literal": "The Unicode Consortium"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "URL": "https://unicode.org/versions/Unicode18.0.0/core-spec/chapter-18/",
+  "publisher": "The Unicode Consortium",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "https://unicode.org/versions/Unicode18.0.0/core-spec/chapter-18/",
+   "annotation": "유니코드 표준 18.0판 핵심 명세의 한글 절로, 첫가끝 조합 규칙을 정한다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "unicode2026ucd",
+  "type": "dataset",
+  "title": "UnicodeData.txt (Unicode Character Database 18.0.0)",
+  "author": [
+   {
+    "literal": "The Unicode Consortium"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "URL": "https://unicode.org/Public/UCD/latest/ucd/UnicodeData.txt",
+  "publisher": "The Unicode Consortium",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "https://unicode.org/Public/UCD/latest/ucd/UnicodeData.txt",
+   "annotation": "유니코드 문자 데이터베이스 18.0판의 문자 이름·속성 파일이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kim2008",
+  "type": "report",
+  "title": "An introduction of Korean Standard KS X 1026-1:2007, Hangul processing guide for information interchange",
+  "author": [
+   {
+    "family": "Kim",
+    "given": "Kyongsok"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2008
+    ]
+   ]
+  },
+  "URL": "https://unicode.org/L2/L2008/08225-n3422.pdf",
+  "publisher": "ISO/IEC JTC1/SC2/WG2",
+  "note": "WG2 N3422R3 (L2/08-225), 2008-05-02",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "구현",
+   "oa_url": "https://unicode.org/L2/L2008/08225-n3422.pdf",
+   "annotation": "KS X 1026-1:2007 「정보 교환용 한글 처리 지침」을 국제 작업반에 소개한 문서로, 표준 영역본이 붙어 있다(영역본은 국가표준이 아니라는 단서가 있다). 현대 음절은 완성형, 옛 음절은 첫가끝으로 적는 규칙, 채움 문자, 방점의 저장과 표시, 정규화·음절 나누기·정렬을 다룬다. 이 사이트의 저장 규약이 이 문서를 따른다.",
+   "used_in": [
+    "08"
+   ]
+  }
+ },
+ {
+  "id": "usnb2009",
+  "type": "report",
+  "title": "US / Unicode Consortium comments on N3611",
+  "author": [
+   {
+    "literal": "US National Body"
+   },
+   {
+    "literal": "Unicode Consortium"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "URL": "https://unicode.org/L2/L2009/09151-us-utc-cmt-n3611.pdf",
+  "publisher": "ISO/IEC JTC1/SC2/WG2",
+  "note": "WG2 N3633 (L2/09-151), 2009-04-21",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "https://unicode.org/L2/L2009/09151-us-utc-cmt-n3611.pdf",
+   "annotation": "KS X 1026-1의 정규화 조항과 유니코드 정규화의 관계를 두고 미국 국가기관과 유니코드 컨소시엄이 낸 의견서다.",
+   "used_in": [
+    "08"
+   ]
+  }
+ },
+ {
+  "id": "kwongh2013",
+  "type": "paper-conference",
+  "title": "훈민정음 해례 기반 KS X 1026-1:2007의 평가",
+  "author": [
+   {
+    "family": "권",
+    "given": "기홍"
+   },
+   {
+    "family": "변",
+    "given": "정용"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "container-title": "한국정보처리학회 추계학술발표대회 논문집",
+  "volume": "20",
+  "issue": "2",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "",
+   "annotation": "훈민정음 해례의 조합 원리에 비추어 KS X 1026-1을 평가한 학회 발표다.",
+   "used_in": [
+    "08"
+   ]
+  }
+ },
+ {
+  "id": "lunde2012",
+  "type": "post-weblog",
+  "title": "Old Hangul",
+  "author": [
+   {
+    "family": "Lunde",
+    "given": "Ken"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "CJK Type Blog (Adobe)",
+  "URL": "https://ccjktype.fonts.adobe.com/2012/12/old-hangul.html",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "",
+   "annotation": "옛한글 글꼴 구현을 다룬 Adobe 글꼴 블로그 글이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "adobe2014",
+  "type": "post-weblog",
+  "title": "Source Han Sans development: Archaic Hangul",
+  "author": [
+   {
+    "literal": "Adobe CJK Type Blog"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "CJK Type Blog (Adobe)",
+  "URL": "https://ccjktype.fonts.adobe.com/2014/12/shs-development-archaic-hangul.html",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "",
+   "annotation": "본고딕(Source Han Sans)의 옛한글 개발 과정을 다룬 블로그 글이다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "microsoftnd",
+  "type": "webpage",
+  "title": "Korean IME",
+  "author": [
+   {
+    "literal": "Microsoft"
+   }
+  ],
+  "container-title": "Microsoft Learn — Globalization",
+  "URL": "https://learn.microsoft.com/globalization/input/korean-ime",
+  "language": "en",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "",
+   "annotation": "Windows 한국어 입력기 설정을 다룬 Microsoft 기술 문서다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "kimym2017",
+  "type": "article-journal",
+  "title": "한글 입력 방식의 구현을 위한 범용적인 복합 낱자 분석 시스템",
+  "author": [
+   {
+    "family": "김",
+    "given": "용묵"
+   },
+   {
+    "family": "김",
+    "given": "국"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "인지과학",
+  "volume": "28",
+  "issue": "4",
+  "page": "223–243",
+  "DOI": "10.19066/cogsci.2017.28.4.002",
+  "language": "ko",
+  "custom": {
+   "grade": "B",
+   "category": "구현",
+   "oa_url": "https://doi.org/10.19066/cogsci.2017.28.4.002",
+   "annotation": "한글 입력 방식 구현을 위해 복합 낱자를 범용적으로 분석하는 체계를 다룬다.",
+   "used_in": []
+  }
+ },
+ {
+  "id": "cha2012",
+  "type": "post",
+  "title": "훈민정음 해례본(상주본), 찾으면 국가소유 된다",
+  "author": [
+   {
+    "literal": "문화재청"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012,
+     5,
+     7
+    ]
+   ]
+  },
+  "container-title": "정책브리핑(korea.kr)",
+  "URL": "https://www.korea.kr/news/issueQAView.do?newsId=148732696",
+  "publisher": "문화재청",
+  "language": "ko",
+  "custom": {
+   "grade": "A",
+   "category": "원전·영인",
+   "oa_url": "https://www.korea.kr/news/issueQAView.do?newsId=148732696",
+   "annotation": "문화재청이 2012년 5월 7일에 낸 발표다. 2008년에 알려진 상주본이 간송본과 같은 판본이고 서문 4장과 뒷부분 1장이 없으며, 소장자가 감춰 행방을 알 수 없다고 밝혔다. 이 사이트는 해례본 원간본이 간송본 하나가 아니라는 사실을 적는 데 쓴다.",
+   "used_in": [
+    "01"
+   ]
+  }
+ }
+]

@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>주석 문헌 목록 — 세종의 글자로 보는 외래어 표기</title>
+<meta name="description" content="이 사이트가 근거로 쓰거나 다음에 읽을 문헌으로 꼽은 목록이다. 문헌마다 짧은 해제를 붙였다. 해제는 문헌의 초록을 옮긴 것이 아니라 이 연구가 새로 쓴 것이다. 읽는 법 — 등급 · 분류 · 「이 사이트에서 쓰는 곳」 등급. 문헌은 두 등급으로 나뉜다. A 는 서지">
+<meta name="author" content="권보원 (대구지방법원 부장판사)">
+<link rel="preload" href="assets/fonts/sj-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family:"SJ Sans"; src:url("assets/fonts/sj-sans.woff2") format("woff2"); font-weight:100 900; font-display:swap }
+@font-face { font-family:"SJ Serif"; src:url("assets/fonts/sj-serif.woff2") format("woff2"); font-weight:200 900; font-display:swap }
+:root { --paper:#f4f2ec; --sheet:#fff; --ink:#22262b; --muted:#5f6670; --line:#dcd7cb; --c:#7a4f2a; --soft:#f6eee4;
+  --f-body:"SJ Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-display:"SJ Serif","Noto Serif KR","SJ Sans",serif;
+  --f-ipa:"Charis SIL","Doulos SIL","Gentium Plus","Segoe UI","Noto Sans","SJ Sans",sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#16191d; --sheet:#1f2328; --ink:#e8e5de; --muted:#9ca3ab; --line:#363c44; --c:#e0b48a; --soft:#2b2219; color-scheme:dark } }
+* { box-sizing:border-box }
+html { -webkit-text-size-adjust:100% }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); line-height:1.75; word-break:keep-all; overflow-wrap:anywhere; padding:0 16px 56px }
+.wrap { max-width:900px; margin:0 auto }
+a { color:var(--c) }
+header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
+.back { font-size:.88rem; color:var(--muted); margin:0 }
+.site-title { font-family:var(--f-display); font-weight:600; font-size:1.05rem; margin:6px 0 10px }
+.site-title a { color:var(--ink); text-decoration:none }
+nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
+nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+@media print { .tools { position:static } }
+#l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
+#l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
+main h1 { font-family:var(--f-display); font-weight:600; font-size:1.95rem; line-height:1.3; margin:30px 0 8px }
+main h2 { font-family:var(--f-display); font-weight:600; font-size:1.35rem; line-height:1.4; margin:42px 0 10px; scroll-margin-top:56px }
+main h3 { font-weight:700; font-size:1.08rem; margin:28px 0 8px; scroll-margin-top:56px }
+main h4 { font-size:1rem; margin:20px 0 6px }
+main p { margin:0 0 12px }
+.pagetoc { background:var(--sheet); border:1px solid var(--line); padding:10px 16px; margin:14px 0 6px; font-size:.92rem }
+.pagetoc summary { cursor:pointer; color:var(--muted) }
+.pagetoc ol { list-style:none; margin:6px 0 2px; padding-left:.2em } .pagetoc ol ol { padding-left:1.1em }
+.tbl { overflow-x:auto; margin:12px 0 16px; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; width:100%; background:var(--sheet); font-size:.93rem }
+th,td { border-bottom:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top }
+th { color:var(--muted); font-weight:500; font-size:.84rem }
+.tbl.wide table { min-width:1400px; font-size:.86rem }
+td.h, .h { font-size:1.2em; white-space:nowrap }
+td small, .h small { font-size:.66em; color:var(--muted) }
+td.ipa, .ipa { font-family:var(--f-ipa); white-space:nowrap } td.sm { font-size:.84rem }
+.muted { color:var(--muted) }
+.badge { display:inline-block; font-size:.74rem; line-height:1.4; padding:0 6px; border:1px solid var(--c); color:var(--c); border-radius:3px; white-space:nowrap }
+figure.q { margin:14px 0; padding:10px 14px; background:var(--sheet); border:1px solid var(--line); border-left:3px solid var(--c) }
+figure.q p { margin:2px 0 }
+figure.q .src { font-family:var(--f-display); font-size:1.1rem; line-height:1.8 }
+figure.q .rd { color:var(--muted) } figure.q .rd::before { content:"독음 "; font-size:.75rem; color:var(--c) }
+figure.q .tr::before { content:"해석 "; font-size:.75rem; color:var(--c) }
+figure.q figcaption { color:var(--muted); font-size:.85rem; margin-top:4px }
+blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line) }
+code { font-size:.9em; background:var(--soft); padding:0 3px; border-radius:3px }
+ul,ol { padding-left:1.3em } li { margin:3px 0 }
+.footnote { font-size:.88rem; color:var(--muted); border-top:1px solid var(--line); margin-top:36px }
+.footnote hr { display:none }
+ol.bib { list-style:none; padding:0 } ol.bib li { margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid var(--line) }
+ol.bib p { margin:2px 0 } .cite { font-weight:500 } .links, .used { font-size:.86rem; color:var(--muted) } .ann { font-size:.94rem }
+.toc-cats { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.92rem }
+.count { background:var(--soft); border-left:3px solid var(--c); padding:8px 12px }
+.prevnext { display:flex; justify-content:space-between; gap:12px; margin-top:40px; font-size:.92rem }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:14px; color:var(--muted); font-size:.85rem }
+footer p { margin:4px 0 }
+.l1 .c2 { display:none }
+.l1 .c1 { font-weight:500 }
+@media (max-width:480px) { main h1 { font-size:1.6rem } main h2 { font-size:1.22rem } }
+</style>
+</head>
+<body><div class="wrap">
+<header class="site">
+<p class="back"><a href="../">← 법률 외국어 자습서</a></p>
+<p class="site-title"><a href="index.html">세종의 글자로 보는 외래어 표기</a></p>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html">첫 면</a></li><li><a href="cheje.html">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html">역사</a></li><li><a href="bigyo.html">견주어 보기</a></li><li><a href="silcheung.html">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html" aria-current="page">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
+</header>
+<div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
+<main>
+<h1 id="주석-문헌-목록">주석 문헌 목록</h1>
+<p>이 사이트가 근거로 쓰거나 다음에 읽을 문헌으로 꼽은 목록이다. 문헌마다 짧은 해제를 붙였다. 해제는 문헌의 초록을 옮긴 것이 아니라 이 연구가 새로 쓴 것이다.</p>
+<h2 id="읽는-법-등급-분류-이-사이트에서-쓰는-곳">읽는 법 — 등급 · 분류 · 「이 사이트에서 쓰는 곳」</h2>
+<p><strong>등급.</strong> 문헌은 두 등급으로 나뉜다.</p>
+<ul>
+<li><strong>A</strong>는 서지를 서로 다른 두 곳에서 확인하고 원문을 열어 읽은 문헌이다. 사이트 본문의 근거 칸과 근거 문장에는 A 문헌과 원전만 쓴다. 해제는 두세 문장으로, 무엇을 어떤 자료로 다루었고 이 사이트가 어디에 쓰는지를 적는다.</li>
+<li><strong>B</strong>는 서지는 확인했으나 원문을 보지 못한 문헌이다. 초록이나 다른 문헌의 인용으로만 안다. 「확인 중」 표지를 달고, 해제에는 다루는 쟁점만 한 줄 적는다. 원문을 읽지 않았으므로 결론은 옮기지 않는다. 본문에 나올 때도 「확인 중」을 붙여 보조로만 쓴다.</li>
+</ul>
+<p>서지를 한 곳에서만 확인한 것, 신문 기사·블로그·위키·게시판 글, 기억에만 있는 서지, 이 연구의 범위 밖 문헌은 C로 분류했고 이 목록에 싣지 않았다. B 문헌의 원문을 읽으면 다음 판에서 A로 옮기고 변경 이력에 적는다.</p>
+<p><strong>분류.</strong> 문헌을 일곱 갈래로 묶었다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>분류</th>
+<th>무엇</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>원전·영인</td>
+<td>『훈민정음』 해례본과 언해본, 『동국정운』, 『홍무정운역훈』, 실록, 근대의 표기안 원문</td>
+</tr>
+<tr>
+<td>운서·역학서</td>
+<td>15~16세기 운서와 사역원 역학서, 그 한글 전사를 다룬 연구</td>
+</tr>
+<tr>
+<td>문자론·음가 재구</td>
+<td>훈민정음의 문자 원리와 옛 글자의 소리값을 다룬 연구</td>
+</tr>
+<tr>
+<td>규범사·비판</td>
+<td>외래어 표기법의 역사와 그에 대한 비판, 남북한 규범</td>
+</tr>
+<tr>
+<td>외국 비교</td>
+<td>일본·중국 등 다른 나라의 외래어 표기 규범과 한글 표기의 해외 적용</td>
+</tr>
+<tr>
+<td>실증</td>
+<td>한국어 화자의 지각·산출 실험, 차용어 코퍼스, 표기가 발음 학습에 주는 효과</td>
+</tr>
+<tr>
+<td>구현</td>
+<td>유니코드, 국가표준, 글꼴과 입력</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>「이 사이트에서 쓰는 곳」.</strong> A 문헌마다 그 문헌을 근거로 쓰는 면을 적었다. 01 원전, 02 글자, 03 역사, 04 견주기, 05 실증, 06 체계, 07 언어(언어별 적용), 08 구현이다. 칸이 비어 있으면 본문이 직접 인용하지는 않고 다음에 읽을 문헌으로 꼽았다는 뜻이다.</p>
+<p><strong>원문 링크.</strong> 이 사이트는 PDF를 내려받아 다시 배포하지 않는다. 링크는 DOI나 문헌을 낸 기관의 주소로만 건다. 기관 주소가 바뀌어 링크가 끊기면 DOI와 서지로 찾을 수 있다.</p>
+<h2 id="목록">목록</h2>
+<p class="count">싣는 문헌 148편 — A 35편 · B(확인 중) 113편. 이 수는 데이터 파일 <code>data/bib-public.json</code> 에서 센 것이다.</p>
+<ul class="toc-cats"><li><a href="#cat-0">원전·영인</a> 11</li><li><a href="#cat-1">운서·역학서</a> 45</li><li><a href="#cat-2">문자론·음가 재구</a> 32</li><li><a href="#cat-3">규범사·비판</a> 16</li><li><a href="#cat-4">외국 비교</a> 11</li><li><a href="#cat-5">실증</a> 23</li><li><a href="#cat-6">구현</a> 10</li></ul>
+<h3 id="cat-0">원전·영인 <span class="muted">11편</span></h3><ol class="bib">
+<li id="bib-eonhae"><p class="cite">世宗 (1459). 「世宗御製訓民正音(훈민정음 언해본)」, 『月印釋譜 卷1』.</p><p class="links"><a href="https://ko.wikisource.org/wiki/훈민정음_언해본">서지 주소</a> · <a href="https://commons.wikimedia.org/wiki/Category:Hunminjeongeum_Eonhae">원문 보기</a></p><p class="ann">『월인석보』(1459) 권두에 실린 계통의 언해본이다. 예의를 우리말로 풀면서 해례에 없는 조항, 곧 중국 한자음의 잇소리를 치두와 정치로 가르는 대목과 그 열 글자를 덧붙였다. 위키문헌 전사는 이 열 글자의 꼴 구별을 잃었으므로 꼴은 영인으로 확인해야 한다. 이 사이트에서 E층 글자의 출처다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="geulja.html">글자별 해설</a></p></li>
+<li id="bib-haerye1446"><p class="cite">世宗 (1946(원저 1446)). 『訓民正音(해례본) — 朝鮮語學會 석판 영인』, 서울, 朝鮮語學會.</p><p class="links"><a href="https://kyudb.snu.ac.kr/book/view.do?book_cd=GG43224_00">서지 주소</a> · <a href="https://commons.wikimedia.org/wiki/File:조선어학회_훈민정음.pdf">원문 보기</a></p><p class="ann">1946년 조선어학회가 간송미술관 원간본을 저본으로 찍은 석판 영인으로, 1책 33장이다. 세종이 지은 예의와 정인지 등 여덟 신하가 지은 해례로 나뉘며, 연서·병서·부서·방점 규정과 제자해·합자해의 조음 설명이 모두 여기 있다. 이 사이트는 원문 글자를 이 영인 기준으로 적고, 위키문헌 전사본과 다른 글자는 따로 밝힌다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="geulja.html">글자별 해설</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-sillok"><p class="cite">국사편찬위원회 (연도 없음). 『世宗實錄 — 훈민정음 창제·『동국정운』 관련 기사』, 국사편찬위원회.</p><p class="links"><a href="https://sillok.history.go.kr/id/wda_12512030_002">서지 주소</a></p><p class="ann">국사편찬위원회 공개본 『세종실록』에서 훈민정음 창제·반포와 『동국정운』 편찬에 관한 기사 넷을 골랐다(세종 25년 12월 30일, 26년 2월 20일, 28년 9월 29일, 29년 9월 29일). 날짜는 실록 원문대로 음력이다. 새 글자로 한자음과 외국어 음을 다룬 조정의 기록을 원문으로 확인하는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="yeoksa.html">역사</a></p></li>
+<li id="bib-cha2012"><p class="cite">문화재청 (2012). 「훈민정음 해례본(상주본), 찾으면 국가소유 된다」, 『정책브리핑(korea.kr)』, 문화재청.</p><p class="links"><a href="https://www.korea.kr/news/issueQAView.do?newsId=148732696">서지 주소</a></p><p class="ann">문화재청이 2012년 5월 7일에 낸 발표다. 2008년에 알려진 상주본이 간송본과 같은 판본이고 서문 4장과 뒷부분 1장이 없으며, 소장자가 감춰 행방을 알 수 없다고 밝혔다. 이 사이트는 해례본 원간본이 간송본 하나가 아니라는 사실을 적는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a></p></li>
+<li id="bib-donggukjeongun1448"><p class="cite">신숙주 등 (1448). 『東國正韻 권1』.</p><p class="links"><a href="https://commons.wikimedia.org/wiki/File:Donggukjeongun,_Volume_1.djvu">서지 주소</a></p><p class="ann">신숙주 등이 엮은 6권짜리 한자음 운서의 권1 영인이다. 당시 조선 한자음을 중국 운서에 기대어 규범음으로 고쳐 한글로 적은 책이다(이돈주 2002: 28). 촬영 저본이 어느 소장본인지는 영인 설명에 적혀 있지 않다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="yeoksa.html">역사</a></p></li>
+<li id="bib-hongmuyeokhun1455"><p class="cite">신숙주 (1455). 『洪武正韻譯訓』. <span class="badge">확인 중</span></p><p class="ann">명의 관찬 운서 『홍무정운』의 한자에 한글로 정음과 속음을 단 신숙주 등의 역훈서다.</p></li>
+<li id="bib-leesk2009"><p class="cite">이상규 (2009). 「훈민정음의 첩운(疊韻) 권점 분석」, 『새국어생활』, 19(1), 155–184, 국립국어원. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2009_1/2009_0110.pdf">서지 주소</a></p><p class="ann">『훈민정음』 해례본에 찍힌 첩운 권점의 쓰임을 분석한다.</p></li>
+<li id="bib-jeongk2020"><p class="cite">정광 (2020). 「훈민정음의 &lt;언해본&gt;: 고려대 도서관 육당문고 소장의 「훈민정음」을 중심으로」, 『어문논집』, 88, 5–48, 민족어문학회. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.33335/KLL.88.1">doi:10.33335/KLL.88.1</a></p><p class="ann">고려대 육당문고 소장 『훈민정음』 언해본의 서지와 성격을 다룬다.</p></li>
+<li id="bib-jeongwy2005"><p class="cite">정우영 (2005). 「『訓民正音』언해본의 성립과 원본 재구」, 『국어국문학』, 141, 75–113, 국어국문학회. <span class="badge">확인 중</span></p><p class="ann">『훈민정음』 언해본이 어떻게 성립했는지와 원본의 재구를 다룬다.</p></li>
+<li id="bib-ahakpyeon1908"><p class="cite">지석영 (1908). 『兒學編』. <span class="badge">확인 중</span></p><p class="ann">지석영이 엮은 한자 학습서로, 한자마다 중국어·일본어·영어 뜻과 한글 발음 표기를 붙였다.</p></li>
+<li id="bib-saseongtonghae1517"><p class="cite">최세진 (1517). 『四聲通解』. <span class="badge">확인 중</span></p><p class="ann">최세진이 『사성통고』를 보충해 엮은 중국어 한자음 운서로, 정음·속음·금속음 표기를 담는다.</p></li>
+</ol>
+<h3 id="cat-1">운서·역학서 <span class="muted">45편</span></h3><ol class="bib">
+<li id="bib-choganghee2000"><p class="cite">趙堈煕 (2000). 「鼻濁音の喪失過程について ―朝鮮時代の日本語学習書を中心に―」, 『岡大国文論稿』, 28, 82–93.</p><p class="links"><a href="https://doi.org/10.18926/okadaironkou/60212">doi:10.18926/okadaironkou/60212</a> · <a href="https://ousar.lib.okayama-u.ac.jp/en/journal/okadaironkou/--/28/article/60212">서지 주소</a></p><p class="ann">『첩해신어』 원간본(1676), 개수본(1748), 중간본(1781)에서 일본어 탁음에 붙은 한글 음주를 세 갈래로 나누어 견준다. 앞 음절에 비음 받침을 다는 방식, 비음 글자를 앞붙이는 방식, 평음만 쓰는 방식이 판을 거듭하며 비율이 바뀌는 것을 비음 요소가 사라지는 과정으로 읽는다. 일본어로 쓰였다. 이 사이트는 역학서가 외국 소리를 한글로 적은 실례로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="yeoksa.html">역사</a></p></li>
+<li id="bib-kangsj1999"><p class="cite">강식진 (1999). 「최세진의 번역 활동」, 『새국어생활』, 9(3), 31–54, 국립국어연구원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/1999_3/1999_0303.pdf">서지 주소</a></p><p class="ann">최세진의 생애와 번역 저술을 『번역노걸대』·『번역박통사』 범례 중심으로 살핀다. 운서음을 글자 왼쪽(좌음)에, 당대 북방 현실음을 오른쪽(우음)에 나란히 단 방식과, 상성이 이어질 때 앞 글자에 두 점을 찍는 방점조를 해설한다. 이 사이트에서 중국어 성조를 방점으로 적는 방식의 근거다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="geulja.html">글자별 해설</a> · <a href="eoneo/es.html">언어별 적용</a></p></li>
+<li id="bib-kangsh2002"><p class="cite">강신항 (2002). 「신숙주와 운서(韻書)」, 『새국어생활』, 12(3), 43–56, 국립국어연구원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2002_3/2002_0303.pdf">서지 주소</a></p><p class="ann">반절법과 중국 운서의 역사에서 시작해, 세종 대 한자음 정리 사업에서 신숙주가 맡은 몫을 서술한다. 『사성통고』가 『홍무정운역훈』의 반절과 뜻풀이를 덜어 내고 정음과 속음을 31자모 순으로 추린 책이라는 설명이 있다. 이 사이트는 운서 계보를 적는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="yeoksa.html">역사</a></p></li>
+<li id="bib-shim2013"><p class="cite">심소희 (2013). 「『홍무정운역훈』의 문백이독 연구」, 『한중언어문화연구』, 33, 3–42.</p><p class="links"><a href="https://doi.org/10.16874/jslckc.2013..33.001">doi:10.16874/jslckc.2013..33.001</a> · <a href="https://journal.kci.go.kr/ksclc/archive/articlePdf?artiId=ART001817222">서지 주소</a></p><p class="ann">『홍무정운역훈』이 문언음(정음)과 백화음(속음)을 각각 어떻게 채취했는지 밝히고, 두 음이 성모와 운모에서 갈리는 경우를 운목별로 정리한다. 『사성통고』 범례의 방점 조항을 원문으로 인용한다. 이 사이트에서 중국어 치두·정치 글자의 값과 방점 조류형의 근거다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="geulja.html">글자별 해설</a> · <a href="cheje.html">표기 체계</a> · <a href="eoneo/es.html">언어별 적용</a></p></li>
+<li id="bib-leedj2002"><p class="cite">이돈주 (2002). 「신숙주와 훈민정음」, 『새국어생활』, 12(3), 27–42, 국립국어연구원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2002_3/2002_0302.pdf">서지 주소</a></p><p class="ann">신숙주가 해례 편찬, 『동국정운』, 『홍무정운역훈』에 걸쳐 한 일을 중국 음운학의 배경에서 묶어 본 글이다. 조선 한자음에 대한 판단과 중국어 음 표기를 장을 나눠 다룬다. 이 사이트는 치음 글자들의 15세기 쓰임을 확인하는 근거이자, θ 에 치두음 시옷을 쓰던 판 1 배정의 반대 근거로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-nakayama2011"><p class="cite">中山めぐみ (2011). 「17世紀の撥音に関する考察 ―『捷解新語』のハングル音注を通して―」, 『麗澤学際ジャーナル』, 19(1), 11–31. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.18901/00000176">doi:10.18901/00000176</a> · <a href="https://reitaku.repo.nii.ac.jp/records/190">서지 주소</a></p><p class="ann">『첩해신어』의 한글 음주로 17세기 일본어 발음(撥音)을 고찰한다.</p></li>
+<li id="bib-otomo1956"><p class="cite">大友信一 (1956). 「『捷解新語』に見られる濁音表記」, 『言語研究』, 30, 日本言語学会. <span class="badge">확인 중</span></p><p class="ann">『첩해신어』에 나타난 탁음 표기를 다룬다.</p></li>
+<li id="bib-shin2007"><p class="cite">愼鏞權 (2007). 「《飜譯老乞大》에 나타난 左右音의 성격」, 『한국언어학회 학술대회지』, 2007(7). <span class="badge">확인 중</span></p><p class="ann">『번역노걸대』에 나타난 좌음과 우음의 성격을 다룬다.</p></li>
+<li id="bib-leesk2002"><p class="cite">李聖揆 (2002). 『蒙學三書의 蒙古語研究』, 단국대학교출판부. <span class="badge">확인 중</span></p><p class="ann">사역원 몽학서 세 가지로 몽골어를 연구한다.</p></li>
+<li id="bib-hamada1970"><p class="cite">濱田敦 (1970). 『朝鮮資料による日本語研究』, 岩波書店. <span class="badge">확인 중</span></p><p class="ann">조선 자료(역학서 등)로 일본어사를 연구한 논문집이다.</p></li>
+<li id="bib-takekoshi2013"><p class="cite">竹越孝 (2013). 「中国語史研究におけるテキストの問題」, 『日本中国学会 발표 자료(2013.10.14, 秋田大学)』. <span class="badge">확인 중</span></p><p class="links"><a href="https://nippon-chugoku-gakkai.org/wp-content/uploads/2024/06/takekoshi.pdf">서지 주소</a></p><p class="ann">중국어사 연구에서 쓰는 문헌 텍스트(판본·사본)의 문제를 다룬 학회 발표 자료다.</p></li>
+<li id="bib-bae1999"><p class="cite">裵錫柱 (1999). 「倭學書ザ行音轉寫表記の淸音化の傾向」, 『論文集(경주대학교)』, 12(1). <span class="badge">확인 중</span></p><p class="ann">왜학서에서 일본어 ザ행음을 한글로 옮긴 표기가 청음 쪽으로 기우는 경향을 다룬다.</p></li>
+<li id="bib-bae2001"><p class="cite">裵錫柱 (2001). 「倭學書の四っ假名轉寫表記考」, 『論文集(경주대학교)』, 14. <span class="badge">확인 중</span></p><p class="ann">왜학서에서 일본어 「四つ仮名」(じ·ぢ·ず·づ)를 한글로 옮긴 표기를 다룬다.</p></li>
+<li id="bib-heo2021"><p class="cite">許仁寧 (2021). 「転写資料を活用した韓国語音韻史の研究 ―近世日韓の語学書を中心に―」, 『비교일본학』, 53, 21–40. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.earticle.net/Article/A407824">서지 주소</a></p><p class="ann">근세 한일 어학서의 전사 자료를 한국어 음운사 연구에 쓰는 방법을 다룬다.</p></li>
+<li id="bib-chorc2014"><p class="cite">趙來喆 (2014). 「『捷解新語』における清音と濁音のハングル音注 ―単子音と重ね子音の用例を中心に―」, 『日本学研究』, 42, 321–337, 단국대학교 일본연구소. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.earticle.net/Article/A218936">서지 주소</a></p><p class="ann">『첩해신어』에서 일본어 청음과 탁음에 붙인 한글 음주를 홑자음과 겹자음 용례 중심으로 다룬다.</p></li>
+<li id="bib-endo1990"><p class="cite">遠藤光暁 (1990). 『《翻譯老乞大・朴通事》漢字注音索引』, 東京, 好文出版. <span class="badge">확인 중</span></p><p class="ann">『번역노걸대』·『번역박통사』의 한자 주음을 찾아볼 수 있게 만든 색인이다.</p></li>
+<li id="bib-jeongk2002"><p class="cite">鄭光 (2002). 『譯學書研究』, 제이앤씨. <span class="badge">확인 중</span></p><p class="ann">사역원 역학서 전반을 다룬 연구서다.</p></li>
+<li id="bib-kimhs1974"><p class="cite">金炯秀 (1974). 『蒙學三書研究』, 螢雪出版社. <span class="badge">확인 중</span></p><p class="ann">사역원 몽학서 세 가지를 다룬 연구서다.</p></li>
+<li id="bib-kangwh2026"><p class="cite">강운화 (2026). 「『홍무정운역훈』의 DB 구축과 정⋅속음 체계의 고찰」, 『중국언어연구』, 125, 1–32, 한국중국언어학회. <span class="badge">확인 중</span></p><p class="ann">『홍무정운역훈』을 데이터베이스로 구축하고 그로써 정음·속음 체계를 살핀다.</p></li>
+<li id="bib-kimk2010"><p class="cite">김국 (2010). 「만주어의 한글 문자 차용에 대하여」, 『한국어정보학』, 12(1), 40–46. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.earticle.net/Article/A148823">서지 주소</a></p><p class="ann">만주어를 적으려고 한글 글자를 빌려 쓴 방식을 다룬다.</p></li>
+<li id="bib-kimyb2013"><p class="cite">김유범 · 김미미 (2013). 「『同文類解』의 滿洲語 한글 표기 체계에 대하여」, 『민족문화연구』, 58, 553–578. <span class="badge">확인 중</span></p><p class="ann">『동문유해』의 만주어 한글 표기 체계를 다룬다.</p></li>
+<li id="bib-kimjh2012"><p class="cite">김지홍 (2012). 「이른바 세종이 정한 「통고 사성도」에 대하여」, 『규장각』, 40, 1–49, 서울대학교 규장각한국학연구원. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.22943/kyujg.2012..40.001">doi:10.22943/kyujg.2012..40.001</a></p><p class="ann">세종이 정했다고 전하는 「통고 사성도」의 실체를 다룬다.</p></li>
+<li id="bib-moon2020"><p class="cite">문성호 (2020). 「『동국정운(東國正韻)』 한자음의 종성 &#x27;ㅭ&#x27;·&#x27;ㅱ&#x27; 고찰 — &#x27;ㆆ&#x27;·&#x27;ㅇ&#x27;을 중심으로」, 『人文學硏究』, 33, 337–366, 인천대학교 인문학연구소. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.31323/SH.2020.06.33.13">doi:10.31323/SH.2020.06.33.13</a></p><p class="ann">『동국정운』 한자음의 종성 ㅭ·ㅱ 표기를 ㆆ·ㅇ 과 관련지어 다룬다.</p></li>
+<li id="bib-parksc2022"><p class="cite">박상철 (2022). 「청학서에 대한 국어학적 연구 ―특히 만주어와 한국어의 시상체계에 관한 연구를 중심으로―」, 『국어사연구』, 34, 103–145. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.earticle.net/Article/A411460">서지 주소</a></p><p class="ann">청학서를 국어학적으로 다루며 만주어와 한국어의 시상 체계를 견준다.</p></li>
+<li id="bib-byeon2012"><p class="cite">변지원 (2012). 「만다린 속에서의 중세 한국 轉寫音의 위치 ―《번역노걸대》 좌⋅우음과 만다린 방언의 친연성 비교를 통하여―」, 『중국문학』, 71, 123–144. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.earticle.net/Article/A177182">서지 주소</a></p><p class="ann">『번역노걸대』의 좌음·우음이 현대 북방 방언 가운데 어디와 가까운지를 견준다.</p></li>
+<li id="bib-xie2021"><p class="cite">사수란 (2021). 「≪몽어유해≫ 부가부호 &#x27;△&#x27;에 대한 연구」, 『몽골학』, 67, 33–64. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.17292/kams.2021..67.002">doi:10.17292/kams.2021..67.002</a></p><p class="ann">『몽어유해』에 쓰인 부가 부호 △ 의 기능을 다룬다.</p></li>
+<li id="bib-so2023"><p class="cite">소뢰 · 임다영 (2023). 「청학서 만·한 대역에 보이는 음절 대칭과 비대칭」, 『한중인문학연구』, 81, 161–186. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.earticle.net/Article/A439604">서지 주소</a></p><p class="ann">청학서의 만주어·한국어 대역에서 음절이 대응하거나 어긋나는 양상을 다룬다.</p></li>
+<li id="bib-so2024"><p class="cite">소뢰 · 임다영 (2024). 「청학서 한글 전사 표기에 보이는 &#x27;병서&#x27;와 &#x27;연서&#x27;」, 『국어학』, 109, 103–129. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.15811/jkl.2024..109.004">doi:10.15811/jkl.2024..109.004</a></p><p class="ann">청학서의 만주어 한글 전사에 나오는 병서와 연서 표기를 다룬다.</p></li>
+<li id="bib-shin2004"><p class="cite">신용권 (2004). 「≪飜譯老乞大≫에 나타난 좌측음의 성격에 대하여」, 『중국문학』, 42, 243–269, 한국중국어문학회. <span class="badge">확인 중</span></p><p class="ann">『번역노걸대』의 왼쪽 한자음 표기(좌측음)가 무엇을 반영하는지를 다룬다.</p></li>
+<li id="bib-shin2008"><p class="cite">신용권 (2008). 「老乞大諺解書에 나타난 漢語 聲調 표기와 관련된 몇 가지 문제에 대하여」, 『중국문학』, 57, 405–436. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.21192/scll.57..200811.018">doi:10.21192/scll.57..200811.018</a></p><p class="ann">『노걸대』 언해서들에서 중국어 성조를 방점으로 적은 방식의 문제들을 다룬다.</p></li>
+<li id="bib-shin2011"><p class="cite">신용권 (2011). 「&lt;번역노걸대․박통사&gt;에 나타난 정속음의 개념에 대한 재검토」, 『한글』, 293, 83–115, 한글학회. <span class="badge">확인 중</span></p><p class="ann">『번역노걸대』·『번역박통사』에 나오는 정음·속음 개념을 다시 검토한다.</p></li>
+<li id="bib-shin2012"><p class="cite">신용권 (2012). 「《번역노걸대ㆍ박통사》의 한어음 표기와 관련된 몇 가지 문제에 대하여」, 『언어학』, 62, 한국언어학회. <span class="badge">확인 중</span></p><p class="ann">『번역노걸대』·『번역박통사』의 중국어음 표기와 관련된 문제들을 다룬다.</p></li>
+<li id="bib-shim2005"><p class="cite">심소희 (2005). 「조선시대 외국어 한글표기법의 고찰」, 『중국어문학지』, 17, 중국어문학회. <span class="badge">확인 중</span></p><p class="ann">조선 시대에 외국어를 한글로 적은 방식들을 고찰한다.</p></li>
+<li id="bib-yeon2014"><p class="cite">연규동 (2014). 「청학서: 선조들이 만난 만주어」, 『새국어생활』, 24(1), 39–60, 국립국어원. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2014_1/24_0103.pdf">서지 주소</a></p><p class="ann">사역원 청학서(만주어 학습서)의 종류와 내용을 소개한다.</p></li>
+<li id="bib-oh2017"><p class="cite">오민석 (2017). 「『동문유해』 만주어 한글 표기와 만주 문자의 대응 관계 고찰 ―구별 기호가 있는 한글표기를 중심으로―」, 『민족문화연구』, 77. <span class="badge">확인 중</span></p><p class="ann">『동문유해』의 만주어 한글 표기와 만주 문자의 대응을 구별 기호가 붙은 표기 중심으로 다룬다.</p></li>
+<li id="bib-leejs1982"><p class="cite">이정수 (1982). 『倭學書에 나타난 日本語의 한글轉寫表記 ―司譯院 譯學書를 中心으로―』, 서울대학교. <span class="badge">확인 중</span></p><p class="ann">사역원 왜학서에 나타난 일본어의 한글 전사 표기를 다룬다.</p></li>
+<li id="bib-leejh2022"><p class="cite">이준환 (2022). 「漢語 학습서의 국어학적 가치에 관하여」, 『국어사연구』, 34, 27–67. <span class="badge">확인 중</span></p><p class="links"><a href="https://m.earticle.net/Article/A411458">서지 주소</a></p><p class="ann">한어 학습서가 국어학 자료로서 갖는 가치를 다룬다.</p></li>
+<li id="bib-jeongk1998"><p class="cite">정광 · 윤세영 (1998). 『司譯院 譯學書 冊板研究』, 고려대학교출판부. <span class="badge">확인 중</span></p><p class="ann">사역원 역학서의 책판을 조사한 연구서다.</p></li>
+<li id="bib-jeongsh2003"><p class="cite">정승혜 (2003). 『조선후기 왜학서 연구』, 태학사. <span class="badge">확인 중</span></p><p class="ann">조선 후기 왜학서의 종류와 변천을 다룬 연구서다.</p></li>
+<li id="bib-jeongsh2014"><p class="cite">정승혜 (2014). 「왜학서로 만나는 선인들의 삶」, 『새국어생활』, 24(1), 61–80, 국립국어원. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2014_1/24_0104.pdf">서지 주소</a></p><p class="ann">사역원 왜학서(일본어 학습서)에 드러난 당시 사람들의 생활상을 소개한다.</p></li>
+<li id="bib-jeongsh2022"><p class="cite">정승혜 (2022). 「한국의 역학서(譯學書) 연구 현황과 과제」, 『국어사연구』, 34, 7–26. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.earticle.net/Article/A411457">서지 주소</a></p><p class="ann">한국의 역학서 연구 현황을 정리하고 과제를 제시한다.</p></li>
+<li id="bib-joo2009a"><p class="cite">주성일 (2009). 「≪四聲通解≫凡例考(Ⅰ)」, 『중국문학연구』, 38, 115–150, 한국중문학회. <span class="badge">확인 중</span></p><p class="ann">『사성통해』 범례를 조항별로 고찰한 연속 논문의 첫째 편이다.</p></li>
+<li id="bib-joo2009b"><p class="cite">주성일 (2009). 「≪四聲通解≫凡例考(Ⅱ)」, 『중국문학연구』, 39, 215–246, 한국중문학회. <span class="badge">확인 중</span></p><p class="ann">『사성통해』 범례를 조항별로 고찰한 연속 논문의 둘째 편이다.</p></li>
+<li id="bib-heo2022"><p class="cite">허인영 (2022). 「왜학서에 대한 한국어학적 연구의 회고와 전망」, 『국어사연구』, 34, 69–102, 국어사학회. <span class="badge">확인 중</span></p><p class="ann">왜학서에 대한 한국어학적 연구의 흐름을 돌아보고 과제를 정리한다.</p></li>
+<li id="bib-xing2025"><p class="cite">형매연 (2025). 「몽어유해(蒙語類解)의 &#x27;ㅅ, ㄷ&#x27;에 후행하는 &#x27;ㅎ&#x27; 발음에 대하여」, 『몽골학』, 82, 99–123. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.17292/kams.2025.82.99">doi:10.17292/kams.2025.82.99</a></p><p class="ann">『몽어유해』에서 ㅅ·ㄷ 뒤에 오는 ㅎ 의 발음을 다룬다.</p></li>
+</ol>
+<h3 id="cat-2">문자론·음가 재구 <span class="muted">32편</span></h3><ol class="bib">
+<li id="bib-hayata1976"><p class="cite">Hayata, Teruhiro (1976). “An Attempt at a Family Tree for Accent in Some Korean Dialects”, <i>文學研究</i>, 73, 1–26, 九州大学文学部.</p><p class="links"><a href="https://doi.org/10.15017/2557154">doi:10.15017/2557154</a> · <a href="https://hdl.handle.net/2324/2557154">원문 보기</a></p><p class="ann">중세 한국어 자료와 스무 곳 남짓한 방언의 악센트 자료를 모아, 대립이 중화되는 방식을 견주어 방언 악센트의 계통수를 세워 보려는 논문이다. 일본어 방언 악센트 계통 연구의 방법을 빌렸다. 이 사이트는 방점이 적은 것이 높낮이 대립이었다는 배경을 적는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-stonham2014"><p class="cite">Stonham, John · Lee, Hyehyun (2014). “An Early 20th Century Korean Phonetic Alphabet”, <i>Journal of Universal Language</i>, 15(2), 115–146.</p><p class="links"><a href="https://doi.org/10.22425/jul.2014.15.2.115">doi:10.22425/jul.2014.15.2.115</a> · <a href="http://www.sejongjul.org/download/download_pdf?pid=jul-15-2-115">서지 주소</a></p><p class="ann">지석영의 『아학편』(1908)이 영어 낱말에 단 한글 발음 표기를 글자 단위로 분석한다. ㅇ 을 앞에 붙인 꼴로 f·v·θ·ð 를 적은 방식과, 책 안에서 그 구별이 흔들리는 대목을 함께 보여 준다. 이 사이트에서 θ=ᅊ·ð=ᅂ 배정의 선례이자 반대 근거다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-leesj2018"><p class="cite">이승진 · 최홍식 (2018). 「제주어 화자에서 &#x27;아래 아&#x27;(/ㆍ/) 조음의 영상의학적 및 음향학적 특성」, 『말소리와 음성과학』, 10(1), 57–64.</p><p class="links"><a href="https://doi.org/10.13064/KSSS.2018.10.1.057">doi:10.13064/KSSS.2018.10.1.057</a> · <a href="https://www.eksss.org/download/download_pdf?pid=pss-10-1-57">원문 보기</a></p><p class="ann">제주어 화자 두 명(70대와 30대 남성)이 발음한 아래아를 CT 영상의 성도 모양과 제1·제2 포먼트로 잰 연구다. 고령 화자의 아래아는 비슷한 모음들과 따로 떨어진 값을 보였고, 젊은 화자에서는 ㅗ 와 갈리지 않았다. 표본이 둘뿐이다. 이 사이트는 ㆍ 를 [ə] 에 쓰지 않기로 한 판단의 근거로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-leehh1997"><p class="cite">이현희 (1997). 「훈민정음」, 『새국어생활』, 7(4), 237–253, 국립국어연구원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/1997_4/1997_0412.pdf">서지 주소</a></p><p class="ann">『새국어생활』의 국어학 개설 연재 가운데 한 편이다. 책 『훈민정음』의 짜임을 따라가며 예의 4장과 해례 29장이 장차와 판심제를 따로 가진다는 점, 임금의 글과 신하의 글을 글자 크기로 구별한 점, 구두점과 권성을 『성리대전』 체재에서 빌린 점을 정리한다. 이 사이트는 해례 본문과 그 밖의 문헌이 정한 것을 가르는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="genjeon.html">원전 읽기</a> · <a href="geulja.html">글자별 해설</a></p></li>
+<li id="bib-chosd2019"><p class="cite">Cho, Sungdai · Whitman, John (2019). “Writing system”, <i>Korean: A Linguistic Introduction</i>, Cambridge, Cambridge University Press. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1017/9781139048842.004">doi:10.1017/9781139048842.004</a></p><p class="ann">한국어 개설서에서 문자 체계를 다룬 장이다.</p></li>
+<li id="bib-coulmas2000"><p class="cite">Coulmas, Florian (2000). “Review of Kim-Renaud (ed.), The Korean Alphabet: Its History and Structure”, <i>Korean Studies</i>, 24. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1353/ks.2000.0002">doi:10.1353/ks.2000.0002</a></p><p class="ann">한글의 역사와 구조를 다룬 편저(Kim-Renaud 1997)에 대한 서평이다.</p></li>
+<li id="bib-defrancis1989"><p class="cite">DeFrancis, John (1989). <i>Visible Speech: The Diverse Oneness of Writing Systems</i>, Honolulu, University of Hawai&#x27;i Press. <span class="badge">확인 중</span></p><p class="ann">세계 문자 체계를 표음성 기준으로 비교한 문자론 단행본이다.</p></li>
+<li id="bib-kimcho2002"><p class="cite">Kim-Cho, Sek Yen (2002). <i>The Korean Alphabet of 1446: Expositions, OPA, the Visible Speech Sounds, Annotated Translation, Future Applicability</i>, Amherst, NY, Humanity Books. <span class="badge">확인 중</span></p><p class="ann">1446년 훈민정음 해례의 영어 역주와 그 글자의 장래 응용을 다룬 단행본이다.</p></li>
+<li id="bib-kimrenaud1997"><p class="cite">Kim-Renaud, Young-Key (1997). <i>The Korean Alphabet: Its History and Structure</i>, Honolulu, University of Hawai&#x27;i Press. <span class="badge">확인 중</span></p><p class="ann">한글의 역사와 구조를 다룬 영문 논문 모음이다.</p></li>
+<li id="bib-king1996"><p class="cite">King, Ross (1996). “Korean writing”, <i>The World&#x27;s Writing Systems</i>, 218–227, New York, Oxford University Press. <span class="badge">확인 중</span></p><p class="ann">세계 문자 체계 편람에서 한국어 문자를 다룬 장이다.</p></li>
+<li id="bib-ledyard1966"><p class="cite">Ledyard, Gari K. (1966). <i>The Korean Language Reform of 1446: The Origin, Background, and Early History of the Korean Alphabet</i>, University of California, Berkeley. <span class="badge">확인 중</span></p><p class="ann">1446년 훈민정음 창제의 배경과 초기 역사를 다룬 박사 논문이다.</p></li>
+<li id="bib-leehb2009"><p class="cite">Lee, Hyun Bok (2009). “International Korean phonetic alphabet: its application in MS Word”, <i>英語音声学</i>, 日本英語音声学会. <span class="badge">확인 중</span></p><p class="links"><a href="http://ci.nii.ac.jp/naid/40016740003">서지 주소</a></p><p class="ann">국제한글음성문자를 MS Word에서 쓰는 방법을 다룬다.</p></li>
+<li id="bib-leekm2011"><p class="cite">Lee, Ki-Moon · Ramsey, S. Robert (2011). <i>A History of the Korean Language</i>, Cambridge, Cambridge University Press. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1017/CBO9780511974045">doi:10.1017/CBO9780511974045</a></p><p class="ann">한국어의 역사를 고대부터 현대까지 개관한 영문 단행본이다.</p></li>
+<li id="bib-leeso2009"><p class="cite">Lee, Sang-Oak (2009). “The Korean alphabet: An optimal featural system with graphical ingenuity”, <i>Written Language &amp; Literacy</i>, 12(2). <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1075/wll.12.2.05lee">doi:10.1075/wll.12.2.05lee</a></p><p class="ann">한글을 자질 문자 체계로 보고 그 글꼴 설계를 평가한다.</p></li>
+<li id="bib-sampson2015"><p class="cite">Sampson, Geoffrey (2015). “A featural system: Korean Hangul”, <i>Writing Systems (2nd ed.)</i>, Sheffield, Equinox. <span class="badge">확인 중</span></p><p class="links"><a href="https://grsampson.net/BWSys.html">서지 주소</a></p><p class="ann">한글을 자질 문자 체계의 사례로 다룬 문자론 개설서의 장이다.</p></li>
+<li id="bib-sohn1999"><p class="cite">Sohn, Ho-Min (1999). <i>The Korean Language</i>, Cambridge, Cambridge University Press. <span class="badge">확인 중</span></p><p class="ann">한국어의 구조와 역사를 개관한 영문 단행본이다.</p></li>
+<li id="bib-kangsh1987"><p class="cite">강신항 (1987). 『훈민정음연구』, 성균관대학교출판부. <span class="badge">확인 중</span></p><p class="ann">훈민정음의 창제와 해례 내용을 종합적으로 다룬 연구서다.</p></li>
+<li id="bib-kogj2022"><p class="cite">고경재 (2022). 「반치음 &#x27;ㅿ&#x27; 음가 [j] 가설에 대한 검토: 주로 한자음의 관점에서」, 『국어사연구』, 34, 196–241. <span class="badge">확인 중</span></p><p class="ann">반치음 ㅿ 의 음가를 [j] 로 보는 가설을 한자음 쪽에서 검토한다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-kogj2025"><p class="cite">고경재 (2025). 「15세기 순경음 비읍 &#x27;ㅸ&#x27;의 음가와 변화에 대한 고찰: &#x27;β&gt;w&#x27; 규칙의 타당성을 중심으로」, 『한글』, 86(1), 71–137, 한글학회. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.22557/HG.2025.3.86.1.71">doi:10.22557/HG.2025.3.86.1.71</a></p><p class="ann">15세기 순경음 ㅸ 의 음가와, β 가 w 로 바뀌었다는 규칙의 타당성을 다룬다.</p></li>
+<li id="bib-kojh2019"><p class="cite">고재환 (2019). 「제주어에 남아 있는 ⟨ᆢ⟩와 ⟨ᆜ⟩ 모음」, 『인문학연구』, 26, 119–136, 제주대학교 인문과학연구소. <span class="badge">확인 중</span></p><p class="ann">제주어에 남아 있는 ㆍ 와 ᆢ 모음을 다룬다.</p></li>
+<li id="bib-kimby2018"><p class="cite">김부연 (2018). 「『훈민정음』 &lt;합자해&gt;의 기능에 대한 재조명」, 『한국어학』, 81, 131–167, 한국어학회. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.20405/kl.2018.11.81.131">doi:10.20405/kl.2018.11.81.131</a></p><p class="ann">해례 합자해가 맡은 기능, 특히 고유어 밖의 소리를 허용하는 조항을 어떻게 읽을지를 다룬다.</p></li>
+<li id="bib-kimyb2019"><p class="cite">김유범 · 고경재 (2019). 「『훈민정음』의 각자병서자와 전탁음의 음가에 대한 재론」, 『우리말연구』, 59, 5–45. <span class="badge">확인 중</span></p><p class="ann">해례의 각자병서 글자와 전탁음의 음가를 다시 논한다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-kimjw2010"><p class="cite">김재원 (2010). 「세계 속의 한글의 위상을 위한 몇 가지 고찰: 외래어 표기를 위한 훈민정음의 능동적인 활용방안」, 『영상문화』, 15, 97–132, 한국영상문화학회. <span class="badge">확인 중</span></p><p class="ann">훈민정음 글자를 외래어 표기에 적극적으로 쓰는 방안을 다룬다.</p></li>
+<li id="bib-kimjw2013"><p class="cite">김주원 (2013). 『훈민정음: 사진과 기록으로 읽는 한글의 역사』, 서울, 민음사. <span class="badge">확인 중</span></p><p class="ann">사진과 기록을 바탕으로 훈민정음과 한글의 역사를 개관한 단행본이다.</p></li>
+<li id="bib-kimje2022"><p class="cite">김지은 (2022). 「중세·근대 국어 자음체계 연구의 성과와 전망」, 『국어사연구』, 35, 41–66. <span class="badge">확인 중</span></p><p class="ann">중세·근대 국어 자음 체계 연구의 성과를 정리하고 전망한다.</p></li>
+<li id="bib-parkhw2024"><p class="cite">박형우 (2024). 「&lt;合字解&gt;에 나타나는 &#x27;合字&#x27;의 개념과 범위」, 『국어사연구』, 38, 109–138, 국어사학회. <span class="badge">확인 중</span></p><p class="ann">합자해의 「합자」가 가리키는 개념과 그 범위를 따진다.</p></li>
+<li id="bib-shinsy2006"><p class="cite">신승용 (2006). 「치음 /ㅅ/, /ㅈ/의 조음위치 이동 원인과 변화 과정」, 『국제어문』, 36, 117–144. <span class="badge">확인 중</span></p><p class="ann">치음 ㅅ·ㅈ 의 조음 위치가 옮겨 간 원인과 과정을 다룬다.</p></li>
+<li id="bib-leekmnda"><p class="cite">이기문 (연도 없음). 「알고 싶은 한글 — Sampson 『Writing Systems』(1985) 서평」, 『알고 싶은 한글(국립국어원 누리집)』, 국립국어원. <span class="badge">확인 중</span></p><p class="links"><a href="https://korean.go.kr/hangeul/short/003c.html">서지 주소</a></p><p class="ann">Sampson의 『Writing Systems』가 한글을 다룬 부분에 대한 서평이다.</p></li>
+<li id="bib-leeds2010"><p class="cite">이동석 (2010). 「&#x27;ㅸ&#x27; 포함 어휘의 형태론적 분석」, 『국어사연구』, 11, 221–249. <span class="badge">확인 중</span></p><p class="ann">ㅸ 이 든 낱말들을 형태론적으로 분석한다.</p></li>
+<li id="bib-leehb2011"><p class="cite">이현복 (2011). 「국제한글음성문자의 일본어, 중국어, 태국어 표기」, 『동아문화』, 49, 91–117, 서울대학교 동아문화연구소. <span class="badge">확인 중</span></p><p class="ann">국제한글음성문자로 일본어·중국어·태국어를 적는 방식을 다룬다.</p></li>
+<li id="bib-leehb2000"><p class="cite">이현복 · 조운일 (2000). 「국제한글음성문자의 음성학적 자판배열」, 『말소리』, 39, 43–51, 대한음성학회. <span class="badge">확인 중</span></p><p class="links"><a href="https://koreascience.kr/article/JAKO200013842070273.page">서지 주소</a></p><p class="ann">국제한글음성문자를 위한 음성학적 자판 배열을 다룬다.</p></li>
+<li id="bib-choi2025"><p class="cite">최우진 (2025). 「비어두 음절 /ㆍ/의 개별적 변화 양상: 특수 어간 교체형과 문법 형태를 중심으로」, 『국어사연구』, 41, 103–132. <span class="badge">확인 중</span></p><p class="ann">비어두 음절 ㆍ 가 낱말에 따라 따로 변한 양상을 다룬다.</p></li>
+</ol>
+<h3 id="cat-3">규범사·비판 <span class="muted">16편</span></h3><ol class="bib">
+<li id="bib-kugeo1986"><p class="cite">국어연구소 (1986). 「외래어 표기법 [해설]」, 『국어생활』, 139–173.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/1986_1/1986_0110.pdf">서지 주소</a></p><p class="ann">1986년 고시와 함께 나온 해설이다. 1933년 통일안부터 1972년 편수자료 합본까지의 연혁, 개정이 필요했던 까닭과 추진 경위, 조항별 풀이를 담았다. 이 사이트에서 현행 규범의 연혁과 「새 문자를 쓰지 않는다」 원칙의 출처다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-kimsj1996"><p class="cite">김세중 (1996). 「외래어 표기법에 대한 비판 분석」, 『새국어생활』, 6(4), 161–174, 국립국어연구원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/1996_4/1996_0408.pdf">서지 주소</a></p><p class="ann">1990년대 중반 민원과 언론에 나온 외래어 표기법 개정 요구를 사례별로 들고, 그 상당수가 외래어 표기를 외국어 발음 표기로 오해한 데서 왔다고 논증한다. 외래어 표기에 새 기호를 들이지 않는다는 원칙을 옹호한다. 이 사이트는 0층 규범과 보조 표기를 가르는 출발점으로 이 비판을 받아 적는다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a></p></li>
+<li id="bib-kimso2008"><p class="cite">김슬옹 (2008). 「외래어표기법의 된소리 표기 허용에 대한 맥락 잡기」, 『새국어생활』, 18(4), 71–85, 국립국어원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2008_4/2008_0404.pdf">서지 주소</a></p><p class="ann">외래어 표기법이 받침을 일곱으로 제한하고 된소리를 거의 쓰지 않게 한 조항을 비판하고, 표기와 발음 표시를 둘로 나누는 방안을 내놓는다. 이 사이트는 0층 규범과 보조 표기를 나란히 두는 설계의 견줄 거리로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-deulonmal1948"><p class="cite">문교부 (1948). 『들온말 적는 법』, 문교부.</p><p class="links"><a href="https://www.accesson.kr/ksq/v.39/1/107/40976">원문 보기</a></p><p class="ann">문교부 학술용어제정위원회 제20분과(언어과학)가 1948년에 낸 외래어 표기안이다. 현용 자모 밖의 글자와 부호를 쓰고 장음은 같은 모음을 거듭 적었다(국어연구소 1986: 139의 연혁). 원문은 이경숙(2016)이 전재한 판으로 읽었다. 이 사이트는 ᄫ·ᅗ·ᅀ 같은 옛 글자를 외국 소리에 다시 쓴 근대 선례로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-mct2004"><p class="cite">문화관광부 (2004). 『외래어 표기법 — 표 15(타이어)·표 16(베트남어) 신설(문화관광부 고시 제2004-11호)』.</p><p class="links"><a href="https://korean.go.kr/kornorms/regltn/regltnView.do?regltn_code=0003">서지 주소</a></p><p class="ann">외래어 표기법을 개정한 2004년 12월 20일 문화관광부 고시 제2004-11호다. 외래어 표기법은 그 뒤에도 고쳐져 현행본은 2017년 문화체육관광부 고시 제2017-14호다(국립국어원 어문 규범 누리집의 고시 이력). 이 사이트는 0층 규범이 언어별 표를 늘려 온 과정을 적는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="bigyo.html">견주어 보기</a></p></li>
+<li id="bib-parkcw2008"><p class="cite">박창원 (2008). 「외래어표기법의 된소리 표기에 대하여」, 『새국어생활』, 18(4), 87–103, 국립국어원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2008_4/2008_0405.pdf">서지 주소</a></p><p class="ann">외래어 표기법의 된소리 관련 조항을 다시 읽고, 음운과 글자가 일대일로 맞지 않는 경우와 한 표기가 여러 발음을 가질 수 있는 경우를 고유어에서부터 짚는다. 그 위에서 파열음을 적는 원칙 세 가지를 나란히 놓고 따진다. 이 사이트에서 무기 파열음을 ㅃ ㄸ ㄲ 로 적는 배정의 반대 근거다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-parkcw2004"><p class="cite">박창원 · 김수현 (2004). 「외래어 표기 양상의 변천」, 『새국어생활』, 14(2), 59–102, 국립국어원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2004_2/2004_0203.pdf">서지 주소</a></p><p class="ann">개화기 이후 외국어가 국어에 들어오며 생긴 표기의 흔들림을 규정의 변화, 음절 첫 자음, 음절 끝 자음, 모음, 장음으로 나누어 시대별로 정리한다. 이 사이트는 규범 이전과 이후의 표기 관행을 적는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a></p></li>
+<li id="bib-leeks2016"><p class="cite">이경숙 (2016). 「문교부의 &#x27;외래어 표기법&#x27; 변천 과정과 수용 양상 — 외래어 표기법(1986) 제정 이전의 문교부안과 편수자료를 중심으로」, 『정신문화연구』, 39(1), 107–139.</p><p class="links"><a href="https://doi.org/10.25024/ksq.39.1.201603.107">doi:10.25024/ksq.39.1.201603.107</a> · <a href="https://www.accesson.kr/ksq/assets/pdf/40976/journal-39-1-107.pdf">서지 주소</a></p><p class="ann">1986년 외래어 표기법 이전에 문교부가 낸 세 안, 곧 1948년 「들온말 적는 법」, 1958년 「로마자의 한글화 표기법」, 1969년 「외래어의 한글 표기법」을 차례로 살피고 편수자료가 그것을 어떻게 받아들였는지 따진다. 1948년 안의 전문을 싣고 있다. 이 사이트에서 근대 표기안의 글자 배정을 확인하는 주 문헌이다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-lim1996"><p class="cite">임동훈 (1996). 「외래어 표기법의 원리와 실제」, 『새국어생활』, 6(4), 41–61, 국립국어연구원.</p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/1996_4/1996_0402.pdf">서지 주소</a></p><p class="ann">외래어가 고유어·한자어와 다른 점을 짚은 뒤, 표기법의 변천과 1986년 표기법의 원리를 설명하고 실제 적용 사례를 든다. 무성 파열음을 된소리로 적지 않는 원칙의 취지도 다룬다. 이 사이트에서 0층 규범의 원리와 ㅃ ㄸ ㄲ 논쟁의 배경으로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-nk2001"><p class="cite">조선민주주의인민공화국 국어사정위원회 (2001). 『외국말적기법』, 조선민주주의인민공화국 국어사정위원회.</p><p class="links"><a href="https://commons.wikimedia.org/wiki/File:%EC%99%B8%EA%B5%AD%EB%A7%90%EC%A0%81%EA%B8%B0%EB%B2%95(2001).pdf">서지 주소</a></p><p class="ann">북한 국어사정위원회가 2001년에 낸 본문 145쪽짜리 규범집으로, 1982년판을 대신한다고 머리말에 적었다. 언어마다 원어 글자, 위치·결합 조건, 우리 글자, 보기를 한 행에 둔 대응표로 짜였고, 된소리 글자를 쓴다. 스캔본이라 텍스트 층이 없다. 이 사이트에서 조건별 대응표 형식과 된소리 표기의 비교 대상이다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="bigyo.html">견주어 보기</a></p></li>
+<li id="bib-kimhj1996"><p class="cite">김희진 (1996). 「외래어 표기, 남북한이 어떻게 다른가 — 외래어 표기법·국어 사전·국어 교과서를 중심으로」, 『새국어생활』, 6(4), 73–104, 국립국어연구원. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/1996_4/1996_0404.pdf">서지 주소</a></p><p class="ann">남북한의 외래어 표기가 표기법·사전·교과서에서 어떻게 다른지를 견준다.</p></li>
+<li id="bib-shimjk2008"><p class="cite">심재기 (2008). 「외래어표기법의 문제점과 그 해결책」, 『새국어생활』, 18(4), 105–124, 국립국어원. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.korean.go.kr/nkview/nklife/2008_4/2008_0406.pdf">서지 주소</a></p><p class="ann">외래어 표기법의 문제점과 해결책을 다룬다.</p></li>
+<li id="bib-leekg2020"><p class="cite">이관규 (2020). 「북한 외래어 표기법의 변천 양상과 과제」, 『한국어문교육』, 32, 169–194, 고려대학교 한국어문교육연구소. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.24008/klle.2020..32.006">doi:10.24008/klle.2020..32.006</a> · <a href="https://scholar.korea.ac.kr/handle/2021.sw.korea/130799">서지 주소</a></p><p class="ann">북한 외래어 표기법의 변천과 과제를 다룬다.</p></li>
+<li id="bib-leekmndb"><p class="cite">이기문 (연도 없음). 「알고 싶은 한글 — 외래어 표기와 새 글자」, 『알고 싶은 한글(국립국어원 누리집)』, 국립국어원. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.korean.go.kr/hangeul/short/003e.html">서지 주소</a></p><p class="ann">외래어 표기에 새 글자를 쓰는 문제를 다룬 해설이다.</p></li>
+<li id="bib-leejk1937"><p class="cite">이종극 (1937). 『鮮和兩引 모던朝鮮外來語辭典』, 경성, 한성도서주식회사. <span class="badge">확인 중</span></p><p class="ann">1937년에 나온 외래어 사전으로, 당시 외래어의 한글 표기를 보여 준다.</p></li>
+<li id="bib-jeonghw2005"><p class="cite">정희원 (2005). 「동남아시아 언어의 외래어 표기법과 된소리 사용에 관한 문제」, 『새 국어 소식』, 국립국어원. <span class="badge">확인 중</span></p><p class="links"><a href="https://www.korean.go.kr/nkview/nknews/200501/78_4.html">서지 주소</a></p><p class="ann">동남아시아 언어의 외래어 표기법에서 된소리를 쓰는 문제를 다룬다.</p></li>
+</ol>
+<h3 id="cat-4">외국 비교 <span class="muted">11편</span></h3><ol class="bib">
+<li id="bib-mackenzie2022"><p class="cite">Mackenzie, Ian (2022). “The Genesis of Spanish /θ/: A Revised Model”, <i>Languages</i>, 7(3), 191.</p><p class="links"><a href="https://doi.org/10.3390/languages7030191">doi:10.3390/languages7030191</a> · <a href="https://doi.org/10.3390/languages7030191">서지 주소</a></p><p class="ann">스페인어 /θ/ 가 어떤 경로로 생겼는지에 관한 기존 모형을 고쳐 제시하는 역사음운론 논문이다(Languages 7권 3호, 오픈 액세스). 이 사이트는 θ 글자를 고를 때 스페인어 /θ/ 의 역사를 적는 보조 문헌으로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="eoneo/es.html">언어별 적용</a></p></li>
+<li id="bib-naikaku1991"><p class="cite">内閣 (1991). 『外来語の表記(内閣告示第2号)』.</p><p class="links"><a href="https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/gairai/pdf/94380801_03.pdf">서지 주소</a></p><p class="ann">일본 내각고시 제2호 「외래어 표기」다. 일반 사회의 표기에 쓰는 가나를 제1표에, 원음이나 원 철자에 가깝게 적고자 할 때 쓰는 가나를 제2표에 두고, 두 표로 적을 수 없는 특별한 음은 정하지 않고 자유에 맡긴다. 전문 분야와 개인의 표기, 고유 명사에는 미치지 않는다고 밝힌다. 이 사이트에서 규범층과 보조층을 나란히 둔 가장 가까운 외국 선례다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="bigyo.html">견주어 보기</a></p></li>
+<li id="bib-liu2017"><p class="cite">刘连安 · 高钰 · 纪元 (2017). 『中国外语地名汉字译写技术标准制订工作的新进展(New Developments in Formulating the Transformation Guidelines of Geographical Names from Foreign Languages into Chinese)』, United Nations.</p><p class="links"><a href="https://unstats.un.org/UNSD/geoinfo/UNGEGN/docs/11th-uncsgn-docs/E_Conf.105_71_en.pdf">서지 주소</a> · <a href="https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/11th-uncsgn-docs/">원문 보기</a></p><p class="ann">제11차 유엔 지명표준화회의(2017)에 중국이 낸 문서로, 외국 지명을 한자로 옮기는 국가표준 네 가지(조선어·일본어·페르시아어·라오어)를 새로 정한 경과를 보고한다. 현지 표준 지명을 따르고 관용 역명은 이어 쓰며, 고유 부분은 음역하고 일반 명칭은 의역한다는 공통 원칙을 든다. 이 사이트는 표음 문자가 아닌 체계의 외래어 표기 사례로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="bigyo.html">견주어 보기</a></p></li>
+<li id="bib-bunkacho2026"><p class="cite">文化審議会 国語分科会 外来語小委員会 (2026). 『外来語の表記等に関する平成3年内閣告示以前の施策例(資料2)』, 文化庁.</p><p class="links"><a href="https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/gairai/gairai_02/pdf/94397201_01.pdf">서지 주소</a></p><p class="ann">일본 문화심의회 국어분과회 외래어소위원회의 2026년 6월 회의 자료다. 1902년 문부성의 외국 지명·인명 조사부터 1991년 내각고시 이전까지 정부가 내놓은 외래어 표기 시책을 연대순으로 요약한다. 이 사이트는 일본 규범의 역사를 적는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="bigyo.html">견주어 보기</a></p></li>
+<li id="bib-azharnd"><p class="cite">Azhar, Iqbal Nurul (연도 없음). “Saat-saat kritis bahasa Cia-Cia”, <i>Prosodi</i>, Universitas Trunojoyo. <span class="badge">확인 중</span></p><p class="links"><a href="https://journal.trunojoyo.ac.id/prosodi/article/view/68">서지 주소</a></p><p class="ann">찌아찌아어가 놓인 위기 상황을 다룬다.</p></li>
+<li id="bib-hacker2012"><p class="cite">Häcker, Martina (2012). “The Change from Respelling to IPA in English Dictionaries: Increase in Accuracy or Increase in Prescriptivism?”, <i>Language &amp; History</i>, 55(1), 47–62. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1179/1759753612Z.0000000004">doi:10.1179/1759753612Z.0000000004</a></p><p class="ann">영어 사전의 발음 표시가 고쳐 쓰기 방식에서 IPA로 바뀐 것이 정확성의 향상인지 규범성의 강화인지를 묻는다.</p></li>
+<li id="bib-tanaka1992"><p class="cite">田中瑩 · 門脇佳 (1992). 「小学校国語科における『外来語の表記』の指導について」, 『教科教育研究論集』, 6, 39–65, 島根大学. <span class="badge">확인 중</span></p><p class="links"><a href="https://ir.lib.shimane-u.ac.jp/47118/files/621">서지 주소</a></p><p class="ann">일본 초등학교 국어과에서 「외래어 표기」를 지도하는 방법을 다룬다.</p></li>
+<li id="bib-dessiar2020"><p class="cite">데시아르아흐마드 리오 (2020). 「찌아찌아어의 한글 표기와 찌아찌아어 특성과의 상관성에 대한 연구」, 『인문과학』, 78, 5–34, 성균관대학교 인문학연구원. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.31310/HUM.078.01">doi:10.31310/HUM.078.01</a></p><p class="ann">찌아찌아어의 한글 표기와 찌아찌아어의 언어 특성 사이의 관계를 다룬다.</p></li>
+<li id="bib-leehy2009"><p class="cite">이호영 · 황효성 · Abidin (2009). 『Bahasa Cia-Cia 1』, 서울, 훈민정음학회. <span class="badge">확인 중</span></p><p class="ann">찌아찌아어를 한글로 적은 교재다.</p></li>
+<li id="bib-jeon2010"><p class="cite">전태현 (2010). 「인도네시아의 언어정책 — 찌아찌아어 한글 표기 문제와 관련하여」, 『한국언어문화학』, 7(2), 171–193. <span class="badge">확인 중</span></p><p class="ann">인도네시아의 언어 정책을 찌아찌아어 한글 표기 문제와 관련지어 다룬다.</p></li>
+<li id="bib-jeon2012"><p class="cite">전태현 · 조태영 (2012). 「찌아찌아족 한글 사용의 미래: 문자사의 관점에서」, 『한글』, 298, 107–134. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.22557/HG.2012.12.298.107">doi:10.22557/HG.2012.12.298.107</a></p><p class="ann">찌아찌아족의 한글 사용이 앞으로 어떻게 될지를 문자사 관점에서 다룬다.</p></li>
+</ol>
+<h3 id="cat-5">실증 <span class="muted">23편</span></h3><ol class="bib">
+<li id="bib-dessiar2021"><p class="cite">Dessiar, Achmad Rio (2021). “A contrastive study on Korean and Cia-Cia language vowels based on an acoustic experiment”, <i>Humaniora</i>, 33(3), 182–192.</p><p class="links"><a href="https://doi.org/10.22146/jh.68044">doi:10.22146/jh.68044</a> · <a href="https://doi.org/10.22146/jh.68044">원문 보기</a></p><p class="ann">인도네시아 부톤섬의 찌아찌아어와 한국어 단모음을 음향 실험으로 견준다. 찌아찌아어에는 한국어 ㅡ·ㅓ 에 맞는 모음이 없는데, 한글 표기가 자음 연쇄 사이에 ㅡ 를 끼워 원래와 다른 음절을 만드는 문제를 지적한다. 이 사이트는 한글을 다른 언어 표기에 빌려 쓴 현대 사례로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="bigyo.html">견주어 보기</a></p></li>
+<li id="bib-hayesharb2021"><p class="cite">Hayes-Harb, Rachel · Barrios, Shannon (2021). “The influence of orthography in second language phonological acquisition”, <i>Language Teaching</i>, 54(3), 297–326.</p><p class="links"><a href="https://doi.org/10.1017/S0261444820000658">doi:10.1017/S0261444820000658</a> · <a href="https://doi.org/10.1017/S0261444820000658">원문 보기</a></p><p class="ann">글로 된 입력이 제2언어 음운 습득(음운 인식, 음소 지각, 낱말 발음과 인지)에 주는 영향을 다룬 연구들을 모아 정리한 개관이다. 효과를 좌우하는 변수 넷(체계성, 글자의 익숙함, 모어와 대응이 같은가, 들어서 구별할 수 있는가)을 세운다. 이 사이트에서 표기가 발음 학습을 돕는다는 주장이 아직 실증되지 않았다고 적는 근거다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="silcheung.html">실증</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-kang2008"><p class="cite">Kang, Yoonjung (2008). “Tensification of voiced stops in English loanwords in Korean”, <i>Harvard Studies in Korean Linguistics</i>, XII, 179–192.</p><p class="links"><a href="https://www.yoonjungkang.com/uploads/1/1/6/2/11625099/harvard2008.pdf">서지 주소</a></p><p class="ann">영어 유성 파열음이 대개 평음으로 들어오는데 일부 낱말에서만 어두 경음으로 나타나는 까닭을 묻는다. 1937년 『모던조선외래어사전』 자료를 견주어, 그 낱말들이 20세기 초에 들어와 당시의 대응을 간직한 것이라고 설명한다. 이 사이트는 된소리 표기의 역사적 선례와 규범의 영향을 적는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="yeoksa.html">역사</a> · <a href="silcheung.html">실증</a></p></li>
+<li id="bib-ko2020"><p class="cite">Ko, Sungsil · Choi, Jiyoun (2020). “Perception and production of Mandarin lexical tones in Korean learners of Mandarin Chinese”, <i>말소리와 음성과학</i>, 12(1), 11–17.</p><p class="links"><a href="https://doi.org/10.13064/KSSS.2020.12.1.011">doi:10.13064/KSSS.2020.12.1.011</a> · <a href="https://doi.org/10.13064/KSSS.2020.12.1.011">원문 보기</a></p><p class="ann">중국어 전공 한국인 학부생 12명을 대상으로 중국어 네 성조의 지각과 산출을 함께 잰 실험이다. 산출은 중국어 모어 화자가 판정했다. 2성과 3성의 구별이 가장 어려웠다. 이 사이트는 중국어 성조 방점 배정을 실증 면에서 견주는 데 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="silcheung.html">실증</a> · <a href="eoneo/es.html">언어별 적용</a></p></li>
+<li id="bib-ooigawa2009"><p class="cite">Ooigawa, Tomohiko · Shinohara, Shigeko (2009). “Three-way laryngeal categorization of Japanese, French, English and Chinese plosives by Korean speakers”, <i>Proceedings of Interspeech 2009</i>, 1683–1686, Brighton.</p><p class="links"><a href="https://doi.org/10.21437/Interspeech.2009-509">doi:10.21437/Interspeech.2009-509</a> · <a href="https://doi.org/10.21437/Interspeech.2009-509">원문 보기</a></p><p class="ann">한국어 화자가 일본어·프랑스어·영어·중국어의 파열음을 평음·격음·경음 중 무엇으로 듣는지 시험한 지각 실험이다. 언어마다 남성 화자 세 명이 녹음한 두 음절 무의미 낱말을 자극으로 썼고, 차용어에서 굳은 대응과 실제 지각이 어긋나는 대목을 보고한다. 이 사이트에서 무기 파열음을 ㅃ ㄸ ㄲ 로 적는 배정의 실증 근거다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="silcheung.html">실증</a> · <a href="cheje.html">표기 체계</a></p></li>
+<li id="bib-cho2010"><p class="cite">초미희 (2010). 「한국 EFL 학생들의 영어 전방 설정 자음 혼동」, 『한국콘텐츠학회논문지』, 10(5), 460–466.</p><p class="links"><a href="https://doi.org/10.5392/JKCA.2010.10.5.460">doi:10.5392/JKCA.2010.10.5.460</a> · <a href="https://doi.org/10.5392/JKCA.2010.10.5.460">원문 보기</a></p><p class="ann">한국 대학생 40명에게 영어 전방 설정 자음이 든 무의미 낱말을 네 운율 위치에서 들려주고 판별하게 한 지각 실험이다. 자음별 혼동표를 제시하며, 한국어에 없는 θ·ð 가 가장 어려웠다. 이 사이트는 θ 와 s 를 표기에서 갈라 둘 필요의 실증 근거로 쓴다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="geulja.html">글자별 해설</a> · <a href="silcheung.html">실증</a></p></li>
+<li id="bib-bassetti2015"><p class="cite">Bassetti, Bene · Escudero, Paola · Hayes-Harb, Rachel (2015). “Second language phonology at the interface between acoustic and orthographic input”, <i>Applied Psycholinguistics</i>, 36(1), 1–6. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1017/S0142716414000393">doi:10.1017/S0142716414000393</a> · <a href="https://doi.org/10.1017/S0142716414000393">원문 보기</a></p><p class="ann">제2언어 음운 습득에서 음성 입력과 표기 입력이 만나는 지점을 다룬 특집의 서론이다.</p></li>
+<li id="bib-burki2019"><p class="cite">Bürki, Audrey · Welby, Pauline · Clément, Mélanie · Spinelli, Elsa (2019). “Orthography and second language word learning: Moving beyond &quot;friend or foe?&quot;”, <i>Journal of the Acoustical Society of America</i>, 145(4), EL265–EL271. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1121/1.5094923">doi:10.1121/1.5094923</a></p><p class="ann">표기와 제2언어 낱말 학습의 관계를 실험으로 다룬다.</p></li>
+<li id="bib-cho2024"><p class="cite">Cho, Mi-Hui · Lee, Shinsook (2024). “Factors influencing vowel adaptation in English loanwords in Korean”, <i>Poznań Studies in Contemporary Linguistics</i>. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1515/psicl-2023-0047">doi:10.1515/psicl-2023-0047</a></p><p class="ann">영어 차용어의 모음이 한국어에서 적응될 때 작용하는 요인을 다룬다.</p></li>
+<li id="bib-dejong2012"><p class="cite">de Jong, Kenneth J. · Cho, Mi-Hui (2012). “Loanword phonology and perceptual mapping: Comparing two corpora of Korean contact with English”, <i>Language</i>, 88(2), 341–368. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1353/lan.2012.0035">doi:10.1353/lan.2012.0035</a></p><p class="ann">한국어와 영어 접촉의 두 코퍼스를 견주어 차용어 음운과 지각 대응의 관계를 다룬다.</p></li>
+<li id="bib-escudero2014"><p class="cite">Escudero, Paola · Simon, Ellen · Mulak, Karen E. (2014). “Learning words in a new language: Orthography doesn&#x27;t always help”, <i>Bilingualism: Language and Cognition</i>, 17(2), 384–395. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1017/S1366728913000436">doi:10.1017/S1366728913000436</a></p><p class="ann">새 언어의 낱말 학습에서 표기 정보가 늘 도움이 되는지를 다룬다.</p></li>
+<li id="bib-hayesharb2015"><p class="cite">Hayes-Harb, Rachel · Hacking, Jane F. (2015). “The influence of written stress marks on native English speakers&#x27; acquisition of Russian lexical stress contrasts”, <i>Slavic and East European Journal</i>, 59(1), 91–109. <span class="badge">확인 중</span></p><p class="ann">글로 표시한 강세 부호가 영어 화자의 러시아어 강세 대립 학습에 주는 영향을 다룬다.</p></li>
+<li id="bib-ito2006"><p class="cite">Ito, Chiyuki · Kang, Yoonjung · Kenstowicz, Michael (2006). “The adaptation of Japanese loanwords into Korean”, <i>Studies in Loanword Phonology (MIT Working Papers in Linguistics 52)</i>, 65–104. <span class="badge">확인 중</span></p><p class="ann">일본어 낱말이 한국어에 차용될 때의 적응 양상을 다룬다.</p></li>
+<li id="bib-jang2014"><p class="cite">Jang, Mi (2014). “Perception of English consonants in different prosodic positions by Korean learners of English”, <i>말소리와 음성과학</i>, 6(1), 11–19. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.13064/KSSS.2014.6.1.011">doi:10.13064/KSSS.2014.6.1.011</a> · <a href="https://doi.org/10.13064/KSSS.2014.6.1.011">원문 보기</a></p><p class="ann">한국인 영어 학습자의 영어 자음 지각이 운율 위치에 따라 어떻게 달라지는지를 다룬다.</p></li>
+<li id="bib-kang2003"><p class="cite">Kang, Yoonjung (2003). “Perceptual similarity in loanword adaptation: English postvocalic word-final stops in Korean”, <i>Phonology</i>, 20(2), 219–273. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1017/S0952675703004524">doi:10.1017/S0952675703004524</a></p><p class="ann">영어 낱말 끝 파열음이 한국어 차용어에서 모음을 덧붙이는지를 지각 유사성으로 설명한다.</p></li>
+<li id="bib-kenstowicz2005"><p class="cite">Kenstowicz, Michael (2005). “The phonetics and phonology of Korean loanword adaptation”, <i>Proceedings of the First European Conference on Korean Linguistics (ECKL 1)</i>, 17–32, Seoul, Hankook. <span class="badge">확인 중</span></p><p class="ann">한국어 차용어 적응의 음성학적·음운론적 측면을 개관한다.</p></li>
+<li id="bib-leeg2022"><p class="cite">Lee, Goun (2022). “Perceptual weighting on English lexical stress by Korean learners of English”, <i>말소리와 음성과학</i>, 14(4), 19–24. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.13064/KSSS.2022.14.4.019">doi:10.13064/KSSS.2022.14.4.019</a> · <a href="https://doi.org/10.13064/KSSS.2022.14.4.019">원문 보기</a></p><p class="ann">한국인 영어 학습자가 영어 강세를 지각할 때 어떤 단서에 무게를 두는지를 다룬다.</p></li>
+<li id="bib-leeg2024"><p class="cite">Lee, Goun (2024). “Exploring stress encoding cues in English by Korean L2 speakers”, <i>말소리와 음성과학</i>, 16(3), 33–38. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.13064/KSSS.2024.16.3.033">doi:10.13064/KSSS.2024.16.3.033</a> · <a href="https://doi.org/10.13064/KSSS.2024.16.3.033">원문 보기</a></p><p class="ann">한국인 영어 화자가 강세를 산출할 때 쓰는 음향 단서를 다룬다.</p></li>
+<li id="bib-schmidt1996"><p class="cite">Schmidt, Anna Marie (1996). “Cross-language identification of consonants. Part 1. Korean perception of English”, <i>Journal of the Acoustical Society of America</i>, 99(5), 3201–3211. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1121/1.414804">doi:10.1121/1.414804</a></p><p class="ann">한국어 화자가 영어 자음을 어떻게 판별하는지를 다룬 교차 언어 지각 연구다.</p></li>
+<li id="bib-showalter2013"><p class="cite">Showalter, Catherine E. · Hayes-Harb, Rachel (2013). “Unfamiliar orthographic information and second language word learning: A novel lexicon study”, <i>Second Language Research</i>, 29(2), 185–200. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1177/0267658313480154">doi:10.1177/0267658313480154</a></p><p class="ann">낯선 문자의 표기 정보가 제2언어 낱말 학습에 주는 영향을 인공 어휘 실험으로 다룬다.</p></li>
+<li id="bib-silva2006"><p class="cite">Silva, David J. (2006). “Acoustic evidence for the emergence of tonal contrast in contemporary Korean”, <i>Phonology</i>, 23(2), 287–308. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.1017/S0952675706000911">doi:10.1017/S0952675706000911</a></p><p class="ann">현대 한국어에서 성조 대립이 생겨나고 있다는 음향 증거를 다룬다.</p></li>
+<li id="bib-tsukada2019"><p class="cite">Tsukada, Kimiko · Han, Jeong-Im (2019). “The perception of Mandarin lexical tones by native Korean speakers differing in their experience with Mandarin”, <i>Second Language Research</i>, 35(3), 305–318. <span class="badge">확인 중</span></p><p class="ann">중국어 경험이 다른 한국어 화자들의 중국어 성조 지각을 견준다.</p></li>
+<li id="bib-cho2009"><p class="cite">초미희 (2009). 「한국 학습자들의 영어 순자음 혼동」, 『한국콘텐츠학회논문지』, 9(1), 455–464. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.5392/JKCA.2009.9.1.455">doi:10.5392/JKCA.2009.9.1.455</a> · <a href="https://doi.org/10.5392/JKCA.2009.9.1.455">원문 보기</a></p><p class="ann">한국 학습자가 영어 순음 계열 자음을 혼동하는 양상을 다룬다.</p></li>
+</ol>
+<h3 id="cat-6">구현 <span class="muted">10편</span></h3><ol class="bib">
+<li id="bib-kim2008"><p class="cite">Kim, Kyongsok (2008). <i>An introduction of Korean Standard KS X 1026-1:2007, Hangul processing guide for information interchange</i>, ISO/IEC JTC1/SC2/WG2.</p><p class="links"><a href="https://unicode.org/L2/L2008/08225-n3422.pdf">서지 주소</a></p><p class="ann">KS X 1026-1:2007 「정보 교환용 한글 처리 지침」을 국제 작업반에 소개한 문서로, 표준 영역본이 붙어 있다(영역본은 국가표준이 아니라는 단서가 있다). 현대 음절은 완성형, 옛 음절은 첫가끝으로 적는 규칙, 채움 문자, 방점의 저장과 표시, 정규화·음절 나누기·정렬을 다룬다. 이 사이트의 저장 규약이 이 문서를 따른다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="guhyeon.html">구현</a></p></li>
+<li id="bib-adobe2014"><p class="cite">Adobe CJK Type Blog (2014). “Source Han Sans development: Archaic Hangul”, <i>CJK Type Blog (Adobe)</i>. <span class="badge">확인 중</span></p><p class="links"><a href="https://ccjktype.fonts.adobe.com/2014/12/shs-development-archaic-hangul.html">서지 주소</a></p><p class="ann">본고딕(Source Han Sans)의 옛한글 개발 과정을 다룬 블로그 글이다.</p></li>
+<li id="bib-constable2011"><p class="cite">Constable, Peter · Iancu, Laurențiu · Robinson, Dwayne (2011). <i>Proposal to change the General_Category of Hangul tone marks U+302E and U+302F</i>, Unicode Consortium. <span class="badge">확인 중</span></p><p class="links"><a href="https://unicode.org/L2/L2011/11402-bangjeom.pdf">서지 주소</a></p><p class="ann">방점 U+302E·U+302F 의 유니코드 일반 범주를 바꾸자는 제안서다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="guhyeon.html">구현</a></p></li>
+<li id="bib-lunde2012"><p class="cite">Lunde, Ken (2012). “Old Hangul”, <i>CJK Type Blog (Adobe)</i>. <span class="badge">확인 중</span></p><p class="links"><a href="https://ccjktype.fonts.adobe.com/2012/12/old-hangul.html">서지 주소</a></p><p class="ann">옛한글 글꼴 구현을 다룬 Adobe 글꼴 블로그 글이다.</p></li>
+<li id="bib-microsoftnd"><p class="cite">Microsoft (연도 없음). “Korean IME”, <i>Microsoft Learn — Globalization</i>. <span class="badge">확인 중</span></p><p class="links"><a href="https://learn.microsoft.com/globalization/input/korean-ime">서지 주소</a></p><p class="ann">Windows 한국어 입력기 설정을 다룬 Microsoft 기술 문서다.</p></li>
+<li id="bib-unicode2026"><p class="cite">The Unicode Consortium (2026). <i>The Unicode Standard, Version 18.0 — Core Specification, ch. 18 East Asia, §18.6 Hangul</i>, The Unicode Consortium. <span class="badge">확인 중</span></p><p class="links"><a href="https://unicode.org/versions/Unicode18.0.0/core-spec/chapter-18/">서지 주소</a></p><p class="ann">유니코드 표준 18.0판 핵심 명세의 한글 절로, 첫가끝 조합 규칙을 정한다.</p></li>
+<li id="bib-unicode2026ucd"><p class="cite">The Unicode Consortium (2026). <i>UnicodeData.txt (Unicode Character Database 18.0.0)</i>, The Unicode Consortium. <span class="badge">확인 중</span></p><p class="links"><a href="https://unicode.org/Public/UCD/latest/ucd/UnicodeData.txt">서지 주소</a></p><p class="ann">유니코드 문자 데이터베이스 18.0판의 문자 이름·속성 파일이다.</p></li>
+<li id="bib-usnb2009"><p class="cite">US National Body · Unicode Consortium (2009). <i>US / Unicode Consortium comments on N3611</i>, ISO/IEC JTC1/SC2/WG2. <span class="badge">확인 중</span></p><p class="links"><a href="https://unicode.org/L2/L2009/09151-us-utc-cmt-n3611.pdf">서지 주소</a></p><p class="ann">KS X 1026-1의 정규화 조항과 유니코드 정규화의 관계를 두고 미국 국가기관과 유니코드 컨소시엄이 낸 의견서다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="guhyeon.html">구현</a></p></li>
+<li id="bib-kwongh2013"><p class="cite">권기홍 · 변정용 (2013). 「훈민정음 해례 기반 KS X 1026-1:2007의 평가」, 『한국정보처리학회 추계학술발표대회 논문집』, 20(2). <span class="badge">확인 중</span></p><p class="ann">훈민정음 해례의 조합 원리에 비추어 KS X 1026-1을 평가한 학회 발표다.</p><p class="used">이 사이트에서 쓰는 곳: <a href="guhyeon.html">구현</a></p></li>
+<li id="bib-kimym2017"><p class="cite">김용묵 · 김국 (2017). 「한글 입력 방식의 구현을 위한 범용적인 복합 낱자 분석 시스템」, 『인지과학』, 28(4), 223–243. <span class="badge">확인 중</span></p><p class="links"><a href="https://doi.org/10.19066/cogsci.2017.28.4.002">doi:10.19066/cogsci.2017.28.4.002</a> · <a href="https://doi.org/10.19066/cogsci.2017.28.4.002">원문 보기</a></p><p class="ann">한글 입력 방식 구현을 위해 복합 낱자를 범용적으로 분석하는 체계를 다룬다.</p></li>
+</ol>
+<nav class="prevnext"><a href="guhyeon.html">← 구현</a><a href="namun.html">남은 문제 →</a></nav>
+</main>
+<footer>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="assets/fonts/OFL.txt">사본</a>)</p>
+<p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
+</footer>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('l1btn'); if(!b) return;
+  document.querySelectorAll('table').forEach(function(t){
+    var hs=t.querySelectorAll('thead th'), i2=-1, i1=-1;
+    hs.forEach(function(h,i){ var s=h.textContent; if(i2<0 && s.indexOf('2층')>=0) i2=i; else if(i1<0 && s.indexOf('1층')>=0) i1=i; });
+    if(i2<0||i1<0) return;
+    t.querySelectorAll('tr').forEach(function(r){ var c=r.children; if(c[i2]) c[i2].classList.add('c2'); if(c[i1]) c[i1].classList.add('c1'); });
+  });
+  function set(on){ document.documentElement.classList.toggle('l1',on); b.setAttribute('aria-pressed',on?'true':'false');
+    try{ localStorage.setItem('sejong-l1',on?'1':'0'); }catch(e){} }
+  var on=false; try{ on=localStorage.getItem('sejong-l1')==='1'; }catch(e){}
+  set(on);
+  b.addEventListener('click',function(){ set(!document.documentElement.classList.contains('l1')); });
+})();
+</script>
+</body></html>

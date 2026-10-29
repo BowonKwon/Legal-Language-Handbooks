@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>외국 소리를 한글로 적은 역사 — 세종의 글자로 보는 외래어 표기</title>
+<meta name="description" content="외국 소리를 한글로 적어 보려는 시도는 이 사이트가 처음이 아니다. 15세기 운서는 중국 한자음을 적으려고 해례에 없던 글자를 더했다. 사역원의 역관들은 중국어·몽골어·일본어·만주어 교재에 한글로 음을 달았다. 20세기에 들어서는 학습서와 정부안이 옛 글자를 다시 꺼">
+<meta name="author" content="권보원 (대구지방법원 부장판사)">
+<link rel="preload" href="assets/fonts/sj-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family:"SJ Sans"; src:url("assets/fonts/sj-sans.woff2") format("woff2"); font-weight:100 900; font-display:swap }
+@font-face { font-family:"SJ Serif"; src:url("assets/fonts/sj-serif.woff2") format("woff2"); font-weight:200 900; font-display:swap }
+:root { --paper:#f4f2ec; --sheet:#fff; --ink:#22262b; --muted:#5f6670; --line:#dcd7cb; --c:#7a4f2a; --soft:#f6eee4;
+  --f-body:"SJ Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-display:"SJ Serif","Noto Serif KR","SJ Sans",serif;
+  --f-ipa:"Charis SIL","Doulos SIL","Gentium Plus","Segoe UI","Noto Sans","SJ Sans",sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#16191d; --sheet:#1f2328; --ink:#e8e5de; --muted:#9ca3ab; --line:#363c44; --c:#e0b48a; --soft:#2b2219; color-scheme:dark } }
+* { box-sizing:border-box }
+html { -webkit-text-size-adjust:100% }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); line-height:1.75; word-break:keep-all; overflow-wrap:anywhere; padding:0 16px 56px }
+.wrap { max-width:900px; margin:0 auto }
+a { color:var(--c) }
+header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
+.back { font-size:.88rem; color:var(--muted); margin:0 }
+.site-title { font-family:var(--f-display); font-weight:600; font-size:1.05rem; margin:6px 0 10px }
+.site-title a { color:var(--ink); text-decoration:none }
+nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
+nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+@media print { .tools { position:static } }
+#l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
+#l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
+main h1 { font-family:var(--f-display); font-weight:600; font-size:1.95rem; line-height:1.3; margin:30px 0 8px }
+main h2 { font-family:var(--f-display); font-weight:600; font-size:1.35rem; line-height:1.4; margin:42px 0 10px; scroll-margin-top:56px }
+main h3 { font-weight:700; font-size:1.08rem; margin:28px 0 8px; scroll-margin-top:56px }
+main h4 { font-size:1rem; margin:20px 0 6px }
+main p { margin:0 0 12px }
+.pagetoc { background:var(--sheet); border:1px solid var(--line); padding:10px 16px; margin:14px 0 6px; font-size:.92rem }
+.pagetoc summary { cursor:pointer; color:var(--muted) }
+.pagetoc ol { list-style:none; margin:6px 0 2px; padding-left:.2em } .pagetoc ol ol { padding-left:1.1em }
+.tbl { overflow-x:auto; margin:12px 0 16px; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; width:100%; background:var(--sheet); font-size:.93rem }
+th,td { border-bottom:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top }
+th { color:var(--muted); font-weight:500; font-size:.84rem }
+.tbl.wide table { min-width:1400px; font-size:.86rem }
+td.h, .h { font-size:1.2em; white-space:nowrap }
+td small, .h small { font-size:.66em; color:var(--muted) }
+td.ipa, .ipa { font-family:var(--f-ipa); white-space:nowrap } td.sm { font-size:.84rem }
+.muted { color:var(--muted) }
+.badge { display:inline-block; font-size:.74rem; line-height:1.4; padding:0 6px; border:1px solid var(--c); color:var(--c); border-radius:3px; white-space:nowrap }
+figure.q { margin:14px 0; padding:10px 14px; background:var(--sheet); border:1px solid var(--line); border-left:3px solid var(--c) }
+figure.q p { margin:2px 0 }
+figure.q .src { font-family:var(--f-display); font-size:1.1rem; line-height:1.8 }
+figure.q .rd { color:var(--muted) } figure.q .rd::before { content:"독음 "; font-size:.75rem; color:var(--c) }
+figure.q .tr::before { content:"해석 "; font-size:.75rem; color:var(--c) }
+figure.q figcaption { color:var(--muted); font-size:.85rem; margin-top:4px }
+blockquote { margin:12px 0; padding:4px 14px; border-left:3px solid var(--line) }
+code { font-size:.9em; background:var(--soft); padding:0 3px; border-radius:3px }
+ul,ol { padding-left:1.3em } li { margin:3px 0 }
+.footnote { font-size:.88rem; color:var(--muted); border-top:1px solid var(--line); margin-top:36px }
+.footnote hr { display:none }
+ol.bib { list-style:none; padding:0 } ol.bib li { margin:0 0 16px; padding-bottom:12px; border-bottom:1px solid var(--line) }
+ol.bib p { margin:2px 0 } .cite { font-weight:500 } .links, .used { font-size:.86rem; color:var(--muted) } .ann { font-size:.94rem }
+.toc-cats { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:.92rem }
+.count { background:var(--soft); border-left:3px solid var(--c); padding:8px 12px }
+.prevnext { display:flex; justify-content:space-between; gap:12px; margin-top:40px; font-size:.92rem }
+footer { margin-top:34px; border-top:1px solid var(--line); padding-top:14px; color:var(--muted); font-size:.85rem }
+footer p { margin:4px 0 }
+.l1 .c2 { display:none }
+.l1 .c1 { font-weight:500 }
+@media (max-width:480px) { main h1 { font-size:1.6rem } main h2 { font-size:1.22rem } }
+</style>
+</head>
+<body><div class="wrap">
+<header class="site">
+<p class="back"><a href="../">← 법률 외국어 자습서</a></p>
+<p class="site-title"><a href="index.html">세종의 글자로 보는 외래어 표기</a></p>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html">첫 면</a></li><li><a href="cheje.html">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html" aria-current="page">역사</a></li><li><a href="bigyo.html">견주어 보기</a></li><li><a href="silcheung.html">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
+</header>
+<div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
+<main>
+<h1 id="외국-소리를-한글로-적은-역사">외국 소리를 한글로 적은 역사</h1>
+<details class="pagetoc" open><summary>이 면의 차례</summary><ol><li><a href="#1-연표">1. 연표</a></li><li><a href="#2-1516세기-홍무정운역훈-사성통해-언해본">2. 15~16세기 — 『홍무정운역훈』 · 『사성통해』 · 언해본</a></li><li><a href="#3-사역원-역학서1718세기-한-몽-왜-청">3. 사역원 역학서(17~18세기) — 한 · 몽 · 왜 · 청</a></li><li><a href="#4-아학편1908">4. 『아학편』(1908)</a></li><li><a href="#5-1933-통일안-제60항-1940-1948-들온말-적는-법">5. 1933 통일안 제60항 → 1940 → 1948 「들온말 적는 법」</a></li><li><a href="#6-1956-1958-1969-미공표안-1986-고시-2004-세칙">6. 1956 · 1958 → 1969 미공표안 → 1986 고시 → 2004 세칙</a></li><li><a href="#7-북한19562001">7. 북한(1956~2001)</a></li><li><a href="#8-찌아찌아2009와-그-뒤">8. 찌아찌아(2009)와 그 뒤</a></li></ol></details>
+<p>외국 소리를 한글로 적어 보려는 시도는 이 사이트가 처음이 아니다. 15세기 운서는 중국 한자음을 적으려고 해례에 없던 글자를 더했다. 사역원의 역관들은 중국어·몽골어·일본어·만주어 교재에 한글로 음을 달았다. 20세기에 들어서는 학습서와 정부안이 옛 글자를 다시 꺼냈고, 북한 규범과 찌아찌아어 표기는 새 글자 없이 된소리로 원음에 다가갔다.</p>
+<p>이 면은 그 흐름을 시기순으로 적는다. 되풀이되는 그림이 하나 있다. 한글을 넓혀 외국 소리를 적으려는 시도는 여러 번 있었고, 대부분 규범에서 밀려났다. 밀려난 까닭으로 문헌이 드는 것은 글자 수, 인쇄, 교육의 부담이다. 그러나 시도마다 왜 막혔는지를 자료로 가려낼 수 있는 경우는 드물다. 그런 곳은 가려낼 수 없다고 적었다.</p>
+<h2 id="1-연표">1. 연표</h2>
+<p>「출처층」 칸은 그 행에 나오는 꼴이 훈민정음 문헌 전통의 어디서 처음 나오는지를 적는다. H는 해례, E는 언해본과 15~16세기 관찬 운서, M은 역학서와 근대안이다. 새 꼴이 없는 행은 「—」로 두었다.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>연도</th>
+<th>문헌 · 규범</th>
+<th>외국 소리에 쓴 글자 · 장치</th>
+<th>출처층</th>
+<th>근거 서지</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1448</td>
+<td>『동국정운』 서문</td>
+<td>외국음 표기가 아니다. 치두·정치, 순중·순경을 「우리나라 한자음에서 가를 수 없다」고 적고 23초성을 씀</td>
+<td>—</td>
+<td>『동국정운』 서문; 강신항 2002: 51–52</td>
+</tr>
+<tr>
+<td>15세기</td>
+<td>『훈민정음』 언해본</td>
+<td>「漢音齒聲」 조항 — 중국 소리의 치두·정치 구별</td>
+<td>E</td>
+<td>언해본</td>
+</tr>
+<tr>
+<td>1455</td>
+<td>『홍무정운역훈』</td>
+<td>31자모. 순경음 ᄫ(非) · ᄬ(奉) · ᄝ(微), 치두 ᅎ ᅔ ᅏ ᄼ ᄽ, 정치 ᅐ ᅕ ᅑ ᄾ ᄿ</td>
+<td>E</td>
+<td>심소희 2013: 18; 강신항 2002: 52–54</td>
+</tr>
+<tr>
+<td>1517 이전</td>
+<td>『번역노걸대』 · 『번역박통사』</td>
+<td>좌음(역훈식)과 우음(현실음)을 나란히, 방점으로 한어 성조</td>
+<td>E</td>
+<td>강식진 1999: 42–43</td>
+</tr>
+<tr>
+<td>1517</td>
+<td>『사성통해』(『사성통고』 범례 수록)</td>
+<td>속음 입성 끝소리에 ᅙ, 藥운에 ᄫ</td>
+<td>E</td>
+<td>심소희 2013: 19, 32–33; 강신항 2002: 55</td>
+</tr>
+<tr>
+<td>1676 · 1748 · 1781</td>
+<td>『첩해신어』 원간 · 개수 · 중간</td>
+<td>새 글자 없음. 탁음 앞 비음 받침, ザ행 ᅀ, 어중 청음 겹자음</td>
+<td>ᅀ H · 비음 앞붙임 M</td>
+<td>조강희 2000: 82–93</td>
+</tr>
+<tr>
+<td>1748</td>
+<td>『동문유해』</td>
+<td>구별 기호 ∘ · ┚ (확인 중)</td>
+<td>M</td>
+<td>오민석 2017, 확인 중</td>
+</tr>
+<tr>
+<td>1908</td>
+<td>지석영 『아학편』</td>
+<td>ᅋ=f · ᅄ=v · ᅂ=θ · ᅈ=ð, 이웃 음절의 ㄹㄹ=l</td>
+<td>M</td>
+<td>Stonham &amp; Lee 2014: 131–134</td>
+</tr>
+<tr>
+<td>1933</td>
+<td>조선어학회 「한글 마춤법 통일안」 제6장 제60항</td>
+<td>「새 문자나 부호를 쓰지 아니한다」</td>
+<td>—</td>
+<td>박창원·김수현 2004: 61</td>
+</tr>
+<tr>
+<td>1940</td>
+<td>「외래어 표기법 통일안」 총칙 1</td>
+<td>「現在 使用하는 한글의 字母와 字形만으로써 적는다」</td>
+<td>—</td>
+<td>이경숙 2016: 114</td>
+</tr>
+<tr>
+<td>1948</td>
+<td>문교부 「들온말 적는 법」</td>
+<td>ㅿ=z · ㅸ=v·β · ㆄ=f · ㄹㄹ=l, 점 표지 대안, 첫소리 g d b=ㄲ ㄸ ㅃ, 장모음 거듭 적기</td>
+<td>ᄫ ᅗ ᅀ H · ᄙ M</td>
+<td>이경숙 2016: 112–116; 박창원·김수현 2004: 64</td>
+</tr>
+<tr>
+<td>1956</td>
+<td>문교부 「외국인명지명표기법」</td>
+<td>1948안을 교과서에 적용하려다 「oㅂ, oㅍ」 때문에 중단</td>
+<td>—</td>
+<td>이경숙 2016: 112</td>
+</tr>
+<tr>
+<td>1958</td>
+<td>「로마자의 한글화 표기법」</td>
+<td>「현용 24자모를 쓴다」</td>
+<td>—</td>
+<td>이경숙 2016: 117</td>
+</tr>
+<tr>
+<td>1969</td>
+<td>「외래어의 한글 표기법」(공표되지 않음)</td>
+<td>현용 24자모. [비고] 「[p] [t] [k]는 ㅃ, ㄸ, ㄲ로 적는다」</td>
+<td>—</td>
+<td>이경숙 2016: 130, 133</td>
+</tr>
+<tr>
+<td>1986</td>
+<td>문교부 고시 제85-11호 「외래어 표기법」</td>
+<td>제1항 현용 24 자모, 제4항 파열음에 된소리 쓰지 않음</td>
+<td>—</td>
+<td>국어연구소 1986: 140, 159–161</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>문화관광부 고시 제2004-11호</td>
+<td>타이어·베트남어의 무기 파열음만 ㄲ ㄸ ㅃ ㅉ</td>
+<td>—</td>
+<td>문화관광부 2004</td>
+</tr>
+<tr>
+<td>1956~2001 (북)</td>
+<td>「조선어 외래어 표기법」 → 『외국말적기법』</td>
+<td>새 글자 없음. 로씨야말·에스빠냐말 무기 파열음을 조건별로 ㄲ ㄸ ㅃ</td>
+<td>—</td>
+<td>국어사정위원회 2001: 2, 17, 80</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>찌아찌아어 한글 표기</td>
+<td>바우바우시 승인. /w/에 ᄫ, 무성 파열음에 ㄲ ㅃ, l에 ㄹㄹ</td>
+<td>ᄫ H</td>
+<td>Dessiar 2021: 183, 190</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="2-1516세기-홍무정운역훈-사성통해-언해본">2. 15~16세기 — 『홍무정운역훈』 · 『사성통해』 · 언해본</h2>
+<p>해례는 연서와 병서라는 조작을 설명했다. 연서로 만든 ㅸ 은 우리말 낱말(사ᄫᅵ, 드ᄫᅴ)에 쓰였다. 이 조작을 넓히고 글자를 따로 갈라 중국 한자음용 글자를 만든 것은 해례 뒤의 문헌이다.</p>
+<p>출발점은 오히려 「가르지 않겠다」는 선언이었다. 『동국정운』 서문은 조선 한자음을 정리하면서 중국 운서의 36자모를 그대로 따르지 않았다.</p>
+<figure class="q">
+<p class="src" lang="lzh">如舌頭·舌上·唇重·唇輕·齒頭·正齒之類，於我國字音，未可分辨，亦當因其自然，何必泥於三十六字乎</p>
+<p class="rd">여설두·설상·순중·순경·치두·정치지류, 어아국자음, 미가분변, 역당인기자연, 하필니어삼십육자호</p>
+<p class="tr">설두와 설상, 순중과 순경, 치두와 정치 같은 것은 우리나라 한자음에서 가를 수 없으니, 그 자연스러운 바를 따를 일이지 어찌 36자에 얽매이겠는가.</p>
+</figure>
+<p>그래서 『동국정운』은 훈민정음과 같은 23초성 체계를 썼다(강신항 2002: 51–52). 같은 서문은 「우리말에서는 청탁 구별이 중국과 다르지 않은데 한자음에만 탁성이 없다」고 하여, 조선 한자음을 바로잡을 대상으로 보았다(강신항 2002: 51).</p>
+<p>중국 소리를 적을 때는 사정이 달랐다. 언해본은 예의 끝에 중국 소리의 잇소리 조항을 붙였다(아래 언해본 인용은 방점과 한자 주음을 생략했다).</p>
+<figure class="q">
+<p class="src" lang="lzh">漢音齒聲은 有齒頭正齒之别ᄒᆞ니</p>
+<p class="rd">한음치성은 유치두정치지별하니</p>
+<p class="tr">중국 소리의 잇소리에는 치두와 정치의 구별이 있다.</p>
+</figure>
+<p>이어서 치두 글자는 「우리나랏 소리예셔 열ᄫᅳ니 혓그티 웃닛머리예 다ᄔᆞ니라」(우리말 소리보다 엷으니, 혀끝이 윗니 머리에 닿는다), 정치 글자는 「두터ᄫᅳ니 혓그티 아랫닛 므유메 다ᄔᆞ니라」(두터우니, 혀끝이 아랫잇몸에 닿는다)고 풀었다(언해본). 조음 자리를 말로 묘사한 대목이다. 이 묘사를 어떤 음가로 옮길지는 학설이 갈리므로 글자별 해설 면에서 따로 다룬다.</p>
+<p>『홍무정운역훈』(1455)은 명의 관찬 운서 『홍무정운』의 각 소운 대표자 앞에 자모를 적고 한글로 음을 단 책이다(강신항 2002: 54). 자모는 31개다. 신숙주 등은 당시 북방음에서 설상음 넷과 순경음 차청 하나가 이미 쓰이지 않는다는 것을 알고 있었다(강신항 2002: 54). 36에서 다섯을 뺀 셈이다. 31자모 표(심소희 2013: 18)에서 순경음은 非 ᄫ · 奉 ᄬ · 微 ᄝ, 치두음은 精 ᅎ · 淸 ᅔ · 從 ᅏ · 心 ᄼ · 邪 ᄽ, 정치음은 照 ᅐ · 穿 ᅕ · 牀 ᅑ · 審 ᄾ · 禪 ᄿ 이고, 반치음 日은 ᅀ이다. 치두·정치 열 자는 ㅈ ㅊ ㅉ ㅅ ㅆ의 획 한쪽을 늘여 두 계열로 가른 꼴로, 해례에는 없다. 『홍무정운』은 전탁 성모와 입성 운미를 보존해 현실음과 맞지 않는 면이 있었고, 그래서 역훈은 반절음 옆에 당시 북방음을 「속음」으로 함께 적었다(강신항 2002: 53–54).</p>
+<p>『홍무정운역훈』은 16권으로 분량이 많아, 세종은 신숙주에게 자음만 간추린 『사성통고』를 편찬하게 했다(강신항 2002: 55). 『사성통고』는 전하지 않는다. 최세진의 『사성통해』(1517) 권말에 그 범례가 실려 남았다(심소희 2013: 19). 범례 제8조는 입성 끝소리를 다룬다.</p>
+<figure class="q">
+<p class="src" lang="lzh">俗音終聲於諸韻用喉音全淸ㆆ藥韻用脣輕全淸ㅸ以別之</p>
+<p class="rd">속음종성어제운용후음전청ㆆ 약운용순경전청ㅸ이별지</p>
+<p class="tr">속음의 끝소리는 여러 운에 후음 전청 ㆆ을 쓰고, 藥운에는 순경음 전청 ㅸ을 써서 구별한다.</p>
+</figure>
+<p>(심소희 2013: 33 각주 44 인용) 순경음이 첫소리가 아니라 끝소리 표지로도 쓰였다는 점이 눈에 띈다.</p>
+<p>16세기 초 최세진은 『번역노걸대』·『번역박통사』(1517 이전)에서 한자마다 음을 두 번 달았다. 왼쪽의 좌음은 『홍무정운역훈』식 운서음이고, 오른쪽의 우음은 「국속찬자지법」으로 적은 현실음이다. 좌음의 「찌·끼·삐」가 우음에서는 「치·키·피」가 되었다(강식진 1999: 42). 각자병서가 여기서는 운서의 전탁을 적었다는 뜻이다. 같은 책 범례는 한어 성조를 방점으로 적었다. 음평은 1점, 양평은 2점, 상성은 무점이다(강식진 1999: 42–43). 이 방점은 오래가지 않았다. 『노걸대언해』(1670)와 『박통사언해』(1677)는 중국어 음을 적으면서 방점을 찍지 않았다(강식진 1999: 49).</p>
+<h2 id="3-사역원-역학서1718세기-한-몽-왜-청">3. 사역원 역학서(17~18세기) — 한 · 몽 · 왜 · 청</h2>
+<p>사역원은 조선의 통역관 양성 기관이고, 그 교재를 역학서라 부른다. 분과는 한학(중국어)·몽학(몽골어)·왜학(일본어)·청학(만주어)의 넷이다. 역학서는 외국어 본문 글자마다 한글로 음을 달았다. 같은 한글이라도 분과와 시기에 따라 적는 방식이 달랐으므로 「역학서는 이렇게 적었다」고 한 문장으로 묶으면 틀린다.</p>
+<p><strong>한학서.</strong> 앞 절의 『번역노걸대』·『번역박통사』가 줄기다. 17세기 후반의 언해본부터 방점이 빠졌고, 18세기의 『박통사신석언해』(1765)·『중간노걸대언해』(1795)도 방점 없이 중국어 음만 적었다(강식진 1999: 49).</p>
+<p><strong>왜학서 — 『첩해신어』.</strong> 『세종실록』과 『경국대전』에 따르면 왜학 시험 교재는 『이로파(伊路波)』 등 14종이었다. 이것들은 17세기에 모두 폐지되고 『첩해신어』(1676)가 들어섰다. 약 한 세기 뒤 개수본(1748)이, 다시 그것을 고친 중간본(1781)이 나왔다(조강희 2000: 93). 『첩해신어』의 가나 본문에는 탁점이 없다. 청음과 탁음의 구별은 한글 음주가 맡았다.</p>
+<p>조강희(2000)는 세 판본의 탁음 음절 음주를 집계했다. 발음(撥音) 뒤의 탁음은 비음이 들었는지 가릴 수 없어 뺐고, 첫머리(頭部)와 어중(内部)은 낱말이 아니라 회화문의 끊어짐을 기준으로 나눴다(92쪽). 탁음을 적는 방식은 셋이었다(92쪽). 첫째, 앞 음절 받침에 비음을 두고 평음을 쓴다(~ㆁ-k, ~n-t, ~m-p). 둘째, 같은 음절 첫머리에 비음을 앞붙인다. 셋째, 평음만 쓴다. 셋째 방식이 통한 까닭을 저자는 이렇게 설명한다.</p>
+<figure class="q">
+<p class="src" lang="ja">韓国語の平音の場合、有声音と有声音との間では有声音になる。従って、…「ながら」のkaは[ga]になるのでkaの音注を用いても日本語の「が」の音に相応しいのである。(조강희 2000: 90)</p>
+<p class="tr">한국어 평음은 유성음과 유성음 사이에서 유성음이 된다. 그러므로 「ながら」의 ka는 [ga]가 되어, ka로 음주를 달아도 일본어 「が」 소리에 맞는다.</p>
+</figure>
+<p>ザ행은 대부분 유성 치음(전사 z), 곧 ᅀ로 적혔다. 회화문 첫머리(頭部)의 ザ행은 중간본에서 모두 z 로 고쳐져 통일되었지만(조강희 2000: 89), 어중(内部)에는 중간본에도 s 표기가 남았다(같은 글: 88 표 4).<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 국어에서 ᅀ가 사라진 뒤에도 역관들은 이 글자를 일본어 유성 마찰음에 계속 썼다. 어중 청음은 겹자음으로 나타난다. 조강희의 용례 전사에 「ばかり pa-kka-ri」, 「わざと 'oan-za-tto」가 있다. 다만 어두 청음을 어떻게 적었는지, 청음 겹자음이 책 전체에서 얼마나 일관되는지를 집계한 원문은 확인하지 못했다(확인 중).</p>
+<p>정리하면 『첩해신어』는 새 글자 없이 탁음을 평음으로, ザ행을 ᅀ 로, 비음성 탁음을 앞 음절 ᅌ 받침으로 적었고, 어중 청음을 된소리로 적은 예가 있다(일관성은 확인 중). 이 사이트가 일본어를 다룰 때 따르기로 한 규칙은 이 가운데서 고른 것이다.</p>
+<p>판본이 바뀔 때마다 비음 표기는 줄었다. ガ행 「が」의 회화문 어중(内部) 비음 표기율은 원간본 98%(325예 중 318예), 개수본 95%(315예 중 299예), 중간본 54%(214예 중 116예)였다(조강희 2000: 90, 83). 저자는 이것을 일본어 비탁음이 실제로 사라져 간 흔적으로 읽는다. 다만 기술통계뿐이고, 중간본은 권1~4와 권5~10의 표기 방침이 갈려 저자도 중간본 수치를 그대로 믿기 어렵다고 적었다. 비교할 만한 구간은 원간본과 개수본 사이다.</p>
+<p>같은 겹글자가 정반대 소리를 적었다는 점도 남겨 둔다. 『번역노걸대』 좌음의 각자병서는 운서의 전탁을 적었고(강식진 1999: 42), 『첩해신어』의 겹자음은 일본어의 무성 청음을 적었다. 이 사이트가 무기 무성 p t k에 ㅃ ㄸ ㄲ를 쓰는 것은 뒤쪽 선례에 기댄 것이다.</p>
+<p><strong>몽학서·청학서.</strong> 사역원 청학서의 연혁과 『동문유해』의 구별 기호를 다룬 연구가 있다(연규동 2014, 오민석 2017, 확인 중). 몽학서 『몽어유해』의 △ 도 같은 성격으로 거론되지만 근거 문헌을 확인하지 못했다. 이 부호들은 글자가 아니라 표지다. 이 사이트는 부호를 덧붙이는 길을 쓰지 않는다. 해당 연구들의 원문을 대조하지 못했으므로 부호별 기능은 적지 않는다.</p>
+<h2 id="4-아학편1908">4. 『아학편』(1908)</h2>
+<p>지석영이 1908년판 『아학편』에서 한자 표제어마다 중국어·일본어·영어 발음을 한글로 달았다(Stonham &amp; Lee 2014: 119–120). 외국 소리를 적으려고 옛 글자를 고치고 새 꼴을 만든 체계다. Stonham과 Lee는 이것이 외국어를 국어 발음에 맞추는 「hangulization」이 아니라, 학습자가 원어 발음을 익히도록 돕는 「true phonetic transcription system」이라고 구별한다(124쪽).</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>영어 소리</th>
+<th>『아학편』 꼴</th>
+<th>만든 방식</th>
+<th>쪽</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>f</td>
+<td>ᅋ</td>
+<td>옛 ㆄ의 ㅇ을 아래가 아니라 옆에 붙임</td>
+<td>133</td>
+</tr>
+<tr>
+<td>v</td>
+<td>ᅄ</td>
+<td>옛 ㅸ을 같은 방식으로 고침</td>
+<td>133</td>
+</tr>
+<tr>
+<td>ð</td>
+<td>ᅈ</td>
+<td>ㅇ을 붙여 「가벼운」 소리를 만드는 원리를 ㅈ에 넓힘</td>
+<td>133</td>
+</tr>
+<tr>
+<td>θ</td>
+<td>ᅂ</td>
+<td>같은 원리를 ㄷ에 넓힘</td>
+<td>134</td>
+</tr>
+<tr>
+<td>l</td>
+<td>이웃 음절의 ㄹㄹ, 어두는 「을ㄹ」(lock 을록크)</td>
+<td>겹ㄹ과 첨가 모음</td>
+<td>131–132</td>
+</tr>
+<tr>
+<td>유성 b d g</td>
+<td>ㅅ+자음(당시의 된소리 표기)</td>
+<td>된소리 글자로 유성을 표시</td>
+<td>131</td>
+</tr>
+</tbody>
+</table></div>
+<p>ㅇ을 옆에 붙인 까닭을 저자들은 「인쇄 편의」로 추정한다. ㆄ은 이미 쓰지 않는 글자였지만 ㅇ과 ㅍ은 따로 있는 활자였다는 것이다(133쪽). 추정이지 문헌으로 확인된 사실은 아니다.</p>
+<p>ᅂ과 ᅈ은 저자들이 보기에 지석영이 처음 만든 꼴이다. 그들은 이것이 해례의 창제자들이 확장에 열린 체계를 만들었다는 증거라고 평가한다(134쪽). 같은 논문은 반대 방향의 사실도 적는다. θ와 ð의 구별은 책 앞부분에서는 ᅂ 대 ᅈ으로 지켜지지만 뒷부분에서는 무너져 모두 ᅈ으로 적힌다(142쪽). 영어 [z]와 [ʒ]는 처음부터 무성음과 구별하지 않았다(135쪽). 새 꼴을 만든 책이 한 권 안에서 그 구별을 다 지키지 못한 것이다. 저자들은 그 원인으로 편찬에 여러 사람이 참여했을 가능성을 든다(142쪽).</p>
+<p>『아학편』의 θ 배정은 이 사이트와 다르다. 『아학편』은 ᅂ(ㅇㄷ)을 θ에 썼고, 이 사이트는 ᅂ을 ð에, ᅊ(ㅇㅌ)을 θ에 쓴다. 『아학편』의 유성 b d g=된소리 배정도 이 사이트의 ㅃ ㄸ ㄲ=무기 무성음과 반대 방향이다.</p>
+<h2 id="5-1933-통일안-제60항-1940-1948-들온말-적는-법">5. 1933 통일안 제60항 → 1940 → 1948 「들온말 적는 법」</h2>
+<p>「새 글자를 쓰지 않는다」는 원칙은 1986년 고시보다 반세기 먼저 나왔다. 조선어학회의 「한글 마춤법 통일안」(1933) 제6장 제60항이다.</p>
+<blockquote>
+<p>외래어를 표기할 적에는 다음의 조건을 원칙으로 한다. 1. 새 문자나 부호를 쓰지 아니한다. 2. 표음주의를 취한다.</p>
+</blockquote>
+<p>(박창원·김수현 2004: 61 인용) 박창원·김수현은 이 조항이 외래어도 국어의 어휘라는 데서 나왔고, 그때까지 일부에서 쓰던 ᅄ·ᅋ 같은 꼴을 막은 것이라고 읽는다(61쪽). 실제로는 잘 지켜지지 않았다. 1937년의 『모던조선외래어사전』은 [f]·[v]에 ᅋ·ᅄ을 썼다(박창원·김수현 2004: 62 각주 1). 1940년의 「외래어 표기법 통일안」은 총칙 1에서 「現在 使用하는 한글의 字母와 字形만으로써 적는다」고 원칙을 다시 적었다(이경숙 2016: 114).<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<p>광복 뒤 정부의 첫 외래어 표기안이 이 흐름을 뒤집었다. 1948년 문교부 학술 용어 제정 위원회 제20분과 언어과학위원회가 제정한 「들온말 적는 법」이다. 최현배가 편수국장일 때 자신의 개인안을 일부 고쳐 내놓은 것이고, 위원은 22인이었다(이경숙 2016: 111). 목차의 「새로 쓰는 글자」는 ㅿ, ㅸ, ㆄ, ㄹㄹ 넷이다(112쪽). 풀이문은 순경음을 이렇게 설명한다.</p>
+<blockquote>
+<p>ㅸ(= v), ㆄ(= f). 이 두 자는 훈민 정음에서 규정한 입술 가벼운 소리(脣輕音)인데, 옛적의 소리값 그대로는 아닐는지 모르지마는, v, f를 나타내기에 가장 적당한 것이며, 또 수십 년부터 서양말 적는 이들이 써오는 것이다. 글자꼴도 형편에 따라 oㅂ, oㅍ로 적어도 좋다.</p>
+</blockquote>
+<p>(이경숙 2016: 114 전재) 근거는 두 갈래다. 훈민정음이 규정한 글자라는 출처, 그리고 서양말을 적는 이들의 관행이다. 15세기 음가와 같다고는 주장하지 않았다. ㅿ은 「ㅅ의 흐린 소리(곧 z)」, ㄹㄹ은 [l]이다(114쪽). 맞대기표에서 ㅸ은 [v]와 함께 [β]에도 걸린다(114쪽 표). 새 글자를 쓰기 어려울 때를 위한 대안도 있었다. 「[잡이] ㅿ, ㅸ, ㆄ, ㄹㄹ, 특히 편의스럽게 간단히 나타내어 적고자 할 적에는, 각자의 아래나 위나 옆에 점(.)을 찍어 표하여도 좋다.」(115쪽)</p>
+<p>파열음도 크게 달랐다. 1948안은 k t p를 ㄱ ㄷ ㅂ, kh th ph를 ㅋ ㅌ ㅍ, g d b를 ㄲ ㄸ ㅃ로 맞댔다. 근거로 훈민정음 이래 ㄱ ㄷ ㅂ이 「맑은소리」라는 글자의 역사, 그리고 한국어를 로마자로 적은 서양 학자 28인 가운데 26인이 ㄱ을 k로 적었다는 사실을 들었다(이경숙 2016: 115–116). 「Sky―스까이, Stalin―스따알린, Boston―뽀스똔」이 원어 화자에게 확인하면 맞는 표기라고도 했다(116쪽). 이 안의 된소리는 무기 무성음 전용이 아니라 우선 어두의 유성음이었다. 여기에 장모음을 표기에 반영하고(박창원·김수현 2004: 64), 원어 기호 하나에 한글 여럿을 대응시키는 방식(이경숙 2016: 114)이 더해졌다.</p>
+<h2 id="6-1956-1958-1969-미공표안-1986-고시-2004-세칙">6. 1956 · 1958 → 1969 미공표안 → 1986 고시 → 2004 세칙</h2>
+<p>1948안은 오래가지 못했다. 문교부는 1948년 안을 교과서에 적용하려고 1956년 1월 「외국인명지명표기법」을 만들었으나, 「기존의 한글 자모에 없는 ‘oㅂ, oㅍ’과 같은 글자로 인해 시행하기 어려워」 새 안을 만들게 되었다(이경숙 2016: 112, 이상억 1979 재인용). 1958년 10월 20일 발표된 「로마자의 한글화 표기법」은 첫 항에서 「현용 24자모를 쓴다」고 정했다(이경숙 2016: 117). 그 뒤 남쪽 규범은 새 글자로 돌아간 적이 없다.</p>
+<p>왜 막혔는가. 문헌이 드는 이유는 서로 조금씩 다르다. 이경숙(2016: 112)은 ㅇ을 붙인 글자를, 박창원·김수현(2004: 64)은 원칙과 별도의 관용 표기가 있고 「전문적이며 복잡하여 일반인이 사용하기에 어려운 점」을, 임동훈(1996: 45)은 현용 24자모 밖의 기호를 「임의로 도입」한 것과 장음을 같은 모음을 거듭 적어 나타낸 것을 든다. 1948안은 새 글자, 장모음 표기, 어두 된소리, 기호 하나에 여러 한글을 대는 방식을 한꺼번에 들여왔다. 이 가운데 무엇이 시행을 막았는지 가를 자료(교과서·신문의 채택 실태 같은 것)는 이 문헌들에 없다. 새 글자가 원인이라고 단정할 수 없다.</p>
+<p>이 시도를 가장 강하게 반대하는 글은 김세중(1996)이다. 그는 외래어 표기법이 「국어 단어의 표기를 정한 규범이지 외국어 단어의 발음 표시를 위한 것이 아니」라고 전제하고(161쪽), f·v에만 새 글자를 쓸 까닭을 설명할 수 없으며 「그렇게 되면 얼마나 많은 글자를 새로 만들어서 써야 할지 모른다」고 했다(170쪽). 「한글은 세계 여러 언어의 발음을 적기 위해서 만들어졌다기보다 국어의 소리를 적기 위해 만들어진 것」이라는 지적과(171쪽), 새 글자 시도는 「실패로 끝난 것이 경험적으로 입증되었」다는 판단도 같은 글에 있다(171–172쪽). 마지막 판단은 위에서 본 대로 자료가 받쳐 주지 않는다. 그러나 경계 기준에 관한 앞의 반론은 이 사이트가 정면으로 받아야 한다. 이 사이트가 새 꼴을 「해례와 15세기 문헌이 실제로 쓴 조작으로 만든 36꼴」로 닫아 둔 것이 그 대답이다(표기 체계 면).</p>
+<p>된소리는 그 뒤에도 남았다. 1969년 문교부 한글전용연구위원회가 결정한 「외래어의 한글 표기법」은 1948안처럼 공표·실시되지 못했다(이경숙 2016: 130). 이 안은 현용 24자모만 쓰게 하면서도 대조표에서 [p]에 「ㅍ(ㅃ)」를 주고, [비고]에 「[p] [t] [k]는 ㅃ, ㄸ, ㄲ로 적는다」를 달았다(133쪽). 1986년 고시는 이 비고의 된소리를 거센소리로 바꾼 것을 빼면 파열음 표기 내용이 같다(133쪽).</p>
+<p>현행 체제는 문교부 고시 제85-11호 「외래어 표기법」이다. 고시일은 국어연구소 해설이 1985년 12월 28일 확정 고시(1986: 140), 임동훈이 1986년 1월 7일 고시(1996: 47)로 달리 적는다. 제1항은 「외래어는 국어의 현용 24 자모만으로 적는다」, 제4항은 「파열음 표기에는 된소리를 쓰지 않는 것을 원칙으로 한다」이다. 해설은 제1항의 근거로 새 기호를 「별도로 익혀야 하는 무리한 부담」과, 외래어 표기가 「모든 국민을 위한 것」이라는 점을 든다(국어연구소 1986: 159–160). 제4항을 설명하면서는 음성 사실부터 인정한다.</p>
+<blockquote>
+<p>영어의 무성 파열음은 된소리보다 격음에 가깝고, 프랑스 어나 일본어의 무성 파열음은 격음보다 된소리에 가깝다.</p>
+</blockquote>
+<p>(국어연구소 1986: 161) 그래도 격음 하나로 적는 까닭은 언어마다 달리 적으면 규정이 번거롭고 일관성이 없다는 것, 정확한 전사는 어차피 불가능하다는 것, 국어에서 된소리의 기능 부담량이 적다는 것, 국어에 없는 음절이 생기고 「인쇄 작업에도 많은 지장」이 있다는 것이다(161쪽). 임동훈(1996: 51)은 프랑스어·이탈리아어·스페인어·러시아어의 무성 파열음이 무기음이라 「실제 발음을 고려한다면 프랑스어 등의 파열음은 국어의 된소리로 적어야 옳을 것」이라고 쓴 뒤, 각 언어의 음운 특징을 일일이 파악하기 어렵다는 이유로 현행 원칙을 지킨다.</p>
+<p>2004년 12월 20일 문화관광부 고시 제2004-11호가 동남아시아 3개 언어 표기를 더하면서 타이어와 베트남어에만 된소리를 들였다. 타이어 ก를 ㄲ(Kaew 깨우), จ를 ㅉ(Caolaw 짜올라우), 베트남어 c·k·q를 ㄲ(cao 까오), ch를 ㅉ(cha 짜)로 적는다(문화관광부 2004, 표 15·16). 제정 이유를 다룬 해설이 있다(정희원 2005, 확인 중). 이 사이트가 스페인어·러시아어의 무기 파열음을 ㅃ ㄸ ㄲ로 적는 것은 2004년의 기준이 아니라 1969 미공표안과 북한 규범 쪽의 기준, 곧 음성 근사에 선 것이다.</p>
+<h2 id="7-북한19562001">7. 북한(1956~2001)</h2>
+<p>북쪽 규범은 새 글자를 쓰지 않으면서 된소리로 원음에 다가갔다. 이 절에서 대조한 것은 국어사정위원회의 『외국말적기법』(2001)이다. 그 뒤 2012년에 새 판이 나왔다는 안내가 있으나 원문을 확인하지 못했고(확인 중), 2026년 현재 어느 판이 효력을 갖는지도 확인하지 못했다. 머리말은 이 책이 나옴에 따라 「지금까지 써온 《외국말적기법》(과학, 백과사전출판사 1982)은 쓰지 않는다」고 밝힌다(국어사정위원회 2001: 2). 같은 머리말은 「우리 민족어의 어음구조에 맞으면서도 우리 인민들의 서사생활에 부담을 주지 않게」 하는 원칙을 내세운다(2쪽).</p>
+<p>대응표는 원어 글자 · 조건 · 우리 글자 · 례의 네 칸이다. 같은 원어 글자라도 뒤에 오는 글자에 따라 다른 한글을 준다. 로씨야말 Т는 а, о, у, ъ, ы, э 앞에서 ㄸ(Тарту 따르뚜), е, ё, и, ю, я, ь 앞에서 ㅉ(Тетюхе 쩨쮸헤)이다(17쪽). 에스빠냐말 C는 a, o, u 앞에서 ㄲ(Cuenca 꾸엥까), e, i 앞에서 ㅆ, 모음과 무성 자음 사이에서 받침 ㄱ이다(80쪽). 같은 쪽의 Tarapak은 「따라빠끄」로, T·P도 된소리로 적는다.</p>
+<p>1956년 규범부터 된소리를 썼다는 정리가 있다(김희진 1996, 확인 중). 1982년판과 1985년판, 2001년판의 관계는 가려지지 않았다. 왜 북쪽이 처음부터 된소리를 택했는지를 직접 밝힌 1차 문헌은 이 연구가 열람한 범위에서 찾지 못했다.</p>
+<h2 id="8-찌아찌아2009와-그-뒤">8. 찌아찌아(2009)와 그 뒤</h2>
+<p>찌아찌아어는 인도네시아 부톤섬 바우바우 일대에서 약 79,000명이 쓰는 말이다. 16세기 이후 아랍 문자를 고친 부리 월리오 문자로, 19세기 초부터는 대개 로마자로 적혀 왔다. 2008년 바우바우시는 훈민정음학회가 제안한 보존 사업을 받아들였고, 2009년 시 정부가 찌아찌아어를 적는 데 한글을 쓰는 것을 승인했다(Dessiar 2021: 182–183). 원문 표현은 「approved Hangeul letters for transcribing Cia-Cia」(183쪽)이다. 「공식 문자로 채택」이라는 말은 없다.</p>
+<p>외국 소리가 아니라 한 공동체의 말을 한글로 적는 경우지만, 쓰인 장치는 이 연구와 많이 겹친다. Dessiar(2021: 190)가 든 보기에서 무성 파열음은 된소리로(/sopu/ 소뿌, /pilinge/ 삘링에), /w/는 ᄫ으로(/wea/ ᄫᅦ아), 어중 l은 ㄹㄹ로 적혔다.</p>
+<p>같은 논문은 찌아찌아어 화자 20명과 한국어 화자 20명의 단모음을 재어 견주었다. 분류상 대응(ㅏ ㅔ ㅣ ㅗ ㅜ)은 맞지만, 두 포먼트 모두 유의한 차이가 없었던 짝은 /u/–우 하나였다(Dessiar 2021: 188). 모음마다 낱말이 하나뿐이어서 결과는 방향을 보여 주는 정도로 읽어야 한다.</p>
+<p>저자는 결론에서 표기 자체의 문제도 짚는다. 찌아찌아어에 없는 모음 [ɨ]가 한글 표기에 끼어든다. /mbu-le/가 음불레 [ɨm-bul-le]로 적혀 두 음절이 세 음절이 되고, CCV 음절이 CV로 바뀐다. 저자는 이것을 자음이 겹치지 않는 한국어 음절 제약을 그대로 옮긴 결과로 보고, 이 문제를 따지지 않으면 보존 사업이 오히려 「erode the unique characteristics of the language itself」(언어 고유의 특징을 깎아 낼) 수 있다고 썼다(190–191쪽). 사업의 지속 여부와 현지 교육 규모에 관한 다른 주장들은 학술 문헌으로 확인하지 못해 여기 적지 않는다.</p>
+<p>『아학편』에서 찌아찌아어까지, 외국 소리를 적으려고 한글을 넓힌 사례들은 같은 꼴에 서로 다른 소리를 실었다. 겹ㄹ은 1908년과 1948년에 [l]이었다. 이 사이트는 ᄙ을 떠는 r에 쓴다. ㅃ ㄸ ㄲ는 『아학편』과 1948안에서 유성음, 『첩해신어』·북한·찌아찌아어에서 무성음이었다. 이 사이트는 그 가운데 하나를 고른 것이다. 고른 근거와 버린 쪽의 선례는 글자별 해설 면에 꼴마다 함께 적었다.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>이 논문은 첫 쪽이 93쪽이고 뒤로 갈수록 쪽 번호가 줄어든다. 「89–88」은 그 순서를 따른 것이다.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>이 안의 연도는 문헌에 따라 1940년 제정(이경숙 2016: 110 각주 4), 1941년 제정(박창원·김수현 2004: 61–62)으로 갈린다.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+<nav class="prevnext"><a href="genjeon.html">← 원전 읽기</a><a href="bigyo.html">견주어 보기 →</a></nav>
+</main>
+<footer>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="assets/fonts/OFL.txt">사본</a>)</p>
+<p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
+</footer>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('l1btn'); if(!b) return;
+  document.querySelectorAll('table').forEach(function(t){
+    var hs=t.querySelectorAll('thead th'), i2=-1, i1=-1;
+    hs.forEach(function(h,i){ var s=h.textContent; if(i2<0 && s.indexOf('2층')>=0) i2=i; else if(i1<0 && s.indexOf('1층')>=0) i1=i; });
+    if(i2<0||i1<0) return;
+    t.querySelectorAll('tr').forEach(function(r){ var c=r.children; if(c[i2]) c[i2].classList.add('c2'); if(c[i1]) c[i1].classList.add('c1'); });
+  });
+  function set(on){ document.documentElement.classList.toggle('l1',on); b.setAttribute('aria-pressed',on?'true':'false');
+    try{ localStorage.setItem('sejong-l1',on?'1':'0'); }catch(e){} }
+  var on=false; try{ on=localStorage.getItem('sejong-l1')==='1'; }catch(e){}
+  set(on);
+  b.addEventListener('click',function(){ set(!document.documentElement.classList.contains('l1')); });
+})();
+</script>
+</body></html>
