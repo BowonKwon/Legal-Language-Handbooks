@@ -3316,12 +3316,12 @@
   },
   "URL": "https://unstats.un.org/UNSD/geoinfo/UNGEGN/docs/11th-uncsgn-docs/E_Conf.105_71_en.pdf",
   "publisher": "United Nations",
-  "note": "E/CONF.105/71/CRP.71, 제11차 유엔 지명표준화회의. CRP.71 본문은 회의 문서 폴더에 있음(URL 은 요약문 E/CONF.105/71)",
+  "note": "E/CONF.105/71/CRP.71, 제11차 유엔 지명표준화회의. URL 은 요약문 E/CONF.105/71, 원문 보기는 CRP.71 중국어판",
   "language": "zh",
   "custom": {
    "grade": "A",
    "category": "외국 비교",
-   "oa_url": "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/11th-uncsgn-docs/",
+   "oa_url": "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/11th-uncsgn-docs/E_Conf.105_71_CRP.71_14_Chinese-item%2014(b)%20New%20Developments%20in%20Formulating%20the%20Transformation%20Guidelines%20of%20Geographical%20Names%20from%20Foreign%20Languag.pdf",
    "annotation": "제11차 유엔 지명표준화회의(2017)에 중국이 낸 문서로, 외국 지명을 한자로 옮기는 국가표준 네 가지(조선어·일본어·페르시아어·라오어)를 새로 정한 경과를 보고한다. 현지 표준 지명을 따르고 관용 역명은 이어 쓰며, 고유 부분은 음역하고 일반 명칭은 의역한다는 공통 원칙을 든다. 이 사이트는 표음 문자가 아닌 체계의 외래어 표기 사례로 쓴다.",
    "used_in": [
     "04"
