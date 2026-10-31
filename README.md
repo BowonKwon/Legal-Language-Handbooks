@@ -27,7 +27,7 @@
 |---|---|---|---|
 | **세종의 글자로 보는 외래어 표기** — 훈민정음의 글자로 외국어 소리를 적는 보조 표기와 그 근거 | 스페인어 · 러시아어 · 중국어 | 판 2 (2026. 10. 28.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/sejong/) · [데이터](sejong/data/) · [소개](sejong/README.md) |
 
-아랍어판을 준비하고 있으나, 조문·판결 원문의 저작권과 공개 조건이 나라마다 달라 무엇을 어떻게 실을지 검토하고 있습니다. 이미 올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다. 무엇이 바뀌었는지는 각 자료의 「소개」와 판 표시에 적습니다.
+언어판은 계속 늘려 갈 예정입니다. 아랍어판을 준비하고 있으나, 조문·판결 원문의 저작권과 공개 조건이 나라마다 달라 무엇을 어떻게 실을지 검토하고 있고, 그 밖의 언어도 차례로 더합니다. 이미 올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다. 무엇이 바뀌었는지는 각 자료의 「소개」와 판 표시에 적습니다.
 
 원문과 다른 서술을 찾으면 [Issues](https://github.com/BowonKwon/Legal-Language-Handbooks/issues)로 알려 주십시오. 고친 내용은 판과 날짜를 올려 반영합니다.
 
@@ -68,6 +68,6 @@ Self-study handbooks of legal foreign languages, compiled with generative AI for
 
 Side project: *Sejong's Letters for Foreign Sounds* — an auxiliary Korean-script transcription built from Hunminjeongeum letterforms, with sources and counter-evidence for every letter (Spanish, Russian, Mandarin; version 2, 28 Oct 2026). [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/sejong/) · [Data](sejong/data/) · [About](sejong/README.md). Text CC BY-NC 4.0, data CC BY 4.0, code MIT.
 
-More languages will follow, and each handbook will keep growing with new entries and chapters; changes are noted in each handbook's README and edition line.
+More languages will follow (an Arabic edition is in preparation, and others are planned), and each handbook will keep growing with new entries and chapters; changes are noted in each handbook's README and edition line.
 
 Text © 2026 Bowon Kwon, [CC BY-NC 4.0](LICENSE). Quoted statutes, judgments and classic texts remain under their own terms. Views are the compiler's own and not those of any institution.
