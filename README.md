@@ -15,10 +15,11 @@
 | **本院认为** — 조문과 판결의 중국어 | 중국어 | 기초 회화가 되는(A2~B1) 한국 법률가 | 대외판 1.0 (2026. 10. 18.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/benyuan-renwei/) · [PDF](benyuan-renwei/benyuan-renwei-v1.0.pdf) · [Anki](benyuan-renwei/benyuan-renwei-v1.0.apkg) · [소개](benyuan-renwei/README.md) |
 | **Suum cuique** — 원전으로 읽는 법률 라틴어 | 라틴어 | 라틴어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 22.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/suum-cuique/) · [PDF](suum-cuique/suum-cuique-v1.0.pdf) · [Anki](suum-cuique/suum-cuique-v1.0.apkg) · [소개](suum-cuique/README.md) |
 | **En nombre del Rey** — 법전과 법정의 스페인어 | 스페인어 | 스페인어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 28.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/en-nombre-del-rey/) · [PDF](en-nombre-del-rey/en-nombre-del-rey-v1.0.pdf) · [Anki](en-nombre-del-rey/en-nombre-del-rey-v1.0.apkg) · [소개](en-nombre-del-rey/README.md) |
+| **In nome del popolo italiano** — 법전과 법정의 이탈리아어 | 이탈리아어 | 이탈리아어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 31.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/in-nome-del-popolo-italiano/) · [PDF](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.0.pdf) · [Anki](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.0.apkg) · [소개](in-nome-del-popolo-italiano/README.md) |
 | **Nhân danh** — 조문과 판결의 베트남어 | 베트남어 | 베트남어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 28.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/nhan-danh/) · [PDF](nhan-danh/nhan-danh-v1.0.pdf) · [Anki](nhan-danh/nhan-danh-v1.0.apkg) · [소개](nhan-danh/README.md) |
 | **Установи́л** — 조문과 판결로 읽는 법률 러시아어 | 러시아어 | 러시아어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 29.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/ustanovil/) · [PDF](ustanovil/ustanovil-v1.0.pdf) · [Anki](ustanovil/ustanovil-v1.0.apkg) · [소개](ustanovil/README.md) |
 
-화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·라틴어·베트남어·스페인어·러시아어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
+화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·라틴어·스페인어·이탈리아어·베트남어·러시아어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
 
 ### 곁가지 연구
 
@@ -26,7 +27,7 @@
 |---|---|---|---|
 | **세종의 글자로 보는 외래어 표기** — 훈민정음의 글자로 외국어 소리를 적는 보조 표기와 그 근거 | 스페인어 · 러시아어 · 중국어 | 판 2 (2026. 10. 28.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/sejong/) · [데이터](sejong/data/) · [소개](sejong/README.md) |
 
-다음 언어판은 이탈리아어이고, 지금 만들고 있습니다. 아랍어판도 준비하고 있으나, 조문·판결 원문의 저작권과 공개 조건이 나라마다 달라 무엇을 어떻게 실을지 검토하고 있습니다. 이미 올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다. 무엇이 바뀌었는지는 각 자료의 「소개」와 판 표시에 적습니다.
+아랍어판을 준비하고 있으나, 조문·판결 원문의 저작권과 공개 조건이 나라마다 달라 무엇을 어떻게 실을지 검토하고 있습니다. 이미 올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다. 무엇이 바뀌었는지는 각 자료의 「소개」와 판 표시에 적습니다.
 
 원문과 다른 서술을 찾으면 [Issues](https://github.com/BowonKwon/Legal-Language-Handbooks/issues)로 알려 주십시오. 고친 내용은 판과 날짜를 올려 반영합니다.
 
@@ -61,6 +62,7 @@ Self-study handbooks of legal foreign languages, compiled with generative AI for
 | *本院认为 (Běnyuàn rènwéi)* — Chinese of statutes and judgments | Chinese (Mandarin) | Korean lawyers at CEFR A2–B1 | Public ed. 1.0 (18 Oct 2026) |
 | *Suum cuique* — Legal Latin through the classical sources | Latin | Korean lawyers starting Latin from scratch | Public ed. 1.0 (22 Oct 2026) |
 | *En nombre del Rey* — Spanish of the codes and the courtroom | Spanish | Korean lawyers starting Spanish from scratch | Public ed. 1.0 (28 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/en-nombre-del-rey/) · [PDF](en-nombre-del-rey/en-nombre-del-rey-v1.0.pdf) · [Anki](en-nombre-del-rey/en-nombre-del-rey-v1.0.apkg) · [About](en-nombre-del-rey/README.md) |
+| *In nome del popolo italiano* — Italian of the codes and the courtroom | Italian | Korean lawyers starting Italian from scratch | Public ed. 1.0 (31 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/in-nome-del-popolo-italiano/) · [PDF](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.0.pdf) · [Anki](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.0.apkg) · [About](in-nome-del-popolo-italiano/README.md) |
 | *Nhân danh* — Vietnamese of statutes and judgments | Vietnamese | Korean lawyers starting Vietnamese from scratch | Public ed. 1.0 (28 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/nhan-danh/) · [PDF](nhan-danh/nhan-danh-v1.0.pdf) · [Anki](nhan-danh/nhan-danh-v1.0.apkg) · [About](nhan-danh/README.md) |
 | *Установи́л (Ustanovil)* — Legal Russian through statutes and judgments | Russian | Korean lawyers starting Russian from scratch | Public ed. 1.0 (29 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/ustanovil/) · [PDF](ustanovil/ustanovil-v1.0.pdf) · [Anki](ustanovil/ustanovil-v1.0.apkg) · [About](ustanovil/README.md) |
 
