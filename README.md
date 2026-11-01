@@ -44,6 +44,7 @@
 
 ## 관련 저장소
 
+- 공개 자료 전체 목록(허브): https://bowonkwon.github.io/ — 법률 외국어 자습서·AI 자습서·서양 고전 음악 메트릭스를 한곳에 모았습니다.
 - [AI-Assisted-Handbooks](https://github.com/BowonKwon/AI-Assisted-Handbooks): 생성형 AI와 함께 엮은 자습서(Agentic AI·반도체·LLM 위키)
 - [SundayAI](https://github.com/BowonKwon/SundayAI): 「일요일은 AI」 스터디 발제 자료
 
@@ -52,6 +53,8 @@
 ## English
 
 Self-study handbooks of legal foreign languages, compiled with generative AI for Korean lawyers who want to read statutes, judgments and classic texts in the original and talk with foreign colleagues. Every quotation was machine-checked against official texts (or official datasets) and reviewed by an independent AI reviewer.
+
+Everything the editor has published — the legal-language handbooks, the AI handbooks and Classical Music Metrics — is listed in one place at https://bowonkwon.github.io/en/.
 
 | Handbook | Language | Readers | Version |
 |---|---|---|---|
