@@ -56,14 +56,14 @@ Self-study handbooks of legal foreign languages, compiled with generative AI for
 
 Everything the editor has published — the legal-language handbooks, the AI handbooks and Classical Music Metrics — is listed in one place at https://bowonkwon.github.io/en/.
 
-| Handbook | Language | Readers | Version |
-|---|---|---|---|
-| *Objection!* — First steps in legal English | English | Korean lawyers, with courtroom examples | Public ed. 1.0 (16 Oct 2026) |
-| *Igiari!* — First steps in Japanese through statutes and case law | Japanese | Korean lawyers starting from kana | Public ed. 1.0 (16 Oct 2026) |
-| *Anspruch* — Legal German through the language of claims | German | Korean lawyers at CEFR A2–B1 | Public ed. 1.0 (16 Oct 2026) |
-| *Par ces motifs* — French of the codes and the courts | French | Korean lawyers at CEFR A2 | Public ed. 1.0 (15 Oct 2026) |
-| *本院认为 (Běnyuàn rènwéi)* — Chinese of statutes and judgments | Chinese (Mandarin) | Korean lawyers at CEFR A2–B1 | Public ed. 1.0 (18 Oct 2026) |
-| *Suum cuique* — Legal Latin through the classical sources | Latin | Korean lawyers starting Latin from scratch | Public ed. 1.0 (22 Oct 2026) |
+| Handbook | Language | Readers | Version | Read |
+|---|---|---|---|---|
+| *Objection!* — First steps in legal English | English | Korean lawyers, with courtroom examples | Public ed. 1.0 (16 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/objection/) · [PDF](objection/objection-v1.0.pdf) · [Anki](objection/objection-v1.0.apkg) · [About](objection/README.md) |
+| *Igiari!* — First steps in Japanese through statutes and case law | Japanese | Korean lawyers starting from kana | Public ed. 1.0 (16 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/igiari/) · [PDF](igiari/igiari-v1.0.pdf) · [Anki](igiari/igiari-v1.0.apkg) · [About](igiari/README.md) |
+| *Anspruch* — Legal German through the language of claims | German | Korean lawyers at CEFR A2–B1 | Public ed. 1.0 (16 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/anspruch/) · [PDF](anspruch/anspruch-v1.0.pdf) · [Anki](anspruch/anspruch-v1.0.apkg) · [About](anspruch/README.md) |
+| *Par ces motifs* — French of the codes and the courts | French | Korean lawyers at CEFR A2 | Public ed. 1.0 (15 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/par-ces-motifs/) · [PDF](par-ces-motifs/par-ces-motifs-v1.0.pdf) · [Anki](par-ces-motifs/par-ces-motifs-v1.0.apkg) · [About](par-ces-motifs/README.md) |
+| *本院认为 (Běnyuàn rènwéi)* — Chinese of statutes and judgments | Chinese (Mandarin) | Korean lawyers at CEFR A2–B1 | Public ed. 1.0 (18 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/benyuan-renwei/) · [PDF](benyuan-renwei/benyuan-renwei-v1.0.pdf) · [Anki](benyuan-renwei/benyuan-renwei-v1.0.apkg) · [About](benyuan-renwei/README.md) |
+| *Suum cuique* — Legal Latin through the classical sources | Latin | Korean lawyers starting Latin from scratch | Public ed. 1.0 (22 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/suum-cuique/) · [PDF](suum-cuique/suum-cuique-v1.0.pdf) · [Anki](suum-cuique/suum-cuique-v1.0.apkg) · [About](suum-cuique/README.md) |
 | *En nombre del Rey* — Spanish of the codes and the courtroom | Spanish | Korean lawyers starting Spanish from scratch | Public ed. 1.0 (28 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/en-nombre-del-rey/) · [PDF](en-nombre-del-rey/en-nombre-del-rey-v1.0.pdf) · [Anki](en-nombre-del-rey/en-nombre-del-rey-v1.0.apkg) · [About](en-nombre-del-rey/README.md) |
 | *In nome del popolo italiano* — Italian of the codes and the courtroom | Italian | Korean lawyers starting Italian from scratch | Public ed. 1.0 (31 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/in-nome-del-popolo-italiano/) · [PDF](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.0.pdf) · [Anki](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.0.apkg) · [About](in-nome-del-popolo-italiano/README.md) |
 | *Nhân danh* — Vietnamese of statutes and judgments | Vietnamese | Korean lawyers starting Vietnamese from scratch | Public ed. 1.0 (28 Oct 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/nhan-danh/) · [PDF](nhan-danh/nhan-danh-v1.0.pdf) · [Anki](nhan-danh/nhan-danh-v1.0.apkg) · [About](nhan-danh/README.md) |
