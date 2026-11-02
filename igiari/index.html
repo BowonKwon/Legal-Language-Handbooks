@@ -272,7 +272,7 @@ details.src summary { cursor: pointer; font-size: var(--s-1); color: var(--ai); 
 :root[data-theme="light"]:not(.print) { --paper: #e6e7e9; --sheet: #ffffff; --ink: #161a20; --muted: #4a4f57; --line: #d3d5d9; --grid: #c3cdbf; --chip: #eceef1; --ai: #7b3346; --ai-bg: #f7e9ed; }
 @media (prefers-color-scheme: dark) { :root:not(.print):not([data-theme="light"]) { --paper: #121417; --sheet: #1c1f24; --ink: #eef0f2; --muted: #aab0b8; --line: #343941; --grid: #3a4339; --chip: #262b33; --ai: #e0a3b4; --ai-bg: #33202a; } }
 :root[data-theme="dark"]:not(.print) { --paper: #121417; --sheet: #1c1f24; --ink: #eef0f2; --muted: #aab0b8; --line: #343941; --grid: #3a4339; --chip: #262b33; --ai: #e0a3b4; --ai-bg: #33202a; }
-:root:not(.print) body { word-break: keep-all } :root:not(.print) .ja, :root:not(.print) .jag, :root:not(.print) .j, :root:not(.print) [lang|=ja] { word-break: normal; line-break: strict } /* keep-all 은 띄어쓰기 없는 일본어 문장을 한 덩어리로 묶어 390px 에서 835px 로 넘쳤다 */
+:root:not(.print) body { word-break: keep-all; overflow-wrap: anywhere } :root:not(.print) .accline { flex-wrap: wrap } :root:not(.print) .word { min-width: 0 } :root:not(.print) .ja, :root:not(.print) .jag, :root:not(.print) .j, :root:not(.print) [lang|=ja] { word-break: normal; line-break: strict } /* keep-all 은 띄어쓰기 없는 일본어 문장을 한 덩어리로 묶어 390px 에서 835px 로 넘쳤다 */
 :root:not(.print) .sheet, :root:not(.print) .canread { border-radius: 6px; box-shadow: 0 1px 2px rgba(20,25,35,.07) } :root:not(.print) .mast .sub { font-size: 1.7rem; color: var(--ai) } :root:not(.print) .canread { border-left-color: var(--ai) }
 @media (prefers-color-scheme: light) { :root:not(.print):not([data-theme="dark"]) .hw { color: #18283a } }
 </style>
