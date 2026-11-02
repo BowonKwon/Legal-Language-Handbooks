@@ -3,7 +3,7 @@
 **스페인어를 처음 배우는 한국 법률가를 위한 법률 스페인어 자습서** · 권보원 엮음 · 대외판 1.0(2026. 10. 28.)
 
 - [화면본(HTML, 소리 단추)](https://bowonkwon.github.io/Legal-Language-Handbooks/en-nombre-del-rey/)
-- [인쇄본(PDF, 570쪽)](en-nombre-del-rey-v1.0.pdf)
+- [인쇄본(PDF, 568쪽)](en-nombre-del-rey-v1.0.pdf)
 - [Anki 덱(표제어 카드, 합성음 포함)](en-nombre-del-rey-v1.0.apkg)
 
 GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책은 위 화면본 링크로 여십시오. 소리는 장별로 처음 누를 때 내려받습니다.

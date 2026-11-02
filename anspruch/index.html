@@ -183,8 +183,7 @@ th { font-size: .75rem; color: var(--muted); font-weight: 600 }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important } }
 
-/* 화면 색 (2026-10-17, 소유자 「시안 2」 채택) — 허브 페이지의 독일어 카드 색(황토)과 맞춘다. 화면 전용(:root:not(.print)) — 인쇄판·PDF 는 위 토큰 그대로.
-   바탕 중성 회색 + 흰 종이 + 짙은 황토. 시안 1(미색 재생지)은 「너무 미색, 가독성 떨어짐」으로 기각. 시안: output/법률외국어-화면본-색-시안-2026-10-17/ */
+
 :root:not(.print) {
   --paper: #e6e7e9; --sheet: #ffffff; --ink: #161a20; --muted: #4a4f57; --line: #d3d5d9;
   --accent: #8f5b0c; --accent-bg: #fbf0da; --accent-line: #c8902f; --margin-bg: #fbf3e2; --head: #18283a;
