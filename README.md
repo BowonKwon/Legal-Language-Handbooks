@@ -73,4 +73,4 @@ Side project: *Sejong's Letters for Foreign Sounds* — an auxiliary Korean-scri
 
 More languages will follow (an Arabic edition is in preparation, and others are planned), and each handbook will keep growing with new entries and chapters; changes are noted in each handbook's README and edition line.
 
-Text © 2026 Bowon Kwon, [CC BY-NC 4.0](LICENSE). Quoted statutes, judgments and classic texts remain under their own terms. Views are the compiler's own and not those of any institution.
+Text © 2026 Bowon Kwon, [CC BY-NC 4.0](LICENSE). Quoted statutes, judgments and classic texts remain under their own terms. Views are the editor's own and not those of any institution.
