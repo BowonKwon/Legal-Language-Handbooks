@@ -1,10 +1,10 @@
 # In nome del popolo italiano — 법전과 법정의 이탈리아어
 
-**이탈리아어를 처음 배우는 한국 법률가를 위한 법률 이탈리아어 자습서** · 권보원 엮음 · 대외판 1.0(2026. 10. 31.)
+**이탈리아어를 처음 배우는 한국 법률가를 위한 법률 이탈리아어 자습서** · 권보원 엮음 · 대외판 1.1(2026. 11. 5.)
 
 - [화면본(HTML, 소리 단추)](https://bowonkwon.github.io/Legal-Language-Handbooks/in-nome-del-popolo-italiano/)
-- [인쇄본(PDF, 606쪽)](in-nome-del-popolo-italiano-v1.0.pdf)
-- [Anki 덱(표제어 카드, 합성음 포함)](in-nome-del-popolo-italiano-v1.0.apkg)
+- [인쇄본(PDF, 606쪽)](in-nome-del-popolo-italiano-v1.1.pdf)
+- [Anki 덱(표제어 카드, 합성음 포함)](in-nome-del-popolo-italiano-v1.1.apkg)
 
 GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책은 위 화면본 링크로 여십시오. 소리는 장별로 처음 누를 때 내려받습니다.
 
@@ -36,7 +36,7 @@ GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책�
 
 ## 인용
 
-권보원(Bowon Kwon) 엮음, 『In nome del popolo italiano: 법전과 법정의 이탈리아어』, 대외판 1.0(2026. 10. 31.), https://github.com/BowonKwon/Legal-Language-Handbooks
+권보원(Bowon Kwon) 엮음, 『In nome del popolo italiano: 법전과 법정의 이탈리아어』, 대외판 1.1(2026. 11. 5.), https://github.com/BowonKwon/Legal-Language-Handbooks
 
 ## 이용 허락
 
