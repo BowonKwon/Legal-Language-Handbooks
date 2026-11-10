@@ -18,8 +18,9 @@
 | **In nome del popolo italiano** — 법전과 법정의 이탈리아어 | 이탈리아어 | 이탈리아어를 처음 배우는 한국 법률가 | 대외판 1.1 (2026. 11. 5.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/in-nome-del-popolo-italiano/) · [PDF](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.1.pdf) · [Anki](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.1.apkg) · [소개](in-nome-del-popolo-italiano/README.md) |
 | **Nhân danh** — 조문과 판결의 베트남어 | 베트남어 | 베트남어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 28.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/nhan-danh/) · [PDF](nhan-danh/nhan-danh-v1.0.pdf) · [Anki](nhan-danh/nhan-danh-v1.0.apkg) · [소개](nhan-danh/README.md) |
 | **Установи́л** — 조문과 판결로 읽는 법률 러시아어 | 러시아어 | 러시아어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 29.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/ustanovil/) · [PDF](ustanovil/ustanovil-v1.0.pdf) · [Anki](ustanovil/ustanovil-v1.0.apkg) · [소개](ustanovil/README.md) |
+| **Gereği düşünüldü** — 조문으로 읽는 법률 튀르키예어 | 튀르키예어 | 튀르키예어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 11. 11.) | [화면본](https://bowonkwon.github.io/geregi-dusunuldu/) · [PDF](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.0.pdf) · [Anki](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.0.apkg) · [소개](https://github.com/BowonKwon/geregi-dusunuldu) |
 
-화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·라틴어·스페인어·이탈리아어·베트남어·러시아어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
+화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·라틴어·스페인어·이탈리아어·베트남어·러시아어·튀르키예어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
 
 ### 곁가지 연구
 
@@ -68,6 +69,7 @@ Everything the editor has published — the legal-language handbooks, the AI han
 | *In nome del popolo italiano* — Italian of the codes and the courtroom | Italian | Korean lawyers starting Italian from scratch | Public ed. 1.1 (Nov. 5, 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/in-nome-del-popolo-italiano/) · [PDF](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.1.pdf) · [Anki](in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.1.apkg) · [About](in-nome-del-popolo-italiano/README.md) |
 | *Nhân danh* — Vietnamese of statutes and judgments | Vietnamese | Korean lawyers starting Vietnamese from scratch | Public ed. 1.0 (Oct. 28, 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/nhan-danh/) · [PDF](nhan-danh/nhan-danh-v1.0.pdf) · [Anki](nhan-danh/nhan-danh-v1.0.apkg) · [About](nhan-danh/README.md) |
 | *Установи́л (Ustanovil)* — Legal Russian through statutes and judgments | Russian | Korean lawyers starting Russian from scratch | Public ed. 1.0 (Oct. 29, 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/ustanovil/) · [PDF](ustanovil/ustanovil-v1.0.pdf) · [Anki](ustanovil/ustanovil-v1.0.apkg) · [About](ustanovil/README.md) |
+| *Gereği düşünüldü* — Legal Turkish through the statutes | Turkish | Korean lawyers starting Turkish from scratch | Public ed. 1.0 (Nov. 11, 2026) | [Web](https://bowonkwon.github.io/geregi-dusunuldu/) · [PDF](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.0.pdf) · [Anki](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.0.apkg) · [About](https://github.com/BowonKwon/geregi-dusunuldu) |
 
 Each web edition has an audio button for every entry: synthesized speech for most languages and the device's English voice for *Objection!*. The PDF is the same content in print layout, and the Anki deck holds the entry cards.
 
