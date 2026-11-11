@@ -19,8 +19,9 @@
 | **Suum cuique** — 원전으로 읽는 법률 라틴어 | 라틴어 | 라틴어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 22.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/suum-cuique/) · [PDF](suum-cuique/suum-cuique-v1.0.pdf) · [Anki](suum-cuique/suum-cuique-v1.0.apkg) · [소개](suum-cuique/README.md) |
 | **Установи́л** — 조문과 판결로 읽는 법률 러시아어 | 러시아어 | 러시아어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 10. 29.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/ustanovil/) · [PDF](ustanovil/ustanovil-v1.0.pdf) · [Anki](ustanovil/ustanovil-v1.0.apkg) · [소개](ustanovil/README.md) |
 | **Gereği düşünüldü** — 조문으로 읽는 법률 튀르키예어 | 튀르키예어 | 튀르키예어를 처음 배우는 한국 법률가 | 대외판 1.1 (2026. 11. 11.) | [화면본](https://bowonkwon.github.io/geregi-dusunuldu/) · [PDF](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.pdf) · [Anki](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.apkg) · [소개](https://github.com/BowonKwon/geregi-dusunuldu) |
+| **Recht doende** — 조문으로 읽는 법률 네덜란드어 | 네덜란드어 | 네덜란드어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 11. 11.) | [화면본](https://bowonkwon.github.io/recht-doende/) · [PDF](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.pdf) · [Anki](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.apkg) · [소개](https://github.com/BowonKwon/recht-doende) |
 
-화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·베트남어·스페인어·이탈리아어·라틴어·러시아어·튀르키예어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
+화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·베트남어·스페인어·이탈리아어·라틴어·러시아어·튀르키예어·네덜란드어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
 
 ### 곁가지 연구
 
@@ -70,6 +71,7 @@ Everything the editor has published — the legal-language handbooks, the AI han
 | *Suum cuique* — Legal Latin through the classical sources | Latin | Korean lawyers starting Latin from scratch | Public ed. 1.0 (Oct. 22, 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/suum-cuique/) · [PDF](suum-cuique/suum-cuique-v1.0.pdf) · [Anki](suum-cuique/suum-cuique-v1.0.apkg) · [About](suum-cuique/README.md) |
 | *Установи́л (Ustanovil)* — Legal Russian through statutes and judgments | Russian | Korean lawyers starting Russian from scratch | Public ed. 1.0 (Oct. 29, 2026) | [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/ustanovil/) · [PDF](ustanovil/ustanovil-v1.0.pdf) · [Anki](ustanovil/ustanovil-v1.0.apkg) · [About](ustanovil/README.md) |
 | *Gereği düşünüldü* — Legal Turkish through the statutes | Turkish | Korean lawyers starting Turkish from scratch | Public ed. 1.1 (Nov. 11, 2026) | [Web](https://bowonkwon.github.io/geregi-dusunuldu/) · [PDF](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.pdf) · [Anki](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.apkg) · [About](https://github.com/BowonKwon/geregi-dusunuldu) |
+| *Recht doende* — Legal Dutch through the statutes | Dutch | Korean lawyers starting Dutch from scratch | Public ed. 1.0 (Nov. 11, 2026) | [Web](https://bowonkwon.github.io/recht-doende/) · [PDF](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.pdf) · [Anki](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.apkg) · [About](https://github.com/BowonKwon/recht-doende) |
 
 Each web edition has an audio button for every entry: synthesized speech for most languages and the device's English voice for *Objection!*. The PDF is the same content in print layout, and the Anki deck holds the entry cards.
 
