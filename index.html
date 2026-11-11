@@ -23,7 +23,7 @@
   --c-ru: #4a6478; --c-ru-soft: #e8edf2;
   --c-it: #2f6f9f; --c-it-soft: #e3eef6;
   --c-tr: #2e6b66; --c-tr-soft: #e2efed;
-  --c-nl: #9a4a1c; --c-nl-soft: #f6ebe3;
+  --c-nl: #9a4a1c; --c-nl-soft: #f6ebe3; --c-sv: #6b5a18; --c-sv-soft: #f4f0e0;
   --c-sj: #7a4f2a; --c-sj-soft: #f6eee4;
   --f-display: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
   --f-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
@@ -38,7 +38,7 @@
   --c-sj: #e0b48a; --c-sj-soft: #2b2219;
   --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
-  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; color-scheme: dark } }
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; color-scheme: dark } }
 :root[data-theme="dark"] {
   --paper: #16191d; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
   --accent: #9fb4d2; --accent-soft: #252f3d; --warm: #c9b391; --warm-soft: #2a2620;
@@ -49,17 +49,17 @@
   --c-sj: #e0b48a; --c-sj-soft: #2b2219;
   --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
-  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; color-scheme: dark }
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; color-scheme: dark }
 * { box-sizing: border-box }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7;
   word-break: keep-all; overflow-wrap: anywhere;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px }
 .wrap { max-width: 960px; margin: 0 auto }
-.ribbon { display: grid; grid-template-columns: repeat(12, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
-.ribbon .r-en { background: var(--c-en) } .ribbon .r-ja { background: var(--c-ja) } .ribbon .r-de { background: var(--c-de) } .ribbon .r-fr { background: var(--c-fr) } .ribbon .r-zh { background: var(--c-zh-band) } .ribbon .r-la { background: var(--c-la) } .ribbon .r-es { background: var(--c-es) } .ribbon .r-it { background: var(--c-it) } .ribbon .r-vi { background: var(--c-vi) } .ribbon .r-ru { background: var(--c-ru) } .ribbon .r-tr { background: var(--c-tr) } .ribbon .r-nl { background: var(--c-nl) }
+.ribbon { display: grid; grid-template-columns: repeat(13, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
+.ribbon .r-en { background: var(--c-en) } .ribbon .r-ja { background: var(--c-ja) } .ribbon .r-de { background: var(--c-de) } .ribbon .r-fr { background: var(--c-fr) } .ribbon .r-zh { background: var(--c-zh-band) } .ribbon .r-la { background: var(--c-la) } .ribbon .r-es { background: var(--c-es) } .ribbon .r-it { background: var(--c-it) } .ribbon .r-vi { background: var(--c-vi) } .ribbon .r-ru { background: var(--c-ru) } .ribbon .r-tr { background: var(--c-tr) } .ribbon .r-nl { background: var(--c-nl) } .ribbon .r-sv { background: var(--c-sv) }
 header { padding-block: 52px 30px; border-bottom: 1px solid var(--line) }
 header .kicker { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 18px; font-family: var(--f-display); font-size: .98rem; color: var(--muted) }
-header .kicker .k-en { color: var(--c-en) } header .kicker .k-ja { color: var(--c-ja) } header .kicker .k-de { color: var(--c-de) } header .kicker .k-fr { color: var(--c-fr) } header .kicker .k-zh { color: var(--c-zh); font-family: "Noto Serif SC", "Noto Sans SC", serif } header .kicker .k-la { color: var(--c-la); font-style: italic } header .kicker .k-es { color: var(--c-es) } header .kicker .k-it { color: var(--c-it) } header .kicker .k-vi { color: var(--c-vi) } header .kicker .k-ru { color: var(--c-ru) } header .kicker .k-tr { color: var(--c-tr) } header .kicker .k-nl { color: var(--c-nl) }
+header .kicker .k-en { color: var(--c-en) } header .kicker .k-ja { color: var(--c-ja) } header .kicker .k-de { color: var(--c-de) } header .kicker .k-fr { color: var(--c-fr) } header .kicker .k-zh { color: var(--c-zh); font-family: "Noto Serif SC", "Noto Sans SC", serif } header .kicker .k-la { color: var(--c-la); font-style: italic } header .kicker .k-es { color: var(--c-es) } header .kicker .k-it { color: var(--c-it) } header .kicker .k-vi { color: var(--c-vi) } header .kicker .k-ru { color: var(--c-ru) } header .kicker .k-tr { color: var(--c-tr) } header .kicker .k-nl { color: var(--c-nl) } header .kicker .k-sv { color: var(--c-sv) }
 header h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.5rem; line-height: 1.2; margin: 0 0 8px; text-wrap: balance }
 header .en { font-family: var(--f-display); color: var(--warm); font-size: 1.6rem; line-height: 1.3; letter-spacing: .01em; margin: 0 0 22px }
 header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3px solid var(--warm); color: var(--ink) }
@@ -71,7 +71,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 .book.de { --c: var(--c-de); --c-soft: var(--c-de-soft) } .book.fr { --c: var(--c-fr); --c-soft: var(--c-fr-soft) } .book.zh { --c: var(--c-zh); --c-soft: var(--c-zh-soft) }
 .book.la { --c: var(--c-la); --c-soft: var(--c-la-soft) } .book.vi { --c: var(--c-vi); --c-soft: var(--c-vi-soft) }
 .book.sj { --c: var(--c-sj); --c-soft: var(--c-sj-soft) } .book.es { --c: var(--c-es); --c-soft: var(--c-es-soft) }
-.book.ru { --c: var(--c-ru); --c-soft: var(--c-ru-soft) } .book.tr { --c: var(--c-tr); --c-soft: var(--c-tr-soft) } .book.nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .book.it { --c: var(--c-it); --c-soft: var(--c-it-soft) }
+.book.ru { --c: var(--c-ru); --c-soft: var(--c-ru-soft) } .book.tr { --c: var(--c-tr); --c-soft: var(--c-tr-soft) } .book.nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .book.sv { --c: var(--c-sv); --c-soft: var(--c-sv-soft) } .book.it { --c: var(--c-it); --c-soft: var(--c-it-soft) }
 .side-title { font-family: var(--f-display); font-weight: 600; font-size: 1.15rem; color: var(--muted); margin: 40px 0 0 }
 .books.side { margin-top: 14px }
 .book.zh h2 { font-family: "Noto Serif SC", "Noto Sans SC", serif }
@@ -97,10 +97,10 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 </style>
 </head>
 <body>
-<div class="ribbon" aria-hidden="true"><span class="r-en"></span><span class="r-ja"></span><span class="r-de"></span><span class="r-fr"></span><span class="r-zh"></span><span class="r-vi"></span><span class="r-es"></span><span class="r-it"></span><span class="r-la"></span><span class="r-ru"></span><span class="r-tr"></span><span class="r-nl"></span></div>
+<div class="ribbon" aria-hidden="true"><span class="r-en"></span><span class="r-ja"></span><span class="r-de"></span><span class="r-fr"></span><span class="r-zh"></span><span class="r-vi"></span><span class="r-es"></span><span class="r-it"></span><span class="r-la"></span><span class="r-ru"></span><span class="r-tr"></span><span class="r-nl"></span><span class="r-sv"></span></div>
 <div class="wrap">
 <header>
-  <p class="kicker" lang="mul" aria-hidden="true"><span class="k-en">Objection!</span><span class="k-ja">異議あり</span><span class="k-de">Anspruch</span><span class="k-fr">Par ces motifs</span><span class="k-zh" lang="zh-CN">本院认为</span><span class="k-vi" lang="vi">Nhân danh</span><span class="k-es" lang="es">En nombre del Rey</span><span class="k-it" lang="it">In nome del popolo italiano</span><span class="k-la" lang="la">Suum cuique</span><span class="k-ru" lang="ru">Установи́л</span><span class="k-tr" lang="tr">Gereği düşünüldü</span><span class="k-nl" lang="nl">Recht doende</span></p>
+  <p class="kicker" lang="mul" aria-hidden="true"><span class="k-en">Objection!</span><span class="k-ja">異議あり</span><span class="k-de">Anspruch</span><span class="k-fr">Par ces motifs</span><span class="k-zh" lang="zh-CN">本院认为</span><span class="k-vi" lang="vi">Nhân danh</span><span class="k-es" lang="es">En nombre del Rey</span><span class="k-it" lang="it">In nome del popolo italiano</span><span class="k-la" lang="la">Suum cuique</span><span class="k-ru" lang="ru">Установи́л</span><span class="k-tr" lang="tr">Gereği düşünüldü</span><span class="k-nl" lang="nl">Recht doende</span><span class="k-sv" lang="sv">Domslut</span></p>
   <h1>법률 외국어 자습서</h1>
   <p class="en">Legal Language Handbooks</p>
   <p class="lead">한국 법률가가 외국 법령·판결·원전을 원문으로 읽고 외국 법률가와 말할 수 있게 하려고 엮은 자습서입니다.<br>
@@ -181,6 +181,12 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
     <h2><span lang="nl">Recht doende</span> <small>조문으로 읽는 법률 네덜란드어</small></h2>
     <p class="meta"><span>네덜란드어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 364표제어</span><span>대외판 1.0 (2026. 11. 11.)&nbsp;· 합성음</span></p>
     <div class="links"><a class="primary" href="https://bowonkwon.github.io/recht-doende/">화면본</a><a href="https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.pdf">PDF (889쪽)</a><a href="https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/recht-doende#readme">소개</a></div>
+  </li>
+  <li class="book sv" data-glyph="Sv">
+    <span class="lang">Svenska · 스웨덴어</span>
+    <h2><span lang="sv">Domslut</span> <small>조문으로 읽는 법률 스웨덴어</small></h2>
+    <p class="meta"><span>스웨덴어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 374표제어</span><span>대외판 1.0 (2026. 11. 11.)&nbsp;· 합성음</span></p>
+    <div class="links"><a class="primary" href="https://bowonkwon.github.io/domslut/">화면본</a><a href="https://bowonkwon.github.io/domslut/domslut-v1.0.pdf">PDF (922쪽)</a><a href="https://bowonkwon.github.io/domslut/domslut-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/domslut#readme">소개</a></div>
   </li>
 </ul>
 
