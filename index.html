@@ -55,13 +55,10 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px }
 .wrap { max-width: 960px; margin: 0 auto }
 .ribbon { display: grid; grid-template-columns: repeat(11, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
-.ribbon span:nth-child(1) { background: var(--c-en) } .ribbon span:nth-child(2) { background: var(--c-ja) }
-.ribbon span:nth-child(3) { background: var(--c-de) } .ribbon span:nth-child(4) { background: var(--c-fr) } .ribbon span:nth-child(5) { background: var(--c-zh-band) } .ribbon span:nth-child(6) { background: var(--c-la) } .ribbon span:nth-child(7) { background: var(--c-es) } .ribbon span:nth-child(8) { background: var(--c-it) } .ribbon span:nth-child(9) { background: var(--c-vi) } .ribbon span:nth-child(10) { background: var(--c-ru) } .ribbon span:nth-child(11) { background: var(--c-tr) }
+.ribbon .r-en { background: var(--c-en) } .ribbon .r-ja { background: var(--c-ja) } .ribbon .r-de { background: var(--c-de) } .ribbon .r-fr { background: var(--c-fr) } .ribbon .r-zh { background: var(--c-zh-band) } .ribbon .r-la { background: var(--c-la) } .ribbon .r-es { background: var(--c-es) } .ribbon .r-it { background: var(--c-it) } .ribbon .r-vi { background: var(--c-vi) } .ribbon .r-ru { background: var(--c-ru) } .ribbon .r-tr { background: var(--c-tr) }
 header { padding-block: 52px 30px; border-bottom: 1px solid var(--line) }
 header .kicker { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 18px; font-family: var(--f-display); font-size: .98rem; color: var(--muted) }
-header .kicker span:nth-child(1) { color: var(--c-en) } header .kicker span:nth-child(2) { color: var(--c-ja) }
-header .kicker span:nth-child(3) { color: var(--c-de) } header .kicker span:nth-child(4) { color: var(--c-fr) } header .kicker span:nth-child(5) { color: var(--c-zh); font-family: "Noto Serif SC", "Noto Sans SC", serif }
-header .kicker span:nth-child(6) { color: var(--c-la); font-style: italic } header .kicker span:nth-child(7) { color: var(--c-es) } header .kicker span:nth-child(8) { color: var(--c-it) } header .kicker span:nth-child(9) { color: var(--c-vi) } header .kicker span:nth-child(10) { color: var(--c-ru) } header .kicker span:nth-child(11) { color: var(--c-tr) }
+header .kicker .k-en { color: var(--c-en) } header .kicker .k-ja { color: var(--c-ja) } header .kicker .k-de { color: var(--c-de) } header .kicker .k-fr { color: var(--c-fr) } header .kicker .k-zh { color: var(--c-zh); font-family: "Noto Serif SC", "Noto Sans SC", serif } header .kicker .k-la { color: var(--c-la); font-style: italic } header .kicker .k-es { color: var(--c-es) } header .kicker .k-it { color: var(--c-it) } header .kicker .k-vi { color: var(--c-vi) } header .kicker .k-ru { color: var(--c-ru) } header .kicker .k-tr { color: var(--c-tr) }
 header h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.5rem; line-height: 1.2; margin: 0 0 8px; text-wrap: balance }
 header .en { font-family: var(--f-display); color: var(--warm); font-size: 1.6rem; line-height: 1.3; letter-spacing: .01em; margin: 0 0 22px }
 header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3px solid var(--warm); color: var(--ink) }
@@ -99,10 +96,10 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 </style>
 </head>
 <body>
-<div class="ribbon" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div class="ribbon" aria-hidden="true"><span class="r-en"></span><span class="r-ja"></span><span class="r-de"></span><span class="r-fr"></span><span class="r-zh"></span><span class="r-vi"></span><span class="r-es"></span><span class="r-it"></span><span class="r-la"></span><span class="r-ru"></span><span class="r-tr"></span></div>
 <div class="wrap">
 <header>
-  <p class="kicker" lang="mul" aria-hidden="true"><span>Objection!</span><span>異議あり</span><span>Anspruch</span><span>Par ces motifs</span><span lang="zh-CN">本院认为</span><span lang="la">Suum cuique</span><span lang="es">En nombre del Rey</span><span lang="it">In nome del popolo italiano</span><span lang="vi">Nhân danh</span><span lang="ru">Установи́л</span><span lang="tr">Gereği düşünüldü</span></p>
+  <p class="kicker" lang="mul" aria-hidden="true"><span class="k-en">Objection!</span><span class="k-ja">異議あり</span><span class="k-de">Anspruch</span><span class="k-fr">Par ces motifs</span><span class="k-zh" lang="zh-CN">本院认为</span><span class="k-vi" lang="vi">Nhân danh</span><span class="k-es" lang="es">En nombre del Rey</span><span class="k-it" lang="it">In nome del popolo italiano</span><span class="k-la" lang="la">Suum cuique</span><span class="k-ru" lang="ru">Установи́л</span><span class="k-tr" lang="tr">Gereği düşünüldü</span></p>
   <h1>법률 외국어 자습서</h1>
   <p class="en">Legal Language Handbooks</p>
   <p class="lead">한국 법률가가 외국 법령·판결·원전을 원문으로 읽고 외국 법률가와 말할 수 있게 하려고 엮은 자습서입니다.<br>
@@ -111,6 +108,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 </header>
 
 <ul class="books">
+  <!-- 순서(소유자 2026-11-11, 두 칸씩 한 줄): 영·일 / 독·프 / 중·베 / 스·포 / 이·라 / 러·튀 / 네·스웨. 새 언어판은 이 자리에 끼운다 — 띠·머리 글자도 같은 순서 -->
   <li class="book en" data-glyph="En">
     <span class="lang">English · 영어</span>
     <h2>Objection! <small>법률 영어 첫걸음</small></h2>
@@ -141,11 +139,11 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
     <p class="meta"><span>기초 회화가 되는(A2~B1) 한국 법률가&nbsp;· 21장&nbsp;· 389표제어</span><span>대외판 1.0 (2026. 10. 18.)&nbsp;· 합성음(비상업 이용)</span></p>
     <div class="links"><a class="primary" href="benyuan-renwei/">화면본</a><a href="benyuan-renwei/benyuan-renwei-v1.0.pdf">PDF (848쪽)</a><a href="benyuan-renwei/benyuan-renwei-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/benyuan-renwei/README.md">소개</a></div>
   </li>
-  <li class="book la" data-glyph="La">
-    <span class="lang">Latina · 라틴어</span>
-    <h2><span lang="la">Suum cuique</span> <small>원전으로 읽는 법률 라틴어</small></h2>
-    <p class="meta"><span>라틴어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 399표제어</span><span>대외판 1.0 (2026. 10. 22.)&nbsp;· 합성음(복원 고전·교회·영미 법조 발음)</span></p>
-    <div class="links"><a class="primary" href="suum-cuique/">화면본</a><a href="suum-cuique/suum-cuique-v1.0.pdf">PDF (577쪽)</a><a href="suum-cuique/suum-cuique-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/suum-cuique/README.md">소개</a></div>
+  <li class="book vi" data-glyph="Vi">
+    <span class="lang">Tiếng Việt · 베트남어</span>
+    <h2><span lang="vi">Nhân danh</span> <small>조문과 판결의 베트남어</small></h2>
+    <p class="meta"><span>베트남어를 처음 배우는 한국 법률가&nbsp;· 21장&nbsp;· 350표제어</span><span>대외판 1.0 (2026. 10. 28.)&nbsp;· 합성음(비상업 이용)</span></p>
+    <div class="links"><a class="primary" href="nhan-danh/">화면본</a><a href="nhan-danh/nhan-danh-v1.0.pdf">PDF (898쪽)</a><a href="nhan-danh/nhan-danh-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/nhan-danh/README.md">소개</a></div>
   </li>
   <li class="book es" data-glyph="Es">
     <span class="lang">Español · 스페인어</span>
@@ -159,11 +157,11 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
     <p class="meta"><span>이탈리아어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 377표제어</span><span>대외판 1.1 (2026. 11. 5.)&nbsp;· 합성음 CC BY 4.0</span></p>
     <div class="links"><a class="primary" href="in-nome-del-popolo-italiano/">화면본</a><a href="in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.1.pdf">PDF (606쪽)</a><a href="in-nome-del-popolo-italiano/in-nome-del-popolo-italiano-v1.1.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/in-nome-del-popolo-italiano/README.md">소개</a></div>
   </li>
-  <li class="book vi" data-glyph="Vi">
-    <span class="lang">Tiếng Việt · 베트남어</span>
-    <h2><span lang="vi">Nhân danh</span> <small>조문과 판결의 베트남어</small></h2>
-    <p class="meta"><span>베트남어를 처음 배우는 한국 법률가&nbsp;· 21장&nbsp;· 350표제어</span><span>대외판 1.0 (2026. 10. 28.)&nbsp;· 합성음(비상업 이용)</span></p>
-    <div class="links"><a class="primary" href="nhan-danh/">화면본</a><a href="nhan-danh/nhan-danh-v1.0.pdf">PDF (898쪽)</a><a href="nhan-danh/nhan-danh-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/nhan-danh/README.md">소개</a></div>
+  <li class="book la" data-glyph="La">
+    <span class="lang">Latina · 라틴어</span>
+    <h2><span lang="la">Suum cuique</span> <small>원전으로 읽는 법률 라틴어</small></h2>
+    <p class="meta"><span>라틴어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 399표제어</span><span>대외판 1.0 (2026. 10. 22.)&nbsp;· 합성음(복원 고전·교회·영미 법조 발음)</span></p>
+    <div class="links"><a class="primary" href="suum-cuique/">화면본</a><a href="suum-cuique/suum-cuique-v1.0.pdf">PDF (577쪽)</a><a href="suum-cuique/suum-cuique-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/suum-cuique/README.md">소개</a></div>
   </li>
   <li class="book ru" data-glyph="Ру">
     <span class="lang">Русский · 러시아어</span>
@@ -174,8 +172,8 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
   <li class="book tr" data-glyph="Tü">
     <span class="lang">Türkçe · 튀르키예어</span>
     <h2><span lang="tr">Gereği düşünüldü</span> <small>조문으로 읽는 법률 튀르키예어</small></h2>
-    <p class="meta"><span>튀르키예어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 353표제어</span><span>대외판 1.0 (2026. 11. 11.)&nbsp;· 합성음(비상업 이용)</span></p>
-    <div class="links"><a class="primary" href="https://bowonkwon.github.io/geregi-dusunuldu/">화면본</a><a href="https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.0.pdf">PDF (797쪽)</a><a href="https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/geregi-dusunuldu#readme">소개</a></div>
+    <p class="meta"><span>튀르키예어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 353표제어</span><span>대외판 1.1 (2026. 11. 11.)&nbsp;· 합성음(비상업 이용)</span></p>
+    <div class="links"><a class="primary" href="https://bowonkwon.github.io/geregi-dusunuldu/">화면본</a><a href="https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.pdf">PDF (797쪽)</a><a href="https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/geregi-dusunuldu#readme">소개</a></div>
   </li>
 </ul>
 
