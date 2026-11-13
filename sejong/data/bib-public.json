@@ -4268,6 +4268,145 @@
   }
  },
  {
+  "id": "cho2012",
+  "type": "article-journal",
+  "title": "Cia-Cia language: From the era of oral to the era of writing",
+  "author": [
+   {
+    "family": "Cho",
+    "given": "Tae-Young"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "Humaniora",
+  "volume": "24",
+  "issue": "3",
+  "page": "324–332",
+  "language": "en",
+  "URL": "https://journal.ugm.ac.id/jurnal-humaniora/article/view/1374",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "서강대 동아시아연구소 연구자가 찌아찌아어 한글 도입의 경과를 2005년부터 2010년까지 날짜 단위로 적고, 문자사의 차용과 적응이라는 틀로 찌아찌아 문자를 옹호한 글이다. 이 사이트는 양해각서 · 교재 출간 · 첫 수업의 날짜와, 이 글이 전태현의 보고서에서 옮긴 2010년 수업 인원의 근거로 쓴다.",
+   "used_in": [
+    "04b"
+   ]
+  }
+ },
+ {
+  "id": "havens2024dial",
+  "type": "paper-conference",
+  "title": "Is the Hangeul script well-suited to Ciacia, an Austronesian language in Indonesia?",
+  "author": [
+   {
+    "family": "Havens",
+    "given": "Emily"
+   },
+   {
+    "family": "Riniati",
+    "given": "Wa Ode"
+   },
+   {
+    "family": "Nazar",
+    "given": "Asrul"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "DIAL Conference Proceedings",
+  "publisher": "Dallas International University",
+  "URL": "https://www.diu.edu/documents/student-conference/2024/Hanguel-Student-Conference_Havens_Riniati_Nazar.pdf",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "https://www.diu.edu/documents/student-conference/2024/Hanguel-Student-Conference_Havens_Riniati_Nazar.pdf",
+   "annotation": "찌아찌아어 한글 정서법을 음소 목록과 음절 짜임에 비추어 평가한 학회 발표문이다. 2015년 둘째 교재의 자음 자모표를 IPA 전사로 바꿔 옮겨 실었다. 이 사이트는 그 자모표와, 학위논문 표와 다른 /f/ · /z/ · /ɣ/ 칸의 근거로 쓴다.",
+   "used_in": [
+    "04b"
+   ]
+  }
+ },
+ {
+  "id": "kisyani2017",
+  "type": "article-journal",
+  "title": "Bahasa Ciacia dan aksara kontemporernya",
+  "author": [
+   {
+    "literal": "Kisyani-Laksono"
+   },
+   {
+    "literal": "Yunissefendri"
+   },
+   {
+    "family": "Indrawati",
+    "given": "Dianita"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "Jurnal Budaya Nusantara",
+  "volume": "1",
+  "issue": "1",
+  "page": "55–66",
+  "DOI": "10.36456/jbn.vol1.no1.991",
+  "language": "id",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "수라바야 국립대 연구진이 찌아찌아어 소리를 로마자 · 볼리오 문자 · 한글로 나란히 적어 견주고 로마자가 가장 알맞다고 결론지은 인도네시아어 논문이다. 이 사이트는 내파음을 ㅍ · ㅌ 으로 적는다는 세 번째 확인처와, /ɣ/ 칸이 빈 대조표의 근거로 쓴다.",
+   "used_in": [
+    "04b"
+   ]
+  }
+ },
+ {
+  "id": "abidin2015",
+  "type": "book",
+  "title": "Bahasa Ciacia 2",
+  "author": [
+   {
+    "literal": "Abidin"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "publisher": "자비 출판",
+  "language": "id",
+  "custom": {
+   "grade": "B",
+   "category": "외국 비교",
+   "oa_url": "",
+   "annotation": "찌아찌아어를 한글로 적은 둘째 교재다. 서지는 Havens(2024)의 학위논문 · 학회 발표문 참고문헌 기재를 따랐고 실물은 보지 못했다.",
+   "used_in": [
+    "04b"
+   ]
+  }
+ },
+ {
   "id": "dessiar2020",
   "type": "article-journal",
   "title": "찌아찌아어의 한글 표기와 찌아찌아어 특성과의 상관성에 대한 연구",
