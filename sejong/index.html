@@ -26,7 +26,7 @@ header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
 .site-title a { color:var(--ink); text-decoration:none }
 nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
 nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
-.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }
 @media print { .tools { position:static } }
 #l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
 #l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
@@ -75,7 +75,7 @@ footer p { margin:4px 0 }
 <header class="site">
 <p class="back"><a href="../">← 법률 외국어 자습서</a></p>
 <p class="site-title"><a href="index.html">세종의 글자로 보는 외래어 표기</a></p>
-<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html" aria-current="page">첫 면</a></li><li><a href="cheje.html">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html">역사</a></li><li><a href="bigyo.html">견주어 보기</a></li><li><a href="silcheung.html">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="index.html" aria-current="page">첫 면</a></li><li><a href="cheje.html">표기 체계</a></li><li><a href="eoneo/es.html">스페인어</a></li><li><a href="eoneo/ru.html">러시아어</a></li><li><a href="eoneo/zh.html">중국어</a></li><li><a href="eoneo/vi.html">베트남어</a></li><li><a href="geulja.html">글자별 해설</a></li><li><a href="genjeon.html">원전 읽기</a></li><li><a href="yeoksa.html">역사</a></li><li><a href="bigyo.html">견주어 보기</a></li><li><a href="silcheung.html">실증</a></li><li><a href="guhyeon.html">구현</a></li><li><a href="munheon.html">주석 문헌 목록</a></li><li><a href="namun.html">남은 문제</a></li></ul></nav>
 </header>
 <div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
 <main>
@@ -123,6 +123,7 @@ footer p { margin:4px 0 }
 <th>낱말</th>
 <th>IPA</th>
 <th>2층 옛한글</th>
+<th>성조</th>
 <th>1층 현대 한글</th>
 <th>0층 외래어 표기법</th>
 </tr>
@@ -131,7 +132,8 @@ footer p { margin:4px 0 }
 <tr>
 <td>juez(스페인어, 판사)</td>
 <td>[ˈxweθ]</td>
-<td><b>훼</b><small>ᅊᅠ</small></td>
+<td><b>ᅘᅰ</b><small>ᅊᅠ</small></td>
+<td>—</td>
 <td><b>훼</b><small>ㅅ</small></td>
 <td>후에스</td>
 </tr>
@@ -139,6 +141,7 @@ footer p { margin:4px 0 }
 <td>sentencia(스페인어, 판결)</td>
 <td>[senˈtenθja]</td>
 <td>센<b>뗀</b>ᅊᅣ</td>
+<td>—</td>
 <td>센<b>뗀</b>샤</td>
 <td>센텐시아</td>
 </tr>
@@ -146,16 +149,25 @@ footer p { margin:4px 0 }
 <td>法院 fǎyuàn(중국어, 법원)</td>
 <td>[fa˨˩˦.ɥɛn˥˩]</td>
 <td>ᅗᅡ웬〮</td>
+<td>3 · 4</td>
 <td>파웬</td>
 <td>파위안</td>
 </tr>
+<tr>
+<td>khoản(베트남어, 조문의 항)</td>
+<td>/xwa̰ːn˧˩˧/</td>
+<td>ᅘᅪᆫ〮<small>ㆆ</small></td>
+<td>4:</td>
+<td>환</td>
+<td>코안</td>
+</tr>
 </tbody>
 </table></div>
-<p>juez 는 한 음절이고 θ 는 작은 ᅊ 으로 붙는다. sentencia 의 s 와 c 가 ㅅ 과 ᅊ 으로 갈린다. 法院 의 f 는 ᅗ, 4성은 방점 하나다. 이 기기에서 옛한글이 한 글자씩 조합되어 보이지 않으면 <a href="guhyeon.html">「구현」</a> 면의 지원표를 보고 1층 보기로 바꾼다.</p>
+<p>juez 는 한 음절이고 θ 는 작은 ᅊ 으로 붙는다. j [x] 는 판 3 부터 ᅘ 이다(판 2 는 ㅎ). sentencia 의 s 와 c 가 ㅅ 과 ᅊ 으로 갈린다. 法院 의 f 는 ᅗ, 4성은 방점 하나다. 1성도 방점 하나라서 「성조」 칸의 번호가 둘을 가른다. khoản 의 kh [x] 도 같은 ᅘ 이고, hỏi 성조는 방점 하나에 작은 ㆆ 을 붙여 적는다. 긴 a 는 2층에 적지 않고 「성조」 칸의 <code>4:</code> 가 알려 준다. 이 기기에서 옛한글이 한 글자씩 조합되어 보이지 않으면 <a href="guhyeon.html">「구현」</a> 면의 지원표를 보고 1층 보기로 바꾼다.</p>
 <h2 id="읽는-순서">읽는 순서</h2>
 <ol>
 <li><strong>표기 체계</strong> — 규칙 전체. 바쁘면 이 면과 「언어별 적용」만 읽어도 된다.</li>
-<li><strong>언어별 적용</strong> — 스페인어 · 러시아어 · 중국어. 규칙표, 표제어 표, 그 언어의 쟁점, 지표.</li>
+<li><strong>언어별 적용</strong> — 스페인어 · 러시아어 · 중국어 · 베트남어. 규칙표, 표제어 표, 그 언어의 쟁점, 지표. 베트남어는 판 3 에서 더했다.</li>
 <li><strong>글자별 해설</strong> — 꼴마다 아홉 칸. 원문 · 15세기 값 · 후대 쓰임 · 배정과 근거 등급 · 고려한 대안 · 반대 근거 · 남은 문제.</li>
 <li><strong>원전 읽기</strong> — 이 사이트가 기대는 한문·언해 원문 전부를 원문 · 독음 · 해석으로.</li>
 <li><strong>역사</strong>와 <strong>견주어 보기</strong> — 외국 소리를 한글로 적은 시도들과 다른 나라의 방식.</li>
@@ -163,14 +175,21 @@ footer p { margin:4px 0 }
 <li><strong>구현</strong> · <strong>주석 문헌 목록</strong> · <strong>남은 문제</strong> — 코드포인트와 글꼴, 문헌 해제, 실증 공백과 판 이력.</li>
 </ol>
 <h2 id="판-표시">판 표시</h2>
+<p><strong>판 3 — 2026. 11. 13.</strong> 베트남어를 더해 수록 언어가 넷이 되었다. 바뀐 것을 줄이면 이렇다.</p>
+<ul>
+<li>공통 x [x](스페인어 j · 러시아어 х · 중국어 h · 베트남어 kh)의 2층 글자를 ㅎ 에서 ᅘ 으로 바꾸었다. 베트남어의 kh 와 h 를 가르기 위해서다. 세 언어의 지표는 바뀌지 않았다.</li>
+<li>뒤 활음과 이중모음 둘째 요소의 글자를 작은 글자로 바꾸었다. 작은 글자는 음절이 아니라는 판 1 부터의 약속에 맞춘 것이다.</li>
+<li>판 2 가 쓰지 않던 ㆍ 를 베트남어 o [ɔ] 에 쓴다. 베트남어 성조는 방점과 음절 끝의 작은 ㆆ 으로 여섯 칸을 가른다. 표마다 2층 옆에 「성조」 칸을 두어, 2층이 적지 못하는 것(중국어 1성/4성, 베트남어 모음 길이 등)을 번호로 보인다.</li>
+<li>새 꼴은 더하지 않았다. 쓰는 꼴은 여전히 36개 안이고, 대응표(<code>data/mapping.csv</code>)는 93행이다.</li>
+</ul>
 <p><strong>판 2 — 2026. 10. 28.</strong> 판 1(2026. 10. 28., 한 면)의 정정 17건을 반영하고 중국어를 더했다. 무엇이 바뀌었는지는 <a href="namun.html">「남은 문제」</a> 면의 판 이력에 있다. 실험 중인 표기다. 규칙은 판을 올려 고쳐 나가고, 고친 내용은 판과 날짜를 적는다.</p>
 <p>본문은 CC BY-NC 4.0, 데이터(<code>data/</code>)는 CC BY 4.0, 변환 프로그램은 MIT 로 공개한다. 인용하는 법은 <a href="namun.html">「남은 문제」</a> 면에 있다. 원문과 다른 서술뿐 아니라 오탈자·풀이의 잘못·끊어진 링크 등 어떤 오류든 저장소 Issues 로 알려 주시기 바란다.</p>
 <h2 id="english-summary">English summary</h2>
-<p><em>Sejong's Letters for Foreign Sounds</em> is a research site on an auxiliary Korean-script transcription for learners of foreign languages. It uses only 36 letterforms that the Hunminjeongeum tradition actually produced (the Haerye's operations such as stacking ㅇ, doubling, and tone dots, plus the forms added by the Eonhae, the rhyme books and later transcription schemes) and that exist in Unicode. Every assignment of a letter to a sound carries a source layer (H/E/M/R), an evidence grade (original text, precedent, experiment, reinterpretation) and the counter-evidence in the same row. The standard Loanword Orthography is always shown alongside (layer 0); this scheme does not replace it. Three formal metrics (syllable-count match, minimal-pair preservation, reversibility) were pre-registered before computation; they measure properties of the notation, not learning outcomes. Version 2 covers Spanish, Russian and Mandarin. Text CC BY-NC 4.0, data CC BY 4.0, code MIT.</p>
+<p><em>Sejong's Letters for Foreign Sounds</em> is a research site on an auxiliary Korean-script transcription for learners of foreign languages. It uses only 36 letterforms that the Hunminjeongeum tradition actually produced (the Haerye's operations such as stacking ㅇ, doubling, and tone dots, plus the forms added by the Eonhae, the rhyme books and later transcription schemes) and that exist in Unicode. Every assignment of a letter to a sound carries a source layer (H/E/M/R), an evidence grade (original text, precedent, experiment, reinterpretation) and the counter-evidence in the same row. The standard Loanword Orthography is always shown alongside (layer 0); this scheme does not replace it. Three formal metrics (syllable-count match, minimal-pair preservation, reversibility) were pre-registered before computation; they measure properties of the notation, not learning outcomes. Version 3 covers Spanish, Russian, Mandarin and Vietnamese. It writes [x] with ᅘ instead of ㅎ in all four languages so that Vietnamese kh and h stay distinct, sets off-glides in small letters, and marks the six Vietnamese tones with tone dots plus a small letter ㆆ (yeorinhieuh) at the end of the syllable; a tone column next to the transcription carries what the letters leave out. No new letterforms were added. Text CC BY-NC 4.0, data CC BY 4.0, code MIT.</p>
 <nav class="prevnext"><span></span><a href="cheje.html">표기 체계 →</a></nav>
 </main>
 <footer>
-<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 3 · 2026. 11. 13.</p>
 <p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="assets/fonts/OFL.txt">사본</a>)</p>
 <p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
 </footer>

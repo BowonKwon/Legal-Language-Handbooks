@@ -1,7 +1,7 @@
-"""스페인어 한글 표기 — 「세종의 글자로 보는 외래어 표기」 판 2.
+"""스페인어 한글 표기 — 「세종의 글자로 보는 외래어 표기」 판 3.
 
 sejong(ipa) = render(ipa, layer=2): 음소 IPA → 2층(옛한글) 표기. layer=1 은 현대 한글 근사.
-  결과는 HTML 조각이다 — 강세 음절 <b>, 받침으로 나지 않는 자음 <small>.
+  결과는 HTML 조각이다 — 강세 음절 <b>, 받침으로 나지 않는 자음과 뒤 활음 <small>.
   배정 값은 ../data/mapping.csv, 음절 나누기·받침 조건 등 규칙은 ../data/rules.md 에 적었다.
 loan(word): 철자 → 국립국어원 「외래어 표기법」 표 2 + 제3장 제4절(에스파냐어의 표기) 1~6항(0층).
   규범에 실린 보기 60개를 모두 규범대로 적는 것을 시험으로 확인했다.
@@ -21,7 +21,7 @@ CODA = {"n": "ㄴ", "l": "ㄹ", "m": "ㅁ", "k": "ㄱ", "p": "ㅂ"}           # 
 MED = {("", "a"): "ㅏ", ("", "e"): "ㅔ", ("", "i"): "ㅣ", ("", "o"): "ㅗ", ("", "u"): "ㅜ",
        ("j", "a"): "ㅑ", ("j", "e"): "ㅖ", ("j", "o"): "ㅛ", ("j", "u"): "ㅠ", ("j", "i"): "ㅣ",
        ("w", "a"): "ㅘ", ("w", "e"): "ㅞ", ("w", "i"): "ㅟ", ("w", "o"): "ㅝ", ("w", "u"): "ㅜ"}
-_TAB = {}
+_TAB = HC.register_cache({})
 
 
 def _tables(layer):
@@ -127,8 +127,10 @@ def render(ipa, layer=2):
                 fin = "ㄹ"
             elif coda and coda[0] in CODA and not off:
                 fin = CODA[coda[0]]; coda = coda[1:]
-            body = compose(init, m, fin) + off
-            tail = "".join(f"<small>{SMALL.get(c, c)}</small>" for c in coda)
+            body = compose(init, m, fin)
+            if not HC.GLIDE_SMALL:                    # 판 2: 뒤 활음 보통 크기(굵게 안에 든다)
+                body += off; off = ""
+            tail = HC.glide(off) + "".join(f"<small>{SMALL.get(c, c)}</small>" for c in coda)   # 판 3(G-b): 뒤 활음은 작은 글자
             body = pre + (f"<b>{body}</b>" if s["stress"] else body) + tail
             html.append(body)
         words.append("".join(html))

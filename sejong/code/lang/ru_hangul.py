@@ -1,7 +1,7 @@
-"""러시아어 한글 표기 — 「세종의 글자로 보는 외래어 표기」 판 2.
+"""러시아어 한글 표기 — 「세종의 글자로 보는 외래어 표기」 판 3.
 
 sejong(ipa, layer=2): 음소 IPA → 2층(옛한글) 표기. layer=1 은 현대 한글 근사.
-  결과는 HTML 조각이다 — 강세 음절 <b>, 모음 없이 나는 자음 <small>.
+  결과는 HTML 조각이다 — 강세 음절 <b>, 모음 없이 나는 자음과 뒤 활음 <small>.
   배정 값은 ../data/mapping.csv, 경·연자음과 모음의 결합 등 규칙은 ../data/rules.md 에 적었다.
 loan(word): 키릴 철자 → 국립국어원 「외래어 표기법」 표 19 + 제3장 제21절(러시아어의 표기) 1~10항(0층).
   규범에 실린 보기 121개를 모두 규범대로 적는 것을 시험으로 확인했다. ъ 는 규범에 규정이 없어서
@@ -20,12 +20,12 @@ import hangul_core as HC  # noqa: E402  — 배정 값은 mapping.csv 에서(202
 MOD_I, MOD_M, MOD_F = HC.MOD_I, HC.MOD_M, HC.MOD_F
 FILLER = HC.FILLER_V
 # 엔진이 읽는 분절음 목록과 mapping.csv 에 행이 없을 때의 값(괄호 안 별칭은 mapping 의 어느 행을 따르는지)
-BASE = {"p": "ㅃ", "b": "ㅂ", "t": "ㄸ", "d": "ㄷ", "k": "ㄲ", "ɡ": "ㄱ", "g": "ㄱ", "s": "ㅅ", "x": "ㅎ", "ɣ": "ㅎ",
+BASE = {"p": "ㅃ", "b": "ㅂ", "t": "ㄸ", "d": "ㄷ", "k": "ㄲ", "ɡ": "ㄱ", "g": "ㄱ", "s": "ㅅ", "x": "ㅎ", "ɣ": "ㅎ",   # ɣ: 판 2 값. 판 3 대응표에는 공통 ɣ 행(ㄱ)이 있어 그것을 따른다
         "m": "ㅁ", "n": "ㄴ", "ɲ": "ㄴ", "ɫ": "ㄹ", "l": "ㄹ", "j": "ㅇ",
         "t͡ɕ": "ㅉ", "ɕ": "ㅆ",
         "f": "ᅗ", "v": "ᄫ", "z": "ᅀ", "ʑ": "ᅀ", "d͡z": "ᅀ", "d͡ʑ": "ᅀ", "ʂ": "ᄾ", "ʐ": "ᄿ", "d͡ʐ": "ᄿ",
         "t͡s": "ᅎ", "r": "ᄙ", "ɾ": "ᄙ"}
-ALIAS = {"g": "ɡ", "ɣ": "x", "ʑ": "z", "d͡z": "z", "d͡ʑ": "z", "d͡ʐ": "ʐ", "ɾ": "r"}
+ALIAS = {"g": "ɡ", "ɣ": "x", "ʑ": "z", "d͡z": "z", "d͡ʑ": "z", "d͡ʐ": "ʐ", "ɾ": "r"}   # ɣ→x 는 대응표에 ɣ 행이 없을 때만(판 2)
 CONS = sorted(BASE, key=len, reverse=True)
 ALWAYS_SOFT = {"ɕ", "ʑ", "t͡ɕ", "d͡ʑ"}           # ч·щ — 뒤 모음을 ㅑ계열로(ㅉ 은 이미 구개음이라 예외)
 NO_Y = {"t͡ɕ", "ʂ", "ʐ", "d͡ʐ", "t͡s"}            # ㅑ계열로 바꾸지 않는다
@@ -33,7 +33,7 @@ V_BASE = {"a": "ㅏ", "ɐ": "ㅏ", "ə": "ㅓ", "ɪ": "ㅣ", "i": "ㅣ", "ɨ": "
           "u": "ㅜ", "ʊ": "ㅜ", "ʉ": "ㅜ", "æ": "ㅐ"}
 V = V_BASE                                        # _tokens 가 모음 판정에 쓴다(값은 _tables 에서)
 Y = {"ㅏ": "ㅑ", "ㅓ": "ㅕ", "ㅗ": "ㅛ", "ㅜ": "ㅠ", "ㅔ": "ㅖ", "ㅐ": "ㅒ", "ㅣ": "ㅣ", "ㅡ": "ㅣ"}
-_TAB = {}
+_TAB = HC.register_cache({})
 
 
 def _tables(layer):
@@ -43,6 +43,8 @@ def _tables(layer):
         on = {}
         for c, v in BASE.items():
             k = ALIAS.get(c, c)
+            if c == "ɣ" and G.get("ɣ"):               # 판 3: 공통 ɣ 행을 따른다(별칭 ɣ→x 를 쓰지 않는다)
+                k = "ɣ"
             on[c] = G.get(k) or G.get(k, "어두") or v
         vw = {c: (G.get(c) or v) for c, v in V_BASE.items()}
         _TAB[layer] = (on, vw)
@@ -99,7 +101,7 @@ def sejong(ipa, layer=2):
         if x[0] == "J":
             if nx and nx[0] == "V":
                 out.append({"k": "syl", "i": "ㅇ", "m": Y[V[nx[1]]], "f": "", "st": nx[2]}); k += 2; continue
-            out.append({"k": "syl", "i": "ㅇ", "m": "ㅣ", "f": "", "st": False}); k += 1; continue   # 뒤 활음 ɪ̯ → 이
+            out.append({"k": "syl", "i": "ㅇ", "m": "ㅣ", "f": "", "st": False, "gl": True}); k += 1; continue   # 뒤 활음 ɪ̯ → 이(판 3 은 작은 글자)
         c, soft = x[1], x[2]
         prev = out[-1] if out and out[-1]["k"] == "syl" and not out[-1]["f"] else None
         if nx and nx[0] == "V":
@@ -120,6 +122,8 @@ def sejong(ipa, layer=2):
             html.append(f"<small>{o['s']}</small>")
         else:
             s = _compose(o["i"], o["m"], o["f"])
+            if o.get("gl"):
+                s = HC.glide(s)
             html.append(f"<b>{s}</b>" if o["st"] else s)
     return "".join(html).strip()
 

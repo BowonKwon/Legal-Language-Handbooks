@@ -1,10 +1,10 @@
-"""중국어 한글 표기 둘 — 「세종의 글자로 보는 외래어 표기」 판 2(2026-10-28).
+"""중국어 한글 표기 — 「세종의 글자로 보는 외래어 표기」 판 3.
 
-loan(pinyin): 숫자 병음 → 국립국어원 「외래어 표기법」 표 5(중국어의 발음 부호와 한글 대조표) + 제3장 제7절
-  (제1항 성조는 구별하지 않는다, 제2항 ㅈ·ㅉ·ㅊ 뒤 ㅑㅖㅛㅠ → ㅏㅔㅗㅜ). 원문: korean.go.kr/kornorms 「외래어 표기법」(2026-10-28 열람).
-sejong(ipa, layer=2): zh_ipa.to_ipa() 형식 IPA → 세종표기. 성모는 mapping.csv(공통 * + zh)에서,
-  운모는 아래 FIN 표, 성조는 방점 Z-b(1성 1점 · 2성 2점 · 3성 무점 · 4성 1점 가안 · 경성 무점, 3성+3성은 앞 글자 2점 —
-  「번역노걸대박통사범례」 연속 상성 규칙의 표층 값). 1층은 현대 자모만 쓰고 방점을 적지 않는다.
+loan(pinyin): 숫자 병음 → 국립국어원 「외래어 표기법」 표 5(중국어의 발음 부호와 한글 대조표) + 제3장 제7절(0층).
+sejong(ipa, layer=2, tone=None): zh_ipa.to_ipa() 형식 IPA → 2층(옛한글) 표기. layer=1 은 현대 한글 근사(성조 없음).
+  성모는 ../data/mapping.csv, 운모는 아래 FIN 표. 성조는 방점(1성 1점 · 2성 2점 · 3성 무점 · 4성 1점 · 경성 무점,
+  3성 + 3성은 앞 글자 2점). tone 인자의 다른 변형은 지표 비교용이다(../data/rules.md 3-3).
+tone_side(ipa): 표의 「성조」 칸 — 음절마다 사전형 성조 번호. 2층 문자열의 일부가 아니다.
 """
 import pathlib
 import re
@@ -97,7 +97,16 @@ FIN = {"a": ("ㅏ", "", ""), "o": ("ㅗ", "", ""), "wo": ("ㅝ", "", ""), "ɤ": 
        "ɻ": ("ㅡ", "", "")}
 TONES = {"˥": "1", "˧˥": "2", "˨˩˦": "3", "˥˩": "4", "": "5"}
 DOT = {"1": HC.DOT1, "2": HC.DOT2, "3": "", "4": HC.DOT1, "5": ""}
-_TAB = {}
+# 성조 표기 변형 — 기본은 Zb(조치형). 나머지는 지표 비교용. 값 = (방점 표, 3성+3성 변조 여부, 음절 끝 작은 낱자, 음절 끝 태그)
+TONE_DEFAULT = "Zb"
+TONE_VARIANTS = {
+    "Za": ({"1": "", "2": "", "3": HC.DOT2, "4": HC.DOT1, "5": ""}, False, {}, {}),      # 조류형(비교용)
+    "Zb": (DOT, True, {}, {}),                                                            # 조치형(판 2)
+    "Zc": (DOT, True, {"4": "ㆆ"}, {}),                                                   # Zb + 4성에 작은 ㆆ
+    "Zb4": (DOT, True, {}, {"4": "[4]"}),                                                 # Zb + 4성 뒤 [4]
+    "Zn": ({}, False, {}, {"1": "[1]", "2": "[2]", "3": "[3]", "4": "[4]", "5": "[0]"}),  # 방점 없이 번호(사전형)
+}
+_TAB = HC.register_cache({})
 
 
 def _inits(layer):
@@ -114,26 +123,46 @@ def _split(syl):
     return ini, body[len(ini):], TONES.get(tone, "5")
 
 
-def sejong(ipa, layer=2):
-    """'fa˨˩˦.ly˥˩' → '파뤼〮'(2층, 방점은 음절 뒤 결합 부호로 저장 — 표시는 글꼴이 왼쪽에)."""
+def sejong(ipa, layer=2, tone=None):
+    """'fa˨˩˦.ly˥˩' → '파뤼〮'(2층, 방점은 음절 뒤 결합 부호로 저장 — 표시는 글꼴이 왼쪽에).
+    음절 하나의 순서: 초 + 중 + 종 + 방점 + 덧붙는 글자 + (작은 낱자) + (태그)."""
     I = _inits(layer)
+    dots, sandhi, tailc, tag = TONE_VARIANTS[tone or TONE_DEFAULT]
     words = []
     for w in str(ipa).split():
         sy = [_split(s) for s in w.split(".") if s]
         tones = [t for _, _, t in sy]
-        for k in range(len(tones) - 1):         # 3성+3성 → 앞 글자 2점(표층 값)
-            if tones[k] == "3" and tones[k + 1] == "3":
-                tones[k] = "2"
+        marks = list(tones)
+        if sandhi:
+            for k in range(len(marks) - 1):         # 3성+3성 → 앞 글자 2점(표층 값)
+                if marks[k] == "3" and marks[k + 1] == "3":
+                    marks[k] = "2"
         out = []
-        for (ini, fin, _), t in zip(sy, tones):
+        for (ini, fin, _), t0, t in zip(sy, tones, marks):
             m, f, add = FIN[fin]
             i = I[ini] if ini else "ㅇ"
             body = HC.compose(i, m, f)
             if layer == 2:
-                body += DOT[t]
-            out.append(body + add)
+                body += dots.get(t, "")
+            body += HC.glide(add)
+            if layer == 2:
+                if tailc.get(t0):
+                    body += f"<small>{tailc[t0]}</small>"
+                body += tag.get(t0, "")
+            out.append(body)
         words.append("".join(out))
     return " ".join(words)
+
+
+def tone_side(ipa):
+    """옆 칸 — 음절마다 사전형 성조 번호(1~4, 경성 0). 'fa˨˩˦.ly˥˩' → '3 · 4'. 2층은 1성과 4성이 같은 점이라 이 칸과 병음이 가른다."""
+    out = []
+    for w in str(ipa).split():
+        for syl in w.split("."):
+            if syl:
+                t = _split(syl)[2]
+                out.append("0" if t == "5" else t)
+    return " · ".join(out)
 
 
 if __name__ == "__main__":

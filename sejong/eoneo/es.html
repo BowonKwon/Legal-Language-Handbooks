@@ -26,7 +26,7 @@ header.site { padding:28px 0 14px; border-bottom:1px solid var(--line) }
 .site-title a { color:var(--ink); text-decoration:none }
 nav.pages ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:4px 14px; font-size:.9rem }
 nav.pages a { text-decoration:none } nav.pages a[aria-current] { color:var(--ink); font-weight:700 }
-.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }   /* 2026-10-29 소유자: 스크롤해도 1층 보기 단추가 보이게 — 헤더 밖, 위에 고정 */
+.tools { position:sticky; top:0; z-index:5; background:var(--paper); margin:0; padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.85rem; color:var(--muted) }
 @media print { .tools { position:static } }
 #l1btn { font:inherit; font-size:.85rem; color:var(--ink); background:var(--sheet); border:1px solid var(--line); border-radius:4px; padding:3px 10px; cursor:pointer }
 #l1btn[aria-pressed="true"] { border-color:var(--c); color:var(--c) }
@@ -75,7 +75,7 @@ footer p { margin:4px 0 }
 <header class="site">
 <p class="back"><a href="../../">← 법률 외국어 자습서</a></p>
 <p class="site-title"><a href="../index.html">세종의 글자로 보는 외래어 표기</a></p>
-<nav class="pages" aria-label="면 목록"><ul><li><a href="../index.html">첫 면</a></li><li><a href="../cheje.html">표기 체계</a></li><li><a href="../eoneo/es.html" aria-current="page">스페인어</a></li><li><a href="../eoneo/ru.html">러시아어</a></li><li><a href="../eoneo/zh.html">중국어</a></li><li><a href="../geulja.html">글자별 해설</a></li><li><a href="../genjeon.html">원전 읽기</a></li><li><a href="../yeoksa.html">역사</a></li><li><a href="../bigyo.html">견주어 보기</a></li><li><a href="../silcheung.html">실증</a></li><li><a href="../guhyeon.html">구현</a></li><li><a href="../munheon.html">주석 문헌 목록</a></li><li><a href="../namun.html">남은 문제</a></li></ul></nav>
+<nav class="pages" aria-label="면 목록"><ul><li><a href="../index.html">첫 면</a></li><li><a href="../cheje.html">표기 체계</a></li><li><a href="../eoneo/es.html" aria-current="page">스페인어</a></li><li><a href="../eoneo/ru.html">러시아어</a></li><li><a href="../eoneo/zh.html">중국어</a></li><li><a href="../eoneo/vi.html">베트남어</a></li><li><a href="../geulja.html">글자별 해설</a></li><li><a href="../genjeon.html">원전 읽기</a></li><li><a href="../yeoksa.html">역사</a></li><li><a href="../bigyo.html">견주어 보기</a></li><li><a href="../silcheung.html">실증</a></li><li><a href="../guhyeon.html">구현</a></li><li><a href="../munheon.html">주석 문헌 목록</a></li><li><a href="../namun.html">남은 문제</a></li></ul></nav>
 </header>
 <div class="tools"><button id="l1btn" type="button" aria-pressed="false">1층 보기</button><span>옛한글이 흩어져 보이면 눌러 현대 한글 근사(1층)로 본다. 표의 2층 칸이 숨는다.</span></div>
 <main>
@@ -84,7 +84,7 @@ footer p { margin:4px 0 }
 <h2 id="1-규칙표">1. 규칙표</h2>
 <p>『En nombre del Rey — 법전과 법정의 스페인어』(<a href="../../en-nombre-del-rey/index.html">대외판 1.0</a>, 2026. 10. 28.)의 표제어에 붙이는 표기다. 책의 주 표기는 IPA 이고, 이 표기는 그 옆에 작게 붙는 보조다. 표기가 어긋나면 IPA 가 맞다. IPA 는 스페인 중부·북부의 표준 발음(c·z 를 θ 로 내는 발음)을 따른다.</p>
 <p>아래 규칙표는 책 전체의 표제어 IPA 에 실제로 나온 소리만 담았다(379개 IPA 문자열에서 센 것). 배정 값은 <a href="../cheje.html">「표기 체계」</a> 면의 자질 대응표와 같은 파일에서 나온다. 근거 칸의 서지는 「주석 문헌 목록」에 있고, 「확인 중」이 붙은 문헌은 서지만 확인한 것이다.</p>
-<p>판 1(2026. 10. 28. 첫 판)에서 바뀐 것은 넷이다. θ 의 글자를 치두음 시옷 ᄼ 에서 ᅊ 으로 바꿨고, ch 를 ㅊ 에서 ㅉ 으로 바꿨으며(기본안), ɾ 에 붙였던 해례 근거 문장을 고쳤고, p t k 와 ᄙ 에 반대 근거와 실증 공백 표시를 달았다. 3절에 하나씩 적었다.</p>
+<p>판 1(2026. 10. 28. 첫 판)에서 바뀐 것은 넷이다. θ 의 글자를 치두음 시옷 ᄼ 에서 ᅊ 으로 바꿨고, ch 를 ㅊ 에서 ㅉ 으로 바꿨으며(기본안), ɾ 에 붙였던 해례 근거 문장을 고쳤고, p t k 와 ᄙ 에 반대 근거와 실증 공백 표시를 달았다. 3절에 하나씩 적었다. 판 3 에서는 두 가지가 더 바뀌었다. j · g 의 [x]를 ㅎ 에서 ᅘ 으로 바꿨고, 모음 뒤 활음의 글자(이 · 우)를 보통 크기에서 작은 글자로 바꿨다. 둘 다 이 언어가 아니라 베트남어를 더하면서 고친 공통 규칙이다. 역시 3절에 적었다.</p>
 <div class="tbl"><table>
 <thead>
 <tr>
@@ -201,12 +201,12 @@ footer p { margin:4px 0 }
 </tr>
 <tr>
 <td>x</td>
+<td>ᅘ</td>
 <td>ㅎ</td>
-<td>ㅎ</td>
-<td>— · H</td>
-<td>—</td>
-<td>—</td>
-<td>반대 근거 찾지 못함</td>
+<td>O2 · H</td>
+<td>재해석</td>
+<td>『훈민정음』 해례본</td>
+<td>『훈민정음』 언해본</td>
 <td>확정</td>
 </tr>
 <tr>
@@ -281,8 +281,8 @@ footer p { margin:4px 0 }
 </tr>
 <tr>
 <td>ˈ</td>
-<td>굵게</td>
-<td>굵게</td>
+<td><b></td>
+<td><b></td>
 <td>— · —</td>
 <td>—</td>
 <td>Hayata 1976 · Hayes-Harb &amp; Barrios 2021</td>
@@ -351,7 +351,7 @@ footer p { margin:4px 0 }
 </tr>
 </tbody>
 </table></div>
-<p>표에 없는 규칙 몇 가지. j · w 와 모음은 이중모음 글자 하나로 적는다(juez 는 한 음절이다). y · ll [ʝ]는 뒤 모음과 함께 ㅑ ㅖ ㅛ ㅠ 로 적는다(yeísmo 를 따라 ʎ 도 같다). 받침에는 n l m k p 만 둔다. 모음 사이 l 은 받침 ㄹ 과 첫소리 ㄹ 로 나눠 적는다(dolo → 돌로). 그 밖에 받침으로 나지 않는 자음은 작은 낱자로 적는다. 강세 음절은 굵게 적는다.</p>
+<p>표에 없는 규칙 몇 가지. j · w 와 모음은 이중모음 글자 하나로 적는다(juez 는 한 음절이다). 모음 뒤의 j · w 는 작은 덧글자 「이」 · 「우」로 적는다(ley → <b>레</b><small>이</small>). y · ll [ʝ]는 뒤 모음과 함께 ㅑ ㅖ ㅛ ㅠ 로 적는다(yeísmo 를 따라 ʎ 도 같다). 받침에는 n l m k p 만 둔다. 모음 사이 l 은 받침 ㄹ 과 첫소리 ㄹ 로 나눠 적는다(dolo → 돌로). 그 밖에 받침으로 나지 않는 자음은 작은 낱자로 적는다. 강세 음절은 굵게 적는다.</p>
 <p>이음은 표제어에 적지 않는다. 책의 IPA 가 음소 표기라 이음이 나오지 않기 때문이다. 1장에서만 모음 사이 b · v 의 [β]를 ᄫ 로, d 의 [ð]를 ᅂ 로 보인다. [ɣ]에는 맞는 글자가 없어 ㄱ 그대로 둔다.</p>
 <h2 id="2-표제어-표">2. 표제어 표</h2>
 <p>책의 1장(소리와 철자)과 6장(계약)의 표제어 가운데 IPA 가 있는 것 전부, 36개다. 손으로 고친 칸은 없다. 외래어 표기법 칸은 국립국어원 「외래어 표기법」 표 2와 제3장 제4절(에스파냐어의 표기)을 철자에 적용한 것이고, 같은 프로그램이 규범에 실린 보기 60개를 모두 규범대로 적는 것을 시험으로 확인했다. 이 36개는 <a href="../silcheung.html">「실증」</a> 면의 지표를 재는 기준 표본과 같다.</p>
@@ -371,7 +371,7 @@ footer p { margin:4px 0 }
 <td>juez</td>
 <td>판사</td>
 <td>[ˈxweθ]</td>
-<td><b>훼</b><small>ᅊᅠ</small></td>
+<td><b>ᅘᅰ</b><small>ᅊᅠ</small></td>
 <td><b>훼</b><small>ㅅ</small></td>
 <td>후에스</td>
 </tr>
@@ -427,7 +427,7 @@ footer p { margin:4px 0 }
 <td>régimen</td>
 <td>제도, 체제</td>
 <td>[ˈreximen]</td>
-<td><b>ᄙᅦ</b>히멘</td>
+<td><b>ᄙᅦ</b>ᅘᅵ멘</td>
 <td><b>레</b>히멘</td>
 <td>레히멘</td>
 </tr>
@@ -435,7 +435,7 @@ footer p { margin:4px 0 }
 <td>cónyuge</td>
 <td>배우자</td>
 <td>[ˈkoɲʝuxe]</td>
-<td><b>꼬</b><small>ㄴ</small>유헤</td>
+<td><b>꼬</b><small>ㄴ</small>유ᅘᅦ</td>
 <td><b>꼬</b><small>ㄴ</small>유헤</td>
 <td>코뉴헤</td>
 </tr>
@@ -443,8 +443,8 @@ footer p { margin:4px 0 }
 <td>desahucio</td>
 <td>명도(임차인 등을 내보내는 일)</td>
 <td>[desˈawθjo]</td>
-<td>데<b>사우</b>ᅊᅭ</td>
-<td>데<b>사우</b>쇼</td>
+<td>데<b>사</b><small>우</small>ᅊᅭ</td>
+<td>데<b>사</b><small>우</small>쇼</td>
 <td>데사우시오</td>
 </tr>
 <tr>
@@ -467,23 +467,23 @@ footer p { margin:4px 0 }
 <td>cláusula</td>
 <td>조항(계약·약관의)</td>
 <td>[ˈklawsula]</td>
-<td><small>ㄲ</small><b>라우</b>술라</td>
-<td><small>ㄲ</small><b>라우</b>술라</td>
+<td><small>ㄲ</small><b>라</b><small>우</small>술라</td>
+<td><small>ㄲ</small><b>라</b><small>우</small>술라</td>
 <td>클라우술라</td>
 </tr>
 <tr>
 <td>auxilio</td>
 <td>도움; 사법 공조(auxilio judicial)</td>
 <td>[awkˈsiljo]</td>
-<td>아우<small>ㄲ</small><b>실</b>료</td>
-<td>아우<small>ㄲ</small><b>실</b>료</td>
+<td>아<small>우</small><small>ㄲ</small><b>실</b>료</td>
+<td>아<small>우</small><small>ㄲ</small><b>실</b>료</td>
 <td>아욱실리오</td>
 </tr>
 <tr>
 <td>jurisprudencia</td>
 <td>판례(대법원이 되풀이해 세운 법리)</td>
 <td>[xuɾispɾuˈdenθja]</td>
-<td>후리<small>ㅅ</small><small>ㅃ</small>루<b>덴</b>ᅊᅣ</td>
+<td>ᅘᅮ리<small>ㅅ</small><small>ㅃ</small>루<b>덴</b>ᅊᅣ</td>
 <td>후리<small>ㅅ</small><small>ㅃ</small>루<b>덴</b>샤</td>
 <td>후리스프루덴시아</td>
 </tr>
@@ -523,8 +523,8 @@ footer p { margin:4px 0 }
 <td>fuerza de ley</td>
 <td>법률의 효력(계약의 구속력)</td>
 <td>[ˈfweɾθa de ˈlej]</td>
-<td><b>ᅗᅰ</b><small>ㄹ</small>ᅊᅡ 데 <b>레이</b></td>
-<td><b>풰</b><small>ㄹ</small>사 데 <b>레이</b></td>
+<td><b>ᅗᅰ</b><small>ㄹ</small>ᅊᅡ 데 <b>레</b><small>이</small></td>
+<td><b>풰</b><small>ㄹ</small>사 데 <b>레</b><small>이</small></td>
 <td>푸에르사 데 레이</td>
 </tr>
 <tr>
@@ -619,7 +619,7 @@ footer p { margin:4px 0 }
 <td>daños y perjuicios</td>
 <td>손해(배상할 손해)</td>
 <td>[ˈdaɲos i peɾˈxwiθjos]</td>
-<td><b>다</b>뇨<small>ㅅ</small> 이 뻬<small>ㄹ</small><b>휘</b>ᅊᅭ<small>ㅅ</small></td>
+<td><b>다</b>뇨<small>ㅅ</small> 이 뻬<small>ㄹ</small><b>ᅘᅱ</b>ᅊᅭ<small>ㅅ</small></td>
 <td><b>다</b>뇨<small>ㅅ</small> 이 뻬<small>ㄹ</small><b>휘</b>쇼<small>ㅅ</small></td>
 <td>다뇨스 이 페르후이시오스</td>
 </tr>
@@ -627,7 +627,7 @@ footer p { margin:4px 0 }
 <td>culpa o negligencia</td>
 <td>과실</td>
 <td>[ˈkulpa o neɡliˈxenθja]</td>
-<td><b>꿀</b>빠 오 네<small>ㄱ</small>리<b>헨</b>ᅊᅣ</td>
+<td><b>꿀</b>빠 오 네<small>ㄱ</small>리<b>ᅘᅦᆫ</b>ᅊᅣ</td>
 <td><b>꿀</b>빠 오 네<small>ㄱ</small>리<b>헨</b>샤</td>
 <td>쿨파 오 네글리헨시아</td>
 </tr>
@@ -660,11 +660,12 @@ footer p { margin:4px 0 }
 <h2 id="3-이-언어의-쟁점">3. 이 언어의 쟁점</h2>
 <p><strong>θ 의 글자를 바꿨다.</strong> 판 1은 언해본이 치두음을 「혀끝이 윗니 머리에 닿는다」고 설명한 것을 조음 위치로 읽어 치두음 시옷 ᄼ 을 θ 에 썼다. 그러나 ᄼ 은 역훈에서 心母를 적었고(이돈주 2002: 39), 心母는 치찰음으로 재구된다(재구 원저 확인 중). 치찰음이 아닌 θ 에 치찰음 글자를 주면 원전 값과 반대 방향이 된다. 판 2는 ㅇ 을 앞에 붙인 ᅊ(U+114A)을 쓴다. 꼴은 『아학편』(1908)의 방식이고, 「ㅇ 을 붙인 글자는 그 글자 자리에서 이에 대고 새는 소리」라는 약속 하나로 f(ᅗ) · v(ᄫ) · θ(ᅊ) · ð(ᅂ) 넷을 덮는다. 『아학편』 자체는 θ 에 ᅂ 를 썼으므로 ᅂ 의 값은 선례와 반대가 된다. 이 점과 고려한 다른 후보(ꥢ ㄷㅅ, ᄼ, ㅌ 연서)는 「글자별 해설」 ᅊ 항목에 있다. ᄼ 은 역훈 자리로 돌려 중국어 s 에 쓴다.</p>
 <p><strong>ᄙ 은 떠는 r 이다 — 선례와 반대다.</strong> ㄹ 을 거듭 쓴 꼴을 외국 소리에 쓴 앞선 문헌은 모두 [l]에 썼다. 『아학편』(1908)이 이웃 음절에 걸친 ㄹㄹ 로 그렇고, 1948년 「들온말 적는 법」이 그렇고, 지금의 외래어 표기법도 모음 사이 [l]을 ㄹㄹ 로 적는다. 이 표기는 모음 사이 [l]을 그대로 ㄹㄹ 로 적되 ᄙ 꼴은 떠는 r 에 쓴다. 떠는 r 에 줄 글자가 닫힌 목록 안에 따로 없기 때문이다. 해례의 ᄛ 은 「혀가 위턱(입천장)에 잠깐 붙는다」는 설명을 이 면이 탄음 ɾ 쪽으로 읽으므로 쓰지 않는다. 선례대로 ᄙ 을 l 에 주면 pero 와 perro, caro 와 carro 가 같아진다. 두 안을 지표로 비교한 결과(<a href="../silcheung.html">「실증」</a> 면 C2), r/ɾ · r/l · ɾ/l 세 유형의 대립 보존은 이 표기(안 A)가 53쌍 중 40(0.755), 선례안(안 B①)이 36(0.679)이었다. 선례를 아는 독자가 ᄙ 을 l 로 읽을 위험은 남는다.</p>
-<p><strong>p t k 를 된소리로 적는 것은 실험 없이 둔 칸이다.</strong> 스페인어 p t k 는 숨을 거의 내지 않는 무기음이다. 한국어 화자 25명이 프랑스어 [p t k]를 경음 쪽으로 범주화했다는 실험(Ooigawa &amp; Shinohara 2009)과 1969년 문교부 미공표안·북한 표기법·국어연구소(1986)의 「된소리에 가깝다」는 서술이 받친다. 그러나 스페인어 자극으로 한 실험은 없다. 같은 실험에서 일본어 어두 [p t k]는 격음으로 들렸고, 『번역노걸대』의 각자병서는 유성음(전탁)을 적었으며(강식진 1999: 42), 1948년 안과 『아학편』이 된소리 쪽에 배정한 것은 유성 b d g 였다. 이 칸은 「한국어 화자가 스페인어 p t k 를 된소리로 듣는다는 실험이 아직 없다. 프랑스어 실험과 규범사의 선례에 기대어 두었다」는 표지를 달고 둔다.</p>
+<p><strong>p t k 를 된소리로 적는 것은 실험 없이 둔 칸이다.</strong> 스페인어 p t k 는 숨을 거의 내지 않는 무기음이다. 한국어 화자 25명이 프랑스어 [p t k]를 경음 쪽으로 범주화했다는 실험(Ooigawa &amp; Shinohara 2009)과 1969년 문교부 미공표안·북한 표기법·국어연구소(1986)의 「된소리에 가깝다」는 서술이 받친다. 그러나 스페인어 자극으로 한 실험은 찾지 못했다. 같은 실험에서 일본어 어두 [p t k]는 격음으로 들렸고, 『번역노걸대』의 각자병서는 유성음(전탁)을 적었으며(강식진 1999: 42), 1948년 안과 『아학편』이 된소리 쪽에 배정한 것은 유성 b d g 였다. 이 칸은 「한국어 화자가 스페인어 p t k 를 된소리로 듣는다는 실험이 아직 없다. 프랑스어 실험과 규범사의 선례에 기대어 두었다」는 표지를 달고 둔다.</p>
 <p><strong>ch 는 ㅉ 이다(기본안).</strong> 판 1은 ㅊ 이었다. p t k 를 무기음이라 된소리로 적으면서 무기 파찰음 tʃ 만 거센소리로 적으면 원리가 어긋난다. 같은 원리로 ㅉ 을 쓴다. 이 칸은 「권고」 상태로 두어 다음 판에서 되돌릴 수 있게 했다.</p>
 <p><strong>ɾ 는 ㄹ 이다 — 근거 문장을 고쳤다.</strong> 판 1은 「해례의 반설경음 설명과도 같다」고 썼다. 해례가 그 설명을 붙인 글자는 ㄹ 이 아니라 ㅇ 을 이어 쓴 ᄛ 이다. 판 2는 「해례는 혀가 입천장에 잠깐 붙는 반설경음을 ᄛ 으로 적을 수 있다고 했다. 그 묘사는 탄음과 어긋나지 않는다. 이 표기는 현대 한국어 모음 사이 ㄹ 을 탄음으로 보고 ㄹ 을 쓴다」로 적는다.</p>
 <p><strong>자음 뒤의 ɾ 와 l 은 갈리지 않는다.</strong> tr · bl 같은 자음 무리에서 ɾ 와 l 이 모두 첫소리 ㄹ 이 된다. 지표에서 ɾ/l 대립 보존이 0.62 로 나온 까닭이다(<a href="../silcheung.html">「실증」</a> 면). 2층도 1층과 같다. 판 2에서는 고치지 않고 「남은 문제」에 올렸다.</p>
-<p><strong>뒤에 오는 활음은 음절 수를 늘린다.</strong> desahucio [desˈawθjo]의 au 는 「사우」 두 글자가 되어 원어 세 음절이 표기 네 음절이 된다. 음절 수 일치율 0.889 의 나머지가 대부분 이 경우다. 작은 글자로 바꾸는 것은 규칙 변경이라 판 3 과제로 남겼다.</p>
+<p><strong>j · g 의 [x]는 ᅘ 이다 — 판 3 에서 바꿨다.</strong> 판 2 는 ㅎ 이었다. 스페인어에는 [h] 가 없어 ㅎ 으로 적어도 대립이 사라지지 않았다. 판 3 이 베트남어를 더하자 kh [x] 와 h [h] 가 뜻을 가르는 언어가 생겼고, 공통 x 를 ᅘ 으로 옮겨 둘을 갈랐다(<a href="../cheje.html">「표기 체계」</a> 면 4절 규칙 1). 그래서 juez 는 <b>ᅘᅰ</b><small>ᅊᅠ</small>, régimen 은 <b>ᄙᅦ</b>ᅘᅵ멘 이 되었다. 근거는 제자해가 ㅎ 을 거듭 쓰는 까닭을 「ㅎ 은 ㆆ 보다 얕아 엉긴다」고 설명한 대목을 목 안을 좁혀 비비는 소리로 읽은 재해석이다. 반대 근거도 같은 무게로 적는다. 15세기 문헌의 ᅘ 은 匣母(전탁) 자리이고 운학의 전탁은 유성 계열로 재구되는데(확인 중), [x] 는 무성이다(<a href="../cheje.html">「표기 체계」</a> 면 1절 각자병서 표). 1층은 ㅎ 그대로이고 0층(후에스)도 바뀌지 않았다. 지표도 바뀌지 않았다(4절).</p>
+<p><strong>뒤에 오는 활음은 작은 글자다 — 판 3 에서 바꿨다.</strong> 판 2 는 desahucio [desˈawθjo]의 au 를 「사우」 두 글자로 적어 원어 세 음절이 표기 네 음절이 되었고, 음절 수 일치율 0.889 의 나머지가 대부분 이 경우였다. 판 3 은 「우」를 작은 글자로 쓴다(데<b>사</b><small>우</small>ᅊᅭ). 근거는 판 1 부터의 약속 「작은 글자는 음절이 아니다」다. 음절 수 일치율은 1.000 이 되지만, 작은 글자를 세지 않으니 구성상 오르는 값이라 근거로 쓰지 않는다.</p>
 <h2 id="4-지표">4. 지표</h2>
 <p><a href="../silcheung.html">「실증」</a> 면에 사전 등록한 형식 지표 셋의 스페인어 값이다. 한국어 화자가 이 표기로 더 잘 듣거나 말하는지는 재지 않았다. 표본은 2절의 표제어 전부이고, 구간은 95% 부트스트랩 백분위(2,000회)다.</p>
 <div class="tbl"><table>
@@ -683,6 +684,28 @@ footer p { margin:4px 0 }
 </thead>
 <tbody>
 <tr>
+<td>2층 옛한글(판 3)</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+<td>0.942 [0.910, 0.973] (n=223)</td>
+<td>1.0</td>
+<td>0.806 [0.667, 0.917] (n=36)</td>
+<td>0.0206</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1층 현대 한글(판 3)</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+<td>0.740 [0.682, 0.798] (n=223)</td>
+<td>1.0</td>
+<td>0.306 [0.167, 0.444] (n=36)</td>
+<td>0.0914</td>
+<td>1.000 [1.000, 1.000] (n=36)</td>
+<td>0</td>
+</tr>
+<tr>
 <td>2층 옛한글(판 2)</td>
 <td>0.889 [0.778, 0.972] (n=36)</td>
 <td>0.111</td>
@@ -694,7 +717,7 @@ footer p { margin:4px 0 }
 <td>0</td>
 </tr>
 <tr>
-<td>1층 현대 한글</td>
+<td>1층 현대 한글(판 2)</td>
 <td>0.889 [0.778, 0.972] (n=36)</td>
 <td>0.111</td>
 <td>0.740 [0.682, 0.798] (n=223)</td>
@@ -739,9 +762,11 @@ footer p { margin:4px 0 }
 </tr>
 </tbody>
 </table></div>
+<p>판 3 의 두 행은 판 3 대응표(x = ᅘ)에 덧글자를 작게 쓴 값이다. 판 2 행과 다른 칸은 M1 과 초과 음절 평균뿐이고, 둘 다 덧글자 크기에서 왔다. 덧글자를 보통 크기로 두고 대응표만 판 3 으로 바꾸어 다시 재면 판 2 행과 모든 칸이 같다. x 를 ᅘ 으로 옮긴 것은 지표를 하나도 바꾸지 않았다는 뜻이다. 스페인어에는 [h] 가 없어 x 가 무엇과도 합류하거나 갈리지 않는다. 2층 표기가 바뀐 표제어는 기준 표본 36개 중 10개(x 때문만으로는 6개 — juez · régimen · cónyuge · jurisprudencia · daños y perjuicios · culpa o negligencia), 확장 표본 379개 중 71개다. 1층은 x 가 ㅎ 그대로라 덧글자 때문에만 바뀌었다(기준 표본 4개, 확장 표본 25개).</p>
 <ul>
+<li>2층 옛한글(판 3) 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 1.00 · r/ɾ 1.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 1.00 · 강세 위치 1.00</li>
 <li>2층 옛한글(판 2) 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 1.00 · r/ɾ 1.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 1.00 · 강세 위치 1.00</li>
-<li>1층 현대 한글 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 0.41 · r/ɾ 0.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 0.00 · 강세 위치 1.00</li>
+<li>1층 현대 한글(판 2 · 판 3 같음) 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 0.41 · r/ɾ 0.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 0.00 · 강세 위치 1.00</li>
 <li>판 1 엔진 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 1.00 · r/ɾ 1.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.62 · θ/s 1.00 · 강세 위치 1.00</li>
 <li>안 B①(ᄙ=l) 유형별 M2-sub: f/p 1.00 · k/ɡ 1.00 · p/b 1.00 · r/l 0.76 · r/ɾ 0.00 · t/d 1.00 · x/k 1.00 · ɾ/l 0.68 · θ/s 1.00 · 강세 위치 1.00</li>
 </ul>
@@ -749,7 +774,7 @@ footer p { margin:4px 0 }
 <nav class="prevnext"><a href="../cheje.html">← 표기 체계</a><a href="../eoneo/ru.html">러시아어 →</a></nav>
 </main>
 <footer>
-<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 2 · 2026. 10. 28.</p>
+<p>권보원 (대구지방법원 부장판사) · 세종의 글자로 보는 외래어 표기 · 판 3 · 2026. 11. 13.</p>
 <p>본문 CC BY-NC 4.0 · 데이터(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/data">data/</a>) CC BY 4.0 · 코드(<a href="https://github.com/BowonKwon/Legal-Language-Handbooks/tree/main/sejong/code">code/</a>) MIT · 웹폰트 Noto Sans KR · Noto Serif KR 부분집합, SIL Open Font License 1.1(<a href="../assets/fonts/OFL.txt">사본</a>)</p>
 <p>『훈민정음』 해례본 원문은 1946년 조선어학회 영인(공유 저작물)을 기준으로 옮겼고, 위키문헌 전사본(CC BY-SA 4.0)과 다른 글자는 본문에 밝혔다. 「외래어 표기법」은 국립국어원 고시다. 오류는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">저장소 Issues</a> 로 알려 주시기 바란다.</p>
 </footer>

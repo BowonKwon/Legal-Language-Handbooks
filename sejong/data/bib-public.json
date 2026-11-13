@@ -2367,7 +2367,7 @@
    "grade": "A",
    "category": "문자론·음가 재구",
    "oa_url": "https://www.eksss.org/download/download_pdf?pid=pss-10-1-57",
-   "annotation": "제주어 화자 두 명(70대와 30대 남성)이 발음한 아래아를 CT 영상의 성도 모양과 제1·제2 포먼트로 잰 연구다. 고령 화자의 아래아는 비슷한 모음들과 따로 떨어진 값을 보였고, 젊은 화자에서는 ㅗ 와 갈리지 않았다. 표본이 둘뿐이다. 이 사이트는 ㆍ 를 [ə] 에 쓰지 않기로 한 판단의 근거로 쓴다.",
+   "annotation": "제주어 화자 두 명(70대와 30대 남성)이 발음한 아래아를 잰 연구다. 성도 모양은 고령 화자 한 사람의 CT 영상으로, 제1·제2 포먼트는 두 사람의 녹음으로 재었다. 고령 화자의 아래아는 비슷한 모음들과 따로 떨어진 값을 보였고, 젊은 화자에서는 ㅗ 와 갈리지 않았다. 표본이 둘뿐이다. 이 사이트는 ㆍ 를 [ə] 에 쓰지 않기로 한 판단의 근거로 쓴다.",
    "used_in": [
     "02",
     "06"
@@ -3017,7 +3017,7 @@
  {
   "id": "mct2004",
   "type": "legislation",
-  "title": "외래어 표기법 — 표 15(타이어)·표 16(베트남어) 신설(문화관광부 고시 제2004-11호)",
+  "title": "외래어 표기법 — 표 14(말레이인도네시아어)·표 15(타이어)·표 16(베트남어) 신설(문화관광부 고시 제2004-11호)",
   "author": [
    {
     "literal": "문화관광부"
@@ -3030,14 +3030,14 @@
     ]
    ]
   },
-  "URL": "https://korean.go.kr/kornorms/regltn/regltnView.do?regltn_code=0003",
-  "note": "2004. 12. 20. 고시. 현행본은 문화체육관광부 고시 제2017-14호",
+  "URL": "https://www.korean.go.kr/front/etcData/etcDataView.do?etc_seq=78&mn_id=46",
+  "note": "2004. 12. 20. 고시. 현행본은 문화체육관광부 고시 제2017-14호(https://korean.go.kr/kornorms/regltn/regltnView.do?regltn_code=0003)",
   "language": "ko",
   "custom": {
    "grade": "A",
    "category": "규범사·비판",
-   "oa_url": "https://korean.go.kr/kornorms/regltn/regltnView.do?regltn_code=0003",
-   "annotation": "외래어 표기법을 개정한 2004년 12월 20일 문화관광부 고시 제2004-11호다. 외래어 표기법은 그 뒤에도 고쳐져 현행본은 2017년 문화체육관광부 고시 제2017-14호다(국립국어원 어문 규범 누리집의 고시 이력). 이 사이트는 0층 규범이 언어별 표를 늘려 온 과정을 적는 데 쓴다.",
+   "oa_url": "https://www.korean.go.kr/front/etcData/etcDataView.do?etc_seq=78&mn_id=46",
+   "annotation": "외래어 표기법을 개정한 2004년 12월 20일 문화관광부 고시 제2004-11호다. 말레이인도네시아어 · 타이어 · 베트남어 세 언어의 대조표(표 14~16)와 표기 세칙(제16~18절)을 더했다. 외래어 표기법은 그 뒤에도 고쳐져 현행본은 2017년 문화체육관광부 고시 제2017-14호다(국립국어원 어문 규범 누리집의 고시 이력). 이 사이트는 0층 규범이 언어별 표를 늘려 온 과정을 적는 데 쓴다.",
    "used_in": [
     "03",
     "04"
@@ -3794,7 +3794,7 @@
   "issue": "1",
   "page": "11–17",
   "DOI": "10.13064/KSSS.2020.12.1.011",
-  "language": "en",
+  "language": "ko",
   "custom": {
    "grade": "A",
    "category": "실증",
@@ -4667,6 +4667,185 @@
    "annotation": "문화재청이 2012년 5월 7일에 낸 발표다. 2008년에 알려진 상주본이 간송본과 같은 판본이고 서문 4장과 뒷부분 1장이 없으며, 소장자가 감춰 행방을 알 수 없다고 밝혔다. 이 사이트는 해례본 원간본이 간송본 하나가 아니라는 사실을 적는 데 쓴다.",
    "used_in": [
     "01"
+   ]
+  }
+ },
+ {
+  "id": "kirby2011",
+  "type": "article-journal",
+  "title": "Vietnamese (Hanoi Vietnamese)",
+  "author": [
+   {
+    "family": "Kirby",
+    "given": "James P."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "container-title": "Journal of the International Phonetic Association",
+  "page": "381–392",
+  "DOI": "10.1017/S0025100311000181",
+  "URL": "https://doi.org/10.1017/S0025100311000181",
+  "volume": "41",
+  "issue": "3",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "국제음성학회지의 「IPA 예시」 연재 가운데 하노이 베트남어 편이다. 자음과 모음의 목록, 여섯 성조의 높낮이와 발성을 한 화자의 녹음과 함께 기술한다. 이 사이트에서 베트남어 분절음 행(내파음, kh 와 h, o 와 ô, 모음 길이)의 근거이고, 성조 표기에서는 받치는 쪽과 반대쪽에 모두 쓰인다.",
+   "used_in": [
+    "02",
+    "05",
+    "06",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "nguyen1998",
+  "type": "article-journal",
+  "title": "Tones and voice quality in modern northern Vietnamese: Instrumental case studies",
+  "author": [
+   {
+    "family": "Nguyễn",
+    "given": "Văn Lợi"
+   },
+   {
+    "family": "Edmondson",
+    "given": "Jerold A."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "container-title": "Mon-Khmer Studies",
+  "page": "1–18",
+  "DOI": "10.15144/MKSJ-28.1",
+  "URL": "https://doi.org/10.15144/MKSJ-28.1",
+  "volume": "28",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "",
+   "annotation": "하노이와 북부 화자의 여섯 성조를 음높이, 기류, 성문파로 잰 사례 연구다. ngã · hỏi · nặng 은 음절 안에서 기류가 바뀌고 ngang · huyền · sắc 은 성문 설정이 고정되어 있었다고 보고한다. 이 사이트에서 베트남어 성조를 두 묶음으로 가를 때의 근거이고, 하노이 화자 셋의 hỏi 가 끝에서 오르지 않았다는 관찰은 hỏi 를 적는 방식의 반대 근거다.",
+   "used_in": [
+    "02",
+    "05",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "michaud2004",
+  "type": "article-journal",
+  "title": "Final consonants and glottalization: New perspectives from Hanoi Vietnamese",
+  "author": [
+   {
+    "family": "Michaud",
+    "given": "Alexis"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2004
+    ]
+   ]
+  },
+  "container-title": "Phonetica",
+  "page": "119–146",
+  "DOI": "10.1159/000082560",
+  "URL": "https://doi.org/10.1159/000082560",
+  "volume": "61",
+  "issue": "2-3",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://hal.science/hal-00130119",
+   "annotation": "하노이 베트남어의 끝 자음과 성문화를 전기성문파형으로 잰 연구다. 막는 끝소리 음절의 두 성조는 보통 발성으로 나고, hỏi 는 비교적 느슨한 목소리로 두 가지 꼴 사이를 오간다고 기술한다. 이 사이트에서 막는 끝소리 음절의 성조를 따로 다루는 근거다. 저자가 공개한 투고 원고로 읽었고 쪽수는 원고 쪽수다.",
+   "used_in": [
+    "02",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "xu1997",
+  "type": "article-journal",
+  "title": "Contextual tonal variations in Mandarin",
+  "author": [
+   {
+    "family": "Xu",
+    "given": "Yi"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "container-title": "Journal of Phonetics",
+  "page": "61–83",
+  "DOI": "10.1006/jpho.1996.0034",
+  "URL": "https://doi.org/10.1006/jpho.1996.0034",
+  "volume": "25",
+  "issue": "1",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://www.homepages.ucl.ac.uk/~uclyyix/yispapers/Xu_JP97.pdf",
+   "annotation": "표준중국어 네 성조가 앞뒤 성조에 따라 어떻게 달라지는지를 베이징 출신 남성 화자 여덟 명의 무의미 음절로 잰 음향 연구다. 단독으로 말한 음절에서는 4성이 가장 짧았고, 두 음절 연쇄에서는 성조에 따른 길이 차이가 크지 않았다. 이 사이트에서 중국어 4성에 표지를 더하는 안을 따질 때 길이 근거와 그 한계로 쓴다.",
+   "used_in": [
+    "05",
+    "07"
+   ]
+  }
+ },
+ {
+  "id": "kuang2017",
+  "type": "paper-conference",
+  "title": "Creaky voice as a function of tonal categories and prosodic boundaries",
+  "author": [
+   {
+    "family": "Kuang",
+    "given": "Jianjing"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "Proceedings of Interspeech 2017",
+  "page": "3216–3220",
+  "DOI": "10.21437/Interspeech.2017-1578",
+  "URL": "https://doi.org/10.21437/Interspeech.2017-1578",
+  "language": "en",
+  "custom": {
+   "grade": "A",
+   "category": "실증",
+   "oa_url": "https://doi.org/10.21437/Interspeech.2017-1578",
+   "annotation": "대만 표준중국어 낭독 말뭉치에서 삐걱 소리가 어느 성조와 어느 운율 경계에 잦은지를 자동 검출로 센 연구다. 삐걱 소리는 3성과 경성에서 가장 잦고 1성에서 가장 드물었다. 이 사이트에서 중국어 4성에 성문 표지를 붙이는 안의 반대 근거다.",
+   "used_in": [
+    "05",
+    "07"
    ]
   }
  }

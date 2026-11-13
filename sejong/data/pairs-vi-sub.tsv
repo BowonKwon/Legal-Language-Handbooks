@@ -1,0 +1,493 @@
+type	hw	ipa_a	ipa_b
+p/t(끝소리)	luật	lwət˨˩ˀ	lwəp˨˩ˀ
+t/k(끝소리)	luật	lwət˨˩ˀ	lwək˨˩ˀ
+ə/a	luật	lwət˨˩ˀ	lwat˨˩ˀ
+əː/ə	luật	lwət˨˩ˀ	lwəːt˨˩ˀ
+성조 sắc/nặng	luật	lwət˨˩ˀ	lwət˧˥
+n/ŋ(끝소리)	án	aːn˧˥	aːŋ˧˥
+m/n(끝소리)	án	aːn˧˥	aːm˧˥
+aː/a	án	aːn˧˥	an˧˥
+성조 ngang/sắc	án	aːn˧˥	aːn˧˧
+성조 huyền/sắc	án	aːn˧˥	aːn˨˩
+성조 sắc/hỏi	án	aːn˧˥	aːn˧˩˧
+성조 sắc/ngã	án	aːn˧˥	aːn˧ˀ˥
+성조 sắc/nặng	án	aːn˧˥	aːn˨˩ˀ
+ɗ/t	đơn	ɗəːn˧˧	təːn˧˧
+n/ŋ(끝소리)	đơn	ɗəːn˧˧	ɗəːŋ˧˧
+m/n(끝소리)	đơn	ɗəːn˧˧	ɗəːm˧˧
+əː/ə	đơn	ɗəːn˧˧	ɗən˧˧
+성조 ngang/huyền	đơn	ɗəːn˧˧	ɗəːn˨˩
+성조 ngang/sắc	đơn	ɗəːn˧˧	ɗəːn˧˥
+성조 ngang/hỏi	đơn	ɗəːn˧˧	ɗəːn˧˩˧
+성조 ngang/ngã	đơn	ɗəːn˧˧	ɗəːn˧ˀ˥
+성조 ngang/nặng	đơn	ɗəːn˧˧	ɗəːn˨˩ˀ
+ɗ/t	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	tɨəŋ˧˧.sɨ˨˩ˀ
+n/ŋ(끝소리)	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨən˧˧.sɨ˨˩ˀ
+ɨ/u	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗuəŋ˧˧.sɨ˨˩ˀ
+ɨə/iə	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗiəŋ˧˧.sɨ˨˩ˀ
+성조 ngang/huyền	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˨˩.sɨ˨˩ˀ
+성조 ngang/sắc	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˥.sɨ˨˩ˀ
+성조 ngang/hỏi	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˩˧.sɨ˨˩ˀ
+성조 ngang/ngã	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧ˀ˥.sɨ˨˩ˀ
+성조 ngang/nặng	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˨˩ˀ.sɨ˨˩ˀ
+z/s	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˧.zɨ˨˩ˀ
+ɨ/u	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˧.su˨˩ˀ
+성조 ngang/nặng	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˧.sɨ˧˧
+성조 huyền/nặng	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˧.sɨ˨˩
+성조 sắc/nặng	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˧.sɨ˧˥
+성조 hỏi/nặng	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˧.sɨ˧˩˧
+성조 ngã/nặng	đương sự	ɗɨəŋ˧˧.sɨ˨˩ˀ	ɗɨəŋ˧˧.sɨ˧ˀ˥
+t/tʰ	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	təm˧˩˧.kwiən˨˩
+m/n(끝소리)	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰən˧˩˧.kwiən˨˩
+ə/a	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰam˧˩˧.kwiən˨˩
+əː/ə	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəːm˧˩˧.kwiən˨˩
+성조 ngang/hỏi	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˧.kwiən˨˩
+성조 huyền/hỏi	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˨˩.kwiən˨˩
+성조 sắc/hỏi	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˥.kwiən˨˩
+성조 hỏi/ngã	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧ˀ˥.kwiən˨˩
+성조 hỏi/nặng	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˨˩ˀ.kwiən˨˩
+k/x	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.xwiən˨˩
+n/ŋ(끝소리)	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwiəŋ˨˩
+m/n(끝소리)	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwiəm˨˩
+ɨə/iə	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwɨən˨˩
+성조 ngang/huyền	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwiən˧˧
+성조 huyền/sắc	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwiən˧˥
+성조 huyền/hỏi	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwiən˧˩˧
+성조 huyền/ngã	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwiən˧ˀ˥
+성조 huyền/nặng	thẩm quyền	tʰəm˧˩˧.kwiən˨˩	tʰəm˧˩˧.kwiən˨˩ˀ
+k/x	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	kaːŋ˧˥.ŋi˨˩ˀ
+x/h	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	haːŋ˧˥.ŋi˨˩ˀ
+n/ŋ(끝소리)	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːn˧˥.ŋi˨˩ˀ
+aː/a	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaŋ˧˥.ŋi˨˩ˀ
+성조 ngang/sắc	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˧.ŋi˨˩ˀ
+성조 huyền/sắc	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˨˩.ŋi˨˩ˀ
+성조 sắc/hỏi	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˩˧.ŋi˨˩ˀ
+성조 sắc/ngã	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧ˀ˥.ŋi˨˩ˀ
+성조 sắc/nặng	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˨˩ˀ.ŋi˨˩ˀ
+n/ŋ(첫소리)	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˥.ni˨˩ˀ
+성조 ngang/nặng	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˥.ŋi˧˧
+성조 huyền/nặng	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˥.ŋi˨˩
+성조 sắc/nặng	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˥.ŋi˧˥
+성조 hỏi/nặng	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˥.ŋi˧˩˧
+성조 ngã/nặng	kháng nghị	xaːŋ˧˥.ŋi˨˩ˀ	xaːŋ˧˥.ŋi˧ˀ˥
+k/x	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	xwiət˧˥.ɗiŋ˨˩ˀ
+p/t(끝소리)	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiəp˧˥.ɗiŋ˨˩ˀ
+t/k(끝소리)	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiək˧˥.ɗiŋ˨˩ˀ
+ɨə/iə	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwɨət˧˥.ɗiŋ˨˩ˀ
+성조 sắc/nặng	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˨˩ˀ.ɗiŋ˨˩ˀ
+ɗ/t	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˧˥.tiŋ˨˩ˀ
+n/ŋ(끝소리)	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˧˥.ɗin˨˩ˀ
+성조 ngang/nặng	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˧˥.ɗiŋ˧˧
+성조 huyền/nặng	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˧˥.ɗiŋ˨˩
+성조 sắc/nặng	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˧˥.ɗiŋ˧˥
+성조 hỏi/nặng	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˧˥.ɗiŋ˧˩˧
+성조 ngã/nặng	quyết định	kwiət˧˥.ɗiŋ˨˩ˀ	kwiət˧˥.ɗiŋ˧ˀ˥
+aː/a	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaw˧˩˧.lajŋ˧ˀ˥
+성조 ngang/hỏi	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˧.lajŋ˧ˀ˥
+성조 huyền/hỏi	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˨˩.lajŋ˧ˀ˥
+성조 sắc/hỏi	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˥.lajŋ˧ˀ˥
+성조 hỏi/ngã	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧ˀ˥.lajŋ˧ˀ˥
+성조 hỏi/nặng	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˨˩ˀ.lajŋ˧ˀ˥
+n/ŋ(끝소리)	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.lajn˧ˀ˥
+ə/a	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.ləjŋ˧ˀ˥
+aː/a	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.laːjŋ˧ˀ˥
+성조 ngang/ngã	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.lajŋ˧˧
+성조 huyền/ngã	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.lajŋ˨˩
+성조 sắc/ngã	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.lajŋ˧˥
+성조 hỏi/ngã	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.lajŋ˧˩˧
+성조 ngã/nặng	bảo lãnh	ɓaːw˧˩˧.lajŋ˧ˀ˥	ɓaːw˧˩˧.lajŋ˨˩ˀ
+k/x	khoản	xwaːn˧˩˧	kwaːn˧˩˧
+x/h	khoản	xwaːn˧˩˧	hwaːn˧˩˧
+n/ŋ(끝소리)	khoản	xwaːn˧˩˧	xwaːŋ˧˩˧
+m/n(끝소리)	khoản	xwaːn˧˩˧	xwaːm˧˩˧
+aː/a	khoản	xwaːn˧˩˧	xwan˧˩˧
+성조 ngang/hỏi	khoản	xwaːn˧˩˧	xwaːn˧˧
+성조 huyền/hỏi	khoản	xwaːn˧˩˧	xwaːn˨˩
+성조 sắc/hỏi	khoản	xwaːn˧˩˧	xwaːn˧˥
+성조 hỏi/ngã	khoản	xwaːn˧˩˧	xwaːn˧ˀ˥
+성조 hỏi/nặng	khoản	xwaːn˧˩˧	xwaːn˨˩ˀ
+n/ŋ(끝소리)	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨn˧˥.miŋ˧˧
+ɨ/u	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕuŋ˧˥.miŋ˧˧
+성조 ngang/sắc	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˧.miŋ˧˧
+성조 huyền/sắc	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˨˩.miŋ˧˧
+성조 sắc/hỏi	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˩˧.miŋ˧˧
+성조 sắc/ngã	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧ˀ˥.miŋ˧˧
+성조 sắc/nặng	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˨˩ˀ.miŋ˧˧
+n/ŋ(끝소리)	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˥.min˧˧
+성조 ngang/huyền	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˥.miŋ˨˩
+성조 ngang/sắc	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˥.miŋ˧˥
+성조 ngang/hỏi	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˥.miŋ˧˩˧
+성조 ngang/ngã	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˥.miŋ˧ˀ˥
+성조 ngang/nặng	chứng minh	tɕɨŋ˧˥.miŋ˧˧	tɕɨŋ˧˥.miŋ˨˩ˀ
+n/ŋ(끝소리)	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajn˧˧.tɕəp˧˥
+ə/a	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕəjŋ˧˧.tɕəp˧˥
+aː/a	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕaːjŋ˧˧.tɕəp˧˥
+성조 ngang/huyền	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˨˩.tɕəp˧˥
+성조 ngang/sắc	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˧˥.tɕəp˧˥
+성조 ngang/hỏi	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˧˩˧.tɕəp˧˥
+성조 ngang/ngã	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˧ˀ˥.tɕəp˧˥
+성조 ngang/nặng	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˨˩ˀ.tɕəp˧˥
+p/t(끝소리)	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˧˧.tɕət˧˥
+ə/a	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˧˧.tɕap˧˥
+əː/ə	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˧˧.tɕəːp˧˥
+성조 sắc/nặng	tranh chấp	tɕajŋ˧˧.tɕəp˧˥	tɕajŋ˧˧.tɕəp˨˩ˀ
+ɗ/t	tịch thu	tik˨˩ˀ.tʰu˧˧	ɗik˨˩ˀ.tʰu˧˧
+t/tʰ	tịch thu	tik˨˩ˀ.tʰu˧˧	tʰik˨˩ˀ.tʰu˧˧
+t/k(끝소리)	tịch thu	tik˨˩ˀ.tʰu˧˧	tit˨˩ˀ.tʰu˧˧
+성조 sắc/nặng	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˧˥.tʰu˧˧
+t/tʰ	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˨˩ˀ.tu˧˧
+ɨ/u	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˨˩ˀ.tʰɨ˧˧
+성조 ngang/huyền	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˨˩ˀ.tʰu˨˩
+성조 ngang/sắc	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˨˩ˀ.tʰu˧˥
+성조 ngang/hỏi	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˨˩ˀ.tʰu˧˩˧
+성조 ngang/ngã	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˨˩ˀ.tʰu˧ˀ˥
+성조 ngang/nặng	tịch thu	tik˨˩ˀ.tʰu˧˧	tik˨˩ˀ.tʰu˨˩ˀ
+x/h	hòa giải	hwaː˨˩.zaːj˧˩˧	xwaː˨˩.zaːj˧˩˧
+성조 ngang/huyền	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˧˧.zaːj˧˩˧
+성조 huyền/sắc	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˧˥.zaːj˧˩˧
+성조 huyền/hỏi	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˧˩˧.zaːj˧˩˧
+성조 huyền/ngã	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˧ˀ˥.zaːj˧˩˧
+성조 huyền/nặng	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩ˀ.zaːj˧˩˧
+z/s	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩.saːj˧˩˧
+aː/a	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩.zaj˧˩˧
+성조 ngang/hỏi	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩.zaːj˧˧
+성조 huyền/hỏi	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩.zaːj˨˩
+성조 sắc/hỏi	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩.zaːj˧˥
+성조 hỏi/ngã	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩.zaːj˧ˀ˥
+성조 hỏi/nặng	hòa giải	hwaː˨˩.zaːj˧˩˧	hwaː˨˩.zaːj˨˩ˀ
+z/s	xâm phạm	səm˧˧.faːm˨˩ˀ	zəm˧˧.faːm˨˩ˀ
+m/n(끝소리)	xâm phạm	səm˧˧.faːm˨˩ˀ	sən˧˧.faːm˨˩ˀ
+ə/a	xâm phạm	səm˧˧.faːm˨˩ˀ	sam˧˧.faːm˨˩ˀ
+əː/ə	xâm phạm	səm˧˧.faːm˨˩ˀ	səːm˧˧.faːm˨˩ˀ
+성조 ngang/huyền	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˨˩.faːm˨˩ˀ
+성조 ngang/sắc	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˥.faːm˨˩ˀ
+성조 ngang/hỏi	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˩˧.faːm˨˩ˀ
+성조 ngang/ngã	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧ˀ˥.faːm˨˩ˀ
+성조 ngang/nặng	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˨˩ˀ.faːm˨˩ˀ
+f/v	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.vaːm˨˩ˀ
+m/n(끝소리)	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.faːn˨˩ˀ
+aː/a	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.fam˨˩ˀ
+성조 ngang/nặng	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.faːm˧˧
+성조 huyền/nặng	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.faːm˨˩
+성조 sắc/nặng	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.faːm˧˥
+성조 hỏi/nặng	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.faːm˧˩˧
+성조 ngã/nặng	xâm phạm	səm˧˧.faːm˨˩ˀ	səm˧˧.faːm˧ˀ˥
+k/x	căn cứ	kan˧˧.kɨ˧˥	xan˧˧.kɨ˧˥
+n/ŋ(끝소리)	căn cứ	kan˧˧.kɨ˧˥	kaŋ˧˧.kɨ˧˥
+m/n(끝소리)	căn cứ	kan˧˧.kɨ˧˥	kam˧˧.kɨ˧˥
+ə/a	căn cứ	kan˧˧.kɨ˧˥	kən˧˧.kɨ˧˥
+aː/a	căn cứ	kan˧˧.kɨ˧˥	kaːn˧˧.kɨ˧˥
+성조 ngang/huyền	căn cứ	kan˧˧.kɨ˧˥	kan˨˩.kɨ˧˥
+성조 ngang/sắc	căn cứ	kan˧˧.kɨ˧˥	kan˧˥.kɨ˧˥
+성조 ngang/hỏi	căn cứ	kan˧˧.kɨ˧˥	kan˧˩˧.kɨ˧˥
+성조 ngang/ngã	căn cứ	kan˧˧.kɨ˧˥	kan˧ˀ˥.kɨ˧˥
+성조 ngang/nặng	căn cứ	kan˧˧.kɨ˧˥	kan˨˩ˀ.kɨ˧˥
+k/x	căn cứ	kan˧˧.kɨ˧˥	kan˧˧.xɨ˧˥
+ɨ/u	căn cứ	kan˧˧.kɨ˧˥	kan˧˧.ku˧˥
+성조 ngang/sắc	căn cứ	kan˧˧.kɨ˧˥	kan˧˧.kɨ˧˧
+성조 huyền/sắc	căn cứ	kan˧˧.kɨ˧˥	kan˧˧.kɨ˨˩
+성조 sắc/hỏi	căn cứ	kan˧˧.kɨ˧˥	kan˧˧.kɨ˧˩˧
+성조 sắc/ngã	căn cứ	kan˧˧.kɨ˧˥	kan˧˧.kɨ˧ˀ˥
+성조 sắc/nặng	căn cứ	kan˧˧.kɨ˧˥	kan˧˧.kɨ˨˩ˀ
+n/ŋ(끝소리)	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajn˧˥.aːn˧˥
+ə/a	chánh án	tɕajŋ˧˥.aːn˧˥	tɕəjŋ˧˥.aːn˧˥
+aː/a	chánh án	tɕajŋ˧˥.aːn˧˥	tɕaːjŋ˧˥.aːn˧˥
+성조 ngang/sắc	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˧.aːn˧˥
+성조 huyền/sắc	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˨˩.aːn˧˥
+성조 sắc/hỏi	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˩˧.aːn˧˥
+성조 sắc/ngã	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧ˀ˥.aːn˧˥
+성조 sắc/nặng	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˨˩ˀ.aːn˧˥
+n/ŋ(끝소리)	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.aːŋ˧˥
+m/n(끝소리)	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.aːm˧˥
+aː/a	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.an˧˥
+성조 ngang/sắc	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.aːn˧˧
+성조 huyền/sắc	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.aːn˨˩
+성조 sắc/hỏi	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.aːn˧˩˧
+성조 sắc/ngã	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.aːn˧ˀ˥
+성조 sắc/nặng	chánh án	tɕajŋ˧˥.aːn˧˥	tɕajŋ˧˥.aːn˨˩ˀ
+x/h	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	xoj˨˩ˀ.tʰəm˧˩˧
+ɔ/o	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hɔj˨˩ˀ.tʰəm˧˩˧
+성조 ngang/nặng	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˧˧.tʰəm˧˩˧
+성조 huyền/nặng	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩.tʰəm˧˩˧
+성조 sắc/nặng	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˧˥.tʰəm˧˩˧
+성조 hỏi/nặng	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˧˩˧.tʰəm˧˩˧
+성조 ngã/nặng	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˧ˀ˥.tʰəm˧˩˧
+t/tʰ	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.təm˧˩˧
+m/n(끝소리)	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰən˧˩˧
+ə/a	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰam˧˩˧
+əː/ə	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰəːm˧˩˧
+성조 ngang/hỏi	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰəm˧˧
+성조 huyền/hỏi	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰəm˨˩
+성조 sắc/hỏi	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰəm˧˥
+성조 hỏi/ngã	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰəm˧ˀ˥
+성조 hỏi/nặng	hội thẩm	hoj˨˩ˀ.tʰəm˧˩˧	hoj˨˩ˀ.tʰəm˨˩ˀ
+t/tʰ	thư ký	tʰɨ˧˧.ki˧˥	tɨ˧˧.ki˧˥
+ɨ/u	thư ký	tʰɨ˧˧.ki˧˥	tʰu˧˧.ki˧˥
+성조 ngang/huyền	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˨˩.ki˧˥
+성조 ngang/sắc	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˥.ki˧˥
+성조 ngang/hỏi	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˩˧.ki˧˥
+성조 ngang/ngã	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧ˀ˥.ki˧˥
+성조 ngang/nặng	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˨˩ˀ.ki˧˥
+k/x	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˧.xi˧˥
+성조 ngang/sắc	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˧.ki˧˧
+성조 huyền/sắc	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˧.ki˨˩
+성조 sắc/hỏi	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˧.ki˧˩˧
+성조 sắc/ngã	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˧.ki˧ˀ˥
+성조 sắc/nặng	thư ký	tʰɨ˧˧.ki˧˥	tʰɨ˧˧.ki˨˩ˀ
+t/tʰ	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	təm˧˩˧.tɕaː˧˧.viən˧˧
+m/n(끝소리)	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰən˧˩˧.tɕaː˧˧.viən˧˧
+ə/a	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰam˧˩˧.tɕaː˧˧.viən˧˧
+əː/ə	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəːm˧˩˧.tɕaː˧˧.viən˧˧
+성조 ngang/hỏi	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˧.tɕaː˧˧.viən˧˧
+성조 huyền/hỏi	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˨˩.tɕaː˧˧.viən˧˧
+성조 sắc/hỏi	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˥.tɕaː˧˧.viən˧˧
+성조 hỏi/ngã	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧ˀ˥.tɕaː˧˧.viən˧˧
+성조 hỏi/nặng	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˨˩ˀ.tɕaː˧˧.viən˧˧
+성조 ngang/huyền	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˨˩.viən˧˧
+성조 ngang/sắc	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˥.viən˧˧
+성조 ngang/hỏi	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˩˧.viən˧˧
+성조 ngang/ngã	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧ˀ˥.viən˧˧
+성조 ngang/nặng	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˨˩ˀ.viən˧˧
+f/v	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.fiən˧˧
+n/ŋ(끝소리)	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.viəŋ˧˧
+m/n(끝소리)	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.viəm˧˧
+ɨə/iə	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.vɨən˧˧
+성조 ngang/huyền	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.viən˨˩
+성조 ngang/sắc	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.viən˧˥
+성조 ngang/hỏi	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.viən˧˩˧
+성조 ngang/ngã	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.viən˧ˀ˥
+성조 ngang/nặng	thẩm tra viên	tʰəm˧˩˧.tɕaː˧˧.viən˧˧	tʰəm˧˩˧.tɕaː˧˧.viən˨˩ˀ
+n/ɲ(첫소리)	nhân dân	ɲən˧˧.zən˧˧	nən˧˧.zən˧˧
+n/ŋ(끝소리)	nhân dân	ɲən˧˧.zən˧˧	ɲəŋ˧˧.zən˧˧
+m/n(끝소리)	nhân dân	ɲən˧˧.zən˧˧	ɲəm˧˧.zən˧˧
+ə/a	nhân dân	ɲən˧˧.zən˧˧	ɲan˧˧.zən˧˧
+əː/ə	nhân dân	ɲən˧˧.zən˧˧	ɲəːn˧˧.zən˧˧
+성조 ngang/huyền	nhân dân	ɲən˧˧.zən˧˧	ɲən˨˩.zən˧˧
+성조 ngang/sắc	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˥.zən˧˧
+성조 ngang/hỏi	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˩˧.zən˧˧
+성조 ngang/ngã	nhân dân	ɲən˧˧.zən˧˧	ɲən˧ˀ˥.zən˧˧
+성조 ngang/nặng	nhân dân	ɲən˧˧.zən˧˧	ɲən˨˩ˀ.zən˧˧
+z/s	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.sən˧˧
+n/ŋ(끝소리)	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zəŋ˧˧
+m/n(끝소리)	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zəm˧˧
+ə/a	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zan˧˧
+əː/ə	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zəːn˧˧
+성조 ngang/huyền	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zən˨˩
+성조 ngang/sắc	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zən˧˥
+성조 ngang/hỏi	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zən˧˩˧
+성조 ngang/ngã	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zən˧ˀ˥
+성조 ngang/nặng	nhân dân	ɲən˧˧.zən˧˧	ɲən˧˧.zən˨˩ˀ
+ɗ/t	tối cao	toj˧˥.kaːw˧˧	ɗoj˧˥.kaːw˧˧
+t/tʰ	tối cao	toj˧˥.kaːw˧˧	tʰoj˧˥.kaːw˧˧
+ɔ/o	tối cao	toj˧˥.kaːw˧˧	tɔj˧˥.kaːw˧˧
+성조 ngang/sắc	tối cao	toj˧˥.kaːw˧˧	toj˧˧.kaːw˧˧
+성조 huyền/sắc	tối cao	toj˧˥.kaːw˧˧	toj˨˩.kaːw˧˧
+성조 sắc/hỏi	tối cao	toj˧˥.kaːw˧˧	toj˧˩˧.kaːw˧˧
+성조 sắc/ngã	tối cao	toj˧˥.kaːw˧˧	toj˧ˀ˥.kaːw˧˧
+성조 sắc/nặng	tối cao	toj˧˥.kaːw˧˧	toj˨˩ˀ.kaːw˧˧
+k/x	tối cao	toj˧˥.kaːw˧˧	toj˧˥.xaːw˧˧
+aː/a	tối cao	toj˧˥.kaːw˧˧	toj˧˥.kaw˧˧
+성조 ngang/huyền	tối cao	toj˧˥.kaːw˧˧	toj˧˥.kaːw˨˩
+성조 ngang/sắc	tối cao	toj˧˥.kaːw˧˧	toj˧˥.kaːw˧˥
+성조 ngang/hỏi	tối cao	toj˧˥.kaːw˧˧	toj˧˥.kaːw˧˩˧
+성조 ngang/ngã	tối cao	toj˧˥.kaːw˧˧	toj˧˥.kaːw˧ˀ˥
+성조 ngang/nặng	tối cao	toj˧˥.kaːw˧˧	toj˧˥.kaːw˨˩ˀ
+k/x	cấp cao	kəp˧˥.kaːw˧˧	xəp˧˥.kaːw˧˧
+p/t(끝소리)	cấp cao	kəp˧˥.kaːw˧˧	kət˧˥.kaːw˧˧
+ə/a	cấp cao	kəp˧˥.kaːw˧˧	kap˧˥.kaːw˧˧
+əː/ə	cấp cao	kəp˧˥.kaːw˧˧	kəːp˧˥.kaːw˧˧
+성조 sắc/nặng	cấp cao	kəp˧˥.kaːw˧˧	kəp˨˩ˀ.kaːw˧˧
+k/x	cấp cao	kəp˧˥.kaːw˧˧	kəp˧˥.xaːw˧˧
+aː/a	cấp cao	kəp˧˥.kaːw˧˧	kəp˧˥.kaw˧˧
+성조 ngang/huyền	cấp cao	kəp˧˥.kaːw˧˧	kəp˧˥.kaːw˨˩
+성조 ngang/sắc	cấp cao	kəp˧˥.kaːw˧˧	kəp˧˥.kaːw˧˥
+성조 ngang/hỏi	cấp cao	kəp˧˥.kaːw˧˧	kəp˧˥.kaːw˧˩˧
+성조 ngang/ngã	cấp cao	kəp˧˥.kaːw˧˧	kəp˧˥.kaːw˧ˀ˥
+성조 ngang/nặng	cấp cao	kəp˧˥.kaːw˧˧	kəp˧˥.kaːw˨˩ˀ
+k/x	quân sự	kwən˧˧.sɨ˨˩ˀ	xwən˧˧.sɨ˨˩ˀ
+n/ŋ(끝소리)	quân sự	kwən˧˧.sɨ˨˩ˀ	kwəŋ˧˧.sɨ˨˩ˀ
+m/n(끝소리)	quân sự	kwən˧˧.sɨ˨˩ˀ	kwəm˧˧.sɨ˨˩ˀ
+ə/a	quân sự	kwən˧˧.sɨ˨˩ˀ	kwan˧˧.sɨ˨˩ˀ
+əː/ə	quân sự	kwən˧˧.sɨ˨˩ˀ	kwəːn˧˧.sɨ˨˩ˀ
+성조 ngang/huyền	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˨˩.sɨ˨˩ˀ
+성조 ngang/sắc	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˥.sɨ˨˩ˀ
+성조 ngang/hỏi	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˩˧.sɨ˨˩ˀ
+성조 ngang/ngã	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧ˀ˥.sɨ˨˩ˀ
+성조 ngang/nặng	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˨˩ˀ.sɨ˨˩ˀ
+z/s	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˧.zɨ˨˩ˀ
+ɨ/u	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˧.su˨˩ˀ
+성조 ngang/nặng	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˧.sɨ˧˧
+성조 huyền/nặng	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˧.sɨ˨˩
+성조 sắc/nặng	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˧.sɨ˧˥
+성조 hỏi/nặng	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˧.sɨ˧˩˧
+성조 ngã/nặng	quân sự	kwən˧˧.sɨ˨˩ˀ	kwən˧˧.sɨ˧ˀ˥
+ɗ/t	tư pháp	tɨ˧˧.faːp˧˥	ɗɨ˧˧.faːp˧˥
+t/tʰ	tư pháp	tɨ˧˧.faːp˧˥	tʰɨ˧˧.faːp˧˥
+ɨ/u	tư pháp	tɨ˧˧.faːp˧˥	tu˧˧.faːp˧˥
+성조 ngang/huyền	tư pháp	tɨ˧˧.faːp˧˥	tɨ˨˩.faːp˧˥
+성조 ngang/sắc	tư pháp	tɨ˧˧.faːp˧˥	tɨ˧˥.faːp˧˥
+성조 ngang/hỏi	tư pháp	tɨ˧˧.faːp˧˥	tɨ˧˩˧.faːp˧˥
+성조 ngang/ngã	tư pháp	tɨ˧˧.faːp˧˥	tɨ˧ˀ˥.faːp˧˥
+성조 ngang/nặng	tư pháp	tɨ˧˧.faːp˧˥	tɨ˨˩ˀ.faːp˧˥
+f/v	tư pháp	tɨ˧˧.faːp˧˥	tɨ˧˧.vaːp˧˥
+p/t(끝소리)	tư pháp	tɨ˧˧.faːp˧˥	tɨ˧˧.faːt˧˥
+aː/a	tư pháp	tɨ˧˧.faːp˧˥	tɨ˧˧.fap˧˥
+성조 sắc/nặng	tư pháp	tɨ˧˧.faːp˧˥	tɨ˧˧.faːp˨˩ˀ
+k/x	kiểm sát	kiəm˧˩˧.saːt˧˥	xiəm˧˩˧.saːt˧˥
+m/n(끝소리)	kiểm sát	kiəm˧˩˧.saːt˧˥	kiən˧˩˧.saːt˧˥
+ɨə/iə	kiểm sát	kiəm˧˩˧.saːt˧˥	kɨəm˧˩˧.saːt˧˥
+성조 ngang/hỏi	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧˧.saːt˧˥
+성조 huyền/hỏi	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˨˩.saːt˧˥
+성조 sắc/hỏi	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧˥.saːt˧˥
+성조 hỏi/ngã	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧ˀ˥.saːt˧˥
+성조 hỏi/nặng	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˨˩ˀ.saːt˧˥
+z/s	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧˩˧.zaːt˧˥
+p/t(끝소리)	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧˩˧.saːp˧˥
+t/k(끝소리)	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧˩˧.saːk˧˥
+aː/a	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧˩˧.sat˧˥
+성조 sắc/nặng	kiểm sát	kiəm˧˩˧.saːt˧˥	kiəm˧˩˧.saːt˨˩ˀ
+k/x	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	xiəm˧˩˧.saːt˧˥.viən˧˧
+m/n(끝소리)	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiən˧˩˧.saːt˧˥.viən˧˧
+ɨə/iə	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kɨəm˧˩˧.saːt˧˥.viən˧˧
+성조 ngang/hỏi	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˧.saːt˧˥.viən˧˧
+성조 huyền/hỏi	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˨˩.saːt˧˥.viən˧˧
+성조 sắc/hỏi	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˥.saːt˧˥.viən˧˧
+성조 hỏi/ngã	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧ˀ˥.saːt˧˥.viən˧˧
+성조 hỏi/nặng	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˨˩ˀ.saːt˧˥.viən˧˧
+z/s	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.zaːt˧˥.viən˧˧
+p/t(끝소리)	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːp˧˥.viən˧˧
+t/k(끝소리)	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːk˧˥.viən˧˧
+aː/a	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.sat˧˥.viən˧˧
+성조 sắc/nặng	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˨˩ˀ.viən˧˧
+f/v	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.fiən˧˧
+n/ŋ(끝소리)	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.viəŋ˧˧
+m/n(끝소리)	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.viəm˧˧
+ɨə/iə	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.vɨən˧˧
+성조 ngang/huyền	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.viən˨˩
+성조 ngang/sắc	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.viən˧˥
+성조 ngang/hỏi	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.viən˧˩˧
+성조 ngang/ngã	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.viən˧ˀ˥
+성조 ngang/nặng	kiểm sát viên	kiəm˧˩˧.saːt˧˥.viən˧˧	kiəm˧˩˧.saːt˧˥.viən˨˩ˀ
+f/v	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	fiən˨˩ˀ.tɕɨəŋ˧˩˧
+n/ŋ(끝소리)	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viəŋ˨˩ˀ.tɕɨəŋ˧˩˧
+m/n(끝소리)	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viəm˨˩ˀ.tɕɨəŋ˧˩˧
+ɨə/iə	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	vɨən˨˩ˀ.tɕɨəŋ˧˩˧
+성조 ngang/nặng	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˧˧.tɕɨəŋ˧˩˧
+성조 huyền/nặng	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩.tɕɨəŋ˧˩˧
+성조 sắc/nặng	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˧˥.tɕɨəŋ˧˩˧
+성조 hỏi/nặng	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˧˩˧.tɕɨəŋ˧˩˧
+성조 ngã/nặng	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˧ˀ˥.tɕɨəŋ˧˩˧
+n/ŋ(끝소리)	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕɨən˧˩˧
+ɨ/u	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕuəŋ˧˩˧
+ɨə/iə	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕiəŋ˧˩˧
+성조 ngang/hỏi	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕɨəŋ˧˧
+성조 huyền/hỏi	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕɨəŋ˨˩
+성조 sắc/hỏi	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕɨəŋ˧˥
+성조 hỏi/ngã	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕɨəŋ˧ˀ˥
+성조 hỏi/nặng	viện trưởng	viən˨˩ˀ.tɕɨəŋ˧˩˧	viən˨˩ˀ.tɕɨəŋ˨˩ˀ
+k/x	công tố	kəwŋ˧˧.to˧˥	xəwŋ˧˧.to˧˥
+n/ŋ(끝소리)	công tố	kəwŋ˧˧.to˧˥	kəwn˧˧.to˧˥
+ə/a	công tố	kəwŋ˧˧.to˧˥	kawŋ˧˧.to˧˥
+əː/ə	công tố	kəwŋ˧˧.to˧˥	kəːwŋ˧˧.to˧˥
+성조 ngang/huyền	công tố	kəwŋ˧˧.to˧˥	kəwŋ˨˩.to˧˥
+성조 ngang/sắc	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˥.to˧˥
+성조 ngang/hỏi	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˩˧.to˧˥
+성조 ngang/ngã	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧ˀ˥.to˧˥
+성조 ngang/nặng	công tố	kəwŋ˧˧.to˧˥	kəwŋ˨˩ˀ.to˧˥
+ɗ/t	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.ɗo˧˥
+t/tʰ	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.tʰo˧˥
+ɔ/o	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.tɔ˧˥
+성조 ngang/sắc	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.to˧˧
+성조 huyền/sắc	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.to˨˩
+성조 sắc/hỏi	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.to˧˩˧
+성조 sắc/ngã	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.to˧ˀ˥
+성조 sắc/nặng	công tố	kəwŋ˧˧.to˧˥	kəwŋ˧˧.to˨˩ˀ
+z/s	xét xử	sɛt˧˥.sɨ˧˩˧	zɛt˧˥.sɨ˧˩˧
+p/t(끝소리)	xét xử	sɛt˧˥.sɨ˧˩˧	sɛp˧˥.sɨ˧˩˧
+t/k(끝소리)	xét xử	sɛt˧˥.sɨ˧˩˧	sɛk˧˥.sɨ˧˩˧
+ɛ/e	xét xử	sɛt˧˥.sɨ˧˩˧	set˧˥.sɨ˧˩˧
+성조 sắc/nặng	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˨˩ˀ.sɨ˧˩˧
+z/s	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˧˥.zɨ˧˩˧
+ɨ/u	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˧˥.su˧˩˧
+성조 ngang/hỏi	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˧˥.sɨ˧˧
+성조 huyền/hỏi	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˧˥.sɨ˨˩
+성조 sắc/hỏi	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˧˥.sɨ˧˥
+성조 hỏi/ngã	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˧˥.sɨ˧ˀ˥
+성조 hỏi/nặng	xét xử	sɛt˧˥.sɨ˧˩˧	sɛt˧˥.sɨ˨˩ˀ
+k/x	khu vực	xu˧˧.vɨk˨˩ˀ	ku˧˧.vɨk˨˩ˀ
+x/h	khu vực	xu˧˧.vɨk˨˩ˀ	hu˧˧.vɨk˨˩ˀ
+ɨ/u	khu vực	xu˧˧.vɨk˨˩ˀ	xɨ˧˧.vɨk˨˩ˀ
+성조 ngang/huyền	khu vực	xu˧˧.vɨk˨˩ˀ	xu˨˩.vɨk˨˩ˀ
+성조 ngang/sắc	khu vực	xu˧˧.vɨk˨˩ˀ	xu˧˥.vɨk˨˩ˀ
+성조 ngang/hỏi	khu vực	xu˧˧.vɨk˨˩ˀ	xu˧˩˧.vɨk˨˩ˀ
+성조 ngang/ngã	khu vực	xu˧˧.vɨk˨˩ˀ	xu˧ˀ˥.vɨk˨˩ˀ
+성조 ngang/nặng	khu vực	xu˧˧.vɨk˨˩ˀ	xu˨˩ˀ.vɨk˨˩ˀ
+f/v	khu vực	xu˧˧.vɨk˨˩ˀ	xu˧˧.fɨk˨˩ˀ
+t/k(끝소리)	khu vực	xu˧˧.vɨk˨˩ˀ	xu˧˧.vɨt˨˩ˀ
+ɨ/u	khu vực	xu˧˧.vɨk˨˩ˀ	xu˧˧.vuk˨˩ˀ
+성조 sắc/nặng	khu vực	xu˧˧.vɨk˨˩ˀ	xu˧˧.vɨk˧˥
+ɗ/t	tỉnh	tiŋ˧˩˧	ɗiŋ˧˩˧
+t/tʰ	tỉnh	tiŋ˧˩˧	tʰiŋ˧˩˧
+n/ŋ(끝소리)	tỉnh	tiŋ˧˩˧	tin˧˩˧
+성조 ngang/hỏi	tỉnh	tiŋ˧˩˧	tiŋ˧˧
+성조 huyền/hỏi	tỉnh	tiŋ˧˩˧	tiŋ˨˩
+성조 sắc/hỏi	tỉnh	tiŋ˧˩˧	tiŋ˧˥
+성조 hỏi/ngã	tỉnh	tiŋ˧˩˧	tiŋ˧ˀ˥
+성조 hỏi/nặng	tỉnh	tiŋ˧˩˧	tiŋ˨˩ˀ
+n/ŋ(첫소리)	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	naːŋ˧˧.kwiən˨˩
+n/ŋ(끝소리)	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːn˧˧.kwiən˨˩
+aː/a	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaŋ˧˧.kwiən˨˩
+성조 ngang/huyền	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˨˩.kwiən˨˩
+성조 ngang/sắc	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˥.kwiən˨˩
+성조 ngang/hỏi	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˩˧.kwiən˨˩
+성조 ngang/ngã	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧ˀ˥.kwiən˨˩
+성조 ngang/nặng	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˨˩ˀ.kwiən˨˩
+k/x	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.xwiən˨˩
+n/ŋ(끝소리)	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwiəŋ˨˩
+m/n(끝소리)	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwiəm˨˩
+ɨə/iə	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwɨən˨˩
+성조 ngang/huyền	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwiən˧˧
+성조 huyền/sắc	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwiən˧˥
+성조 huyền/hỏi	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwiən˧˩˧
+성조 huyền/ngã	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwiən˧ˀ˥
+성조 huyền/nặng	ngang quyền	ŋaːŋ˧˧.kwiən˨˩	ŋaːŋ˧˧.kwiən˨˩ˀ
+ɗ/t	đa số	ɗaː˧˧.so˧˥	taː˧˧.so˧˥
+성조 ngang/huyền	đa số	ɗaː˧˧.so˧˥	ɗaː˨˩.so˧˥
+성조 ngang/sắc	đa số	ɗaː˧˧.so˧˥	ɗaː˧˥.so˧˥
+성조 ngang/hỏi	đa số	ɗaː˧˧.so˧˥	ɗaː˧˩˧.so˧˥
+성조 ngang/ngã	đa số	ɗaː˧˧.so˧˥	ɗaː˧ˀ˥.so˧˥
+성조 ngang/nặng	đa số	ɗaː˧˧.so˧˥	ɗaː˨˩ˀ.so˧˥
+z/s	đa số	ɗaː˧˧.so˧˥	ɗaː˧˧.zo˧˥
+ɔ/o	đa số	ɗaː˧˧.so˧˥	ɗaː˧˧.sɔ˧˥
+성조 ngang/sắc	đa số	ɗaː˧˧.so˧˥	ɗaː˧˧.so˧˧
+성조 huyền/sắc	đa số	ɗaː˧˧.so˧˥	ɗaː˧˧.so˨˩
+성조 sắc/hỏi	đa số	ɗaː˧˧.so˧˥	ɗaː˧˧.so˧˩˧
+성조 sắc/ngã	đa số	ɗaː˧˧.so˧˥	ɗaː˧˧.so˧ˀ˥
+성조 sắc/nặng	đa số	ɗaː˧˧.so˧˥	ɗaː˧˧.so˨˩ˀ
+ɗ/t	tập thể	təp˨˩ˀ.tʰe˧˩˧	ɗəp˨˩ˀ.tʰe˧˩˧
+t/tʰ	tập thể	təp˨˩ˀ.tʰe˧˩˧	tʰəp˨˩ˀ.tʰe˧˩˧
+p/t(끝소리)	tập thể	təp˨˩ˀ.tʰe˧˩˧	tət˨˩ˀ.tʰe˧˩˧
+ə/a	tập thể	təp˨˩ˀ.tʰe˧˩˧	tap˨˩ˀ.tʰe˧˩˧
+əː/ə	tập thể	təp˨˩ˀ.tʰe˧˩˧	təːp˨˩ˀ.tʰe˧˩˧
+성조 sắc/nặng	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˧˥.tʰe˧˩˧
+t/tʰ	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˨˩ˀ.te˧˩˧
+ɛ/e	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˨˩ˀ.tʰɛ˧˩˧
+성조 ngang/hỏi	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˨˩ˀ.tʰe˧˧
+성조 huyền/hỏi	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˨˩ˀ.tʰe˨˩
+성조 sắc/hỏi	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˨˩ˀ.tʰe˧˥
+성조 hỏi/ngã	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˨˩ˀ.tʰe˧ˀ˥
+성조 hỏi/nặng	tập thể	təp˨˩ˀ.tʰe˧˩˧	təp˨˩ˀ.tʰe˨˩ˀ
+n/ɲ(첫소리)	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	niəm˨˩ˀ.ki˨˩
+m/n(끝소리)	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiən˨˩ˀ.ki˨˩
+ɨə/iə	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲɨəm˨˩ˀ.ki˨˩
+성조 ngang/nặng	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˧˧.ki˨˩
+성조 huyền/nặng	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˨˩.ki˨˩
+성조 sắc/nặng	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˧˥.ki˨˩
+성조 hỏi/nặng	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˧˩˧.ki˨˩
+성조 ngã/nặng	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˧ˀ˥.ki˨˩
+k/x	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˨˩ˀ.xi˨˩
+성조 ngang/huyền	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˨˩ˀ.ki˧˧
+성조 huyền/sắc	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˨˩ˀ.ki˧˥
+성조 huyền/hỏi	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˨˩ˀ.ki˧˩˧
+성조 huyền/ngã	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˨˩ˀ.ki˧ˀ˥
+성조 huyền/nặng	nhiệm kỳ	ɲiəm˨˩ˀ.ki˨˩	ɲiəm˨˩ˀ.ki˨˩ˀ
