@@ -29,7 +29,7 @@
 
 | 자료 | 다루는 언어 | 판 | 읽기 |
 |---|---|---|---|
-| **세종의 글자로 보는 외래어 표기** — 훈민정음의 글자로 외국어 소리를 적는 보조 표기와 그 근거 | 스페인어 · 러시아어 · 중국어 · 베트남어 | 판 3 (2026. 11. 13.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/sejong/) · [데이터](sejong/data/) · [소개](sejong/README.md) |
+| **세종의 글자로 보는 외래어 표기** — 훈민정음의 글자로 외국어 소리를 적는 보조 표기와 그 근거 | 스페인어 · 러시아어 · 중국어 · 베트남어 | 판 3.1 (2026. 11. 13.) | [화면본](https://bowonkwon.github.io/Legal-Language-Handbooks/sejong/) · [데이터](sejong/data/) · [소개](sejong/README.md) |
 
 언어판은 계속 늘려 갈 예정입니다. 아랍어판을 준비하고 있으나, 조문·판결 원문의 저작권과 공개 조건이 나라마다 달라 무엇을 어떻게 실을지 검토하고 있고, 그 밖의 언어도 차례로 더합니다. 이미 올린 언어판도 표제어와 장을 보태어 판을 올려 갑니다. 무엇이 바뀌었는지는 각 자료의 「소개」와 판 표시에 적습니다.
 
@@ -79,7 +79,7 @@ Everything the editor has published — the legal-language handbooks, the AI han
 
 Each web edition has an audio button for every entry: synthesized speech for most languages and the device's English voice for *Objection!*. The PDF is the same content in print layout, and the Anki deck holds the entry cards.
 
-Side project: *Sejong's Letters for Foreign Sounds* — an auxiliary Korean-script transcription built from Hunminjeongeum letterforms, with sources and counter-evidence for every letter (Spanish, Russian, Mandarin, Vietnamese; version 3, Nov. 13, 2026). [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/sejong/) · [Data](sejong/data/) · [About](sejong/README.md). Text CC BY-NC 4.0, data CC BY 4.0, code MIT.
+Side project: *Sejong's Letters for Foreign Sounds* — an auxiliary Korean-script transcription built from Hunminjeongeum letterforms, with sources and counter-evidence for every letter (Spanish, Russian, Mandarin, Vietnamese; version 3.1, Nov. 13, 2026, adding a page on languages other than Korean written in Hangul for their own speakers, such as Cia-Cia). [Web](https://bowonkwon.github.io/Legal-Language-Handbooks/sejong/) · [Data](sejong/data/) · [About](sejong/README.md). Text CC BY-NC 4.0, data CC BY 4.0, code MIT.
 
 More languages will follow (an Arabic edition is in preparation, and others are planned), and each handbook will keep growing with new entries and chapters; changes are noted in each handbook's README and edition line. Please report errors of any kind — misquotations, typos, wrong glosses, pronunciation or audio errors, broken links — through [Issues](https://github.com/BowonKwon/Legal-Language-Handbooks/issues).
 
