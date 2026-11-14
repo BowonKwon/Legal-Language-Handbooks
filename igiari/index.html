@@ -590,6 +590,7 @@ function gameItems(c) {
 }
 function renderGame(c) {
   const items = gameItems(c);
+  if (!items.length) return '<div class="game"><p class="why">이 장에는 한자 읽기 놀이에 쓸 한자가 없습니다.</p></div>';
   if (!state.g || state.g.ch !== c.chapter.num) state.g = { ch: c.chapter.num, i: 0, ok: 0, done: 0, pick: null };
   const g = state.g, it = items[g.i % items.length];
   const pool = [...new Set(items.map(x => x.on))].filter(x => x !== it.on);
@@ -678,7 +679,20 @@ function render() {
   bind();
 }
 const root = document.getElementById('root');
-window.addEventListener('hashchange', () => { render(); const m = location.hash.match(/^#ch\d+:(e-.+)$/); const el = m && document.getElementById(m[1]); if (el) el.scrollIntoView(); else window.scrollTo(0, 0) });
+function prepEntry() {   // 항목 주소로 들어올 때만: 읽기 방식으로, 걸러 보기는 푼다(저장된 설정은 그대로 둔다)
+  if (PRINT || !/^#ch\d+:e-/.test(location.hash)) return;
+  state.mode = 'read'; state.q = ''; state.stars = 0; state.gram = ''; state.ff = false; state.match = '';
+}
+function goEntry() {
+  const m = location.hash.match(/^#ch\d+:(e-.+)$/); if (!m) return false;
+  let el = document.getElementById(m[1]);
+  if (!el && state.mode !== 'read') { state.mode = 'read'; render(); el = document.getElementById(m[1]); }
+  if (!el) return false;
+  const t = document.querySelector('.tools');
+  window.scrollTo(0, Math.max(0, el.getBoundingClientRect().top + window.scrollY - (t ? t.offsetHeight : 0) - 8));
+  return true;
+}
+window.addEventListener('hashchange', () => { prepEntry(); render(); if (!goEntry()) window.scrollTo(0, 0) });
 function bind() {
   root.querySelectorAll('.say').forEach(b => b.onclick = ev => { ev.stopPropagation(); play(b.dataset.key, b.dataset.kana) });
   root.querySelectorAll('[data-mode]').forEach(b => b.onclick = () => { state.mode = b.dataset.mode; store.set('mode', state.mode); render() });
@@ -708,6 +722,9 @@ function bind() {
   root.querySelectorAll('.opt[data-q]').forEach(b => b.onclick = () => { state.ans = { ...(state.ans || {}), [b.dataset.q]: +b.dataset.o }; render() });
   on('retry', 'onclick', () => { state.ans = {}; render() });
 }
+prepEntry();
 render();
+goEntry();
+window.addEventListener('load', goEntry);
 </script>
 </body></html>

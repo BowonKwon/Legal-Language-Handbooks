@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>찾아보기 — 법률 외국어 자습서</title>
+<meta name="description" content="법률 외국어 자습서 열네 언어판의 표제어를 한 번에 찾고, 같은 한국 법률 용어에 견준 여러 언어의 표현을 나란히 봅니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&family=Noto+Serif+SC:wght@600&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+:root {
+  --paper: #f4f2ec; --sheet: #ffffff; --ink: #22262b; --muted: #5f6670; --line: #dcd7cb;
+  --accent: #3e5578; --accent-soft: #e7ecf3; --warm: #9a8463; --warm-soft: #f3eee5;
+  --c-en: #24406e; --c-en-soft: #e7ecf3;
+  --c-ja: #7b3346; --c-ja-soft: #f7e9ed;
+  --c-de: #8f5b0c; --c-de-soft: #fbf0da;
+  --c-fr: #4e3f96; --c-fr-soft: #eeebfa;
+  --c-zh: #2d5e4f; --c-zh-soft: #c4dfd1; --c-zh-band: #7fb59c;
+  --c-la: #5d6224; --c-la-soft: #eef0dc;
+  --c-vi: #6e4a6b; --c-vi-soft: #efe7ee;
+  --c-es: #8a3b2a; --c-es-soft: #f5e9e5;
+  --c-ru: #4a6478; --c-ru-soft: #e8edf2;
+  --c-it: #2f6f9f; --c-it-soft: #e3eef6;
+  --c-tr: #2e6b66; --c-tr-soft: #e2efed;
+  --c-nl: #9a4a1c; --c-nl-soft: #f6ebe3; --c-sv: #6b5a18; --c-sv-soft: #f4f0e0; --c-pt: #3f6a35; --c-pt-soft: #e6efe2;
+  --f-display: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
+  --f-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  /* 외국어 글자(장음부호·성조·키릴 문자)는 한글 글꼴보다 앞에 놓은 글꼴이 그린다. 한글 글꼴은 ū·ī 같은 글자를 어긋나게 그린다. */
+  --f-foreign: "Noto Sans", "Segoe UI", "Helvetica Neue", Roboto, Arial, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #16191d; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
+  --accent: #9fb4d2; --accent-soft: #252f3d; --warm: #c9b391; --warm-soft: #2a2620;
+  --c-en: #a9bde6; --c-en-soft: #252f3d; --c-ja: #e0a3b4; --c-ja-soft: #33202a;
+  --c-de: #f0b85a; --c-de-soft: #2e2412; --c-fr: #b9adf2; --c-fr-soft: #241f3d;
+  --c-zh: #8fd0b8; --c-zh-soft: #17291f; --c-zh-band: #5d8f7d;
+  --c-la: #c9cf8e; --c-la-soft: #272a14;
+  --c-es: #e4a692; --c-es-soft: #2d1f1b;
+  --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #16191d; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
+  --accent: #9fb4d2; --accent-soft: #252f3d; --warm: #c9b391; --warm-soft: #2a2620;
+  --c-en: #a9bde6; --c-en-soft: #252f3d; --c-ja: #e0a3b4; --c-ja-soft: #33202a;
+  --c-de: #f0b85a; --c-de-soft: #2e2412; --c-fr: #b9adf2; --c-fr-soft: #241f3d;
+  --c-zh: #8fd0b8; --c-zh-soft: #17291f; --c-zh-band: #5d8f7d;
+  --c-la: #c9cf8e; --c-la-soft: #272a14;
+  --c-es: #e4a692; --c-es-soft: #2d1f1b;
+  --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7;
+  word-break: keep-all; overflow-wrap: anywhere;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px }
+.wrap { max-width: 960px; margin: 0 auto }
+.ribbon { display: grid; grid-template-columns: repeat(14, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
+.ribbon span { background: var(--c) } .ribbon .L-zh { background: var(--c-zh-band) }
+.L-en { --c: var(--c-en); --c-soft: var(--c-en-soft) } .L-ja { --c: var(--c-ja); --c-soft: var(--c-ja-soft) }
+.L-de { --c: var(--c-de); --c-soft: var(--c-de-soft) } .L-fr { --c: var(--c-fr); --c-soft: var(--c-fr-soft) }
+.L-zh { --c: var(--c-zh); --c-soft: var(--c-zh-soft) } .L-vi { --c: var(--c-vi); --c-soft: var(--c-vi-soft) }
+.L-es { --c: var(--c-es); --c-soft: var(--c-es-soft) } .L-pt { --c: var(--c-pt); --c-soft: var(--c-pt-soft) }
+.L-it { --c: var(--c-it); --c-soft: var(--c-it-soft) } .L-la { --c: var(--c-la); --c-soft: var(--c-la-soft) }
+.L-ru { --c: var(--c-ru); --c-soft: var(--c-ru-soft) } .L-tr { --c: var(--c-tr); --c-soft: var(--c-tr-soft) }
+.L-nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .L-sv { --c: var(--c-sv); --c-soft: var(--c-sv-soft) }
+a { color: var(--accent) }
+:focus-visible { outline: 2px solid var(--c, var(--accent)); outline-offset: 2px }
+header { padding-block: 30px 22px }
+header .up { font-size: .92rem; text-decoration: none; color: var(--muted) } header .up:hover { color: var(--accent) }
+header h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.1rem; line-height: 1.25; margin: 10px 0 6px }
+header p { margin: 0; color: var(--muted); text-wrap: pretty }
+.find { background: var(--sheet); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px 16px }
+.find label { display: block; font-weight: 700; font-size: .92rem; margin-bottom: 6px }
+.find .row { display: flex; gap: 8px }
+.find input[type=search] { flex: 1; min-width: 0; font: inherit; font-size: 1.08rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line);
+  border-radius: 6px; padding: 9px 12px }
+.find input[type=search]:focus { outline: 2px solid var(--accent); outline-offset: 1px }
+.find .hint { margin: 8px 0 0; font-size: .88rem; color: var(--muted) }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 0; padding: 0; list-style: none }
+.chips button { font: inherit; font-size: .9rem; cursor: pointer; color: var(--c, var(--accent)); background: var(--c-soft, var(--accent-soft));
+  border: 1px solid transparent; border-radius: 999px; padding: 2px 12px; line-height: 1.6 }
+.chips button:hover { border-color: var(--c, var(--accent)) }
+.chips button[aria-pressed="true"] { background: var(--c, var(--accent)); color: var(--sheet) }
+.chips button[disabled], .chips button[disabled]:hover { color: var(--muted); background: transparent; border-color: var(--line); cursor: default }
+.chips button small { font-size: .8em; margin-left: 4px; font-variant-numeric: tabular-nums }
+.eg { margin: 12px 0 0; font-size: .9rem; color: var(--muted) }
+.eg button { font: inherit; font-size: .9rem; color: var(--accent); background: none; border: 0; border-bottom: 1px dotted var(--accent); padding: 0; margin: 0 8px 0 0; cursor: pointer }
+.status { margin: 22px 0 8px; font-size: .95rem; color: var(--muted) }
+.group { background: var(--sheet); border: 1px solid var(--line); border-top: 4px solid var(--c); border-radius: 8px; margin: 14px 0; padding: 12px 18px 10px }
+.group h2 { font-family: var(--f-display); font-weight: 600; font-size: 1.12rem; margin: 0 0 2px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline }
+.group h2 .lang { font-family: var(--f-body); font-size: .76rem; letter-spacing: .06em; font-weight: 700; color: var(--c); background: var(--c-soft); border-radius: 4px; padding: 1px 8px }
+.group h2 a { color: var(--ink); text-decoration: none } .group h2 a:hover { color: var(--c) }
+.group h2 small { font-family: var(--f-body); font-weight: 400; font-size: .86rem; color: var(--muted) }
+.group .nodeep { margin: 0; font-size: .82rem; color: var(--muted) }
+.hits { list-style: none; margin: 4px 0 0; padding: 0 }
+.hits li { border-top: 1px solid var(--line) } .hits li:first-child { border-top: 0 }
+.hit { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 14px; padding: 9px 0 8px; text-decoration: none; color: var(--ink) }
+.hit:hover .hw { color: var(--c) }
+.hit .hw { font-weight: 700; font-size: 1.06rem; line-height: 1.45 }
+.hit .rd { color: var(--muted); font-size: .88rem; margin-left: 8px; font-weight: 400 }
+.hit .where { grid-column: 2; grid-row: 1; font-size: .82rem; color: var(--c); white-space: nowrap; align-self: start; padding-top: 3px }
+.hit .gl { grid-column: 1 / -1; line-height: 1.55 }
+.hit .kr { grid-column: 1 / -1; font-size: .88rem; color: var(--muted); line-height: 1.5; margin-top: 1px }
+.hit .kr b { font-weight: 500; color: var(--ink) }
+.hit .kr .m { display: inline-block; min-width: 1.3em; text-align: center; font-style: normal; font-weight: 700; color: var(--c) }
+.more { font: inherit; font-size: .88rem; color: var(--c); background: none; border: 0; padding: 6px 0 4px; cursor: pointer }
+.more:hover { text-decoration: underline }
+details.ch { border-top: 1px solid var(--line) } details.ch:first-of-type { border-top: 0 }
+details.ch summary { cursor: pointer; padding: 8px 0; display: grid; grid-template-columns: 3.2em minmax(0, 1fr) auto; gap: 0 8px; align-items: baseline; list-style: none }
+details.ch summary::-webkit-details-marker { display: none }
+details.ch summary .no { color: var(--c); font-weight: 700; font-size: .92rem }
+details.ch summary .t small { display: block; color: var(--muted); font-size: .86rem; line-height: 1.4 }
+details.ch summary .n { color: var(--muted); font-size: .84rem; font-variant-numeric: tabular-nums }
+details.ch[open] summary { border-bottom: 1px solid var(--line) }
+details.ch .hits { margin: 0 0 6px 3.2em }
+.note { margin: 30px 0 0; padding: 16px 20px; background: var(--warm-soft); border-left: 3px solid var(--warm); border-radius: 0 6px 6px 0; font-size: .93rem }
+.note p { margin: 0 0 6px; text-wrap: pretty } .note p:last-child { margin: 0 }
+.note table { border-collapse: collapse; margin: 8px 0 0; font-size: .88rem } .note td, .note th { padding: 1px 14px 1px 0; vertical-align: top; text-align: left }
+.note th { font-weight: 500; color: var(--muted) } .note caption { text-align: left; font-weight: 700; padding: 0 0 2px }
+.foot { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: .9rem }
+.foot p { margin: 0 0 6px; text-wrap: pretty }
+.hw, .rd, .t small, #editions td[lang] { font-family: var(--f-foreign) }
+[lang="zh-CN"] { font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", var(--f-body) }
+[lang="ja"] { font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Sans", var(--f-body); word-break: normal }
+.hit .rd[lang] { font-family: var(--f-foreign) }
+@media (max-width: 560px) { header h1 { font-size: 1.7rem } .find { padding: 14px 14px 12px } .group { padding: 10px 14px 8px }
+  .hit { grid-template-columns: minmax(0, 1fr) } .hit .where { grid-column: 1; grid-row: auto; white-space: normal; padding-top: 0 }
+  details.ch .hits { margin-left: 0 } }
+</style>
+</head>
+<body>
+<div class="ribbon" aria-hidden="true" id="ribbon"></div>
+<div class="wrap">
+<header>
+  <a class="up" href="../">← 법률 외국어 자습서</a>
+  <h1>찾아보기</h1>
+  <p>열네 언어판의 표제어를 한 번에 찾습니다. 한국어 낱말로 찾으면 풀이에 그 낱말이 든 표제어가 언어별로 나란히 나옵니다.</p>
+</header>
+
+<main>
+<form class="find" role="search" id="form" action="./" method="get">
+  <label for="q">찾을 말</label>
+  <div class="row"><input type="search" id="q" name="q" autocomplete="off" spellcheck="false" placeholder="예: 소유권, Vertrag, 契約, hetong, 민법 제750조"></div>
+  <p class="hint">한국어 뜻, 외국어 표제어(부호 없이 써도 됩니다 — propriete, appello, договор), 가나·로마자·병음·한자, 한국 조문 번호로 찾습니다.</p>
+  <ul class="chips" id="langs" aria-label="언어"></ul>
+  <p class="eg" id="eg">찾아볼 만한 말&nbsp; </p>
+</form>
+
+<p class="status" id="status" role="status" aria-live="polite">색인을 불러오는 중입니다.</p>
+<div id="out"></div>
+
+<div class="note" id="about" hidden>
+  <p><b>무엇을 찾는가</b> 표제어, 한국어 풀이, 책에 실린 읽기 표기(가나·로마자·병음·한월어·한글 표기), 복수형·관사형 같은 다른 꼴, 그리고 각 책 「한국이라면?」 칸의 한국 쪽 용어와 조문입니다. 글자가 같은 것을 찾으므로 뜻이 다른 말이 섞여 나올 수 있습니다. 예문과 해설 본문은 찾지 않습니다.</p>
+  <p><b>띄어쓰기</b> 한국어로 붙여 쓴 말은 띄어 쓴 풀이도 찾습니다(「법률행위」는 「법률 행위」를 찾습니다). 풀이에서 쉼표·쌍반점·가운뎃점·괄호 같은 부호로 나뉜 한 토막 전체와 같으면 띄어쓰기가 달라도 찾습니다. 토막 전체가 아닐 때는 낱말 사이를 넘어 걸치는 낱말마다 두 글자 이상이어야 합니다(「손해배상(금)」처럼 낱말에 붙은 한 글자 괄호 덧말은 「배상금」으로도 찾습니다). 앞말에서 「미·비·불·부·무·반」 한 글자만 뗀 꼴로는 잇지 않습니다(「비공개 심리」는 「공개심리」로 찾지 못합니다). 그래서 「주법원」으로는 풀이 가운데 있는 「주 법원」을 찾지 못합니다. 그럴 때는 풀이에 적힌 대로 「주 법원」이라고 띄어 쓰면 찾습니다. 쉼표·쌍반점·줄표나 띄어 쓴 가운뎃점으로 나뉜 서로 다른 풀이는 이어 찾지 않습니다(「사실; 행위」는 「사실행위」로 찾지 못합니다).</p>
+  <p><b>「한국이라면?」 줄</b> 번역어가 아닙니다. 책이 그 표제어와 견준 한국 쪽 대응입니다. 대개 한국 조문이나 제도의 이름이고, 책에 따라 문형·호칭이나 소리의 대응인 칸도 있습니다. 「＝」 같다 · 「≠」 같아 보이는데 다르다 · 「＋」 한쪽에만 있다(일본어판은 「한국에 없는 것」). 판정의 기준은 책마다 다릅니다. 대부분 조문 문언을 견준 것이고, 라틴어판은 제도를 견주며, 학설에 기댄 칸과 한국 조문을 대조하지 않은 칸은 책이 그렇게 밝혀 두었습니다. 무엇이 다른지는 책의 그 표제어에 적혀 있습니다. 영어판에는 표제어마다 붙는 이 칸이 없습니다.</p>
+  <p><b>조문으로 찾기</b> 「민법 제750조」처럼 조문 꼴로 넣으면 「한국이라면?」 칸이 그 조문을 든 표제어를 찾습니다. 「제」는 빼도 되고, 법 이름을 빼면 모든 법의 그 조를 찾습니다. 법 이름은 온전히 적거나, 이름의 일부를 네 글자 이상 적습니다. 「민소법」 같은 준말로는 찾지 못합니다(「헌법」과 「대한민국헌법」은 같게 봅니다). 항까지 넣으면 그 항을 든 칸과 항 없이 조만 든 칸이 나옵니다. 조문 뒤에 다른 말을 붙이거나 조문을 둘 이상 적으면 조문으로 찾지 않습니다.</p>
+  <p><b>색인</b> 새로 쓴 풀이는 없습니다. 모든 줄은 각 언어판 공개 화면본에서 기계로 뽑은 것이고, 판이 오르면 다시 만듭니다. 색인을 만든 날은 <span id="built"></span>입니다.</p>
+  <table id="editions"><caption>언어판별 판 표기와 분량</caption><thead><tr><th scope="col">언어</th><th scope="col">책</th><th scope="col">판</th><th scope="col">장 · 표제어</th></tr></thead><tbody id="edrows"></tbody></table>
+</div>
+</main>
+
+<footer class="foot">
+  <p>틀린 풀이나 끊어진 링크는 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/issues">Issues</a>로 알려 주십시오.</p>
+  <p>엮은이에게 권리가 있는 부분은 <a href="https://github.com/BowonKwon/Legal-Language-Handbooks/blob/main/LICENSE">CC BY-NC 4.0</a>으로 공개합니다. © 2026 권보원(Bowon Kwon)</p>
+  <p>이 자료는 엮은이가 개인적으로 공부하며 엮은 것입니다. 엮은이가 속한 기관의 견해나 업무와는 관계가 없습니다. 법률 자문이 아닙니다.</p>
+</footer>
+</div>
+
+<script>
+(function () {
+'use strict';
+const BCP = { zh: 'zh-CN' };
+const RDLANG = { ja: 'ja', zh: 'zh-CN', la: 'la' };   // 읽기 표기가 그 언어 글자인 책(가나·로마자, 병음, 라틴어 사전형). 한글·한자음 읽기는 한국어 그대로
+const TOP = 5;            // 언어별로 먼저 보여 주는 줄 수
+const EXAMPLES = ['계약', '소유권', '불법행위', '과실', '선의', '항소', '상고', '증거', '손해배상', '시효', '민법 제750조'];
+const $ = id => document.getElementById(id);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e };
+
+// 찾을 때만 쓰는 접기: 소문자, 부호 떼기(한글·가나 탁점은 그대로), 가타카나 → 히라가나
+const SPECIAL = { 'ß': 'ss', 'æ': 'ae', 'œ': 'oe', 'ø': 'o', 'đ': 'd', 'ı': 'i', 'ł': 'l', 'ð': 'd', 'þ': 'th' };
+const fold = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').normalize('NFC')
+  .replace(/[ßæœøđıłðþ]/g, c => SPECIAL[c]).replace(/[\u30a1-\u30f6]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
+const tight = s => s.replace(/[^\p{L}\p{N}]+/gu, '');
+const parts = (s, re) => s.split(re).map(tight).filter(Boolean);
+const spaced = s => s.split(SEG).map(x => x.split(WORD).filter(Boolean).join(' ')).filter(Boolean);
+const SEG = /[·,;:()（）\[\]「」『』«»—–→\/|]+/;      // 풀이·읽기를 덩이로 끊는 자리
+const WORD = /[\s·,;:()（）\[\]「」『』«»—–→\/|.\-]+/; // 낱말로 끊는 자리
+const lower = s => s.trim().toLowerCase().normalize('NFC').replace(/\s+/g, ' ');
+
+// 한국 조문: 「민법 제396조 · 제763조」를 [법 이름, 조, 가지번호, [항…], 범위의 끝 조] 로 나눈다. 법 이름이 없는 조문은 앞 조문의 법 이름을 잇는다.
+const CIRC = '①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳';
+const ART = /제\s*(\d+)\s*조(?:\s*의\s*(\d+))?/g;
+const PARA = /^\s*(?:제\s*(\d+)\s*항|([①-⑳]))(?:\s*제\s*\d+\s*호(?:\s*[·ㆍ,]\s*제\s*\d+\s*호)*)?/;   // 항 하나(「제1항」「①」, 뒤에 호가 여럿 붙을 수 있다)
+const MOREP = /^\s*[·ㆍ,]\s*(?=제\s*\d+\s*항|[①-⑳])/;                     // 「제1항·제2항」의 이음
+const RANGE = /^\s*[~∼]\s*제\s*(\d+)\s*조/;                                // 「제30조~제32조」
+const ASIDE = /[(（][^()（）]*[)）]/g;
+const LAWLIKE = /(법|법률|부칙|규칙|규정|령|조례|협약|조약|헌장)$/;
+const namekey = s => tight(fold(s)).replace(/^대한민국/, '');
+// 조문 칸에서는 구분 부호 뒤의 마지막 조각이 법 이름 꼴일 때만 법 이름으로 삼는다(「참고」「및」 같은 말은 버리고 앞의 법 이름을 잇는다).
+const lawname = s => { const p = s.split(/[·;,():（）]/); const n = namekey(p[p.length - 1]); return LAWLIKE.test(n) ? n : ''; };
+function cites(kl) {
+  // 조문이 들지 않은 괄호 주석은 안쪽부터 걷어 낸다: 「민법 부칙(법률 제471호, 1958. 2. 22.) 제27조」의 법 이름은 「민법 부칙」이다
+  let s = kl;
+  for (let t; (t = s.replace(ASIDE, m => /제\s*\d+\s*조/.test(m) ? m : ' ')) !== s;) s = t;
+  // 남은 괄호(조문이 든 괄호)는 깊이를 센다. 괄호 안에서 바뀐 법 이름은 괄호가 닫히면 버리고 바깥 이름으로 돌아간다.
+  const out = [], names = []; let depth = 0, buf = '', pos = 0, m;
+  const walk = to => { for (; pos < to; pos++) { const c = s[pos];
+    if (c === '(' || c === '（') { const n = lawname(buf); if (n) names[depth] = n; buf = ''; depth++; }
+    else if (c === ')' || c === '）') { if (depth > 0) { names.length = Math.min(names.length, depth); depth--; } buf = ''; }
+    else buf += c; } };
+  ART.lastIndex = 0;
+  while ((m = ART.exec(s))) {
+    walk(m.index);
+    const n = lawname(buf); if (n) names[depth] = n;
+    let name = ''; for (let d = depth; d >= 0 && !name; d--) name = names[d] || '';
+    let end = ART.lastIndex, p; const paras = [];
+    while ((p = PARA.exec(s.slice(end)))) {
+      paras.push(p[1] || String(CIRC.indexOf(p[2]) + 1)); end += p[0].length;
+      const more = MOREP.exec(s.slice(end)); if (!more) break; end += more[0].length;
+    }
+    const r = !m[2] && !paras.length && RANGE.exec(s.slice(end));
+    out.push([name, m[1], m[2] || '', paras, r ? +r[1] : 0]);   // 범위면 끝 조 번호를 적어 둔다. 사이의 조는 lawhit 가 숫자로 견준다
+    pos = end; buf = ''; ART.lastIndex = end;
+  }
+  return out;
+}
+// 찾을 말 전체가 조문 꼴일 때만(「민법 750조」「제750조 제1항」「제27조 ①」) 조문으로 찾는다. 번호는 숫자 그대로 견준다 — 제5조가 제45조에 걸리지 않는다.
+// 「제750조문」이나 「민법 제750조 손해배상」처럼 뒤에 다른 말이 붙으면 조문으로 읽지 않는다.
+const QCITE = /^(.*?)(?:제\s*)?(\d+)\s*조(?:\s*의\s*(\d+))?(?:\s*(?:(?:제\s*)?(\d+)\s*항|([①-⑳])))?\s*$/;
+// 찾을 말의 법 이름: 괄호로 감쌌으면 벗기고(「（형법） 제2조」), 법 이름 뒤에 붙인 괄호 주석은 버린다(「형법（주석） 제2조」).
+function qname(s) { const outside = s.replace(ASIDE, ' '); return namekey((namekey(outside) ? outside : s).split(/[·;,:]/).pop()); }
+function lawquery(q) {
+  const m = QCITE.exec(q.trim()); if (!m || /\d\s*조|[~∼]/.test(m[1])) return null;   // 앞에 조문이나 범위가 더 있으면(「제2조·제3조」「제2조~제5조」) 조문으로 읽지 않는다
+  return { name: qname(m[1]), art: m[2], sub: m[3] || '', para: m[4] || (m[5] ? String(CIRC.indexOf(m[5]) + 1) : '') };
+}
+const lawhit = (cs, L) => cs.some(c => ((c[1] === L.art && c[2] === L.sub && (!L.para || !c[3].length || c[3].includes(L.para)))
+    || (c[4] && !L.sub && +L.art > +c[1] && +L.art < c[4]))
+  && (!L.name || c[0] === L.name || (L.name.length >= 4 && c[0].includes(L.name))));
+
+// ── 한글·한자·가나로 찾을 때의 낱말 경계 ──
+// 풀이는 뜻 덩이마다 낱말로 나눈다. 덩이를 넘어서는 잇지 않는다(「사실; 행위」는 「사실행위」가 아니다).
+// 덩이를 끊는 것: 쌍반점·쉼표·쌍점·줄표·화살표·낫표, 띄어 쓴 가운뎃점과 빗금(「판결 · 결정」), 여러 낱말로 된 괄호 풀이(「체포(영장 없는 단기 구금)」).
+// 덩이를 끊지 않는 것: 붙여 쓴 가운뎃점(「권리·의무」), 한 낱말짜리 괄호(「유지(하다)」「(행정) 처분」「도산(절차)」) — 이어 읽는 말이다.
+// 닫는 괄호 바로 뒤에 글자가 붙어 있으면 한 낱말로 읽는다(「계약(문서)에서」의 문서에서, 「(연방)대법원」의 연방대법원).
+// 여러 낱말 괄호 뒤에 붙은 글자는 괄호 안 끝 낱말에 붙고, 괄호 밖과는 덩이가 갈린다(「재산(동산 포함)에 설정하는」→ 재산 | 동산 포함에 | 설정하는).
+const CJKL = '가-힣ぁ-んァ-ヶー一-龥';
+const CJK1 = new RegExp('[' + CJKL + ']');
+// 괄호를 짝지어 읽는다. 안에 띄어쓰기가 있는 괄호(겹친 괄호 포함)는 덩이로 떼고, 닫는 괄호 뒤에 붙은 글자는 괄호 안 끝 낱말에 붙인다.
+// 한 낱말 괄호는 닫는 괄호 뒤에 글자가 붙어 있으면 닫는 괄호를 지워 한 낱말로 읽는다. 짝 없는 괄호는 낱말을 끊는 부호로 남는다.
+function parens(f) {
+  const st = [], pair = {};
+  for (let i = 0; i < f.length; i++) { const c = f[i];
+    if (c === '(' || c === '（') st.push(i);
+    else if ((c === ')' || c === '）') && st.length) { const o = st.pop(), long = /\s/.test(f.slice(o + 1, i)); pair[o] = long; pair[i] = long; } }
+  let out = '', pend = false;
+  for (let i = 0; i < f.length; i++) { const c = f[i];
+    if (pend && !CJK1.test(c)) { out += ';'; pend = false; }
+    if (!(i in pair)) out += c;
+    else if (c === '(' || c === '（') out += pair[i] ? ';' : c;
+    else if (pair[i]) pend = true;
+    else if (!(i + 1 < f.length && CJK1.test(f[i + 1]))) out += c;
+  }
+  return pend ? out + ';' : out;
+}
+const SEGB = /[;,:—–→|「」『』«»\[\]]+|\s[·\/]\s/;
+const segwords = f => parens(f).split(SEGB).map(x => parts(x, WORD)).filter(a => a.length);
+// 읽기(한글 표기 따위)는 낱말 머리에서 시작해 온전한 낱말들을 붙인 꼴도 찾는다(「수페리오르데」←「수페리오르 데」).
+// 한글·가나·한자로만 된 낱말끼리만 붙이고, 읽기 칸과 다른 꼴 칸 사이, 부호로 나뉜 토막 사이는 잇지 않는다.
+const KONLY = new RegExp('^[' + CJKL + ']+$');
+const joined = (words, q) => words.some((w, i) => { let rest = q, j = i; while (j < words.length && KONLY.test(words[j]) && rest.startsWith(words[j])) { rest = rest.slice(words[j++].length); if (!rest) return j - i > 1; } return false; });
+// 붙여 쓴 찾을 말: 한 낱말 안에 있거나, 한 덩이 안에서 낱말 사이를 넘을 때 걸치는 낱말마다 두 글자 이상이어야 맞는다.
+// 「법률행위」↔「법률 행위」, 「행정기관」↔「사법행정 기관」은 맞는다. 한 글자만 걸치는 「의무」↔「특허의 무효」, 「이행」↔「이 행」,
+// 「법원의」↔「대법원 의견서」는 맞지 않는다.
+const NEG = '미비불부무반';   // 앞말에서 이 한 글자만 떼면 뜻이 뒤집힌다
+function cross(segs, q) {
+  for (const words of segs) for (let i = 0; i < words.length; i++) {
+    const w = words[i];
+    if (w.includes(q)) return true;
+    for (let k = Math.min(w.length, q.length - 2); k >= 2; k--) {
+      if (!w.endsWith(q.slice(0, k))) continue;
+      if (w.length - k === 1 && NEG.includes(w[0])) continue;   // 「(미성년) 후견」을 「성년후견」으로 읽지 않는다
+      let rest = q.slice(k), j = i + 1;
+      while (j < words.length && words[j].length >= 2 && rest.length - words[j].length >= 2 && rest.startsWith(words[j])) rest = rest.slice(words[j++].length);
+      if (j < words.length && words[j].startsWith(rest)) return true;
+    }
+  }
+  return false;
+}
+// 「손해배상(금)」「법률(상)의」처럼 낱말에 붙은 한 글자 괄호 덧말은 붙여 읽은 꼴(손해배상금·법률상의)로도 찾는다.
+// 찾을 말이 덧말에서 시작하거나(상의), 앞말 전체나 그 꼬리 두 글자 이상에서 덧말로 이어질 때만 맞는다(배상금·법률상).
+// 「디자인(권)」이 「인권」에, 「행정(상)의」가 「정상」에 맞지는 않는다. 둘 가운데 하나를 고르라는 조사 표기(「이(가)」「을(를)」)와
+// 포르투갈어판의 나라 표시(「(브)」「(포)」)는 덧말이 아니므로 붙이지 않는다.
+const MARK = 'ㅿ';   // 색인에 없는 글자를 이음 자리 표시로 쓴다
+const NOGLUE = ['이가', '가이', '을를', '를을', '은는', '는은', '와과', '과와'];
+const GLUE = new RegExp('([' + CJKL + '])[(（]([' + CJKL + '])[)）]', 'g');
+function glued(f) {
+  const g = f.replace(GLUE, (m, a, b) => (b === '브' || b === '포' || NOGLUE.includes(a + b)) ? m : a + MARK + b);
+  if (g === f) return null;
+  return g.split(WORD).filter(w => w.includes(MARK)).map(w => { const i = w.indexOf(MARK); return [tight(w.slice(0, i)), tight(w.slice(i).split(MARK).join(''))]; });
+}
+function gluehit(pairs, q) {
+  if (!pairs) return false;
+  for (const [base, suf] of pairs) {
+    for (let k = Math.min(base.length, q.length - 1); k >= 0; k--) {
+      if (k !== 0 && k < 2 && k !== base.length) continue;
+      if (base.endsWith(q.slice(0, k)) && suf.startsWith(q.slice(k))) return true;
+    }
+  }
+  return false;
+}
+
+let BOOKS = [], ROWS = [], state = { q: '', lang: '' }, open = new Set();
+
+function prep(r, i) {
+  const [b, ch, id, hw, gloss, rd, alt, stars, m, kt, kl] = r;
+  const fh = fold(hw), fg = fold(gloss), fr = fold(rd + ' | ' + alt), fk = fold(kt);
+  return { i, b, ch, id, hw, gloss, rd, stars, m, kt, kl,
+    hr: lower(hw), ht: tight(fh), hp: parts(fh, SEG), hs: spaced(fh), hw_: parts(fh, WORD), hS: segwords(fh), hG: glued(fh),
+    rp: parts(fr, SEG), rs: spaced(fr), rw: parts(fr, WORD), rdf: fold(lower(rd)),
+    rW: [rd, alt].flatMap(c => fold(c).split(SEG).map(x => parts(x, WORD))).filter(a => a.length),
+    gp: parts(fg, SEG), gw: parts(fg, WORD), gr: lower(gloss), gS: segwords(fg), gG: glued(fg),
+    kT: tight(fk), kw: parts(fk, WORD), kS: segwords(fk), kG: glued(fk), cs: cites(kl) };
+}
+
+function scorer(q) {
+  const fq = fold(q), qt = tight(fq);
+  if (!qt) return null;
+  const qr = lower(q), qf = fold(qr);
+  const qs = fq.split(WORD).filter(Boolean).join(' ');
+  const L = lawquery(q);
+  const st = a => a.some(p => p.startsWith(qt)), sts = a => a.some(p => p.startsWith(qs)), inc = a => a.some(p => p.includes(qt));
+  // 한글·한자·가나로 찾을 때만 낱말 경계를 넘어 붙여 찾는다(「법률 행위」↔「법률행위」).
+  // 로마자·키릴 문자는 낱말 머리나 한 낱말 안에서만 찾는다(hetong 이 het ongeschreven 에 걸리지 않게).
+  const cjk = /[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/.test(qt);
+  const qw = parts(fq, WORD);
+  // 찾을 말을 띄어 썼으면 그 띄어쓰기대로 한 덩이 안에서 이어진 낱말도 맞는 것으로 본다. 첫 낱말은 온전히 같아야 하고, 끝 낱말은 머리만 같아도 된다
+  // (「이 행」은 「이 행」에, 「한 번」은 「한 번에」에 맞는다. 「의 무」가 「특허의 무효」에 맞지는 않는다).
+  const seq = segs => { const n = qw.length; if (n < 2) return false;
+    for (const a of segs) for (let i = 0; i + n <= a.length; i++) { if (a[i] !== qw[0] || !a[i + n - 1].startsWith(qw[n - 1])) continue;
+      let ok = true; for (let k = 1; k < n - 1 && ok; k++) ok = a[i + k] === qw[k]; if (ok) return true; }
+    return false; };
+  const hasK = (segs, g) => cross(segs, qt) || seq(segs) || gluehit(g, qt);
+  const short = !cjk && qt.length < 3;   // 로마자·키릴 한두 글자는 그대로 맞는 것만 찾는다(「an」이 answer·Anspruch 수백 줄에 걸리지 않게)
+  return r => {
+    if (r.hr === qr) return 0;                                            // 표제어와 글자까지 같다(án 과 ân 을 가른다)
+    if (r.ht === qt) return 1;                                            // 부호를 떼면 표제어 전체와 같다
+    if (r.hp.includes(qt)) return 2;                                      // 「·」나 괄호로 나뉜 표제어의 한 덩이와 같다
+    if (r.rp.includes(qt) || r.rw.includes(qt) || r.rdf === qf) return 3;  // 읽기·다른 꼴 그대로(읽기 칸 전체를 넣은 것 포함)
+    if (!short && (cjk ? st(r.hp) : (sts(r.hs) || st(r.hw_)))) return 4;  // 표제어 머리
+    if (r.gp.includes(qt) || r.gr === qr) return 5;                       // 풀이의 한 덩이, 또는 풀이 칸 전체를 그대로 넣은 것
+    if (r.kT === qt) return 6;                                            // 「한국이라면?」 용어 그대로
+    if (short) return (L && lawhit(r.cs, L)) ? 10 : -1;
+    if (cjk ? st(r.rp) : (sts(r.rs) || st(r.rw))) return 7;               // 읽기 머리
+    if (st(r.gw)) return 8;                                               // 풀이 낱말 머리
+    if (cjk ? hasK(r.hS, r.hG) : inc(r.hw_)) return 9;                    // 표제어 안
+    if (st(r.kw) || (L && lawhit(r.cs, L))) return 10;                    // 「한국이라면?」 낱말 머리·조문
+    if (cjk ? (hasK(r.gS, r.gG) || cross(r.rW, qt) || r.rW.some(a => joined(a, qt)) || hasK(r.kS, r.kG)) : (inc(r.gw) || inc(r.rw) || inc(r.kw))) return 11;   // 풀이·읽기·「한국이라면?」 안
+    return -1;
+  };
+}
+
+function href(r) {
+  const b = BOOKS[r.b];
+  const base = /^https?:/.test(b.url) ? b.url : '../' + b.url;
+  if (b.link === 'ch') return base + '#ch' + r.ch;
+  if (b.link === 'ch:e') return base + '#ch' + r.ch + ':e-' + r.id;
+  return base + '#ch' + r.ch + '-' + r.id;
+}
+
+function hit(r, withChapter) {
+  const b = BOOKS[r.b], li = el('li'), a = el('a', 'hit');
+  a.href = href(r);
+  const head = el('span');
+  const hw = el('span', 'hw', r.hw); hw.lang = BCP[b.code] || b.code; head.append(hw);
+  if (r.rd) { const rd = el('span', 'rd', r.rd); if (RDLANG[b.code]) rd.lang = RDLANG[b.code]; head.append(rd); }
+  a.append(head);
+  if (withChapter) a.append(el('span', 'where', r.ch + '장'));
+  a.append(el('span', 'gl', r.gloss));
+  if (r.kt) {
+    const k = el('span', 'kr'); k.append(el('b', null, '한국이라면? '));
+    if (r.m) { const m = el('i', 'm', r.m); m.title = { '＝': '같다', '≠': '같아 보이는데 다르다', '＋': '한쪽에만 있다' }[r.m] || ''; k.append(m, ' '); }
+    k.append(r.kt + (r.kl ? ' · ' + r.kl : ''));
+    a.append(k);
+  }
+  if (withChapter) { const c = b.chapters.find(c => c[0] === r.ch); if (c) a.title = r.ch + '장 · ' + c[1]; }
+  li.append(a); return li;
+}
+
+function groupHead(b, countText) {
+  const g = el('section', 'group L-' + b.code), h = el('h2');
+  h.append(el('span', 'lang', b.lang));
+  const t = el('a', null, b.title); t.href = /^https?:/.test(b.url) ? b.url : '../' + b.url; t.lang = BCP[b.code] || b.code; h.append(t);
+  h.append(el('small', null, countText));
+  g.append(h);
+  return g;
+}
+
+function renderSearch(sc) {
+  const out = $('out'); out.textContent = '';
+  const per = BOOKS.map(() => []);
+  for (const r of ROWS) { const s = sc(r); if (s >= 0) per[r.b].push([s, r]); }
+  const total = per.reduce((n, a) => n + a.length, 0), nb = per.filter(a => a.length).length;
+  setChips(per.map(a => a.length));
+  if (!total) { $('status').textContent = '「' + state.q + '」에 맞는 표제어가 없습니다. 예문과 해설 본문은 찾지 않습니다 — 표제어나 한국어 뜻으로 찾아 보십시오.'; return; }
+  const shown = state.lang ? per[BOOKS.findIndex(b => b.code === state.lang)].length : total;
+  $('status').textContent = '「' + state.q + '」 — ' + (state.lang ? BOOKS.find(b => b.code === state.lang).name + ' ' + shown + '개 (전체 ' + nb + '개 언어 ' + total + '개)' : nb + '개 언어 ' + total + '개');
+  BOOKS.forEach((b, bi) => {
+    const a = per[bi]; if (!a.length || (state.lang && state.lang !== b.code)) return;
+    a.sort((x, y) => x[0] - y[0] || y[1].stars - x[1].stars || x[1].i - y[1].i);
+    const g = groupHead(b, a.length + '개');
+    if (b.link === 'ch') g.append(el('p', 'nodeep', '이 책은 표제어가 든 장의 첫머리로 열립니다.'));
+    const ul = el('ul', 'hits'); g.append(ul);
+    const all = state.lang === b.code || open.has(b.code) || a.length <= TOP + 1;
+    (all ? a : a.slice(0, TOP)).forEach(([, r]) => ul.append(hit(r, true)));
+    if (!all) {
+      const btn = el('button', 'more', '＋ ' + (a.length - TOP) + '개 더 보기'); btn.type = 'button';
+      btn.onclick = () => {   // 다시 그리면 단추가 없어지므로, 새로 펼쳐진 첫 줄로 초점을 옮긴다
+        open.add(b.code); render();
+        const a = document.querySelectorAll('#out .group.L-' + b.code + ' .hit')[TOP]; if (a) a.focus();
+      };
+      g.append(btn);
+    }
+    out.append(g);
+  });
+}
+
+function renderBrowse() {
+  const out = $('out'); out.textContent = '';
+  setChips(null);
+  if (!state.lang) {
+    $('status').textContent = BOOKS.length + '개 언어 · ' + BOOKS.reduce((n, b) => n + b.chapters.length, 0) + '장 · 표제어 ' + ROWS.length.toLocaleString('en-US') + '개. 찾을 말을 넣거나, 언어를 골라 장별 표제어를 펼쳐 보십시오.';
+    return;
+  }
+  const bi = BOOKS.findIndex(b => b.code === state.lang), b = BOOKS[bi];
+  $('status').textContent = b.name + ' — ' + b.chapters.length + '장 · 표제어 ' + b.n + '개. 장을 누르면 표제어가 펼쳐집니다.';
+  const g = groupHead(b, b.sub + ' · ' + b.edition);
+  for (const [num, title, ftitle] of b.chapters) {
+    const rows = ROWS.filter(r => r.b === bi && r.ch === num);
+    const d = el('details', 'ch'), s = el('summary');
+    s.append(el('span', 'no', num + '장'));
+    const t = el('span', 't', title); if (ftitle) { const f = el('small', null, ftitle); f.lang = BCP[b.code] || b.code; t.append(f); }
+    s.append(t, el('span', 'n', rows.length + '개')); d.append(s);
+    d.addEventListener('toggle', () => { if (d.open && !d.querySelector('ul')) { const ul = el('ul', 'hits'); rows.forEach(r => ul.append(hit(r, false))); d.append(ul); } });
+    g.append(d);
+  }
+  out.append(g);
+}
+
+function setChips(counts) {
+  for (const btn of $('langs').children) {
+    const b = btn.firstChild, code = b.dataset.code;
+    b.setAttribute('aria-pressed', String(state.lang === code));
+    const sm = b.querySelector('small');
+    if (code) { const n = counts ? counts[BOOKS.findIndex(x => x.code === code)] : null; sm.textContent = n == null ? '' : n; b.disabled = n === 0 && state.lang !== code; }
+  }
+}
+
+function render() {
+  const sc = scorer(state.q);
+  const u = new URLSearchParams(); if (state.q.trim()) u.set('q', state.q.trim()); if (state.lang) u.set('lang', state.lang);
+  history.replaceState(null, '', u.toString() ? '?' + u : location.pathname);
+  if (sc) renderSearch(sc); else renderBrowse();
+}
+
+function start(data) {
+  BOOKS = data.books; ROWS = data.rows.map(prep);
+  const rib = $('ribbon'), langs = $('langs');
+  const mk = (code, label, cls) => { const li = el('li'), b = el('button', cls, label); b.type = 'button'; b.dataset.code = code; b.append(el('small')); li.append(b);
+    b.onclick = () => { state.lang = state.lang === code ? '' : code; if (!code) state.lang = ''; render(); }; return li };
+  langs.append(mk('', '전체', ''));
+  for (const b of BOOKS) { rib.append(el('span', 'L-' + b.code)); langs.append(mk(b.code, b.name, 'L-' + b.code)); }
+  const eg = $('eg');
+  for (const w of EXAMPLES) { const b = el('button', null, w); b.type = 'button'; b.onclick = () => { $('q').value = w; state.q = w; open.clear(); render(); $('q').focus(); }; eg.append(b); }
+  $('built').textContent = data.built.replace(/^(\d+)-0?(\d+)-0?(\d+)$/, '$1. $2. $3.');
+  const tb = $('edrows');
+  for (const b of BOOKS) { const tr = el('tr'); tr.append(el('td', null, b.name), el('td', null, b.title), el('td', null, b.edition), el('td', null, b.chapters.length + '장 · ' + b.n + '개')); tr.children[1].lang = BCP[b.code] || b.code; tb.append(tr); }
+  $('about').hidden = false;
+  const p = new URLSearchParams(location.search);
+  state.q = p.get('q') || ''; state.lang = BOOKS.some(b => b.code === p.get('lang')) ? p.get('lang') : '';
+  $('q').value = state.q;
+  let t; $('q').addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { state.q = $('q').value; open.clear(); render(); }, 90); });
+  $('form').addEventListener('submit', e => { e.preventDefault(); state.q = $('q').value; render(); });
+  render();
+}
+
+fetch('index.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(start)
+  .catch(() => { $('status').textContent = '색인을 불러오지 못했습니다. 잠시 뒤 다시 열어 주십시오.'; });
+})();
+</script>
+</body>
+</html>

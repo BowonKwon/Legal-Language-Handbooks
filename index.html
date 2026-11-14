@@ -72,6 +72,13 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 .book.la { --c: var(--c-la); --c-soft: var(--c-la-soft) } .book.vi { --c: var(--c-vi); --c-soft: var(--c-vi-soft) }
 .book.sj { --c: var(--c-sj); --c-soft: var(--c-sj-soft) } .book.es { --c: var(--c-es); --c-soft: var(--c-es-soft) }
 .book.ru { --c: var(--c-ru); --c-soft: var(--c-ru-soft) } .book.tr { --c: var(--c-tr); --c-soft: var(--c-tr-soft) } .book.nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .book.sv { --c: var(--c-sv); --c-soft: var(--c-sv-soft) } .book.pt { --c: var(--c-pt); --c-soft: var(--c-pt-soft) } .book.it { --c: var(--c-it); --c-soft: var(--c-it-soft) }
+.find { margin: 26px 0 0; background: var(--sheet); border: 1px solid var(--line); border-radius: 8px; padding: 16px 20px 14px }
+.find label { display: block; font-family: var(--f-display); font-weight: 600; font-size: 1.15rem; margin-bottom: 8px }
+.find .row { display: flex; gap: 8px }
+.find input { flex: 1; min-width: 0; font: inherit; font-size: 1.05rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px }
+.find input:focus { outline: 2px solid var(--accent); outline-offset: 1px }
+.find button { font: inherit; font-weight: 500; color: var(--sheet); background: var(--accent); border: 0; border-radius: 6px; padding: 0 18px; cursor: pointer }
+.find p { margin: 8px 0 0; font-size: .92rem; color: var(--muted); text-wrap: pretty } .find a { color: var(--accent) }
 .side-title { font-family: var(--f-display); font-weight: 600; font-size: 1.15rem; color: var(--muted); margin: 40px 0 0 }
 .books.side { margin-top: 14px }
 .book.zh h2 { font-family: "Noto Serif SC", "Noto Sans SC", serif }
@@ -107,6 +114,13 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
   표제어마다 발음·뜻·쉬운 예문·실무 예문·조문이나 판결 원문, 「한국이라면?」 대조가 붙어 있습니다.<br>
   화면본은 소리 단추가 있고, 인쇄본은 같은 내용의 종이책 꼴이며, Anki 덱은 표제어 카드입니다.</p>
 </header>
+
+<form class="find" action="search/" method="get" role="search">
+  <label for="q">찾아보기</label>
+  <div class="row"><input type="search" id="q" name="q" autocomplete="off" spellcheck="false" placeholder="예: 소유권, Vertrag, 契約, hetong, 민법 제750조"><button type="submit">찾기</button></div>
+  <p>열네 언어판의 표제어를 한 번에 찾습니다. 한국어 낱말로 찾으면 풀이에 그 낱말이 든 표제어가 언어별로 나란히 나옵니다.<br>
+  <a href="search/">언어를 골라 장별 표제어 펼쳐 보기</a></p>
+</form>
 
 <ul class="books">
   <!-- 순서(2026-11-11, 두 칸씩 한 줄): 영·일 / 독·프 / 중·베 / 스·포 / 이·라 / 러·튀 / 네·스웨. 새 언어판은 이 자리에 끼운다 — 띠·머리 글자도 같은 순서 -->
