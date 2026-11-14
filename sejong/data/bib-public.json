@@ -3160,6 +3160,35 @@
   }
  },
  {
+  "id": "hebacad2007",
+  "type": "document",
+  "title": "התעתיק מלועזית לעברית (외국어를 히브리 문자로 옮겨 적는 규칙)",
+  "author": [
+   {
+    "literal": "האקדמיה ללשון העברית(히브리어 학술원)"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2007
+    ]
+   ]
+  },
+  "URL": "https://web.archive.org/web/20250730192222/https://old.hebrew-academy.org.il/wp-content/uploads/taatik-loazit-2020.pdf",
+  "note": "2007. 5. 21. 학술원 총회 확정, 2011. 9. 26. 관보(Yalkut HaPirsumim 6300: 6839) 공고, 2017. 10. 30. 일부 개정. 읽은 것은 개정을 반영한 학술원 배포 PDF(8쪽)의 인터넷 아카이브 2025. 7. 30. 보존본 — 학술원 누리집은 자동 접근이 막혀 있다",
+  "language": "he",
+  "custom": {
+   "grade": "A",
+   "category": "외국 비교",
+   "oa_url": "https://web.archive.org/web/20250730192222/https://old.hebrew-academy.org.il/wp-content/uploads/taatik-loazit-2020.pdf",
+   "annotation": "이스라엘 히브리어 학술원이 정한, 비셈어 외국어의 사람 · 장소 · 기관 이름을 히브리 문자로 옮기는 규칙이다. 원어 철자가 아니라 들리는 발음을 따르고, 히브리어에 없는 소리는 가장 가까운 기존 글자로 적는다. 예외로 [ð] · [x] · [θ] 세 소리에만 게레쉬(׳)를 붙인 글자를 새로 정해, 이미 쓰이던 게레쉬 글자 셋([dʒ] · [ʒ] · [tʃ])에 더했다. 굳은 철자는 따로 표를 두어 허용한다. 2007년에 확정하고 2017년에 일부 고친 규칙으로, 이 사이트가 읽은 것은 2017년 개정을 반영한 학술원 배포본이다. 이 사이트에서는 새 표지를 닫힌 목록으로 더한 선례로 쓴다.",
+   "used_in": [
+    "04"
+   ]
+  }
+ },
+ {
   "id": "tanaka1992",
   "type": "article-journal",
   "title": "小学校国語科における『外来語の表記』の指導について",
