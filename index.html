@@ -96,11 +96,13 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 .book .links a.primary { background: var(--c); color: var(--sheet) }
 .book .links a:focus-visible, header a:focus-visible, .foot a:focus-visible, .note a:focus-visible { outline: 2px solid var(--c, var(--accent)); outline-offset: 2px }
 .note { margin: 30px 0 0; padding: 16px 20px; background: var(--warm-soft); border-left: 3px solid var(--warm); border-radius: 0 6px 6px 0; font-size: .95rem }
+.en-note { margin: 22px 0 0; padding: 14px 18px; background: var(--sheet); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; font-size: .95rem; line-height: 1.6 }
+.en-note p { margin: 0 0 8px; text-wrap: pretty } .en-note p:last-child { margin: 0 } .en-note a { color: var(--accent) }
 .note p { margin: 0 0 6px; text-wrap: pretty } .note p:last-child { margin: 0 } .note a { color: var(--accent) }
 .foot { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: .9rem }
 .foot p { margin: 0 0 6px; text-wrap: pretty } .foot a { color: var(--accent) }
-@media (max-width: 480px) { header { padding-block: 36px 24px } header h1 { font-size: 1.9rem } header .en { font-size: 1.3rem }
-  .book { padding: 18px 16px 18px } .book::after { font-size: 3.2rem } }
+@media (max-width: 480px) { header { padding-block: 36px 24px } header h1 { font-size: 1.9rem } header .en { font-size: 1.3rem; color: color-mix(in srgb, var(--warm) 68%, var(--ink)) }
+  .book { padding: 18px 16px 18px } .book::after { font-size: 3.2rem } .en-note { font-size: .88rem; padding: 12px 14px; line-height: 1.55 } }
 </style>
 </head>
 <body>
@@ -114,6 +116,19 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
   표제어마다 발음·뜻·쉬운 예문·실무 예문·조문이나 판결 원문, 「한국이라면?」 대조가 붙어 있습니다.<br>
   화면본은 소리 단추가 있고, 인쇄본은 같은 내용의 종이책 꼴이며, Anki 덱은 표제어 카드입니다.</p>
 </header>
+
+<div class="en-note" id="en" lang="en">
+  <p><b>For English readers.</b> These handbooks were written for Korean legal professionals who read statutes and judgments of other jurisdictions in the original language. Headwords, example sentences and source texts are in the language each handbook covers; the explanations are in Korean, and most handbooks compare each entry with the relevant Korean provisions or institutions. For that reason the handbooks are in Korean only, and there is no English edition of them.</p>
+  <p>On each of the fourteen handbook cards, <span lang="ko">화면본</span> is the web edition, PDF the print edition, <span lang="ko">Anki 덱</span> the flashcard deck and <span lang="ko">소개</span> the README. The search box below (<span lang="ko">찾아보기</span>) covers all fourteen: enter a headword as it appears in any of them, or a Korean gloss. An English overview is in the <a href="https://github.com/BowonKwon/Legal-Language-Handbooks#english">repository README</a>.</p>
+</div>
+<script>
+// The note for English readers stays visible without scripts. With scripts it is hidden for Korean-language browsers
+// unless the address asks for it (?lang=en, as the English hub does, or #en).
+(function () {
+  var want = new URLSearchParams(location.search).get('lang') === 'en' || location.hash === '#en';
+  if (!want && /^ko/i.test(navigator.language || '')) document.getElementById('en').hidden = true;
+})();
+</script>
 
 <form class="find" action="search/" method="get" role="search">
   <label for="q">찾아보기</label>
