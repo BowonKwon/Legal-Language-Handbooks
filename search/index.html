@@ -67,6 +67,7 @@ a { color: var(--accent) }
 :focus-visible { outline: 2px solid var(--c, var(--accent)); outline-offset: 2px }
 header { padding-block: 30px 22px }
 header .up { font-size: .92rem; text-decoration: none; color: var(--muted) } header .up:hover { color: var(--accent) }
+header a.hubbtn{display:inline-flex;align-items:center;gap:.4em;padding:.2em .78em;border:1px solid currentColor;border-radius:999px;text-decoration:none;font-weight:600;white-space:nowrap;line-height:1.35;color:inherit}header a.hubbtn::before{content:"";width:.7em;height:.7em;flex:none;background:linear-gradient(currentColor,currentColor) 0 0/42% 42% no-repeat,linear-gradient(currentColor,currentColor) 100% 0/42% 42% no-repeat,linear-gradient(currentColor,currentColor) 0 100%/42% 42% no-repeat,linear-gradient(currentColor,currentColor) 100% 100%/42% 42% no-repeat}header a.hubbtn:hover{background:rgba(127,127,127,.16)}header a.hubbtn{margin-left:.9em;font-size:.86rem}
 header h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.1rem; line-height: 1.25; margin: 10px 0 6px }
 header p { margin: 0; color: var(--muted); text-wrap: pretty }
 .find { background: var(--sheet); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px 16px }
@@ -132,7 +133,7 @@ details.ch .hits { margin: 0 0 6px 3.2em }
 <div class="ribbon" aria-hidden="true" id="ribbon"></div>
 <div class="wrap">
 <header>
-  <a class="up" href="../">← 법률 외국어 자습서</a><span aria-hidden="true"> · </span><a class="up" href="https://bowonkwon.github.io/">공개 자료 허브</a>
+  <a class="up" href="../">← 법률 외국어 자습서</a><a class="up hubbtn" href="https://bowonkwon.github.io/">공개 자료 허브</a>
   <h1>찾아보기</h1>
   <p>열네 언어판의 표제어를 한 번에 찾습니다. 한국어 낱말로 찾으면 풀이에 그 낱말이 든 표제어가 언어별로 나란히 나옵니다.</p>
 </header>
