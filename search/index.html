@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>찾아보기 — 법률 외국어 자습서</title>
-<meta name="description" content="법률 외국어 자습서 열네 언어판의 표제어를 한 번에 찾고, 같은 한국 법률 용어에 견준 여러 언어의 표현을 나란히 봅니다.">
+<meta name="description" content="법률 외국어 자습서 열다섯 언어판의 표제어를 한 번에 찾고, 같은 한국 법률 용어에 견준 여러 언어의 표현을 나란히 봅니다.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&family=Noto+Serif+SC:wght@600&family=Noto+Sans+KR:wght@400;500;700&display=swap">
@@ -23,7 +23,7 @@
   --c-ru: #4a6478; --c-ru-soft: #e8edf2;
   --c-it: #2f6f9f; --c-it-soft: #e3eef6;
   --c-tr: #2e6b66; --c-tr-soft: #e2efed;
-  --c-nl: #9a4a1c; --c-nl-soft: #f6ebe3; --c-sv: #6b5a18; --c-sv-soft: #f4f0e0; --c-pt: #3f6a35; --c-pt-soft: #e6efe2;
+  --c-nl: #9a4a1c; --c-nl-soft: #f6ebe3; --c-sv: #6b5a18; --c-sv-soft: #f4f0e0; --c-id: #9a3a6a; --c-id-soft: #f6e6ee; --c-pt: #3f6a35; --c-pt-soft: #e6efe2;
   --f-display: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
   --f-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   /* 외국어 글자(장음부호·성조·키릴 문자)는 한글 글꼴보다 앞에 놓은 글꼴이 그린다. 한글 글꼴은 ū·ī 같은 글자를 어긋나게 그린다. */
@@ -38,7 +38,7 @@
   --c-la: #c9cf8e; --c-la-soft: #272a14;
   --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
-  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark } }
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-id: #e98fc6; --c-id-soft: #2c1b24; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark } }
 :root[data-theme="dark"] {
   --paper: #16191d; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
   --accent: #9fb4d2; --accent-soft: #252f3d; --warm: #c9b391; --warm-soft: #2a2620;
@@ -48,13 +48,13 @@
   --c-la: #c9cf8e; --c-la-soft: #272a14;
   --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
-  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark }
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-id: #e98fc6; --c-id-soft: #2c1b24; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark }
 * { box-sizing: border-box }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7;
   word-break: keep-all; overflow-wrap: anywhere;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px }
 .wrap { max-width: 960px; margin: 0 auto }
-.ribbon { display: grid; grid-template-columns: repeat(14, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
+.ribbon { display: grid; grid-template-columns: repeat(15, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
 .ribbon span { background: var(--c) } .ribbon .L-zh { background: var(--c-zh-band) }
 .L-en { --c: var(--c-en); --c-soft: var(--c-en-soft) } .L-ja { --c: var(--c-ja); --c-soft: var(--c-ja-soft) }
 .L-de { --c: var(--c-de); --c-soft: var(--c-de-soft) } .L-fr { --c: var(--c-fr); --c-soft: var(--c-fr-soft) }
@@ -62,7 +62,7 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(
 .L-es { --c: var(--c-es); --c-soft: var(--c-es-soft) } .L-pt { --c: var(--c-pt); --c-soft: var(--c-pt-soft) }
 .L-it { --c: var(--c-it); --c-soft: var(--c-it-soft) } .L-la { --c: var(--c-la); --c-soft: var(--c-la-soft) }
 .L-ru { --c: var(--c-ru); --c-soft: var(--c-ru-soft) } .L-tr { --c: var(--c-tr); --c-soft: var(--c-tr-soft) }
-.L-nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .L-sv { --c: var(--c-sv); --c-soft: var(--c-sv-soft) }
+.L-nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .L-sv { --c: var(--c-sv); --c-soft: var(--c-sv-soft) } .L-id { --c: var(--c-id); --c-soft: var(--c-id-soft) }
 a { color: var(--accent) }
 :focus-visible { outline: 2px solid var(--c, var(--accent)); outline-offset: 2px }
 header { padding-block: 30px 22px }
@@ -135,7 +135,7 @@ details.ch .hits { margin: 0 0 6px 3.2em }
 <header>
   <a class="up" href="../">← 법률 외국어 자습서</a><a class="up hubbtn" href="https://bowonkwon.github.io/">공개 자료 허브</a>
   <h1>찾아보기</h1>
-  <p>열네 언어판의 표제어를 한 번에 찾습니다. 한국어 낱말로 찾으면 풀이에 그 낱말이 든 표제어가 언어별로 나란히 나옵니다.</p>
+  <p>열다섯 언어판의 표제어를 한 번에 찾습니다. 한국어 낱말로 찾으면 풀이에 그 낱말이 든 표제어가 언어별로 나란히 나옵니다.</p>
 </header>
 
 <main>

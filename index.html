@@ -23,7 +23,7 @@
   --c-ru: #4a6478; --c-ru-soft: #e8edf2;
   --c-it: #2f6f9f; --c-it-soft: #e3eef6;
   --c-tr: #2e6b66; --c-tr-soft: #e2efed;
-  --c-nl: #9a4a1c; --c-nl-soft: #f6ebe3; --c-sv: #6b5a18; --c-sv-soft: #f4f0e0; --c-pt: #3f6a35; --c-pt-soft: #e6efe2;
+  --c-nl: #9a4a1c; --c-nl-soft: #f6ebe3; --c-sv: #6b5a18; --c-sv-soft: #f4f0e0; --c-id: #9a3a6a; --c-id-soft: #f6e6ee; --c-pt: #3f6a35; --c-pt-soft: #e6efe2;
   --c-sj: #7a4f2a; --c-sj-soft: #f6eee4;
   --f-display: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
   --f-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
@@ -38,7 +38,7 @@
   --c-sj: #e0b48a; --c-sj-soft: #2b2219;
   --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
-  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark } }
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-id: #e98fc6; --c-id-soft: #2c1b24; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark } }
 :root[data-theme="dark"] {
   --paper: #16191d; --sheet: #1f2328; --ink: #e8e5de; --muted: #9ca3ab; --line: #363c44;
   --accent: #9fb4d2; --accent-soft: #252f3d; --warm: #c9b391; --warm-soft: #2a2620;
@@ -49,21 +49,21 @@
   --c-sj: #e0b48a; --c-sj-soft: #2b2219;
   --c-es: #e4a692; --c-es-soft: #2d1f1b;
   --c-vi: #d8b4d3; --c-vi-soft: #2a2129;
-  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark }
+  --c-ru: #a9c1d4; --c-ru-soft: #1e262d; --c-it: #8fc0e6; --c-it-soft: #1b2733; --c-tr: #8fcfc7; --c-tr-soft: #1a2a28; --c-nl: #e3a77f; --c-nl-soft: #33231a; --c-sv: #d9c77a; --c-sv-soft: #2b2716; --c-id: #e98fc6; --c-id-soft: #2c1b24; --c-pt: #a7cf98; --c-pt-soft: #1d2a19; color-scheme: dark }
 * { box-sizing: border-box }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7;
   word-break: keep-all; overflow-wrap: anywhere;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px }
 .wrap { max-width: 960px; margin: 0 auto }
-.ribbon { display: grid; grid-template-columns: repeat(14, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
-.ribbon .r-en { background: var(--c-en) } .ribbon .r-ja { background: var(--c-ja) } .ribbon .r-de { background: var(--c-de) } .ribbon .r-fr { background: var(--c-fr) } .ribbon .r-zh { background: var(--c-zh-band) } .ribbon .r-la { background: var(--c-la) } .ribbon .r-es { background: var(--c-es) } .ribbon .r-it { background: var(--c-it) } .ribbon .r-vi { background: var(--c-vi) } .ribbon .r-ru { background: var(--c-ru) } .ribbon .r-tr { background: var(--c-tr) } .ribbon .r-nl { background: var(--c-nl) } .ribbon .r-sv { background: var(--c-sv) } .ribbon .r-pt { background: var(--c-pt) }
+.ribbon { display: grid; grid-template-columns: repeat(15, 1fr); height: 6px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) }
+.ribbon .r-en { background: var(--c-en) } .ribbon .r-ja { background: var(--c-ja) } .ribbon .r-de { background: var(--c-de) } .ribbon .r-fr { background: var(--c-fr) } .ribbon .r-zh { background: var(--c-zh-band) } .ribbon .r-la { background: var(--c-la) } .ribbon .r-es { background: var(--c-es) } .ribbon .r-it { background: var(--c-it) } .ribbon .r-vi { background: var(--c-vi) } .ribbon .r-ru { background: var(--c-ru) } .ribbon .r-tr { background: var(--c-tr) } .ribbon .r-nl { background: var(--c-nl) } .ribbon .r-sv { background: var(--c-sv) } .ribbon .r-id { background: var(--c-id) } .ribbon .r-pt { background: var(--c-pt) }
 header { padding-block: 52px 30px; border-bottom: 1px solid var(--line) }
 header .hubtop { margin: -28px 0 22px; font-size: .9rem; text-align: right }
 header .hubtop a.hubbtn{display:inline-flex;align-items:center;gap:.4em;padding:.2em .78em;border:1px solid currentColor;border-radius:999px;text-decoration:none;font-weight:600;white-space:nowrap;line-height:1.35;color:inherit}header .hubtop a.hubbtn::before{content:"";width:.7em;height:.7em;flex:none;background:linear-gradient(currentColor,currentColor) 0 0/42% 42% no-repeat,linear-gradient(currentColor,currentColor) 100% 0/42% 42% no-repeat,linear-gradient(currentColor,currentColor) 0 100%/42% 42% no-repeat,linear-gradient(currentColor,currentColor) 100% 100%/42% 42% no-repeat}header .hubtop a.hubbtn:hover{background:rgba(127,127,127,.16)}
 header .hubtop a.hubbtn { color: var(--muted); font-size: .86rem }
 header .hubtop a.hubbtn:hover { color: var(--ink) }
 header .kicker { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 18px; font-family: var(--f-display); font-size: .98rem; color: var(--muted) }
-header .kicker .k-en { color: var(--c-en) } header .kicker .k-ja { color: var(--c-ja) } header .kicker .k-de { color: var(--c-de) } header .kicker .k-fr { color: var(--c-fr) } header .kicker .k-zh { color: var(--c-zh); font-family: "Noto Serif SC", "Noto Sans SC", serif } header .kicker .k-la { color: var(--c-la); font-style: italic } header .kicker .k-es { color: var(--c-es) } header .kicker .k-it { color: var(--c-it) } header .kicker .k-vi { color: var(--c-vi) } header .kicker .k-ru { color: var(--c-ru) } header .kicker .k-tr { color: var(--c-tr) } header .kicker .k-nl { color: var(--c-nl) } header .kicker .k-sv { color: var(--c-sv) } header .kicker .k-pt { color: var(--c-pt) }
+header .kicker .k-en { color: var(--c-en) } header .kicker .k-ja { color: var(--c-ja) } header .kicker .k-de { color: var(--c-de) } header .kicker .k-fr { color: var(--c-fr) } header .kicker .k-zh { color: var(--c-zh); font-family: "Noto Serif SC", "Noto Sans SC", serif } header .kicker .k-la { color: var(--c-la); font-style: italic } header .kicker .k-es { color: var(--c-es) } header .kicker .k-it { color: var(--c-it) } header .kicker .k-vi { color: var(--c-vi) } header .kicker .k-ru { color: var(--c-ru) } header .kicker .k-tr { color: var(--c-tr) } header .kicker .k-nl { color: var(--c-nl) } header .kicker .k-sv { color: var(--c-sv) } header .kicker .k-id { color: var(--c-id) } header .kicker .k-pt { color: var(--c-pt) }
 header h1 { font-family: var(--f-display); font-weight: 600; font-size: 2.5rem; line-height: 1.2; margin: 0 0 8px; text-wrap: balance }
 header .en { font-family: var(--f-display); color: var(--warm); font-size: 1.6rem; line-height: 1.3; letter-spacing: .01em; margin: 0 0 22px }
 header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3px solid var(--warm); color: var(--ink) }
@@ -75,7 +75,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 .book.de { --c: var(--c-de); --c-soft: var(--c-de-soft) } .book.fr { --c: var(--c-fr); --c-soft: var(--c-fr-soft) } .book.zh { --c: var(--c-zh); --c-soft: var(--c-zh-soft) }
 .book.la { --c: var(--c-la); --c-soft: var(--c-la-soft) } .book.vi { --c: var(--c-vi); --c-soft: var(--c-vi-soft) }
 .book.sj { --c: var(--c-sj); --c-soft: var(--c-sj-soft) } .book.es { --c: var(--c-es); --c-soft: var(--c-es-soft) }
-.book.ru { --c: var(--c-ru); --c-soft: var(--c-ru-soft) } .book.tr { --c: var(--c-tr); --c-soft: var(--c-tr-soft) } .book.nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .book.sv { --c: var(--c-sv); --c-soft: var(--c-sv-soft) } .book.pt { --c: var(--c-pt); --c-soft: var(--c-pt-soft) } .book.it { --c: var(--c-it); --c-soft: var(--c-it-soft) }
+.book.ru { --c: var(--c-ru); --c-soft: var(--c-ru-soft) } .book.tr { --c: var(--c-tr); --c-soft: var(--c-tr-soft) } .book.nl { --c: var(--c-nl); --c-soft: var(--c-nl-soft) } .book.sv { --c: var(--c-sv); --c-soft: var(--c-sv-soft) } .book.id { --c: var(--c-id); --c-soft: var(--c-id-soft) } .book.pt { --c: var(--c-pt); --c-soft: var(--c-pt-soft) } .book.it { --c: var(--c-it); --c-soft: var(--c-it-soft) }
 .find { margin: 26px 0 0; background: var(--sheet); border: 1px solid var(--line); border-radius: 8px; padding: 16px 20px 14px }
 .find label { display: block; font-family: var(--f-display); font-weight: 600; font-size: 1.15rem; margin-bottom: 8px }
 .find .row { display: flex; gap: 8px }
@@ -110,11 +110,11 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 </style>
 </head>
 <body>
-<div class="ribbon" aria-hidden="true"><span class="r-en"></span><span class="r-ja"></span><span class="r-de"></span><span class="r-fr"></span><span class="r-zh"></span><span class="r-vi"></span><span class="r-es"></span><span class="r-pt"></span><span class="r-it"></span><span class="r-la"></span><span class="r-ru"></span><span class="r-tr"></span><span class="r-nl"></span><span class="r-sv"></span></div>
+<div class="ribbon" aria-hidden="true"><span class="r-en"></span><span class="r-ja"></span><span class="r-de"></span><span class="r-fr"></span><span class="r-zh"></span><span class="r-vi"></span><span class="r-es"></span><span class="r-pt"></span><span class="r-it"></span><span class="r-la"></span><span class="r-ru"></span><span class="r-tr"></span><span class="r-nl"></span><span class="r-sv"></span><span class="r-id"></span></div>
 <div class="wrap">
 <header>
 <p class="hubtop"><a class="hubbtn" href="https://bowonkwon.github.io/">공개 자료 허브</a></p>
-  <p class="kicker" lang="mul" aria-hidden="true"><span class="k-en">Objection!</span><span class="k-ja">異議あり</span><span class="k-de">Anspruch</span><span class="k-fr">Par ces motifs</span><span class="k-zh" lang="zh-CN">本院认为</span><span class="k-vi" lang="vi">Nhân danh</span><span class="k-es" lang="es">En nombre del Rey</span><span class="k-pt" lang="pt">Acordam</span><span class="k-it" lang="it">In nome del popolo italiano</span><span class="k-la" lang="la">Suum cuique</span><span class="k-ru" lang="ru">Установи́л</span><span class="k-tr" lang="tr">Gereği düşünüldü</span><span class="k-nl" lang="nl">Recht doende</span><span class="k-sv" lang="sv">Domslut</span></p>
+  <p class="kicker" lang="mul" aria-hidden="true"><span class="k-en">Objection!</span><span class="k-ja">異議あり</span><span class="k-de">Anspruch</span><span class="k-fr">Par ces motifs</span><span class="k-zh" lang="zh-CN">本院认为</span><span class="k-vi" lang="vi">Nhân danh</span><span class="k-es" lang="es">En nombre del Rey</span><span class="k-pt" lang="pt">Acordam</span><span class="k-it" lang="it">In nome del popolo italiano</span><span class="k-la" lang="la">Suum cuique</span><span class="k-ru" lang="ru">Установи́л</span><span class="k-tr" lang="tr">Gereği düşünüldü</span><span class="k-nl" lang="nl">Recht doende</span><span class="k-sv" lang="sv">Domslut</span><span class="k-id" lang="id">Mengadili</span></p>
   <h1>법률 외국어 자습서</h1>
   <p class="en">Legal Language Handbooks</p>
   <p class="lead">한국 법률가가 외국 법령·판결·원전을 원문으로 읽고 외국 법률가와 말할 수 있게 하려고 엮은 자습서입니다.<br>
@@ -124,7 +124,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 
 <div class="en-note" id="en" lang="en">
   <p><b>For English readers.</b> These handbooks were written for Korean legal professionals who read statutes and judgments of other jurisdictions in the original language. Headwords, example sentences and source texts are in the language each handbook covers; the explanations are in Korean, and most handbooks compare each entry with the relevant Korean provisions or institutions. For that reason the handbooks are in Korean only, and there is no English edition of them.</p>
-  <p>On each of the fourteen handbook cards, <span lang="ko">화면본</span> is the web edition, PDF the print edition, <span lang="ko">Anki 덱</span> the flashcard deck and <span lang="ko">소개</span> the README. The search box below (<span lang="ko">찾아보기</span>) covers all fourteen: enter a headword as it appears in any of them, or a Korean gloss. An English overview is in the <a href="https://github.com/BowonKwon/Legal-Language-Handbooks#english">repository README</a>.</p>
+  <p>On each of the fifteen handbook cards, <span lang="ko">화면본</span> is the web edition, PDF the print edition, <span lang="ko">Anki 덱</span> the flashcard deck and <span lang="ko">소개</span> the README. The search box below (<span lang="ko">찾아보기</span>) covers all fifteen: enter a headword as it appears in any of them, or a Korean gloss. An English overview is in the <a href="https://github.com/BowonKwon/Legal-Language-Handbooks#english">repository README</a>.</p>
 </div>
 <script>
 // The note for English readers stays visible without scripts. With scripts it is hidden for Korean-language browsers
@@ -138,7 +138,7 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
 <form class="find" action="search/" method="get" role="search">
   <label for="q">찾아보기</label>
   <div class="row"><input type="search" id="q" name="q" autocomplete="off" spellcheck="false" placeholder="예: 소유권, Vertrag, 契約, hetong, 민법 제750조"><button type="submit">찾기</button></div>
-  <p>열네 언어판의 표제어를 한 번에 찾습니다. 한국어 낱말로 찾으면 풀이에 그 낱말이 든 표제어가 언어별로 나란히 나옵니다.<br>
+  <p>열다섯 언어판의 표제어를 한 번에 찾습니다. 한국어 낱말로 찾으면 풀이에 그 낱말이 든 표제어가 언어별로 나란히 나옵니다.<br>
   <a href="search/">언어를 골라 장별 표제어 펼쳐 보기</a></p>
 </form>
 
@@ -227,6 +227,12 @@ header p.lead { margin: 0; text-wrap: pretty; padding-left: 16px; border-left: 3
     <h2><span lang="sv">Domslut</span> <small>조문으로 읽는 법률 스웨덴어</small></h2>
     <p class="meta"><span>스웨덴어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 374표제어</span><span>대외판 1.0 (2026. 11. 11.)&nbsp;· 합성음</span></p>
     <div class="links"><a class="primary" href="https://bowonkwon.github.io/domslut/">화면본</a><a href="https://bowonkwon.github.io/domslut/domslut-v1.0.pdf">PDF (922쪽)</a><a href="https://bowonkwon.github.io/domslut/domslut-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/domslut#readme">소개</a></div>
+  </li>
+  <li class="book id" data-glyph="Id">
+    <span class="lang">Bahasa Indonesia · 인도네시아어</span>
+    <h2><span lang="id">Mengadili</span> <small>조문으로 읽는 법률 인도네시아어</small></h2>
+    <p class="meta"><span>인도네시아어를 처음 배우는 한국 법률가&nbsp;· 20장&nbsp;· 395표제어</span><span>대외판 1.0 (2026. 11. 18.)&nbsp;· 합성음</span></p>
+    <div class="links"><a class="primary" href="https://bowonkwon.github.io/mengadili/">화면본</a><a href="https://bowonkwon.github.io/mengadili/mengadili-v1.0.pdf">PDF (803쪽)</a><a href="https://bowonkwon.github.io/mengadili/mengadili-v1.0.apkg">Anki 덱</a><a href="https://github.com/BowonKwon/mengadili#readme">소개</a></div>
   </li>
 </ul>
 

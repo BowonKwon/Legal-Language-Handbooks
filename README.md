@@ -6,7 +6,7 @@
 
 화면본 모음: https://bowonkwon.github.io/Legal-Language-Handbooks/
 
-찾아보기: https://bowonkwon.github.io/Legal-Language-Handbooks/search/ — 열네 언어판의 표제어를 한 번에 찾고, 한국어 낱말이 풀이에 든 표제어를 언어별로 나란히 봅니다.
+찾아보기: https://bowonkwon.github.io/Legal-Language-Handbooks/search/ — 열다섯 언어판의 표제어를 한 번에 찾고, 한국어 낱말이 풀이에 든 표제어를 언어별로 나란히 봅니다.
 
 | 자료 | 언어 | 대상 독자 | 판 | 읽기 |
 |---|---|---|---|---|
@@ -24,8 +24,9 @@
 | **Gereği düşünüldü** — 조문으로 읽는 법률 튀르키예어 | 튀르키예어 | 튀르키예어를 처음 배우는 한국 법률가 | 대외판 1.1 (2026. 11. 11.) | [화면본](https://bowonkwon.github.io/geregi-dusunuldu/) · [PDF](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.pdf) · [Anki](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.apkg) · [소개](https://github.com/BowonKwon/geregi-dusunuldu) |
 | **Recht doende** — 조문으로 읽는 법률 네덜란드어 | 네덜란드어 | 네덜란드어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 11. 11.) | [화면본](https://bowonkwon.github.io/recht-doende/) · [PDF](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.pdf) · [Anki](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.apkg) · [소개](https://github.com/BowonKwon/recht-doende) |
 | **Domslut** — 조문으로 읽는 법률 스웨덴어 | 스웨덴어 | 스웨덴어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 11. 11.) | [화면본](https://bowonkwon.github.io/domslut/) · [PDF](https://bowonkwon.github.io/domslut/domslut-v1.0.pdf) · [Anki](https://bowonkwon.github.io/domslut/domslut-v1.0.apkg) · [소개](https://github.com/BowonKwon/domslut) |
+| **Mengadili** — 조문으로 읽는 법률 인도네시아어 | 인도네시아어 | 인도네시아어를 처음 배우는 한국 법률가 | 대외판 1.0 (2026. 11. 18.) | [화면본](https://bowonkwon.github.io/mengadili/) · [PDF](https://bowonkwon.github.io/mengadili/mengadili-v1.0.pdf) · [Anki](https://bowonkwon.github.io/mengadili/mengadili-v1.0.apkg) · [소개](https://github.com/BowonKwon/mengadili) |
 
-화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·베트남어·스페인어·포르투갈어·이탈리아어·라틴어·러시아어·튀르키예어·네덜란드어·스웨덴어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
+화면본은 표제어마다 소리 단추가 있습니다. 일본어·독일어·프랑스어·중국어·베트남어·스페인어·포르투갈어·이탈리아어·라틴어·러시아어·튀르키예어·네덜란드어·스웨덴어·인도네시아어는 합성음을 장별로 처음 누를 때 내려받고, 영어는 기기에 설치된 영어 음성을 씁니다. 인쇄본(PDF)은 같은 내용의 종이책 꼴이고, Anki 덱은 표제어 카드입니다.
 
 ### 곁가지 연구
 
@@ -79,6 +80,7 @@ Everything the editor has published — the legal-language handbooks, the AI han
 | *Gereği düşünüldü* — Legal Turkish through the statutes | Turkish | Korean lawyers starting Turkish from scratch | Public ed. 1.1 (Nov. 11, 2026) | [Web](https://bowonkwon.github.io/geregi-dusunuldu/) · [PDF](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.pdf) · [Anki](https://bowonkwon.github.io/geregi-dusunuldu/geregi-dusunuldu-v1.1.apkg) · [About](https://github.com/BowonKwon/geregi-dusunuldu) |
 | *Recht doende* — Legal Dutch through the statutes | Dutch | Korean lawyers starting Dutch from scratch | Public ed. 1.0 (Nov. 11, 2026) | [Web](https://bowonkwon.github.io/recht-doende/) · [PDF](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.pdf) · [Anki](https://bowonkwon.github.io/recht-doende/recht-doende-v1.0.apkg) · [About](https://github.com/BowonKwon/recht-doende) |
 | *Domslut* — Legal Swedish through the statutes | Swedish | Korean lawyers starting Swedish from scratch | Public ed. 1.0 (Nov. 11, 2026) | [Web](https://bowonkwon.github.io/domslut/) · [PDF](https://bowonkwon.github.io/domslut/domslut-v1.0.pdf) · [Anki](https://bowonkwon.github.io/domslut/domslut-v1.0.apkg) · [About](https://github.com/BowonKwon/domslut) |
+| *Mengadili* — Legal Indonesian through the statutes | Indonesian | Korean lawyers starting Indonesian from scratch | Public ed. 1.0 (Nov. 18, 2026) | [Web](https://bowonkwon.github.io/mengadili/) · [PDF](https://bowonkwon.github.io/mengadili/mengadili-v1.0.pdf) · [Anki](https://bowonkwon.github.io/mengadili/mengadili-v1.0.apkg) · [About](https://github.com/BowonKwon/mengadili) |
 
 Each web edition has an audio button for every entry: synthesized speech for most languages and the device's English voice for *Objection!*. The PDF is the same content in print layout, and the Anki deck holds the entry cards.
 
