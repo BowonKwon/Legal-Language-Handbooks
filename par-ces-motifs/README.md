@@ -4,7 +4,7 @@
 
 - [화면본(HTML, 소리 단추)](https://bowonkwon.github.io/Legal-Language-Handbooks/par-ces-motifs/)
 - [인쇄본(PDF, 752쪽)](par-ces-motifs-v1.0.pdf)
-- [Anki 덱(표제어 390장, 합성음 포함)](par-ces-motifs-v1.0.apkg)
+- [Anki 덱(표제어 390개 — 앞뒤 양방향 카드 780장, 합성음 포함)](par-ces-motifs-v1.0.apkg)
 
 GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책은 위 화면본 링크로 여십시오. 소리는 장별로 처음 누를 때 내려받습니다(장당 2~7 MB).
 

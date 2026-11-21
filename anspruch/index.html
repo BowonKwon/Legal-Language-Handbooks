@@ -335,7 +335,7 @@ function tocApx() {
 function render() {
   const nav = DATA.map(c => `<a class="chip" href="#ch${c.chapter.num}" title="${esc(c.chapter.title)}">${c.chapter.num}</a>`).join('') + ((META.appendix || []).length ? `<a class="chip" href="#apx-${META.appendix[0].id}">부록</a>` : '');
   document.getElementById('app').innerHTML = `
-    <header class="mast"><p class="word">Anspruch</p><p class="sub">조문으로 읽는 법률 독일어</p><p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p></header>${PRINT ? '' : tocHTML()}
+    <header class="mast"><p class="word">Anspruch</p><p class="sub">청구권으로 읽는 법률 독일어</p><p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p></header>${PRINT ? '' : tocHTML()}
     <div class="tools"><nav aria-label="장">${nav}</nav><label class="tog"><input type="checkbox" id="hideko"> 한국어 가리기</label></div>
     ${DATA.map(chapterHTML).join('')}
     ${(META.appendix || []).map(appendixHTML).join('')}
