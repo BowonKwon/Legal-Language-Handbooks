@@ -24,7 +24,7 @@ GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책�
 
 - 조문 인용은 일본 e-Gov 法令API의 현행 본문과, 한국 조문은 국가법령정보센터 현행 본문과 자동 대조했습니다. 번역은 엮은이의 것입니다. 악센트는 OJAD(東京大学)의 조회값이고, 미수록은 그렇게 표시했습니다.
 - 독립 AI 검토(Codex)의 지적을 원문으로 다시 확인해 반영했습니다. 출처를 확인하지 못한 항목은 이 대외판에서 뺐습니다.
-- 합성음은 Open JTalk · HTS voice 「Mei」(Nagoya Institute of Technology, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))로 만든 기계 합성음입니다. 읽기는 이 책의 후리가나에, 악센트는 사전 값에 맞췄습니다. 사람의 발음·억양과 다를 수 있습니다.
+- 합성음은 Open JTalk · HTS voice 「Mei」 version 1.4(MMDAgent Project Team 배포, © Nagoya Institute of Technology, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) — MMDAgent 배포본의 `Voice/mei/COPYRIGHT.txt`)로 만든 기계 합성음입니다. 읽기는 이 책의 후리가나에, 악센트는 사전 값에 맞췄습니다. 사람의 발음·억양과 다를 수 있습니다.
 
 ## 인용
 

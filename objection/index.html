@@ -265,7 +265,8 @@ const spoken = hw => hw.split('·').map(s => s.trim()).join(', ');
 document.getElementById('colophon').textContent = `제작 ${META.author} · ${META.edition}`;
 document.getElementById('foot').innerHTML =
   `<div>Objection! 법률 영어 첫걸음 · 제작 ${esc(META.author)} · ${esc(META.edition)}</div>
-   <div>법령·판결 인용은 Cornell LII 등 원문과 대조했고, 번역은 제작자의 것입니다. 링크 확인일 ${esc(META.checked)}.</div>`;
+   <div>법령·판결 인용은 Cornell LII 등 원문과 대조했고, 번역은 제작자의 것입니다. 링크 확인일 ${esc(META.checked.replace(/\.$/, ''))}.</div>
+   <div>제작자에게 권리가 있는 부분은 <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>(저작자표시-비영리 4.0 국제, creativecommons.org/licenses/by-nc/4.0)으로 공개한다. 인용한 법령·판결과 링크한 영상은 이 라이선스의 대상이 아니며 각 권리자의 공개 조건을 따른다.</div>`;
 
 const state = { mode: store.get('mode', 'read'), q: '', stars: 0, gram: '', ff: false, hideKo: store.get('hideKo', false) };
 if (PRINT) state.mode = 'read';

@@ -386,7 +386,7 @@ function tocApx() {
 function render() {
   const nav = DATA.map(c => `<a class="chip" href="#ch${c.chapter.num}" title="${esc(c.chapter.title)}">${c.chapter.num}</a>`).join('') + `<a class="chip" href="#app-H">색인</a>`;
   document.getElementById('app').innerHTML = `
-    <header class="mast"><h1 class="word">${esc(META.title)}</h1><p class="sub">${esc(META.subtitle)}</p>${META.epigraph ? `<blockquote class="epi"><p class="word">${esc(META.epigraph.es)}</p><p class="ko">${esc(META.epigraph.ko)}</p><p class="cite">— ${esc(META.epigraph.cite)}</p></blockquote>` : ''}<p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p></header>${PRINT ? '' : tocHTML()}
+    <header class="mast"><h1 class="word">${esc(META.title)}</h1><p class="sub">${esc(META.subtitle)}</p>${META.epigraph ? `<blockquote class="epi"><p class="word">${esc(META.epigraph.es)}</p><p class="ko">${esc(META.epigraph.ko)}</p><p class="cite">— ${esc(META.epigraph.cite)}</p></blockquote>` : ''}<p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p><p class="colophon lic">엮은이에게 권리가 있는 부분은 <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>(저작자표시-비영리 4.0 국제, creativecommons.org/licenses/by-nc/4.0)으로 공개한다. 인용한 법령·판결·원전·사전 자료와 합성음은 이 라이선스의 대상이 아니며 각 권리자의 공개 조건을 따른다.</p></header>${PRINT ? '' : tocHTML()}
     <div class="tools">${PRINT ? '' : '<button class="tocbtn" type="button" id="tocbtn" aria-expanded="false" aria-controls="side">차례</button>'}<nav aria-label="장">${nav}</nav><label class="tog"><input type="checkbox" id="hideko"> 한국어 가리기</label><label class="tog"><input type="checkbox" id="hidesj"> 세종 표기 숨기기</label></div>
     ${DATA.map(chapterHTML).join('')}
     ${appendicesHTML()}

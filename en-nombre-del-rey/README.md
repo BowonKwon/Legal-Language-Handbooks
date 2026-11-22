@@ -3,13 +3,13 @@
 **스페인어를 처음 배우는 한국 법률가를 위한 법률 스페인어 자습서** · 권보원 엮음 · 대외판 1.1(2026. 11. 13.)
 
 - [화면본(HTML, 소리 단추)](https://bowonkwon.github.io/Legal-Language-Handbooks/en-nombre-del-rey/)
-- [인쇄본(PDF, 567쪽)](en-nombre-del-rey-v1.1.pdf)
+- [인쇄본(PDF, 565쪽)](en-nombre-del-rey-v1.1.pdf)
 - [Anki 덱(표제어 카드, 합성음 포함)](en-nombre-del-rey-v1.1.apkg)
 - [세종 표기판 인쇄본(PDF, 세종 표기 판 3)](https://github.com/BowonKwon/Legal-Language-Handbooks/releases/download/en-nombre-del-rey-v1.1/en-nombre-del-rey-v1.1-sejong-ed3.pdf) — 아래 실험 표기를 함께 실은 판
 
 GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책은 위 화면본 링크로 여십시오. 소리는 장별로 처음 누를 때 내려받습니다.
 
-제목 «En nombre del Rey»(국왕의 이름으로)는 스페인 헌법 117조 1항 «La justicia emana del pueblo y se administra en nombre del Rey»(사법은 국민에게서 나오며, 국왕의 이름으로 행사된다)에서 왔습니다. 대법원 판결의 주문은 지금도 «Por todo lo expuesto, en nombre del Rey …»로 시작합니다. 흔히 책 제목으로 쓰이는 «Fallamos»(우리는 판결한다)는 헌법재판소·대법원의 최근 판결 400여 건에서 한 번도 나오지 않아 쓰지 않았습니다.
+제목 «En nombre del Rey»(국왕의 이름으로)는 스페인 헌법 117조 1항 «La justicia emana del pueblo y se administra en nombre del Rey»(사법은 국민에게서 나오며, 국왕의 이름으로 행사된다)에서 왔습니다. 대법원 판결의 주문은 지금도 «Por todo lo expuesto, en nombre del Rey …»로 시작합니다. 흔히 책 제목으로 쓰이는 «Fallamos»(우리는 판결한다)는 조사 때 확인한 헌법재판소 판결 358건(관보 BOE 2024~2025년 게재분)과 대법원 판결 63건(BOE에 실린 제3부 판결 60건의 주문, 2026년 민사·형사 판결 3건)에서 한 번도 나오지 않아 쓰지 않았습니다.
 
 20장·376 표제어입니다. 1부 네 장은 소리와 철자(카스티야 발음을 기준으로 하고 중남미 발음을 함께 적음), 명사·관사·형용사, 동사 체계, 문장 뼈대입니다. 2부 열두 장은 법원과 사법 조직(2025년 Tribunal de Instancia 개편 반영), 민법전과 계약, 불법행위, 물권·등기, 가족·상속, 형법 총론, 형사절차, 헌법과 헌법재판, 행정법·행정소송, 지식재산, 민사소송과 판결문 읽기(2026년 대법원 판결 세 건의 관용구), 상법·회사를 공식 조문으로 읽습니다. 3부 네 장은 『돈키호테』 산초의 재판 세 사건(1615년 초판에서 전사), 『푸엔테오베후나』·『살라메아 촌장』의 재판 장면·1812년 카디스 헌법·『7부 법전』, 칠레 법령으로 보는 중남미의 같은 말·다른 제도, 한국 제도를 스페인어로 설명하는 학회 회화입니다. 장마다 문법 코너, 가짜 친구 코너, 「한국이라면?」 조문 대조, 대화와 따라 말하기, 확인 문제가 붙어 있습니다.
 

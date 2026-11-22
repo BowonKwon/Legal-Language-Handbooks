@@ -654,7 +654,8 @@ function chnavHTML(cur) {
 document.getElementById('colophon').textContent = `제작 ${META.author} · ${META.edition}`;
 document.getElementById('foot').innerHTML = `<div>異議あり — 조문과 판례로 배우는 일본어 첫걸음 · 제작 ${esc(META.author)} · ${esc(META.edition)}</div>
   <div>일본 법령 인용은 e-Gov 法令API 본문과, 한국 조문은 국가법령정보센터 현행 본문과 대조했다. 번역은 제작자의 것이다. 악센트는 OJAD(東京大学) 조회값이며, 미수록은 그렇게 표시했다.</div>
-  <div>합성음: Open JTalk · HTS voice 「Mei」(Nagoya Institute of Technology, CC BY 3.0 — creativecommons.org/licenses/by/3.0). 사람의 발음과 억양이 다를 수 있다. 대조일 ${esc(META.checked)}.</div>`;
+  <div>합성음: Open JTalk · HTS voice 「Mei」 version 1.4(MMDAgent Project Team 배포, © Nagoya Institute of Technology, CC BY 3.0 — creativecommons.org/licenses/by/3.0). 사람의 발음과 억양이 다를 수 있다. 대조일 ${esc(META.checked.replace(/\.$/, ''))}.</div>
+  <div>제작자에게 권리가 있는 부분은 <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>(저작자표시-비영리 4.0 국제, creativecommons.org/licenses/by-nc/4.0)으로 공개한다. 인용한 법령·판례·사전 자료와 합성음은 이 라이선스의 대상이 아니며 각 권리자의 공개 조건을 따른다.</div>`;
 
 let C = DATA[0];
 function render() {

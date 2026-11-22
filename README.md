@@ -1,6 +1,6 @@
 # Legal Language Handbooks
 
-한국 법률가가 외국 법령·판결·원전을 원문으로 읽고, 외국 법률가와 말할 수 있게 하려고 생성형 AI와 함께 엮은 법률 외국어 자습서를 모아 둔 저장소입니다. 모든 조문·판결 인용은 공식 원문(또는 공식 데이터)과 자동 대조했고, 독립 AI 검토(Codex)를 거쳤습니다. 그래도 틀린 서술이 남아 있을 수 있습니다.
+한국 법률가가 외국 법령·판결·원전을 원문으로 읽고, 외국 법률가와 말할 수 있게 하려고 생성형 AI와 함께 엮은 법률 외국어 자습서를 모아 둔 저장소입니다. 조문·판결 인용은 공식 원문(또는 공식 데이터)과 자동 대조하는 것을 원칙으로 했고, 책마다 독립 AI 검토(Codex)를 거쳤습니다. 무엇을 어느 원문과 대조했는지는 책마다 「소개」의 「어떻게 만들었나」에 적었습니다. 그래도 틀린 서술이 남아 있을 수 있습니다.
 
 ## 자료
 
@@ -60,7 +60,7 @@
 
 ## English
 
-Self-study handbooks for learning legal language in other languages, compiled with generative AI for Korean lawyers who want to read statutes, judgments, and classic texts in the original and talk with foreign colleagues. The handbooks are written in Korean for Korean readers; there is no English edition. Every quotation was machine-checked against official texts (or official datasets) and reviewed by an independent AI reviewer. Errors may remain.
+Self-study handbooks for learning legal language in other languages, compiled with generative AI for Korean lawyers who want to read statutes, judgments, and classic texts in the original and talk with foreign colleagues. The handbooks are written in Korean for Korean readers; there is no English edition. As a rule, quotations were machine-checked against official texts (or official datasets), and each handbook was reviewed by an independent AI reviewer; each handbook's About page says what was checked against which source. Errors may remain.
 
 Everything the editor has published — the legal-language handbooks, the AI handbooks, and Classical Music Metrics — is listed in one place at https://bowonkwon.github.io/en/.
 
